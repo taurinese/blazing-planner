@@ -1,0 +1,175 @@
+:root {
+  --stone: #eceef1;
+  --paper: #ffffff;
+  --ink: #1d2433;
+  --muted: #5b6475;
+  --line: #d3d8e0;
+  --line-strong: #b4bbc7;
+  --chakra: #2f6feb;
+  --chakra-ink: #ffffff;
+  --chakra-soft: #e3ecfd;
+  --danger: #c23b3b;
+  --ok: #2f8a55;
+  --warn: #9a6a00;
+
+  --heart: #2f9e5b;
+  --skill: #d64545;
+  --body: #d39a12;
+  --bravery: #3b7dd8;
+  --wisdom: #8a55c9;
+
+  --font: 'Barlow', system-ui, sans-serif;
+  --font-cond: 'Barlow Condensed', 'Barlow', system-ui, sans-serif;
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --shadow-pop: 0 12px 40px rgb(17 22 34 / 0.22);
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --stone: #151924;
+    --paper: #1e2332;
+    --ink: #e7eaf0;
+    --muted: #9aa3b5;
+    --line: #2f3647;
+    --line-strong: #444d62;
+    --chakra: #5b8ff5;
+    --chakra-ink: #0f1420;
+    --chakra-soft: #233152;
+    --danger: #ef6b6b;
+    --ok: #5cc48a;
+    --warn: #e0b04a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme='dark'] {
+  --stone: #151924;
+  --paper: #1e2332;
+  --ink: #e7eaf0;
+  --muted: #9aa3b5;
+  --line: #2f3647;
+  --line-strong: #444d62;
+  --chakra: #5b8ff5;
+  --chakra-ink: #0f1420;
+  --chakra-soft: #233152;
+  --danger: #ef6b6b;
+  --ok: #5cc48a;
+  --warn: #e0b04a;
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--stone);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-cond);
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+}
+h1 { font-size: 2.25rem; letter-spacing: -0.01em; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.15rem; }
+
+p { margin: 0; }
+a { color: var(--chakra); }
+
+button, input, select, textarea { font: inherit; color: inherit; }
+
+:focus-visible {
+  outline: 2px solid var(--chakra);
+  outline-offset: 2px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 2.25rem;
+  padding: 0.35rem 0.9rem;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-s);
+  background: var(--paper);
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btn:hover { border-color: var(--ink); }
+.btn.primary { background: var(--chakra); border-color: var(--chakra); color: var(--chakra-ink); }
+.btn.primary:hover { filter: brightness(1.08); }
+.btn.ghost { border-color: transparent; background: transparent; }
+.btn.ghost:hover { background: var(--chakra-soft); }
+.btn.danger { color: var(--danger); }
+.btn.small { min-height: 1.9rem; padding: 0.15rem 0.6rem; font-size: 0.9rem; }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+
+.field { display: grid; gap: 0.25rem; font-size: 0.9rem; }
+.field > span { color: var(--muted); font-weight: 500; }
+
+input[type='text'], input[type='number'], input[type='search'], select, textarea {
+  min-height: 2.25rem;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-s);
+  background: var(--paper);
+  width: 100%;
+}
+input[type='number'] { font-variant-numeric: tabular-nums; }
+textarea { min-height: 4rem; resize: vertical; }
+
+.panel {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+}
+
+.muted { color: var(--muted); }
+.num { font-variant-numeric: tabular-nums; }
+
+.empty {
+  padding: 2.5rem 1.5rem;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-m);
+  color: var(--muted);
+  max-width: 60ch;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: end;
+}
+
+.view-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
