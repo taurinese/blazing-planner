@@ -21,7 +21,8 @@
       "fr": "Awakening Charm \"Talisman of Legends\"",
       "en": "Awakening Charm \"Talisman of Legends\""
     },
-    "category": "awakening"
+    "category": "awakening",
+    "image": "Card-1255.png"
   },
   {
     "id": "awakening-scroll-body-book-1",
@@ -30,7 +31,8 @@
       "en": "Awakening Scroll \"Body Book\" (★1)"
     },
     "category": "awakening",
-    "element": "body"
+    "element": "body",
+    "image": "Card-0906.png"
   },
   {
     "id": "awakening-scroll-body-book-2",
@@ -39,7 +41,8 @@
       "en": "Awakening Scroll \"Body Book\" (★2)"
     },
     "category": "awakening",
-    "element": "body"
+    "element": "body",
+    "image": "Card-0907.png"
   },
   {
     "id": "awakening-scroll-body-book-3",
@@ -48,7 +51,8 @@
       "en": "Awakening Scroll \"Body Book\" (★3)"
     },
     "category": "awakening",
-    "element": "body"
+    "element": "body",
+    "image": "Card-0908.png"
   },
   {
     "id": "awakening-scroll-body-book-4",
@@ -57,7 +61,8 @@
       "en": "Awakening Scroll \"Body Book\" (★4)"
     },
     "category": "awakening",
-    "element": "body"
+    "element": "body",
+    "image": "Card-0954.png"
   },
   {
     "id": "awakening-scroll-book-of-victor-5",
@@ -65,7 +70,8 @@
       "fr": "Awakening Scroll \"Book of Victor\" (★5)",
       "en": "Awakening Scroll \"Book of Victor\" (★5)"
     },
-    "category": "awakening"
+    "category": "awakening",
+    "image": "Card-1256.png"
   },
   {
     "id": "awakening-scroll-book-of-victor-6",
@@ -73,7 +79,8 @@
       "fr": "Awakening Scroll \"Book of Victor\" (★6)",
       "en": "Awakening Scroll \"Book of Victor\" (★6)"
     },
-    "category": "awakening"
+    "category": "awakening",
+    "image": "Card-1257.png"
   },
   {
     "id": "awakening-scroll-bravery-book-1",
@@ -82,7 +89,8 @@
       "en": "Awakening Scroll \"Bravery Book\" (★1)"
     },
     "category": "awakening",
-    "element": "bravery"
+    "element": "bravery",
+    "image": "Card-0909.png"
   },
   {
     "id": "awakening-scroll-bravery-book-2",
@@ -91,7 +99,8 @@
       "en": "Awakening Scroll \"Bravery Book\" (★2)"
     },
     "category": "awakening",
-    "element": "bravery"
+    "element": "bravery",
+    "image": "Card-0910.png"
   },
   {
     "id": "awakening-scroll-bravery-book-3",
@@ -100,7 +109,8 @@
       "en": "Awakening Scroll \"Bravery Book\" (★3)"
     },
     "category": "awakening",
-    "element": "bravery"
+    "element": "bravery",
+    "image": "Card-0911.png"
   },
   {
     "id": "awakening-scroll-bravery-book-4",
@@ -109,7 +119,8 @@
       "en": "Awakening Scroll \"Bravery Book\" (★4)"
     },
     "category": "awakening",
-    "element": "bravery"
+    "element": "bravery",
+    "image": "Card-0955.png"
   },
   {
     "id": "awakening-scroll-heart-book-1",
@@ -118,7 +129,8 @@
       "en": "Awakening Scroll \"Heart Book\" (★1)"
     },
     "category": "awakening",
-    "element": "heart"
+    "element": "heart",
+    "image": "Card-0900.png"
   },
   {
     "id": "awakening-scroll-heart-book-2",
@@ -127,7 +139,8 @@
       "en": "Awakening Scroll \"Heart Book\" (★2)"
     },
     "category": "awakening",
-    "element": "heart"
+    "element": "heart",
+    "image": "Card-0901.png"
   },
   {
     "id": "awakening-scroll-heart-book-3",
@@ -136,7 +149,8 @@
       "en": "Awakening Scroll \"Heart Book\" (★3)"
     },
     "category": "awakening",
-    "element": "heart"
+    "element": "heart",
+    "image": "Card-0902.png"
   },
   {
     "id": "awakening-scroll-heart-book-4",
@@ -145,7 +159,8 @@
       "en": "Awakening Scroll \"Heart Book\" (★4)"
     },
     "category": "awakening",
-    "element": "heart"
+    "element": "heart",
+    "image": "Card-0952.png"
   },
   {
     "id": "awakening-scroll-skill-book-1",
@@ -154,7 +169,8 @@
       "en": "Awakening Scroll \"Skill Book\" (★1)"
     },
     "category": "awakening",
-    "element": "skill"
+    "element": "skill",
+    "image": "Card-0903.png"
   },
   {
     "id": "awakening-scroll-skill-book-2",
@@ -163,7 +179,8 @@
       "en": "Awakening Scroll \"Skill Book\" (★2)"
     },
     "category": "awakening",
-    "element": "skill"
+    "element": "skill",
+    "image": "Card-0904.png"
   },
   {
     "id": "awakening-scroll-skill-book-3",
@@ -172,7 +189,8 @@
       "en": "Awakening Scroll \"Skill Book\" (★3)"
     },
     "category": "awakening",
-    "element": "skill"
+    "element": "skill",
+    "image": "Card-0905.png"
   },
   {
     "id": "awakening-scroll-skill-book-4",
@@ -181,7 +199,8 @@
       "en": "Awakening Scroll \"Skill Book\" (★4)"
     },
     "category": "awakening",
-    "element": "skill"
+    "element": "skill",
+    "image": "Card-0953.png"
   },
   {
     "id": "awakening-scroll-wisdom-book-4",
@@ -190,7 +209,8 @@
       "en": "Awakening Scroll \"Wisdom  Book\" (★4)"
     },
     "category": "awakening",
-    "element": "wisdom"
+    "element": "wisdom",
+    "image": "Card-0956.png"
   },
   {
     "id": "awakening-scroll-wisdom-book-1",
@@ -199,7 +219,8 @@
       "en": "Awakening Scroll \"Wisdom Book\" (★1)"
     },
     "category": "awakening",
-    "element": "wisdom"
+    "element": "wisdom",
+    "image": "Card-0912.png"
   },
   {
     "id": "awakening-scroll-wisdom-book-2",
@@ -208,7 +229,8 @@
       "en": "Awakening Scroll \"Wisdom Book\" (★2)"
     },
     "category": "awakening",
-    "element": "wisdom"
+    "element": "wisdom",
+    "image": "Card-0913.png"
   },
   {
     "id": "awakening-scroll-wisdom-book-3",
@@ -217,7 +239,8 @@
       "en": "Awakening Scroll \"Wisdom Book\" (★3)"
     },
     "category": "awakening",
-    "element": "wisdom"
+    "element": "wisdom",
+    "image": "Card-0914.png"
   },
   {
     "id": "awakening-scroll-wisdom-book-4",
@@ -226,7 +249,8 @@
       "en": "Awakening Scroll \"Wisdom Book\" (★4)"
     },
     "category": "awakening",
-    "element": "wisdom"
+    "element": "wisdom",
+    "image": "Card-0956.png"
   },
   {
     "id": "body-beads-battle-body-beads",
@@ -235,7 +259,8 @@
       "en": "Body Beads \"Battle Body Beads\""
     },
     "category": "blazing",
-    "element": "body"
+    "element": "body",
+    "image": "Card-1079.png"
   },
   {
     "id": "body-beads-light-body-beads",
@@ -244,7 +269,8 @@
       "en": "Body Beads \"Light Body Beads\""
     },
     "category": "blazing",
-    "element": "body"
+    "element": "body",
+    "image": "Card-1080.png"
   },
   {
     "id": "bravery-ichiraku-ramen-xxl",
@@ -253,7 +279,8 @@
       "en": "Bravery \"Ichiraku Ramen, XXL\""
     },
     "category": "awakening",
-    "element": "bravery"
+    "element": "bravery",
+    "image": "Card-0970.png"
   },
   {
     "id": "bravery-beads-battle-bravery-beads",
@@ -262,7 +289,8 @@
       "en": "Bravery Beads \"Battle Bravery Beads\""
     },
     "category": "blazing",
-    "element": "bravery"
+    "element": "bravery",
+    "image": "Card-1079.png"
   },
   {
     "id": "bravery-beads-light-bravery-beads",
@@ -271,7 +299,8 @@
       "en": "Bravery Beads \"Light Bravery Beads\""
     },
     "category": "blazing",
-    "element": "bravery"
+    "element": "bravery",
+    "image": "Card-1080.png"
   },
   {
     "id": "deadly-beads-all-ending-thunderbolt",
@@ -279,7 +308,8 @@
       "fr": "Deadly Beads \"All-Ending Thunderbolt\"",
       "en": "Deadly Beads \"All-Ending Thunderbolt\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1165.png"
   },
   {
     "id": "deadly-beads-at-the-battle-s-end",
@@ -287,7 +317,8 @@
       "fr": "Deadly Beads \"At the Battle's End\"",
       "en": "Deadly Beads \"At the Battle's End\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1246.png"
   },
   {
     "id": "deadly-beads-between-love-and-madness",
@@ -295,7 +326,8 @@
       "fr": "Deadly Beads \"Between Love and Madness\"",
       "en": "Deadly Beads \"Between Love and Madness\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1177.png"
   },
   {
     "id": "deadly-beads-blind-rage",
@@ -303,7 +335,8 @@
       "fr": "Deadly Beads \"Blind Rage\"",
       "en": "Deadly Beads \"Blind Rage\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1201.png"
   },
   {
     "id": "deadly-beads-cataclysm-eaters",
@@ -311,7 +344,8 @@
       "fr": "Deadly Beads \"Cataclysm-Eaters\"",
       "en": "Deadly Beads \"Cataclysm-Eaters\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1254.png"
   },
   {
     "id": "deadly-beads-devoted-to-studies",
@@ -319,7 +353,8 @@
       "fr": "Deadly Beads \"Devoted to Studies\"",
       "en": "Deadly Beads \"Devoted to Studies\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1192.png"
   },
   {
     "id": "deadly-beads-embodiment-of-darkness",
@@ -327,7 +362,8 @@
       "fr": "Deadly Beads \"Embodiment of Darkness\"",
       "en": "Deadly Beads \"Embodiment of Darkness\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1238.png"
   },
   {
     "id": "deadly-beads-endless-rebirth",
@@ -335,7 +371,8 @@
       "fr": "Deadly Beads \"Endless Rebirth\"",
       "en": "Deadly Beads \"Endless Rebirth\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1225.png"
   },
   {
     "id": "deadly-beads-evil-heart",
@@ -344,7 +381,8 @@
       "en": "Deadly Beads \"Evil Heart\""
     },
     "category": "blazing",
-    "element": "heart"
+    "element": "heart",
+    "image": "Card-1261.png"
   },
   {
     "id": "deadly-beads-final-words",
@@ -352,7 +390,8 @@
       "fr": "Deadly Beads \"Final Words\"",
       "en": "Deadly Beads \"Final Words\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1209.png"
   },
   {
     "id": "deadly-beads-fortitude-resolution",
@@ -360,7 +399,8 @@
       "fr": "Deadly Beads \"Fortitude & Resolution\"",
       "en": "Deadly Beads \"Fortitude & Resolution\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1221.png"
   },
   {
     "id": "deadly-beads-freedom-of-choice",
@@ -368,7 +408,8 @@
       "fr": "Deadly Beads \"Freedom of Choice\"",
       "en": "Deadly Beads \"Freedom of Choice\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1229.png"
   },
   {
     "id": "deadly-beads-hollow-heart",
@@ -377,7 +418,8 @@
       "en": "Deadly Beads \"Hollow Heart\""
     },
     "category": "blazing",
-    "element": "heart"
+    "element": "heart",
+    "image": "Card-1173.png"
   },
   {
     "id": "deadly-beads-inching-towards-perfection",
@@ -385,7 +427,8 @@
       "fr": "Deadly Beads \"Inching Towards Perfection\"",
       "en": "Deadly Beads \"Inching Towards Perfection\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1250.png"
   },
   {
     "id": "deadly-beads-judicious-master",
@@ -393,7 +436,8 @@
       "fr": "Deadly Beads \"Judicious Master\"",
       "en": "Deadly Beads \"Judicious Master\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1187.png"
   },
   {
     "id": "deadly-beads-let-s-bee-friends",
@@ -401,7 +445,8 @@
       "fr": "Deadly Beads \"Let's \"Bee\" Friends\"",
       "en": "Deadly Beads \"Let's \"Bee\" Friends\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1160.png"
   },
   {
     "id": "deadly-beads-magnum-opus",
@@ -409,7 +454,8 @@
       "fr": "Deadly Beads \"Magnum Opus\"",
       "en": "Deadly Beads \"Magnum Opus\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1205.png"
   },
   {
     "id": "deadly-beads-one-step-to-hokage",
@@ -417,7 +463,8 @@
       "fr": "Deadly Beads \"One Step to Hokage\"",
       "en": "Deadly Beads \"One Step to Hokage\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1154.png"
   },
   {
     "id": "deadly-beads-pursuit-of-a-dream",
@@ -425,7 +472,8 @@
       "fr": "Deadly Beads \"Pursuit of a Dream\"",
       "en": "Deadly Beads \"Pursuit of a Dream\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1234.png"
   },
   {
     "id": "deadly-beads-strength-based-leadership",
@@ -433,7 +481,8 @@
       "fr": "Deadly Beads \"Strength-Based Leadership\"",
       "en": "Deadly Beads \"Strength-Based Leadership\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1265.png"
   },
   {
     "id": "deadly-beads-the-inheritor",
@@ -441,7 +490,8 @@
       "fr": "Deadly Beads \"The Inheritor\"",
       "en": "Deadly Beads \"The Inheritor\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1152.png"
   },
   {
     "id": "deadly-beads-the-tailless-tailed-beast",
@@ -449,7 +499,8 @@
       "fr": "Deadly Beads \"The Tailless Tailed Beast\"",
       "en": "Deadly Beads \"The Tailless Tailed Beast\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1169.png"
   },
   {
     "id": "deadly-beads-truth-of-the-divine-tree",
@@ -457,7 +508,8 @@
       "fr": "Deadly Beads \"Truth of the Divine Tree\"",
       "en": "Deadly Beads \"Truth of the Divine Tree\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1242.png"
   },
   {
     "id": "deadly-beads-wrapped-in-mysteries",
@@ -465,7 +517,8 @@
       "fr": "Deadly Beads \"Wrapped in Mysteries\"",
       "en": "Deadly Beads \"Wrapped in Mysteries\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1197.png"
   },
   {
     "id": "executioner-s-blade-special-awakening-tool",
@@ -473,7 +526,8 @@
       "fr": "Executioner's Blade \"Special Awakening Tool\"",
       "en": "Executioner's Blade \"Special Awakening Tool\""
     },
-    "category": "awakening"
+    "category": "awakening",
+    "image": "Card-0934.png"
   },
   {
     "id": "ferocious-beads-all-ending-thunderbolt",
@@ -481,7 +535,8 @@
       "fr": "Ferocious Beads \"All-Ending Thunderbolt\"",
       "en": "Ferocious Beads \"All-Ending Thunderbolt\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1164.png"
   },
   {
     "id": "ferocious-beads-at-the-battle-s-end",
@@ -489,7 +544,8 @@
       "fr": "Ferocious Beads \"At the Battle's End\"",
       "en": "Ferocious Beads \"At the Battle's End\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1245.png"
   },
   {
     "id": "ferocious-beads-between-love-and-madness",
@@ -497,7 +553,8 @@
       "fr": "Ferocious Beads \"Between Love and Madness\"",
       "en": "Ferocious Beads \"Between Love and Madness\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1176.png"
   },
   {
     "id": "ferocious-beads-blind-rage",
@@ -505,7 +562,8 @@
       "fr": "Ferocious Beads \"Blind Rage\"",
       "en": "Ferocious Beads \"Blind Rage\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1200.png"
   },
   {
     "id": "ferocious-beads-cataclysm-eaters",
@@ -513,7 +571,8 @@
       "fr": "Ferocious Beads \"Cataclysm-Eaters\"",
       "en": "Ferocious Beads \"Cataclysm-Eaters\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1253.png"
   },
   {
     "id": "ferocious-beads-devoted-to-studies",
@@ -521,7 +580,8 @@
       "fr": "Ferocious Beads \"Devoted to Studies\"",
       "en": "Ferocious Beads \"Devoted to Studies\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1191.png"
   },
   {
     "id": "ferocious-beads-embodiment-of-darkness",
@@ -529,7 +589,8 @@
       "fr": "Ferocious Beads \"Embodiment of Darkness\"",
       "en": "Ferocious Beads \"Embodiment of Darkness\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1237.png"
   },
   {
     "id": "ferocious-beads-endless-rebirth",
@@ -537,7 +598,8 @@
       "fr": "Ferocious Beads \"Endless Rebirth\"",
       "en": "Ferocious Beads \"Endless Rebirth\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1224.png"
   },
   {
     "id": "ferocious-beads-evil-heart",
@@ -546,7 +608,8 @@
       "en": "Ferocious Beads \"Evil Heart\""
     },
     "category": "blazing",
-    "element": "heart"
+    "element": "heart",
+    "image": "Card-1260.png"
   },
   {
     "id": "ferocious-beads-final-words",
@@ -554,7 +617,8 @@
       "fr": "Ferocious Beads \"Final Words\"",
       "en": "Ferocious Beads \"Final Words\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1208.png"
   },
   {
     "id": "ferocious-beads-fortitude-resolution",
@@ -562,7 +626,8 @@
       "fr": "Ferocious Beads \"Fortitude & Resolution\"",
       "en": "Ferocious Beads \"Fortitude & Resolution\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1220.png"
   },
   {
     "id": "ferocious-beads-freedom-of-choice",
@@ -570,7 +635,8 @@
       "fr": "Ferocious Beads \"Freedom of Choice\"",
       "en": "Ferocious Beads \"Freedom of Choice\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1228.png"
   },
   {
     "id": "ferocious-beads-hollow-heart",
@@ -579,7 +645,8 @@
       "en": "Ferocious Beads \"Hollow Heart\""
     },
     "category": "blazing",
-    "element": "heart"
+    "element": "heart",
+    "image": "Card-1172.png"
   },
   {
     "id": "ferocious-beads-inching-towards-perfection",
@@ -587,7 +654,8 @@
       "fr": "Ferocious Beads \"Inching Towards Perfection\"",
       "en": "Ferocious Beads \"Inching Towards Perfection\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1249.png"
   },
   {
     "id": "ferocious-beads-judicious-master",
@@ -595,7 +663,8 @@
       "fr": "Ferocious Beads \"Judicious Master\"",
       "en": "Ferocious Beads \"Judicious Master\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1186.png"
   },
   {
     "id": "ferocious-beads-let-s-bee-friends",
@@ -603,7 +672,8 @@
       "fr": "Ferocious Beads \"Let's \"Bee\" Friends\"",
       "en": "Ferocious Beads \"Let's \"Bee\" Friends\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1159.png"
   },
   {
     "id": "ferocious-beads-magnum-opus",
@@ -611,7 +681,8 @@
       "fr": "Ferocious Beads \"Magnum Opus\"",
       "en": "Ferocious Beads \"Magnum Opus\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1204.png"
   },
   {
     "id": "ferocious-beads-one-step-to-hokage",
@@ -619,7 +690,8 @@
       "fr": "Ferocious Beads \"One Step to Hokage\"",
       "en": "Ferocious Beads \"One Step to Hokage\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1153.png"
   },
   {
     "id": "ferocious-beads-pursuit-of-a-dream",
@@ -627,7 +699,8 @@
       "fr": "Ferocious Beads \"Pursuit of a Dream\"",
       "en": "Ferocious Beads \"Pursuit of a Dream\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1233.png"
   },
   {
     "id": "ferocious-beads-strength-based-leadership",
@@ -635,7 +708,8 @@
       "fr": "Ferocious Beads \"Strength-Based Leadership\"",
       "en": "Ferocious Beads \"Strength-Based Leadership\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1264.png"
   },
   {
     "id": "ferocious-beads-the-inheritor",
@@ -643,7 +717,8 @@
       "fr": "Ferocious Beads \"The Inheritor\"",
       "en": "Ferocious Beads \"The Inheritor\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1151.png"
   },
   {
     "id": "ferocious-beads-the-tailless-tailed-beast",
@@ -651,7 +726,8 @@
       "fr": "Ferocious Beads \"The Tailless Tailed Beast\"",
       "en": "Ferocious Beads \"The Tailless Tailed Beast\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1168.png"
   },
   {
     "id": "ferocious-beads-truth-of-the-divine-tree",
@@ -659,7 +735,8 @@
       "fr": "Ferocious Beads \"Truth of the Divine Tree\"",
       "en": "Ferocious Beads \"Truth of the Divine Tree\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1241.png"
   },
   {
     "id": "ferocious-beads-wrapped-in-mysteries",
@@ -667,7 +744,8 @@
       "fr": "Ferocious Beads \"Wrapped in Mysteries\"",
       "en": "Ferocious Beads \"Wrapped in Mysteries\""
     },
-    "category": "blazing"
+    "category": "blazing",
+    "image": "Card-1196.png"
   },
   {
     "id": "heart-beads-battle-heart-beads",
@@ -676,7 +754,8 @@
       "en": "Heart Beads \"Battle Heart Beads\""
     },
     "category": "blazing",
-    "element": "heart"
+    "element": "heart",
+    "image": "Card-1070.png"
   },
   {
     "id": "heart-beads-light-heart-beads",
@@ -685,7 +764,8 @@
       "en": "Heart Beads \"Light Heart Beads\""
     },
     "category": "blazing",
-    "element": "heart"
+    "element": "heart",
+    "image": "Card-1071.png"
   },
   {
     "id": "limit-break-crystal-body-crystal",
@@ -694,7 +774,8 @@
       "en": "Limit Break Crystal \"Body Crystal\""
     },
     "category": "limitbreak",
-    "element": "body"
+    "element": "body",
+    "image": "Card-0949.png"
   },
   {
     "id": "red-ring-special-awakening-tool",
@@ -702,7 +783,8 @@
       "fr": "Red Ring \"Special Awakening Tool\"",
       "en": "Red Ring \"Special Awakening Tool\""
     },
-    "category": "awakening"
+    "category": "awakening",
+    "image": "Card-0966.png"
   },
   {
     "id": "sand-gourd-special-awakening-tool",
@@ -710,7 +792,8 @@
       "fr": "Sand Gourd \"Special Awakening Tool\"",
       "en": "Sand Gourd \"Special Awakening Tool\""
     },
-    "category": "awakening"
+    "category": "awakening",
+    "image": "Card-0957.png"
   },
   {
     "id": "skill-beads-battle-skill-beads",
@@ -719,7 +802,8 @@
       "en": "Skill Beads \"Battle Skill Beads\""
     },
     "category": "blazing",
-    "element": "skill"
+    "element": "skill",
+    "image": "Card-1073.png"
   },
   {
     "id": "skill-beads-light-skill-beads",
@@ -728,7 +812,8 @@
       "en": "Skill Beads \"Light Skill Beads\""
     },
     "category": "blazing",
-    "element": "skill"
+    "element": "skill",
+    "image": "Card-1074.png"
   },
   {
     "id": "training-weights-special-awakening-tool",
@@ -736,7 +821,8 @@
       "fr": "Training Weights \"Special Awakening Tool\"",
       "en": "Training Weights \"Special Awakening Tool\""
     },
-    "category": "awakening"
+    "category": "awakening",
+    "image": "Card-0938.png"
   },
   {
     "id": "wisdom-beads-battle-wisdom-beads",
@@ -745,7 +831,8 @@
       "en": "Wisdom Beads \"Battle Wisdom Beads\""
     },
     "category": "blazing",
-    "element": "wisdom"
+    "element": "wisdom",
+    "image": "Card-1082.png"
   },
   {
     "id": "wisdom-beads-light-wisdom-beads",
@@ -754,6 +841,7 @@
       "en": "Wisdom Beads \"Light Wisdom Beads\""
     },
     "category": "blazing",
-    "element": "wisdom"
+    "element": "wisdom",
+    "image": "Card-1083.png"
   }
 ]

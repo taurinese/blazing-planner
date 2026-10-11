@@ -27,7 +27,11 @@
     "globalDate": "2020-04-21",
     "sources": [
       "Equanimous Shield"
-    ]
+    ],
+    "images": {
+      "5": "Card-2078.png",
+      "6": "Card-2079.png"
+    }
   },
   {
     "id": "ameyuri-ringo-furious-full-tilt-lightning-blade",
@@ -57,7 +61,11 @@
     "globalDate": "2017-11-14",
     "sources": [
       "Sky-Piercing Lightning Blade"
-    ]
+    ],
+    "images": {
+      "5": "Card-0484.png",
+      "6": "Card-0485.png"
+    }
   },
   {
     "id": "anko-mitarashi-a-smile-that-could-kill",
@@ -87,7 +95,11 @@
     "globalDate": "2018-09-18",
     "sources": [
       "Snake Master Lurking in the Shadows"
-    ]
+    ],
+    "images": {
+      "5": "Card-0682.png",
+      "6": "Card-0683.png"
+    }
   },
   {
     "id": "anko-mitarashi-dangerous-dumpling-lover",
@@ -113,7 +125,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Rare Summon"
-    ]
+    ],
+    "images": {
+      "3": "Card-0094.png",
+      "4": "Card-0095.png"
+    }
   },
   {
     "id": "ao-an-eye-of-mist",
@@ -143,7 +159,11 @@
     "globalDate": "2019-02-26",
     "sources": [
       "Sublime Byakugan of the Mist"
-    ]
+    ],
+    "images": {
+      "5": "Card-0765.png",
+      "6": "Card-0766.png"
+    }
   },
   {
     "id": "ashura-devoted-to-studies",
@@ -171,7 +191,11 @@
     "sources": [
       "Super Impact! Secrets of the Ninshu",
       "Super Impact! Boss Rush"
-    ]
+    ],
+    "images": {
+      "6": "Card-0789.png",
+      "ba": "Card-0790.png"
+    }
   },
   {
     "id": "ashura-heir-to-the-ninja-creed",
@@ -202,7 +226,11 @@
     "sources": [
       "Clash Coin Exchange Shop",
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0517.png",
+      "6": "Card-0518.png"
+    }
   },
   {
     "id": "ashura-successor",
@@ -242,7 +270,12 @@
     "globalDate": "2019-07-17",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0841.png",
+      "6": "Card-0842.png",
+      "ba": "Card-0843.png"
+    }
   },
   {
     "id": "ashura-the-power-of-bonds",
@@ -268,7 +301,11 @@
     "globalDate": "2020-07-21",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-2109.png",
+      "6": "Card-2110.png"
+    }
   },
   {
     "id": "asuma-sarutobi-all-powerful-infighter",
@@ -299,7 +336,11 @@
     "globalDate": "2016-11-16",
     "sources": [
       "New Year's Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "4": "Card-0214.png",
+      "5": "Card-0215.png"
+    }
   },
   {
     "id": "asuma-sarutobi-final-words",
@@ -327,7 +368,11 @@
     "sources": [
       "Super Impact! Undesirable Reunion!",
       "Super Impact! Boss Rush"
-    ]
+    ],
+    "images": {
+      "6": "Card-0848.png",
+      "ba": "Card-0849.png"
+    }
   },
   {
     "id": "asuma-sarutobi-master-s-teachings",
@@ -356,7 +401,11 @@
     "range": "mid",
     "sources": [
       "Shining Blade of Wind"
-    ]
+    ],
+    "images": {
+      "5": "Card-0402.png",
+      "6": "Card-0403.png"
+    }
   },
   {
     "id": "baki-protector-of-the-village",
@@ -382,7 +431,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Rare Summon"
-    ]
+    ],
+    "images": {
+      "3": "Card-0104.png",
+      "4": "Card-0105.png"
+    }
   },
   {
     "id": "bandit-mountain-thug",
@@ -398,7 +451,10 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Story Mode"
-    ]
+    ],
+    "images": {
+      "1": "Card-0129.png"
+    }
   },
   {
     "id": "bandit-lackey-mountain-lackey",
@@ -414,7 +470,10 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Story Mode"
-    ]
+    ],
+    "images": {
+      "1": "Card-0128.png"
+    }
   },
   {
     "id": "bandit-leader-head-of-the-thugs",
@@ -430,7 +489,10 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Story Mode"
-    ]
+    ],
+    "images": {
+      "2": "Card-0130.png"
+    }
   },
   {
     "id": "cee-earnest-with-composure",
@@ -460,7 +522,11 @@
     "globalDate": "2019-09-25",
     "sources": [
       "Master Illusionist Supporting the Lightning"
-    ]
+    ],
+    "images": {
+      "5": "Card-0880.png",
+      "6": "Card-0881.png"
+    }
   },
   {
     "id": "chino-ill-omened-red-eyes",
@@ -491,7 +557,11 @@
     "globalDate": "2018-03-20",
     "sources": [
       "Impact! Eyes Dyed Red"
-    ]
+    ],
+    "images": {
+      "5": "Card-0570.png",
+      "6": "Card-0571.png"
+    }
   },
   {
     "id": "chiriku-ultimate-training",
@@ -521,7 +591,11 @@
     "globalDate": "2017-03-22",
     "sources": [
       "The Sagely Ninja Monk"
-    ]
+    ],
+    "images": {
+      "5": "Card-0325.png",
+      "6": "Card-0326.png"
+    }
   },
   {
     "id": "chiyo-joint-puppet-performance",
@@ -551,7 +625,11 @@
     "globalDate": "2017-04-10",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0339.png",
+      "6": "Card-0340.png"
+    }
   },
   {
     "id": "choji-akimichi-a-life-bet-on-two-wings",
@@ -582,7 +660,11 @@
     "globalDate": "2016-11-30",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0225.png",
+      "6": "Card-0226.png"
+    }
   },
   {
     "id": "choji-akimichi-fluttering-butterfly",
@@ -623,7 +705,12 @@
     "globalDate": "2018-06-05",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0618.png",
+      "6": "Card-0619.png",
+      "ba": "Card-0620.png"
+    }
   },
   {
     "id": "choji-akimichi-gentle-resolve",
@@ -653,7 +740,11 @@
     "globalDate": "2020-01-28",
     "sources": [
       "Flight of the Resolute Butterfly"
-    ]
+    ],
+    "images": {
+      "5": "Card-2040.png",
+      "6": "Card-2041.png"
+    }
   },
   {
     "id": "choji-akimichi-glutton",
@@ -684,7 +775,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0058.png",
+      "5": "Card-0059.png"
+    }
   },
   {
     "id": "choji-akimichi-insatiable-appetite",
@@ -711,7 +806,11 @@
     "sources": [
       "Story Mode",
       "Stage 3: Land of Waves"
-    ]
+    ],
+    "images": {
+      "3": "Card-0014.png",
+      "4": "Card-0015.png"
+    }
   },
   {
     "id": "choji-akimichi-quickening-wings",
@@ -728,7 +827,10 @@
     "sources": [
       "Phantom Castle 20",
       "Phantom Castle 30"
-    ]
+    ],
+    "images": {
+      "6": "Card-0595.png"
+    }
   },
   {
     "id": "chojuro-slashing-twinsword",
@@ -759,7 +861,11 @@
     "globalDate": "2018-03-13",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0564.png",
+      "6": "Card-0565.png"
+    }
   },
   {
     "id": "chojuro-successor-of-the-ninja-sword",
@@ -789,7 +895,11 @@
     "globalDate": "2017-05-16",
     "sources": [
       "Deadly Versatile Twinsword"
-    ]
+    ],
+    "images": {
+      "5": "Card-0366.png",
+      "6": "Card-0367.png"
+    }
   },
   {
     "id": "choza-akimichi-the-ino-shika-cho-trio",
@@ -815,7 +925,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Rare Summon"
-    ]
+    ],
+    "images": {
+      "3": "Card-0114.png",
+      "4": "Card-0115.png"
+    }
   },
   {
     "id": "dan-kato-unfaltering-ambition",
@@ -845,7 +959,11 @@
     "globalDate": "2020-03-24",
     "sources": [
       "Heartbreaking Happenings"
-    ]
+    ],
+    "images": {
+      "5": "Card-2066.png",
+      "6": "Card-2067.png"
+    }
   },
   {
     "id": "danzo-shimura-embodiment-of-darkness",
@@ -872,7 +990,11 @@
     "globalDate": "2020-01-07",
     "sources": [
       "Super Impact! Revolutionary Scheme"
-    ]
+    ],
+    "images": {
+      "6": "Card-2034.png",
+      "ba": "Card-2035.png"
+    }
   },
   {
     "id": "danzo-shimura-root-of-the-great-tree",
@@ -903,7 +1025,11 @@
     "globalDate": "2017-05-30",
     "sources": [
       "Impact! Darkness of the Ninja"
-    ]
+    ],
+    "images": {
+      "5": "Card-0373.png",
+      "6": "Card-0374.png"
+    }
   },
   {
     "id": "darui-carved-seal-of-lightning",
@@ -933,7 +1059,11 @@
     "globalDate": "2019-02-11",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0758.png",
+      "6": "Card-0759.png"
+    }
   },
   {
     "id": "darui-from-the-heart",
@@ -973,7 +1103,12 @@
     "globalDate": "2020-09-15",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-2128.png",
+      "6": "Card-2129.png",
+      "ba": "Card-2130.png"
+    }
   },
   {
     "id": "darui-words-of-conviction",
@@ -1004,7 +1139,11 @@
     "globalDate": "2017-06-13",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0385.png",
+      "6": "Card-0386.png"
+    }
   },
   {
     "id": "deidara-creation-of-light",
@@ -1030,7 +1169,11 @@
     "globalDate": "2019-10-02",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0884.png",
+      "6": "Card-0885.png"
+    }
   },
   {
     "id": "deidara-ephemeral-art",
@@ -1061,7 +1204,11 @@
     "globalDate": "2016-11-25",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0219.png",
+      "6": "Card-0220.png"
+    }
   },
   {
     "id": "deidara-explosive-fury",
@@ -1091,7 +1238,11 @@
     "globalDate": "2017-09-05",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0440.png",
+      "6": "Card-0441.png"
+    }
   },
   {
     "id": "deidara-glimmering-art",
@@ -1121,7 +1272,11 @@
     "globalDate": "2018-12-07",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0731.png",
+      "6": "Card-0732.png"
+    }
   },
   {
     "id": "deidara-magnum-opus",
@@ -1148,7 +1303,11 @@
     "globalDate": "2019-06-25",
     "sources": [
       "Super Impact! Sandstorm-Destroying Blaze!"
-    ]
+    ],
+    "images": {
+      "6": "Card-0836.png",
+      "ba": "Card-0837.png"
+    }
   },
   {
     "id": "deidara-pursued-aesthetic",
@@ -1188,7 +1347,12 @@
     "globalDate": "2018-08-07",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0654.png",
+      "6": "Card-0655.png",
+      "ba": "Card-0656.png"
+    }
   },
   {
     "id": "deidara-true-arts",
@@ -1218,7 +1382,11 @@
     "globalDate": "2017-04-25",
     "sources": [
       "Deadly Arts of Sublimation"
-    ]
+    ],
+    "images": {
+      "5": "Card-0350.png",
+      "6": "Card-0351.png"
+    }
   },
   {
     "id": "dosu-kinuta-the-cool-calm-leader",
@@ -1236,7 +1404,10 @@
       "Story Mode",
       "Stage 5: Exam Round 2",
       "Stage 6: Preliminaries!"
-    ]
+    ],
+    "images": {
+      "3": "Card-0033.png"
+    }
   },
   {
     "id": "ebisu-an-elite-teacher",
@@ -1253,7 +1424,10 @@
     "sources": [
       "Story Mode",
       "Stage 4: Exam Round 1"
-    ]
+    ],
+    "images": {
+      "3": "Card-0026.png"
+    }
   },
   {
     "id": "fourth-raikage-ay-savage-lightning",
@@ -1284,7 +1458,11 @@
     "globalDate": "2017-05-04",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0356.png",
+      "6": "Card-0357.png"
+    }
   },
   {
     "id": "fourth-raikage-ay-solid-lightning",
@@ -1314,7 +1492,11 @@
     "globalDate": "2017-10-17",
     "sources": [
       "You're On! Lightning Torrent!"
-    ]
+    ],
+    "images": {
+      "5": "Card-0466.png",
+      "6": "Card-0467.png"
+    }
   },
   {
     "id": "fugaku-uchiha-prosperity-and-faith",
@@ -1344,7 +1526,11 @@
     "globalDate": "2019-12-10",
     "sources": [
       "Sign of a Silently Growing Calamity"
-    ]
+    ],
+    "images": {
+      "5": "Card-2022.png",
+      "6": "Card-2023.png"
+    }
   },
   {
     "id": "fuguki-suikazan-darkness-of-the-blood-mist",
@@ -1374,7 +1560,11 @@
     "globalDate": "2018-05-01",
     "sources": [
       "Blood Mist's Dark-Clad Giant"
-    ]
+    ],
+    "images": {
+      "5": "Card-0596.png",
+      "6": "Card-0597.png"
+    }
   },
   {
     "id": "fuu-bright-and-cheerful",
@@ -1391,7 +1581,10 @@
     "sources": [
       "Phantom Castle 33",
       "Phantom Castle 38"
-    ]
+    ],
+    "images": {
+      "6": "Card-0838.png"
+    }
   },
   {
     "id": "fuu-wild-and-free",
@@ -1421,7 +1614,11 @@
     "globalDate": "2017-07-31",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0413.png",
+      "6": "Card-0414.png"
+    }
   },
   {
     "id": "gaara-a-true-gift",
@@ -1437,7 +1634,10 @@
     "globalDate": "2020-09-01",
     "sources": [
       "Phantom Castle 44"
-    ]
+    ],
+    "images": {
+      "6": "Card-2127.png"
+    }
   },
   {
     "id": "gaara-finally-friendship",
@@ -1463,7 +1663,11 @@
     "globalDate": "2019-06-25",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0834.png",
+      "6": "Card-0835.png"
+    }
   },
   {
     "id": "gaara-many-bonds",
@@ -1494,7 +1698,11 @@
     "globalDate": "2017-09-06",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0436.png",
+      "6": "Card-0437.png"
+    }
   },
   {
     "id": "gaara-proclaimed-faith",
@@ -1511,7 +1719,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-0879.png"
+    }
   },
   {
     "id": "gaara-protector-of-the-sands",
@@ -1542,7 +1753,11 @@
     "globalDate": "2017-02-01",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0283.png",
+      "6": "Card-0284.png"
+    }
   },
   {
     "id": "gaara-sand-clad-demon",
@@ -1573,7 +1788,11 @@
     "globalDate": "2016-10-14",
     "sources": [
       "Endless Sand Shurado"
-    ]
+    ],
+    "images": {
+      "4": "Card-0185.png",
+      "5": "Card-0186.png"
+    }
   },
   {
     "id": "gaara-sand-defense",
@@ -1604,7 +1823,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0050.png",
+      "6": "Card-0051.png"
+    }
   },
   {
     "id": "gaara-sandstorm-commanding-kage",
@@ -1634,7 +1857,11 @@
     "globalDate": "2018-12-07",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0729.png",
+      "6": "Card-0730.png"
+    }
   },
   {
     "id": "gaara-solid-sandstorm",
@@ -1675,7 +1902,12 @@
     "globalDate": "2017-11-07",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0476.png",
+      "6": "Card-0477.png",
+      "ba": "Card-0478.png"
+    }
   },
   {
     "id": "gaara-the-sand-s-final-weapon",
@@ -1702,7 +1934,11 @@
     "globalDate": "2016-10-14",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0173.png",
+      "6": "Card-0174.png"
+    }
   },
   {
     "id": "gaara-the-strongest-shield",
@@ -1732,7 +1968,11 @@
     "globalDate": "2017-01-10",
     "sources": [
       "Ruler of the Endless Sands"
-    ]
+    ],
+    "images": {
+      "5": "Card-0267.png",
+      "6": "Card-0268.png"
+    }
   },
   {
     "id": "gengetsu-hozuki-mists-over-the-darkness",
@@ -1763,7 +2003,11 @@
     "globalDate": "2017-11-21",
     "sources": [
       "Impact! The Towering Fog"
-    ]
+    ],
+    "images": {
+      "5": "Card-0488.png",
+      "6": "Card-0489.png"
+    }
   },
   {
     "id": "gengo-master-of-silence",
@@ -1794,7 +2038,11 @@
     "globalDate": "2017-02-14",
     "sources": [
       "Impact! Lord of Silence"
-    ]
+    ],
+    "images": {
+      "5": "Card-0298.png",
+      "6": "Card-0299.png"
+    }
   },
   {
     "id": "genma-shiranui-always-aimless",
@@ -1811,7 +2059,10 @@
     "sources": [
       "Story Mode",
       "Stage 4: Exam Round 1"
-    ]
+    ],
+    "images": {
+      "3": "Card-0027.png"
+    }
   },
   {
     "id": "gozu-poisonous-right-arm",
@@ -1828,7 +2079,10 @@
     "sources": [
       "Story Mode",
       "Stage 3: Land of Waves"
-    ]
+    ],
+    "images": {
+      "3": "Card-0042.png"
+    }
   },
   {
     "id": "hagoromo-otsutsuki-sage-of-the-six-paths",
@@ -1845,7 +2099,10 @@
     "sources": [
       "Phantom Castle 24",
       "Phantom Castle 32"
-    ]
+    ],
+    "images": {
+      "6": "Card-0663.png"
+    }
   },
   {
     "id": "hagoromo-otsutsuki-truth-of-the-divine-tree",
@@ -1873,7 +2130,11 @@
     "sources": [
       "Super Impact! Six Paths Genealogy",
       "Super Impact! Boss Rush"
-    ]
+    ],
+    "images": {
+      "6": "Card-2044.png",
+      "ba": "Card-2045.png"
+    }
   },
   {
     "id": "haku-a-frozen-heart",
@@ -1904,7 +2165,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0139.png",
+      "6": "Card-0140.png"
+    }
   },
   {
     "id": "haku-all-for-his-loved-ones",
@@ -1924,7 +2189,10 @@
       "Phantom Castle 5",
       "Phantom Castle 21",
       "Phantom Castle 35"
-    ]
+    ],
+    "images": {
+      "5": "Card-0141.png"
+    }
   },
   {
     "id": "haku-chilling-edge",
@@ -1965,7 +2233,12 @@
     "globalDate": "2018-02-06",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0537.png",
+      "6": "Card-0538.png",
+      "ba": "Card-0539.png"
+    }
   },
   {
     "id": "haku-tears-of-the-ice-mirror",
@@ -1996,7 +2269,11 @@
     "globalDate": "2017-08-15",
     "sources": [
       "Impact! Chance Encounter at the Edge of Hell"
-    ]
+    ],
+    "images": {
+      "5": "Card-0423.png",
+      "6": "Card-0424.png"
+    }
   },
   {
     "id": "haku-the-icy-mask-s-blades",
@@ -2027,7 +2304,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Behind the Ice Mask"
-    ]
+    ],
+    "images": {
+      "4": "Card-0137.png",
+      "5": "Card-0138.png"
+    }
   },
   {
     "id": "hamura-otsutsuki-ancestral-lineage",
@@ -2044,7 +2325,10 @@
     "sources": [
       "Phantom Castle 28",
       "Phantom Castle 34"
-    ]
+    ],
+    "images": {
+      "6": "Card-0733.png"
+    }
   },
   {
     "id": "han-sprint-barrage",
@@ -2075,7 +2359,11 @@
     "sources": [
       "Clash Coin Exchange Shop",
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0543.png",
+      "6": "Card-0544.png"
+    }
   },
   {
     "id": "hanabi-hyuga-daughter-of-the-byakugan",
@@ -2105,7 +2393,11 @@
     "globalDate": "2019-02-26",
     "sources": [
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "5": "Card-0773.png",
+      "6": "Card-0774.png"
+    }
   },
   {
     "id": "hanabi-hyuga-the-will-of-the-hyuga",
@@ -2123,7 +2415,10 @@
       "Phantom Castle 12",
       "Phantom Castle 26",
       "Phantom Castle 45"
-    ]
+    ],
+    "images": {
+      "6": "Card-0431.png"
+    }
   },
   {
     "id": "hanzo-hero-of-purple-poison",
@@ -2153,7 +2448,11 @@
     "globalDate": "2017-04-10",
     "sources": [
       "Mists of Deadly Poison"
-    ]
+    ],
+    "images": {
+      "5": "Card-0341.png",
+      "6": "Card-0342.png"
+    }
   },
   {
     "id": "hanzo-steadfast-veteran",
@@ -2184,7 +2483,11 @@
     "globalDate": "2017-09-26",
     "sources": [
       "Impact! Confrontation and Courage"
-    ]
+    ],
+    "images": {
+      "5": "Card-0449.png",
+      "6": "Card-0450.png"
+    }
   },
   {
     "id": "hashirama-senju-among-the-strongest",
@@ -2211,7 +2514,11 @@
     "globalDate": "2018-12-31",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0745.png",
+      "6": "Card-0746.png"
+    }
   },
   {
     "id": "hashirama-senju-bravery-known-throughout-the-war",
@@ -2241,7 +2548,11 @@
     "globalDate": "2018-10-16",
     "sources": [
       "Rival Warlords Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0697.png",
+      "6": "Card-0698.png"
+    }
   },
   {
     "id": "hashirama-senju-bravery-unrivalled",
@@ -2272,7 +2583,11 @@
     "globalDate": "2017-08-07",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0417.png",
+      "6": "Card-0418.png"
+    }
   },
   {
     "id": "hashirama-senju-father-of-leaf-village",
@@ -2317,7 +2632,12 @@
     "sources": [
       "Ninja Gods Summoned",
       "Impact! A Legend Reborn"
-    ]
+    ],
+    "images": {
+      "4": "Card-0202.png",
+      "5": "Card-0203.png",
+      "6": "Card-0204.png"
+    }
   },
   {
     "id": "hashirama-senju-long-held-dream",
@@ -2354,7 +2674,12 @@
     "globalDate": "2017-12-26",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0520.png",
+      "6": "Card-0521.png",
+      "ba": "Card-0522.png"
+    }
   },
   {
     "id": "hashirama-senju-pursuit-of-a-dream",
@@ -2381,7 +2706,11 @@
     "globalDate": "2019-12-10",
     "sources": [
       "Super Impact! Revered Ninja"
-    ]
+    ],
+    "images": {
+      "6": "Card-2017.png",
+      "ba": "Card-2018.png"
+    }
   },
   {
     "id": "hashirama-senju-resolve-to-protect",
@@ -2407,7 +2736,11 @@
     "globalDate": "2020-03-03",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-2057.png",
+      "6": "Card-2058.png"
+    }
   },
   {
     "id": "hashirama-senju-sorrowful-parting",
@@ -2424,7 +2757,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-2028.png"
+    }
   },
   {
     "id": "hayate-gekko-composed-dexterity",
@@ -2454,7 +2790,11 @@
     "globalDate": "2019-03-12",
     "sources": [
       "Crescent Moon Blade and the Dance of Leaves"
-    ]
+    ],
+    "images": {
+      "5": "Card-0778.png",
+      "6": "Card-0779.png"
+    }
   },
   {
     "id": "hayate-gekko-crystal-clear-mind",
@@ -2484,7 +2824,11 @@
     "globalDate": "2016-10-14",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0183.png",
+      "5": "Card-0184.png"
+    }
   },
   {
     "id": "hayate-gekko-third-round-prelim-judge",
@@ -2510,7 +2854,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Rare Summon"
-    ]
+    ],
+    "images": {
+      "3": "Card-0096.png",
+      "4": "Card-0097.png"
+    }
   },
   {
     "id": "hiashi-hyuga-a-strict-leader",
@@ -2536,7 +2884,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Rare Summon"
-    ]
+    ],
+    "images": {
+      "3": "Card-0116.png",
+      "4": "Card-0117.png"
+    }
   },
   {
     "id": "hiashi-hyuga-clan-head-s-dignity",
@@ -2553,7 +2905,10 @@
     "sources": [
       "Limited Period Granny Cat's Hiding Place",
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "6": "Card-2092.png"
+    }
   },
   {
     "id": "hidan-pure-bloodlust",
@@ -2583,7 +2938,11 @@
     "globalDate": "2019-06-11",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0829.png",
+      "6": "Card-0830.png"
+    }
   },
   {
     "id": "hidan-worshiping-a-mad-god",
@@ -2614,7 +2973,11 @@
     "globalDate": "2017-03-22",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0321.png",
+      "6": "Card-0322.png"
+    }
   },
   {
     "id": "hinata-hyuga-a-pure-heart",
@@ -2633,7 +2996,10 @@
       "Phantom Castle 2",
       "Phantom Castle 5",
       "Phantom Castle 21"
-    ]
+    ],
+    "images": {
+      "5": "Card-0160.png"
+    }
   },
   {
     "id": "hinata-hyuga-beyond-the-ceaseless",
@@ -2673,7 +3039,12 @@
     "globalDate": "2019-05-14",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0811.png",
+      "6": "Card-0812.png",
+      "ba": "Card-0813.png"
+    }
   },
   {
     "id": "hinata-hyuga-blooming-talent",
@@ -2704,7 +3075,11 @@
     "globalDate": "2016-12-22",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0242.png",
+      "6": "Card-0243.png"
+    }
   },
   {
     "id": "hinata-hyuga-day-of-happiness",
@@ -2734,7 +3109,11 @@
     "globalDate": "2017-03-24",
     "sources": [
       "Wedding Special Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0329.png",
+      "6": "Card-0330.png"
+    }
   },
   {
     "id": "hinata-hyuga-elegant-attire",
@@ -2764,7 +3143,11 @@
     "globalDate": "2017-01-24",
     "sources": [
       "Beauties Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0275.png",
+      "6": "Card-0276.png"
+    }
   },
   {
     "id": "hinata-hyuga-loyal-emotions",
@@ -2791,7 +3174,11 @@
     "sources": [
       "Story Mode",
       "Stage 7: Exam Round 3"
-    ]
+    ],
+    "images": {
+      "3": "Card-0016.png",
+      "4": "Card-0017.png"
+    }
   },
   {
     "id": "hinata-hyuga-nice-girl",
@@ -2822,7 +3209,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0060.png",
+      "5": "Card-0061.png"
+    }
   },
   {
     "id": "hinata-hyuga-path-to-the-ideal",
@@ -2839,7 +3230,10 @@
     "sources": [
       "Phantom Castle 21",
       "Phantom Castle 30"
-    ]
+    ],
+    "images": {
+      "6": "Card-0614.png"
+    }
   },
   {
     "id": "hinata-hyuga-proof-of-resolution",
@@ -2870,7 +3264,11 @@
     "globalDate": "2016-09-21",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0156.png",
+      "5": "Card-0157.png"
+    }
   },
   {
     "id": "hinata-hyuga-redemptive-words",
@@ -2896,7 +3294,11 @@
     "globalDate": "2019-11-05",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-2002.png",
+      "6": "Card-2003.png"
+    }
   },
   {
     "id": "hinata-hyuga-sunflower-s-admiration",
@@ -2913,7 +3315,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-2009.png"
+    }
   },
   {
     "id": "hinata-hyuga-tug-of-the-heart-strings",
@@ -2943,7 +3348,11 @@
     "globalDate": "2019-02-05",
     "sources": [
       "Love-Filled Sweets Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0756.png",
+      "6": "Card-0757.png"
+    }
   },
   {
     "id": "hinata-hyuga-unwavering-courage",
@@ -2984,7 +3393,12 @@
     "globalDate": "2017-12-05",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0496.png",
+      "6": "Card-0497.png",
+      "ba": "Card-0498.png"
+    }
   },
   {
     "id": "hiruzen-sarutobi-looking-into-the-future",
@@ -3014,7 +3428,11 @@
     "globalDate": "2019-05-08",
     "sources": [
       "Will of the Fiery Powerhouse of Old"
-    ]
+    ],
+    "images": {
+      "5": "Card-0798.png",
+      "6": "Card-0799.png"
+    }
   },
   {
     "id": "hiruzen-sarutobi-ninja-clothes",
@@ -3045,7 +3463,11 @@
     "globalDate": "2016-10-26",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0200.png",
+      "6": "Card-0201.png"
+    }
   },
   {
     "id": "hiruzen-sarutobi-the-makings-of-a-kage",
@@ -3061,7 +3483,10 @@
     "globalDate": "2020-08-18",
     "sources": [
       "Limited Period Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "6": "Card-2124.png"
+    }
   },
   {
     "id": "hiruzen-sarutobi-the-third-hokage",
@@ -3092,7 +3517,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0070.png",
+      "5": "Card-0071.png"
+    }
   },
   {
     "id": "hizashi-hyuga-brotherly-fate",
@@ -3118,7 +3547,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Rare Summon"
-    ]
+    ],
+    "images": {
+      "3": "Card-0118.png",
+      "4": "Card-0119.png"
+    }
   },
   {
     "id": "ibiki-morino-sadist",
@@ -3144,7 +3577,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Rare Summon"
-    ]
+    ],
+    "images": {
+      "3": "Card-0092.png",
+      "4": "Card-0093.png"
+    }
   },
   {
     "id": "indra-danger-of-the-almighty",
@@ -3160,7 +3597,10 @@
     "globalDate": "2019-12-25",
     "sources": [
       "Limited Period Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "6": "Card-2033.png"
+    }
   },
   {
     "id": "indra-lone-war-god",
@@ -3190,7 +3630,11 @@
     "globalDate": "2017-12-26",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0515.png",
+      "6": "Card-0516.png"
+    }
   },
   {
     "id": "indra-strength-based-leadership",
@@ -3217,7 +3661,11 @@
     "globalDate": "2020-07-21",
     "sources": [
       "Super Impact! Destiny's Beginnings"
-    ]
+    ],
+    "images": {
+      "6": "Card-2111.png",
+      "ba": "Card-2112.png"
+    }
   },
   {
     "id": "indra-unparalleled-genius",
@@ -3244,7 +3692,11 @@
     "globalDate": "2019-04-02",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0787.png",
+      "6": "Card-0788.png"
+    }
   },
   {
     "id": "ino-yamanaka-bittersweet-gift",
@@ -3274,7 +3726,11 @@
     "globalDate": "2018-02-13",
     "sources": [
       "\"Lucky's Valentine\" Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0549.png",
+      "6": "Card-0550.png"
+    }
   },
   {
     "id": "ino-yamanaka-ever-changing-movements",
@@ -3301,7 +3757,11 @@
     "sources": [
       "Story Mode",
       "Stage 1: Graduation Exam"
-    ]
+    ],
+    "images": {
+      "3": "Card-0012.png",
+      "4": "Card-0013.png"
+    }
   },
   {
     "id": "ino-yamanaka-flourishing-bush-clover",
@@ -3318,7 +3778,10 @@
     "sources": [
       "Phantom Castle 38",
       "Phantom Castle 43"
-    ]
+    ],
+    "images": {
+      "6": "Card-2016.png"
+    }
   },
   {
     "id": "ino-yamanaka-flowers-in-full-bloom",
@@ -3348,7 +3811,11 @@
     "globalDate": "2018-10-02",
     "sources": [
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "5": "Card-0691.png",
+      "6": "Card-0692.png"
+    }
   },
   {
     "id": "ino-yamanaka-i-don-t-want-to-lose",
@@ -3379,7 +3846,11 @@
     "globalDate": "2016-09-21",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0154.png",
+      "5": "Card-0155.png"
+    }
   },
   {
     "id": "ino-yamanaka-like-a-peony",
@@ -3410,7 +3881,11 @@
     "globalDate": "2017-01-10",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0263.png",
+      "6": "Card-0264.png"
+    }
   },
   {
     "id": "ino-yamanaka-promise-upheld",
@@ -3451,7 +3926,12 @@
     "globalDate": "2018-03-06",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0559.png",
+      "6": "Card-0560.png",
+      "ba": "Card-0561.png"
+    }
   },
   {
     "id": "ino-yamanaka-truly-wise",
@@ -3482,7 +3962,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0056.png",
+      "5": "Card-0057.png"
+    }
   },
   {
     "id": "inoichi-yamanaka-the-ino-shika-cho-trio",
@@ -3508,7 +3992,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Rare Summon"
-    ]
+    ],
+    "images": {
+      "3": "Card-0112.png",
+      "4": "Card-0113.png"
+    }
   },
   {
     "id": "iruka-umino-because-of-trust",
@@ -3538,7 +4026,11 @@
     "globalDate": "2019-08-27",
     "sources": [
       "The Guiding Will of Fire"
-    ]
+    ],
+    "images": {
+      "5": "Card-0871.png",
+      "6": "Card-0872.png"
+    }
   },
   {
     "id": "iruka-umino-sympathizer",
@@ -3565,7 +4057,11 @@
     "sources": [
       "Story Mode",
       "Stage 1: Graduation Exam"
-    ]
+    ],
+    "images": {
+      "3": "Card-0022.png",
+      "4": "Card-0023.png"
+    }
   },
   {
     "id": "iruka-umino-teachings-of-fire",
@@ -3583,7 +4079,10 @@
       "Phantom Castle 8",
       "Phantom Castle 24",
       "Phantom Castle 41"
-    ]
+    ],
+    "images": {
+      "6": "Card-0345.png"
+    }
   },
   {
     "id": "itachi-uchiha-a-cold-hearted-criminal",
@@ -3614,7 +4113,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0088.png",
+      "5": "Card-0089.png"
+    }
   },
   {
     "id": "itachi-uchiha-akatsuki-warrior",
@@ -3631,7 +4134,10 @@
     "sources": [
       "Ninja World Clash",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-0499.png"
+    }
   },
   {
     "id": "itachi-uchiha-beyond-the-sharingan",
@@ -3658,7 +4164,11 @@
     "globalDate": "2016-11-09",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0210.png",
+      "6": "Card-0211.png"
+    }
   },
   {
     "id": "itachi-uchiha-brotherly-pledge",
@@ -3685,7 +4195,11 @@
     "globalDate": "2018-10-23",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0699.png",
+      "6": "Card-0700.png"
+    }
   },
   {
     "id": "itachi-uchiha-eyes-gazing-over-the-future",
@@ -3726,7 +4240,12 @@
     "globalDate": "2018-04-05",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0573.png",
+      "6": "Card-0574.png",
+      "ba": "Card-0575.png"
+    }
   },
   {
     "id": "itachi-uchiha-eyes-which-weave-truth-and-lies",
@@ -3766,7 +4285,12 @@
     "globalDate": "2018-12-04",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0724.png",
+      "6": "Card-0725.png",
+      "ba": "Card-0726.png"
+    }
   },
   {
     "id": "itachi-uchiha-limits-of-his-ability",
@@ -3797,7 +4321,11 @@
     "globalDate": "2016-11-09",
     "sources": [
       "Red Eyes, Burdened with Fate"
-    ]
+    ],
+    "images": {
+      "4": "Card-0208.png",
+      "5": "Card-0209.png"
+    }
   },
   {
     "id": "itachi-uchiha-proof-of-will",
@@ -3828,7 +4356,11 @@
     "globalDate": "2017-06-20",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0387.png",
+      "6": "Card-0388.png"
+    }
   },
   {
     "id": "itachi-uchiha-shura-s-truth",
@@ -3860,7 +4392,11 @@
     "sources": [
       "Impact! Arrival of a Savage God",
       "Battleground! Giant Boss Rush"
-    ]
+    ],
+    "images": {
+      "5": "Card-0308.png",
+      "6": "Card-0309.png"
+    }
   },
   {
     "id": "itachi-uchiha-silent-night-visitor",
@@ -3890,7 +4426,11 @@
     "globalDate": "2017-12-09",
     "sources": [
       "A Very Uchiha Christmas Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0504.png",
+      "6": "Card-0505.png"
+    }
   },
   {
     "id": "itachi-uchiha-talent-and-burden",
@@ -3930,7 +4470,12 @@
     "globalDate": "2020-06-16",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-2094.png",
+      "6": "Card-2095.png",
+      "ba": "Card-2096.png"
+    }
   },
   {
     "id": "itachi-uchiha-the-promised-day",
@@ -3956,7 +4501,11 @@
     "globalDate": "2019-12-31",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-2031.png",
+      "6": "Card-2032.png"
+    }
   },
   {
     "id": "itachi-uchiha-the-way-of-the-hero",
@@ -3973,7 +4522,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-0833.png"
+    }
   },
   {
     "id": "itachi-uchiha-truth-behind-the-tragedy",
@@ -3989,7 +4541,10 @@
     "globalDate": "2018-12-18",
     "sources": [
       "Itachi's Story - Light and Darkness"
-    ]
+    ],
+    "images": {
+      "6": "Card-0742.png"
+    }
   },
   {
     "id": "izumo-kamizuki-certainly-capable",
@@ -4019,7 +4574,11 @@
     "globalDate": "2019-07-17",
     "sources": [
       "The Shinobi Seeking Vindication"
-    ]
+    ],
+    "images": {
+      "5": "Card-0844.png",
+      "6": "Card-0845.png"
+    }
   },
   {
     "id": "izumo-kamizuki-the-calm-proctor",
@@ -4036,7 +4595,10 @@
     "sources": [
       "Story Mode",
       "Stage 4: Exam Round 1"
-    ]
+    ],
+    "images": {
+      "3": "Card-0029.png"
+    }
   },
   {
     "id": "izuna-uchiha-eyes-firm-in-faith",
@@ -4053,7 +4615,10 @@
     "sources": [
       "Phantom Castle 18",
       "Phantom Castle 28"
-    ]
+    ],
+    "images": {
+      "6": "Card-0555.png"
+    }
   },
   {
     "id": "izuna-uchiha-intelligent-blade",
@@ -4083,7 +4648,11 @@
     "globalDate": "2019-03-05",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0775.png",
+      "6": "Card-0776.png"
+    }
   },
   {
     "id": "izuna-uchiha-mercilessly-uncompromising",
@@ -4113,7 +4682,11 @@
     "globalDate": "2019-12-17",
     "sources": [
       "Longing for Peace Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-2026.png",
+      "6": "Card-2027.png"
+    }
   },
   {
     "id": "izuna-uchiha-wishing-for-peace",
@@ -4143,7 +4716,11 @@
     "globalDate": "2019-01-15",
     "sources": [
       "Wise Warrior and Upholder of the Mightiest"
-    ]
+    ],
+    "images": {
+      "5": "Card-0751.png",
+      "6": "Card-0752.png"
+    }
   },
   {
     "id": "jinin-akebino-crushing-bluntsword",
@@ -4173,7 +4750,11 @@
     "globalDate": "2018-04-05",
     "sources": [
       "Smoking Hammer Strike"
-    ]
+    ],
+    "images": {
+      "5": "Card-0581.png",
+      "6": "Card-0582.png"
+    }
   },
   {
     "id": "jinpachi-munashi-volatile-explosive-blade",
@@ -4203,7 +4784,11 @@
     "globalDate": "2018-03-06",
     "sources": [
       "An Explosive Swing to Obliterate All"
-    ]
+    ],
+    "images": {
+      "5": "Card-0562.png",
+      "6": "Card-0563.png"
+    }
   },
   {
     "id": "jiraiya-a-tale-woven",
@@ -4219,7 +4804,10 @@
     "globalDate": "2019-08-13",
     "sources": [
       "Limited Period Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "6": "Card-0861.png"
+    }
   },
   {
     "id": "jiraiya-chance-encounter-under-fire",
@@ -4250,7 +4838,11 @@
     "globalDate": "2017-09-19",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0444.png",
+      "6": "Card-0445.png"
+    }
   },
   {
     "id": "jiraiya-enter-the-sage",
@@ -4281,7 +4873,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0072.png",
+      "5": "Card-0073.png"
+    }
   },
   {
     "id": "jiraiya-hidden-heart",
@@ -4322,7 +4918,12 @@
     "globalDate": "2018-07-03",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0634.png",
+      "6": "Card-0635.png",
+      "ba": "Card-0636.png"
+    }
   },
   {
     "id": "jiraiya-moment-of-choice",
@@ -4353,7 +4954,11 @@
     "globalDate": "2018-05-22",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0610.png",
+      "6": "Card-0611.png"
+    }
   },
   {
     "id": "jiraiya-the-toad-ninja",
@@ -4383,7 +4988,11 @@
     "globalDate": "2016-12-22",
     "sources": [
       "Impact! Toad Sage!"
-    ]
+    ],
+    "images": {
+      "5": "Card-0246.png",
+      "6": "Card-0247.png"
+    }
   },
   {
     "id": "jiraiya-way-of-the-ninja",
@@ -4414,7 +5023,11 @@
     "globalDate": "2017-04-06",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0335.png",
+      "6": "Card-0336.png"
+    }
   },
   {
     "id": "jiraiya-what-makes-a-ninja",
@@ -4431,7 +5044,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-2077.png"
+    }
   },
   {
     "id": "jirobo-brute-strength",
@@ -4461,7 +5077,11 @@
     "globalDate": "2016-11-30",
     "sources": [
       "The Chakra-Devouring Warrior"
-    ]
+    ],
+    "images": {
+      "5": "Card-0227.png",
+      "6": "Card-0228.png"
+    }
   },
   {
     "id": "jirobo-herculean-appetite",
@@ -4492,7 +5112,11 @@
     "globalDate": "2016-10-26",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0198.png",
+      "5": "Card-0199.png"
+    }
   },
   {
     "id": "jirobo-jirobo-of-the-south-gate",
@@ -4523,7 +5147,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0084.png",
+      "5": "Card-0085.png"
+    }
   },
   {
     "id": "jugo-all-consuming-fury",
@@ -4553,7 +5181,11 @@
     "globalDate": "2018-06-12",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0623.png",
+      "6": "Card-0624.png"
+    }
   },
   {
     "id": "jugo-scales-of-ruin-and-peace",
@@ -4583,7 +5215,11 @@
     "globalDate": "2017-02-27",
     "sources": [
       "The Ends of Destruction"
-    ]
+    ],
+    "images": {
+      "5": "Card-0306.png",
+      "6": "Card-0307.png"
+    }
   },
   {
     "id": "juzo-biwa-bloody-existence",
@@ -4613,7 +5249,11 @@
     "globalDate": "2018-11-20",
     "sources": [
       "Life-Draining Bloody Blade"
-    ]
+    ],
+    "images": {
+      "5": "Card-0716.png",
+      "6": "Card-0717.png"
+    }
   },
   {
     "id": "kabuto-yakushi-craving-for-wisdom",
@@ -4644,7 +5284,11 @@
     "globalDate": "2017-06-27",
     "sources": [
       "Impact! From a Snake to a Dragon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0392.png",
+      "6": "Card-0393.png"
+    }
   },
   {
     "id": "kabuto-yakushi-creeping-ill-intent",
@@ -4661,7 +5305,10 @@
     "sources": [
       "Limited Period Granny Cat's Hiding Place",
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "6": "Card-2099.png"
+    }
   },
   {
     "id": "kabuto-yakushi-dragon-transformation",
@@ -4688,7 +5335,11 @@
     "globalDate": "2018-07-17",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0642.png",
+      "6": "Card-0643.png"
+    }
   },
   {
     "id": "kabuto-yakushi-proof-of-self",
@@ -4728,7 +5379,12 @@
     "globalDate": "2019-10-15",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0893.png",
+      "6": "Card-0894.png",
+      "ba": "Card-0895.png"
+    }
   },
   {
     "id": "kabuto-yakushi-surprising-regeneration",
@@ -4759,7 +5415,11 @@
     "globalDate": "2016-10-05",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0169.png",
+      "5": "Card-0170.png"
+    }
   },
   {
     "id": "kabuto-yakushi-the-sound-s-spy",
@@ -4790,7 +5450,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0076.png",
+      "5": "Card-0077.png"
+    }
   },
   {
     "id": "kabuto-yakushi-warrior-s-quest",
@@ -4807,7 +5471,10 @@
     "sources": [
       "Ninja World Clash",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-0519.png"
+    }
   },
   {
     "id": "kagari-sensor-of-the-trinity",
@@ -4824,7 +5491,10 @@
     "sources": [
       "Story Mode",
       "Stage 5: Exam Round 2"
-    ]
+    ],
+    "images": {
+      "3": "Card-0036.png"
+    }
   },
   {
     "id": "kaguya-otsutsuki-between-love-and-madness",
@@ -4851,7 +5521,11 @@
     "globalDate": "2019-01-08",
     "sources": [
       "Super Impact! Resurrection of the Goddess"
-    ]
+    ],
+    "images": {
+      "6": "Card-0749.png",
+      "ba": "Card-0750.png"
+    }
   },
   {
     "id": "kaguya-otsutsuki-divine-madness",
@@ -4878,7 +5552,11 @@
     "globalDate": "2018-04-24",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0593.png",
+      "6": "Card-0594.png"
+    }
   },
   {
     "id": "kaguya-otsutsuki-forbidden-fruit",
@@ -4904,7 +5582,11 @@
     "globalDate": "2020-02-04",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-2042.png",
+      "6": "Card-2043.png"
+    }
   },
   {
     "id": "kaguya-otsutsuki-founding-goddess",
@@ -4937,7 +5619,11 @@
       "Impact! The Moon Goddess",
       "Super Impact! Giant Boss Rush",
       "Impact! The Moon Goddess (Hard Mode)"
-    ]
+    ],
+    "images": {
+      "5": "Card-0512.png",
+      "6": "Card-0513.png"
+    }
   },
   {
     "id": "kaguya-otsutsuki-plot-for-rebirth",
@@ -4977,7 +5663,12 @@
     "globalDate": "2019-12-10",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-2019.png",
+      "6": "Card-2020.png",
+      "ba": "Card-2021.png"
+    }
   },
   {
     "id": "kaguya-otsutsuki-truth-behind-the-myth",
@@ -4994,7 +5685,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-2088.png"
+    }
   },
   {
     "id": "kakashi-hatake-a-bolt-from-the-dark",
@@ -5034,7 +5728,12 @@
     "globalDate": "2020-02-18",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-2051.png",
+      "6": "Card-2052.png",
+      "ba": "Card-2053.png"
+    }
   },
   {
     "id": "kakashi-hatake-a-father-s-blade",
@@ -5065,7 +5764,11 @@
     "globalDate": "2016-12-28",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0255.png",
+      "6": "Card-0256.png"
+    }
   },
   {
     "id": "kakashi-hatake-battle-tactician",
@@ -5082,7 +5785,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-0797.png"
+    }
   },
   {
     "id": "kakashi-hatake-copier-of-1k-techniques",
@@ -5113,7 +5819,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0048.png",
+      "6": "Card-0049.png"
+    }
   },
   {
     "id": "kakashi-hatake-entrusted-with-hope",
@@ -5157,7 +5867,12 @@
     "globalDate": "2017-12-14",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0508.png",
+      "6": "Card-0509.png",
+      "7": "Card-2091.png"
+    }
   },
   {
     "id": "kakashi-hatake-friend-s-way-of-life",
@@ -5183,7 +5898,11 @@
     "globalDate": "2019-08-06",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0854.png",
+      "6": "Card-0855.png"
+    }
   },
   {
     "id": "kakashi-hatake-hidden-left-eye",
@@ -5214,7 +5933,11 @@
     "globalDate": "2016-09-08",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0146.png",
+      "6": "Card-0147.png"
+    }
   },
   {
     "id": "kakashi-hatake-iron-resolve",
@@ -5240,7 +5963,11 @@
     "globalDate": "2018-12-11",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0734.png",
+      "6": "Card-0735.png"
+    }
   },
   {
     "id": "kakashi-hatake-kage-s-successor",
@@ -5270,7 +5997,11 @@
     "globalDate": "2020-08-25",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-2125.png",
+      "6": "Card-2126.png"
+    }
   },
   {
     "id": "kakashi-hatake-rousing-pact",
@@ -5286,7 +6017,10 @@
     "globalDate": "2019-10-29",
     "sources": [
       "Phantom Castle 37"
-    ]
+    ],
+    "images": {
+      "6": "Card-0899.png"
+    }
   },
   {
     "id": "kakashi-hatake-severing-lightning",
@@ -5317,7 +6051,11 @@
     "sources": [
       "Battle Coin Exchange Shop",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "5": "Card-0425.png",
+      "6": "Card-0426.png"
+    }
   },
   {
     "id": "kakashi-hatake-silent-sorcery",
@@ -5347,7 +6085,11 @@
     "globalDate": "2018-04-03",
     "sources": [
       "April Fools Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0587.png",
+      "6": "Card-0588.png"
+    }
   },
   {
     "id": "kakashi-hatake-the-best-teacher",
@@ -5378,7 +6120,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Hidden Leaf's Secret Ultimate Taijutsu"
-    ]
+    ],
+    "images": {
+      "4": "Card-0008.png",
+      "5": "Card-0009.png"
+    }
   },
   {
     "id": "kakashi-hatake-the-bitterness-of-fate",
@@ -5418,7 +6164,12 @@
     "globalDate": "2018-09-04",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0672.png",
+      "6": "Card-0673.png",
+      "ba": "Card-0674.png"
+    }
   },
   {
     "id": "kakashi-hatake-the-wound-inside",
@@ -5434,7 +6185,10 @@
     "globalDate": "2018-08-21",
     "sources": [
       "Drop #3 Reward of Chapter 11 in \"Kakashi Gaiden\""
-    ]
+    ],
+    "images": {
+      "6": "Card-0664.png"
+    }
   },
   {
     "id": "kakashi-hatake-unique-eyes-blooming",
@@ -5465,7 +6219,11 @@
     "globalDate": "2017-03-08",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0313.png",
+      "6": "Card-0314.png"
+    }
   },
   {
     "id": "kakashi-hatake-unshakeable-calm",
@@ -5505,7 +6263,12 @@
     "globalDate": "2018-11-06",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0704.png",
+      "6": "Card-0705.png",
+      "ba": "Card-0706.png"
+    }
   },
   {
     "id": "kakkou-powerful-and-aggressive",
@@ -5531,7 +6294,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Rare Summon"
-    ]
+    ],
+    "images": {
+      "3": "Card-0106.png",
+      "4": "Card-0107.png"
+    }
   },
   {
     "id": "kakuzu-life-reavers",
@@ -5562,7 +6329,11 @@
     "globalDate": "2017-03-22",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0323.png",
+      "6": "Card-0324.png"
+    }
   },
   {
     "id": "kakuzu-menacing-man",
@@ -5579,7 +6350,10 @@
     "sources": [
       "Phantom Castle 39",
       "Phantom Castle 44"
-    ]
+    ],
+    "images": {
+      "6": "Card-2050.png"
+    }
   },
   {
     "id": "kakuzu-powerhouse-of-old",
@@ -5609,7 +6383,11 @@
     "globalDate": "2018-10-16",
     "sources": [
       "Immortal Warrior on the Battlefield"
-    ]
+    ],
+    "images": {
+      "5": "Card-0693.png",
+      "6": "Card-0694.png"
+    }
   },
   {
     "id": "kankuro-a-new-act",
@@ -5639,7 +6417,11 @@
     "globalDate": "2020-02-25",
     "sources": [
       "Secret Black Technique of the Dancing Red Sand"
-    ]
+    ],
+    "images": {
+      "5": "Card-2055.png",
+      "6": "Card-2056.png"
+    }
   },
   {
     "id": "kankuro-mechanical-puppeteer",
@@ -5669,7 +6451,11 @@
     "globalDate": "2016-10-21",
     "sources": [
       "Theater of Horrors"
-    ]
+    ],
+    "images": {
+      "4": "Card-0189.png",
+      "5": "Card-0190.png"
+    }
   },
   {
     "id": "kankuro-orchestrator-of-tragedy",
@@ -5700,7 +6486,11 @@
     "globalDate": "2016-09-28",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0165.png",
+      "5": "Card-0166.png"
+    }
   },
   {
     "id": "kankuro-pride-in-his-work",
@@ -5731,7 +6521,11 @@
     "globalDate": "2017-09-06",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0438.png",
+      "6": "Card-0439.png"
+    }
   },
   {
     "id": "karin-acute-perception",
@@ -5762,7 +6556,11 @@
     "globalDate": "2017-02-21",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0300.png",
+      "6": "Card-0301.png"
+    }
   },
   {
     "id": "karin-thousand-mile-perception",
@@ -5792,7 +6590,11 @@
     "globalDate": "2017-05-17",
     "sources": [
       "A Woman's Battle Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0362.png",
+      "6": "Card-0363.png"
+    }
   },
   {
     "id": "karin-with-the-noble-taka",
@@ -5809,7 +6611,10 @@
     "sources": [
       "Phantom Castle 26",
       "Phantom Castle 33"
-    ]
+    ],
+    "images": {
+      "6": "Card-0701.png"
+    }
   },
   {
     "id": "kiba-inuzuka-sharp-claws-and-fangs",
@@ -5836,7 +6641,11 @@
     "sources": [
       "Story Mode",
       "Stage 5: Exam Round 2"
-    ]
+    ],
+    "images": {
+      "3": "Card-0018.png",
+      "4": "Card-0019.png"
+    }
   },
   {
     "id": "kiba-inuzuka-two-headed-fangs",
@@ -5867,7 +6676,11 @@
     "globalDate": "2016-11-30",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0223.png",
+      "5": "Card-0224.png"
+    }
   },
   {
     "id": "kiba-inuzuka-well-honed-fangs",
@@ -5897,7 +6710,11 @@
     "globalDate": "2018-03-13",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0566.png",
+      "6": "Card-0567.png"
+    }
   },
   {
     "id": "kiba-inuzuka-wild-partners",
@@ -5928,7 +6745,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0062.png",
+      "5": "Card-0063.png"
+    }
   },
   {
     "id": "kidomaru-a-cruel-game",
@@ -5958,7 +6779,11 @@
     "globalDate": "2016-12-07",
     "sources": [
       "Fearsome Threads, Drawing in Death"
-    ]
+    ],
+    "images": {
+      "5": "Card-0233.png",
+      "6": "Card-0234.png"
+    }
   },
   {
     "id": "kidomaru-kidomaru-of-the-east-gate",
@@ -5989,7 +6814,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0080.png",
+      "5": "Card-0081.png"
+    }
   },
   {
     "id": "kidomaru-solid-flexible-threads",
@@ -6020,7 +6849,11 @@
     "globalDate": "2016-10-26",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0194.png",
+      "5": "Card-0195.png"
+    }
   },
   {
     "id": "killer-bee-completed-jinchuriki",
@@ -6051,7 +6884,11 @@
     "globalDate": "2017-05-04",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0354.png",
+      "6": "Card-0355.png"
+    }
   },
   {
     "id": "killer-bee-engraved-words",
@@ -6082,7 +6919,11 @@
     "globalDate": "2017-10-09",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0462.png",
+      "6": "Card-0463.png"
+    }
   },
   {
     "id": "killer-bee-let-s-bee-friends",
@@ -6109,7 +6950,11 @@
     "globalDate": "2018-09-25",
     "sources": [
       "Super Impact! Master of Curls"
-    ]
+    ],
+    "images": {
+      "6": "Card-1155.png",
+      "ba": "Card-1156.png"
+    }
   },
   {
     "id": "killer-bee-rumbling-strong-arm",
@@ -6149,7 +6994,12 @@
     "globalDate": "2019-09-17",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0876.png",
+      "6": "Card-0877.png",
+      "ba": "Card-0878.png"
+    }
   },
   {
     "id": "killer-bee-ultimate-tag-team",
@@ -6166,7 +7016,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-2065.png"
+    }
   },
   {
     "id": "kimimaro-dance-of-carnage",
@@ -6196,7 +7049,11 @@
     "globalDate": "2019-10-02",
     "sources": [
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "5": "Card-0886.png",
+      "6": "Card-0887.png"
+    }
   },
   {
     "id": "kimimaro-dance-of-death",
@@ -6236,7 +7093,12 @@
     "globalDate": "2018-05-08",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0601.png",
+      "6": "Card-0602.png",
+      "ba": "Card-0603.png"
+    }
   },
   {
     "id": "kimimaro-kimimaro-of-the-earth",
@@ -6267,7 +7129,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0086.png",
+      "5": "Card-0087.png"
+    }
   },
   {
     "id": "kimimaro-the-strongest-spear",
@@ -6297,7 +7163,11 @@
     "globalDate": "2017-01-30",
     "sources": [
       "A Flower of Bones, Blooming from Despair"
-    ]
+    ],
+    "images": {
+      "5": "Card-0273.png",
+      "6": "Card-0274.png"
+    }
   },
   {
     "id": "kin-tsuchi-brimming-with-jealousy",
@@ -6314,7 +7184,10 @@
     "sources": [
       "Story Mode",
       "Stage 6: Preliminaries!"
-    ]
+    ],
+    "images": {
+      "3": "Card-0035.png"
+    }
   },
   {
     "id": "kinkaku-ginkaku-cataclysm-eaters",
@@ -6341,7 +7214,11 @@
     "globalDate": "2020-04-28",
     "sources": [
       "Super Impact! Fellow Evildoer"
-    ]
+    ],
+    "images": {
+      "6": "Card-2082.png",
+      "ba": "Card-2083.png"
+    }
   },
   {
     "id": "kisame-hoshigaki-body-and-blade-as-one",
@@ -6381,7 +7258,12 @@
     "globalDate": "2019-06-11",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0826.png",
+      "6": "Card-0827.png",
+      "ba": "Card-0828.png"
+    }
   },
   {
     "id": "kisame-hoshigaki-monster-of-the-mist",
@@ -6412,7 +7294,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0090.png",
+      "5": "Card-0091.png"
+    }
   },
   {
     "id": "kisame-hoshigaki-ruler-of-the-torrent",
@@ -6443,7 +7329,11 @@
     "globalDate": "2017-03-15",
     "sources": [
       "Impact! A Ferocious Visage"
-    ]
+    ],
+    "images": {
+      "5": "Card-0319.png",
+      "6": "Card-0320.png"
+    }
   },
   {
     "id": "kisame-hoshigaki-swordsman-of-the-raging-waves",
@@ -6460,7 +7350,10 @@
     "sources": [
       "Ninja World Clash",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-0479.png"
+    }
   },
   {
     "id": "kisame-hoshigaki-the-tailless-tailed-beast",
@@ -6487,7 +7380,11 @@
     "globalDate": "2018-11-27",
     "sources": [
       "Super Impact! Wandering Shark"
-    ]
+    ],
+    "images": {
+      "6": "Card-0719.png",
+      "ba": "Card-0720.png"
+    }
   },
   {
     "id": "konan-a-bridge-to-hope",
@@ -6517,7 +7414,11 @@
     "globalDate": "2017-06-06",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0377.png",
+      "6": "Card-0378.png"
+    }
   },
   {
     "id": "konan-a-god-s-messenger",
@@ -6548,7 +7449,11 @@
     "globalDate": "2017-04-06",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0337.png",
+      "6": "Card-0338.png"
+    }
   },
   {
     "id": "konan-a-new-light",
@@ -6578,7 +7483,11 @@
     "globalDate": "2020-02-12",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-2048.png",
+      "6": "Card-2049.png"
+    }
   },
   {
     "id": "konan-sign-of-destruction",
@@ -6618,7 +7527,12 @@
     "globalDate": "2018-10-02",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0688.png",
+      "6": "Card-0689.png",
+      "ba": "Card-0690.png"
+    }
   },
   {
     "id": "konan-two-hopes",
@@ -6635,7 +7549,10 @@
     "sources": [
       "Phantom Castle 32",
       "Phantom Castle 47"
-    ]
+    ],
+    "images": {
+      "6": "Card-0825.png"
+    }
   },
   {
     "id": "konan-wrapped-in-sweetness",
@@ -6665,7 +7582,11 @@
     "globalDate": "2018-02-13",
     "sources": [
       "\"Lucky's Valentine\" Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0547.png",
+      "6": "Card-0548.png"
+    }
   },
   {
     "id": "konohamaru-sarutobi-the-third-s-last-stand",
@@ -6691,7 +7612,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Rare Summon"
-    ]
+    ],
+    "images": {
+      "3": "Card-0100.png",
+      "4": "Card-0101.png"
+    }
   },
   {
     "id": "konohamaru-sarutobi-the-will-of-budding-flames",
@@ -6722,7 +7647,11 @@
     "globalDate": "2017-04-25",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0346.png",
+      "6": "Card-0347.png"
+    }
   },
   {
     "id": "kotetsu-hagane-tempered-strength",
@@ -6752,7 +7681,11 @@
     "globalDate": "2019-07-30",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0852.png",
+      "6": "Card-0853.png"
+    }
   },
   {
     "id": "kotetsu-hagane-the-deceptive-proctor",
@@ -6769,7 +7702,10 @@
     "sources": [
       "Story Mode",
       "Stage 4: Exam Round 1"
-    ]
+    ],
+    "images": {
+      "3": "Card-0030.png"
+    }
   },
   {
     "id": "kurenai-yuhi-between-fantasy-and-reality",
@@ -6785,7 +7721,10 @@
     "globalDate": "2020-07-07",
     "sources": [
       "Phantom Castle 43"
-    ]
+    ],
+    "images": {
+      "6": "Card-2104.png"
+    }
   },
   {
     "id": "kurenai-yuhi-illusionary-expert",
@@ -6816,7 +7755,11 @@
     "globalDate": "2016-11-20",
     "sources": [
       "New Year's Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "4": "Card-0216.png",
+      "5": "Card-0217.png"
+    }
   },
   {
     "id": "kurenai-yuhi-welcome-to-the-illusion",
@@ -6833,7 +7776,10 @@
     "sources": [
       "Phantom Castle 23",
       "Phantom Castle 31"
-    ]
+    ],
+    "images": {
+      "6": "Card-0650.png"
+    }
   },
   {
     "id": "kurotsuchi-magnanimous-tomboy-of-the-stone",
@@ -6850,7 +7796,10 @@
     "sources": [
       "Phantom Castle 27",
       "Phantom Castle 33"
-    ]
+    ],
+    "images": {
+      "6": "Card-0718.png"
+    }
   },
   {
     "id": "kurotsuchi-the-fence-sitter-s-granddaughter",
@@ -6880,7 +7829,11 @@
     "globalDate": "2018-01-15",
     "sources": [
       "The Power of Stone with Lava Style!"
-    ]
+    ],
+    "images": {
+      "5": "Card-0526.png",
+      "6": "Card-0527.png"
+    }
   },
   {
     "id": "kushimaru-kuriarare-needle-blade",
@@ -6910,7 +7863,11 @@
     "globalDate": "2018-02-06",
     "sources": [
       "Lurking Death Needle"
-    ]
+    ],
+    "images": {
+      "5": "Card-0545.png",
+      "6": "Card-0546.png"
+    }
   },
   {
     "id": "kushina-uzumaki-enveloping-kindness",
@@ -6940,7 +7897,11 @@
     "globalDate": "2017-02-21",
     "sources": [
       "Sweet Gift Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0296.png",
+      "6": "Card-0297.png"
+    }
   },
   {
     "id": "kushina-uzumaki-fist-of-hidden-embarrassment",
@@ -6970,7 +7931,11 @@
     "globalDate": "2019-07-09",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0839.png",
+      "6": "Card-0840.png"
+    }
   },
   {
     "id": "kushina-uzumaki-mother-s-wishes",
@@ -6987,7 +7952,10 @@
     "sources": [
       "Phantom Castle 25",
       "Phantom Castle 32"
-    ]
+    ],
+    "images": {
+      "6": "Card-0684.png"
+    }
   },
   {
     "id": "kushina-uzumaki-the-red-hot-habanero",
@@ -7017,7 +7985,11 @@
     "globalDate": "2016-12-08",
     "sources": [
       "Impact! Nine Tails Appears!"
-    ]
+    ],
+    "images": {
+      "5": "Card-0231.png",
+      "6": "Card-0232.png"
+    }
   },
   {
     "id": "kushina-uzumaki-vermillion-prayer",
@@ -7047,7 +8019,11 @@
     "globalDate": "2018-01-15",
     "sources": [
       "\"New Year's Resolution\" Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0530.png",
+      "6": "Card-0531.png"
+    }
   },
   {
     "id": "leaf-anbu-female-masked-ways",
@@ -7063,7 +8039,10 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Story Mode"
-    ]
+    ],
+    "images": {
+      "2": "Card-0124.png"
+    }
   },
   {
     "id": "leaf-anbu-male-the-hokage-s-servant",
@@ -7079,7 +8058,10 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Story Mode"
-    ]
+    ],
+    "images": {
+      "2": "Card-0123.png"
+    }
   },
   {
     "id": "leaf-chunin-male-supporter-of-the-tree",
@@ -7095,7 +8077,10 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Story Mode"
-    ]
+    ],
+    "images": {
+      "1": "Card-0122.png"
+    }
   },
   {
     "id": "madara-uchiha-an-imposing-air",
@@ -7125,7 +8110,11 @@
     "globalDate": "2019-12-17",
     "sources": [
       "Longing for Peace Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-2024.png",
+      "6": "Card-2025.png"
+    }
   },
   {
     "id": "madara-uchiha-at-the-battle-s-end",
@@ -7152,7 +8141,11 @@
     "globalDate": "2020-03-03",
     "sources": [
       "Super Impact! Parting in the Rain"
-    ]
+    ],
+    "images": {
+      "6": "Card-2059.png",
+      "ba": "Card-2060.png"
+    }
   },
   {
     "id": "madara-uchiha-dreams-of-the-far-future",
@@ -7169,7 +8162,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-0870.png"
+    }
   },
   {
     "id": "madara-uchiha-endless-moonlight",
@@ -7196,7 +8192,11 @@
     "globalDate": "2018-04-17",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0589.png",
+      "6": "Card-0590.png"
+    }
   },
   {
     "id": "madara-uchiha-eyes-of-the-moon",
@@ -7227,7 +8227,11 @@
     "globalDate": "2017-08-29",
     "sources": [
       "Impact! The Hour of Revival"
-    ]
+    ],
+    "images": {
+      "5": "Card-0434.png",
+      "6": "Card-0435.png"
+    }
   },
   {
     "id": "madara-uchiha-falling-into-place",
@@ -7259,7 +8263,11 @@
     "sources": [
       "Impact! The Great War Begins",
       "Impact! The Great War Begins (Hard Mode)"
-    ]
+    ],
+    "images": {
+      "5": "Card-0646.png",
+      "6": "Card-0647.png"
+    }
   },
   {
     "id": "madara-uchiha-fortitude-resolution",
@@ -7286,7 +8294,11 @@
     "globalDate": "2019-08-06",
     "sources": [
       "Super Impact! Fate of Reincarnation"
-    ]
+    ],
+    "images": {
+      "6": "Card-0859.png",
+      "ba": "Card-0860.png"
+    }
   },
   {
     "id": "madara-uchiha-out-of-the-darkness",
@@ -7302,7 +8314,10 @@
     "globalDate": "2018-12-11",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "6": "Card-0738.png"
+    }
   },
   {
     "id": "madara-uchiha-path-of-dreams",
@@ -7342,7 +8357,13 @@
     "globalDate": "2017-12-31",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0523.png",
+      "6": "Card-0524.png",
+      "7": "Card-2098.png",
+      "ba": "Card-0525.png"
+    }
   },
   {
     "id": "madara-uchiha-phantasy-s-beckoning-light",
@@ -7369,7 +8390,11 @@
     "globalDate": "2018-12-31",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0747.png",
+      "6": "Card-0748.png"
+    }
   },
   {
     "id": "madara-uchiha-power-of-life-or-death",
@@ -7395,7 +8420,11 @@
     "globalDate": "2018-09-18",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0680.png",
+      "6": "Card-0681.png"
+    }
   },
   {
     "id": "madara-uchiha-power-of-rinne",
@@ -7435,7 +8464,12 @@
     "globalDate": "2020-08-18",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-2120.png",
+      "6": "Card-2121.png",
+      "ba": "Card-2122.png"
+    }
   },
   {
     "id": "madara-uchiha-solitary-devastation",
@@ -7475,7 +8509,12 @@
     "globalDate": "2019-02-22",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0770.png",
+      "6": "Card-0771.png",
+      "ba": "Card-0772.png"
+    }
   },
   {
     "id": "madara-uchiha-the-eyes-that-shook-heaven-and-earth",
@@ -7505,7 +8544,11 @@
     "globalDate": "2018-10-16",
     "sources": [
       "Rival Warlords Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0695.png",
+      "6": "Card-0696.png"
+    }
   },
   {
     "id": "madara-uchiha-the-vilest-name",
@@ -7536,7 +8579,11 @@
     "globalDate": "2017-03-30",
     "sources": [
       "Various Blazing Fest Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0333.png",
+      "6": "Card-0334.png"
+    }
   },
   {
     "id": "mahiru-superior-swordsmanship",
@@ -7553,7 +8600,10 @@
     "sources": [
       "Story Mode",
       "Stage 8: Destruction of the Hidden Leaf"
-    ]
+    ],
+    "images": {
+      "3": "Card-0025.png"
+    }
   },
   {
     "id": "mangetsu-hozuki-wielder-of-the-seven-swords",
@@ -7583,7 +8633,11 @@
     "globalDate": "2018-06-19",
     "sources": [
       "Mist-Shrouded Heir of the Seven Swords"
-    ]
+    ],
+    "images": {
+      "5": "Card-0629.png",
+      "6": "Card-0630.png"
+    }
   },
   {
     "id": "masked-man-evil-heart",
@@ -7610,7 +8664,11 @@
     "globalDate": "2020-06-30",
     "sources": [
       "Super Impact! Madness Beneath the Mask"
-    ]
+    ],
+    "images": {
+      "6": "Card-2102.png",
+      "ba": "Card-2103.png"
+    }
   },
   {
     "id": "masked-man-mad-dreamer",
@@ -7642,7 +8700,11 @@
     "sources": [
       "Impact! Mastermind of Calamity",
       "Impact! Mastermind of Calamity (Hard Mode)"
-    ]
+    ],
+    "images": {
+      "5": "Card-0631.png",
+      "6": "Card-0632.png"
+    }
   },
   {
     "id": "mecha-naruto-steel-heart",
@@ -7657,7 +8719,10 @@
     "range": "vast",
     "sources": [
       "Incoming! Superalloy Envoy"
-    ]
+    ],
+    "images": {
+      "6": "Card-0791.png"
+    }
   },
   {
     "id": "mei-terumi-enticing-charm",
@@ -7675,7 +8740,10 @@
       "Phantom Castle 30",
       "Phantom Castle 35",
       "Phantom Castle 45"
-    ]
+    ],
+    "images": {
+      "6": "Card-0764.png"
+    }
   },
   {
     "id": "mei-terumi-the-mist-that-melts-all",
@@ -7706,7 +8774,11 @@
     "globalDate": "2017-05-04",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0358.png",
+      "6": "Card-0359.png"
+    }
   },
   {
     "id": "meizu-poisonous-left-arm",
@@ -7723,7 +8795,10 @@
     "sources": [
       "Story Mode",
       "Stage 3: Land of Waves"
-    ]
+    ],
+    "images": {
+      "3": "Card-0043.png"
+    }
   },
   {
     "id": "menma-namikaze-calm-and-collected",
@@ -7740,7 +8815,10 @@
     "sources": [
       "Road to Tenten",
       "Panel Mission"
-    ]
+    ],
+    "images": {
+      "6": "Card-2073.png"
+    }
   },
   {
     "id": "mifune-self-respect",
@@ -7758,7 +8836,10 @@
       "Phantom Castle 14",
       "Phantom Castle 27",
       "Phantom Castle 47"
-    ]
+    ],
+    "images": {
+      "6": "Card-0472.png"
+    }
   },
   {
     "id": "might-dai-something-to-protect",
@@ -7788,7 +8869,11 @@
     "globalDate": "2018-08-07",
     "sources": [
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "5": "Card-0657.png",
+      "6": "Card-0658.png"
+    }
   },
   {
     "id": "might-guy-azure-roar",
@@ -7819,7 +8904,11 @@
     "globalDate": "2017-08-29",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0432.png",
+      "6": "Card-0433.png"
+    }
   },
   {
     "id": "might-guy-carrying-out-the-oath",
@@ -7836,7 +8925,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-2039.png"
+    }
   },
   {
     "id": "might-guy-deep-crimson-youth",
@@ -7867,7 +8959,11 @@
     "globalDate": "2017-11-21",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0486.png",
+      "6": "Card-0487.png"
+    }
   },
   {
     "id": "might-guy-exploding-fists",
@@ -7898,7 +8994,11 @@
     "globalDate": "2017-03-08",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0315.png",
+      "6": "Card-0316.png"
+    }
   },
   {
     "id": "might-guy-hot-blooded-youth",
@@ -7929,7 +9029,11 @@
     "globalDate": "2016-11-09",
     "sources": [
       "Ninja Pearl Bundle purchase"
-    ]
+    ],
+    "images": {
+      "5": "Card-0212.png",
+      "6": "Card-0213.png"
+    }
   },
   {
     "id": "might-guy-passionate-fist",
@@ -7969,7 +9073,12 @@
     "globalDate": "2018-11-06",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0707.png",
+      "6": "Card-0708.png",
+      "ba": "Card-0709.png"
+    }
   },
   {
     "id": "might-guy-surging-blood",
@@ -8001,7 +9110,11 @@
     "sources": [
       "Impact! Burning Rage of the Crimson Dragon",
       "Impact! Burning Rage of the Crimson Dragon (Hard Mode)"
-    ]
+    ],
+    "images": {
+      "5": "Card-0591.png",
+      "6": "Card-0592.png"
+    }
   },
   {
     "id": "minato-namikaze-confronting-karma",
@@ -8032,7 +9145,11 @@
     "globalDate": "2017-07-25",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0409.png",
+      "6": "Card-0410.png"
+    }
   },
   {
     "id": "minato-namikaze-dazzling-bravery",
@@ -8072,7 +9189,12 @@
     "globalDate": "2018-12-18",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0739.png",
+      "6": "Card-0740.png",
+      "ba": "Card-0741.png"
+    }
   },
   {
     "id": "minato-namikaze-flash-of-dawn",
@@ -8102,7 +9224,11 @@
     "globalDate": "2018-01-15",
     "sources": [
       "\"New Year's Resolution\" Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0528.png",
+      "6": "Card-0529.png"
+    }
   },
   {
     "id": "minato-namikaze-flash-of-the-battlefield",
@@ -8119,7 +9245,10 @@
     "sources": [
       "Ninja World Clash",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-0459.png"
+    }
   },
   {
     "id": "minato-namikaze-natural-talent",
@@ -8136,7 +9265,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-0814.png"
+    }
   },
   {
     "id": "minato-namikaze-raikosekka",
@@ -8162,7 +9294,11 @@
     "globalDate": "2020-06-30",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-2100.png",
+      "6": "Card-2101.png"
+    }
   },
   {
     "id": "minato-namikaze-rapid-lightning",
@@ -8193,7 +9329,11 @@
     "globalDate": "2016-12-07",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0229.png",
+      "6": "Card-0230.png"
+    }
   },
   {
     "id": "minato-namikaze-reowned-flash",
@@ -8210,7 +9350,10 @@
     "sources": [
       "Panel Mission",
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "6": "Card-2118.png"
+    }
   },
   {
     "id": "minato-namikaze-swift-flash",
@@ -8237,7 +9380,11 @@
     "globalDate": "2018-06-19",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0627.png",
+      "6": "Card-0628.png"
+    }
   },
   {
     "id": "minato-namikaze-the-silent-hero",
@@ -8267,7 +9414,11 @@
     "globalDate": "2018-09-11",
     "sources": [
       "Ninja Pearl Bundle purchase"
-    ]
+    ],
+    "images": {
+      "5": "Card-0678.png",
+      "6": "Card-0679.png"
+    }
   },
   {
     "id": "minato-namikaze-unfading-courage",
@@ -8293,7 +9444,11 @@
     "globalDate": "2019-02-19",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0760.png",
+      "6": "Card-0761.png"
+    }
   },
   {
     "id": "minato-namikaze-yellow-flash-of-the-leaf",
@@ -8309,7 +9464,10 @@
     "globalDate": "2016-12-28",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0250.png"
+    }
   },
   {
     "id": "mist-anbu-male-mask-without-mercy",
@@ -8325,7 +9483,10 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Story Mode"
-    ]
+    ],
+    "images": {
+      "2": "Card-0126.png"
+    }
   },
   {
     "id": "mist-chunin-male-harsh-exam-graduate",
@@ -8341,7 +9502,10 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Story Mode"
-    ]
+    ],
+    "images": {
+      "1": "Card-0125.png"
+    }
   },
   {
     "id": "misumi-tsurugi-360-degree-movement",
@@ -8358,7 +9522,10 @@
     "sources": [
       "Story Mode",
       "Stage 6: Preliminaries!"
-    ]
+    ],
+    "images": {
+      "3": "Card-0032.png"
+    }
   },
   {
     "id": "mizuki-hidden-treachery",
@@ -8384,7 +9551,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Rare Summon"
-    ]
+    ],
+    "images": {
+      "3": "Card-0098.png",
+      "4": "Card-0099.png"
+    }
   },
   {
     "id": "mu-ingenuity-reborn",
@@ -8402,7 +9573,10 @@
       "Phantom Castle 10",
       "Phantom Castle 25",
       "Phantom Castle 43"
-    ]
+    ],
+    "images": {
+      "6": "Card-0391.png"
+    }
   },
   {
     "id": "mubi-phantom-of-the-trinity",
@@ -8419,7 +9593,10 @@
     "sources": [
       "Story Mode",
       "Stage 5: Exam Round 2"
-    ]
+    ],
+    "images": {
+      "3": "Card-0037.png"
+    }
   },
   {
     "id": "nagato-as-the-older-student",
@@ -8459,7 +9636,12 @@
     "globalDate": "2020-04-14",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-2074.png",
+      "6": "Card-2075.png",
+      "ba": "Card-2076.png"
+    }
   },
   {
     "id": "nagato-hope-for-peace",
@@ -8489,7 +9671,11 @@
     "globalDate": "2019-06-04",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0823.png",
+      "6": "Card-0824.png"
+    }
   },
   {
     "id": "nagato-proclaimed-ideals",
@@ -8519,7 +9705,11 @@
     "globalDate": "2017-05-04",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0360.png",
+      "6": "Card-0361.png"
+    }
   },
   {
     "id": "nagato-reunion-with-hope",
@@ -8550,7 +9740,11 @@
     "globalDate": "2018-01-23",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0534.png",
+      "6": "Card-0535.png"
+    }
   },
   {
     "id": "naruto-uzumaki-as-a-friend",
@@ -8577,7 +9771,11 @@
     "globalDate": "2018-08-21",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0659.png",
+      "6": "Card-0660.png"
+    }
   },
   {
     "id": "naruto-uzumaki-bewitching-transformation",
@@ -8596,7 +9794,10 @@
       "Phantom Castle 23",
       "Phantom Castle 26",
       "Phantom Castle 36"
-    ]
+    ],
+    "images": {
+      "6": "Card-0293.png"
+    }
   },
   {
     "id": "naruto-uzumaki-beyond-rasen",
@@ -8626,7 +9827,11 @@
     "globalDate": "2019-10-23",
     "sources": [
       "Blade of the Roaring Storm"
-    ]
+    ],
+    "images": {
+      "5": "Card-2000.png",
+      "6": "Card-2001.png"
+    }
   },
   {
     "id": "naruto-uzumaki-blind-rage",
@@ -8653,7 +9858,11 @@
     "globalDate": "2019-05-28",
     "sources": [
       "Super Impact! Destruction of Self"
-    ]
+    ],
+    "images": {
+      "6": "Card-0819.png",
+      "ba": "Card-0820.png"
+    }
   },
   {
     "id": "naruto-uzumaki-blowing-gale",
@@ -8669,7 +9878,10 @@
     "globalDate": "2016-12-15",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0241.png"
+    }
   },
   {
     "id": "naruto-uzumaki-boy-who-aims-to-be-hokage",
@@ -8695,7 +9907,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "3": "Card-0135.png",
+      "4": "Card-0136.png"
+    }
   },
   {
     "id": "naruto-uzumaki-brave-unyielding-heart",
@@ -8712,7 +9928,10 @@
     "sources": [
       "Panel Mission",
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "6": "Card-2119.png"
+    }
   },
   {
     "id": "naruto-uzumaki-child-of-the-prophecy",
@@ -8743,7 +9962,11 @@
     "globalDate": "2017-04-25",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0348.png",
+      "6": "Card-0349.png"
+    }
   },
   {
     "id": "naruto-uzumaki-day-of-vows",
@@ -8773,7 +9996,11 @@
     "globalDate": "2017-03-24",
     "sources": [
       "Wedding Special Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0327.png",
+      "6": "Card-0328.png"
+    }
   },
   {
     "id": "naruto-uzumaki-endowed-power",
@@ -8803,7 +10030,11 @@
     "globalDate": "2020-05-22",
     "sources": [
       "Legendary Summon Banner"
-    ]
+    ],
+    "images": {
+      "6": "Card-2089.png",
+      "7": "Card-2090.png"
+    }
   },
   {
     "id": "naruto-uzumaki-full-out-battle",
@@ -8833,7 +10064,11 @@
     "globalDate": "2020-08-04",
     "sources": [
       "Legendary Summon Banner"
-    ]
+    ],
+    "images": {
+      "6": "Card-2114.png",
+      "7": "Card-2115.png"
+    }
   },
   {
     "id": "naruto-uzumaki-gale-of-vigor",
@@ -8863,7 +10098,11 @@
     "globalDate": "2019-10-09",
     "sources": [
       "Champion of the Hidden Leaf Summon; Naruto Birthday Special Legendary Ninja Festival"
-    ]
+    ],
+    "images": {
+      "5": "Card-0891.png",
+      "6": "Card-0892.png"
+    }
   },
   {
     "id": "naruto-uzumaki-happy-new-year",
@@ -8879,7 +10118,10 @@
     "globalDate": "2018-12-31",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "6": "Card-0744.png"
+    }
   },
   {
     "id": "naruto-uzumaki-indomitable-ninja-way",
@@ -8909,7 +10151,11 @@
     "globalDate": "2017-08-07",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0421.png",
+      "6": "Card-0422.png"
+    }
   },
   {
     "id": "naruto-uzumaki-name-and-soul",
@@ -8926,7 +10172,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-0777.png"
+    }
   },
   {
     "id": "naruto-uzumaki-nine-tails-power-up",
@@ -8956,7 +10205,11 @@
     "globalDate": "2016-10-14",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0179.png",
+      "5": "Card-0180.png"
+    }
   },
   {
     "id": "naruto-uzumaki-nine-tails-shroud",
@@ -8987,7 +10240,11 @@
     "globalDate": "2017-01-04",
     "sources": [
       "Various Blazing Festival Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0259.png",
+      "6": "Card-0260.png"
+    }
   },
   {
     "id": "naruto-uzumaki-no-1-maverick",
@@ -9018,7 +10275,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0044.png",
+      "6": "Card-0045.png"
+    }
   },
   {
     "id": "naruto-uzumaki-pervading-feelings",
@@ -9044,7 +10305,11 @@
     "globalDate": "2019-04-23",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0800.png",
+      "6": "Card-0801.png"
+    }
   },
   {
     "id": "naruto-uzumaki-power-of-determination",
@@ -9085,7 +10350,12 @@
     "globalDate": "2017-10-03",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0453.png",
+      "6": "Card-0454.png",
+      "ba": "Card-0455.png"
+    }
   },
   {
     "id": "naruto-uzumaki-power-of-the-fourth-tail",
@@ -9116,7 +10386,11 @@
     "globalDate": "2017-01-27",
     "sources": [
       "Impact! Raging Fury"
-    ]
+    ],
+    "images": {
+      "5": "Card-0281.png",
+      "6": "Card-0282.png"
+    }
   },
   {
     "id": "naruto-uzumaki-prankster",
@@ -9133,7 +10407,10 @@
     "sources": [
       "Panel Mission",
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "6": "Card-2084.png"
+    }
   },
   {
     "id": "naruto-uzumaki-precious-feelings",
@@ -9173,7 +10450,12 @@
     "globalDate": "2020-10-20",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-2134.png",
+      "6": "Card-2135.png",
+      "ba": "Card-2136.png"
+    }
   },
   {
     "id": "naruto-uzumaki-proof-of-bonds",
@@ -9204,7 +10486,11 @@
     "globalDate": "2017-07-06",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0400.png",
+      "6": "Card-0401.png"
+    }
   },
   {
     "id": "naruto-uzumaki-proof-of-ties-that-bind",
@@ -9235,7 +10521,11 @@
     "globalDate": "2018-02-20",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0551.png",
+      "6": "Card-0552.png"
+    }
   },
   {
     "id": "naruto-uzumaki-rasengan-mastered",
@@ -9266,7 +10556,11 @@
     "globalDate": "2016-09-28",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0161.png",
+      "6": "Card-0162.png"
+    }
   },
   {
     "id": "naruto-uzumaki-roaring-tears",
@@ -9292,7 +10586,11 @@
     "globalDate": "2020-11-04",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-2137.png",
+      "6": "Card-2138.png"
+    }
   },
   {
     "id": "naruto-uzumaki-sea-spray-blast",
@@ -9322,7 +10620,11 @@
     "globalDate": "2017-11-14",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0482.png",
+      "6": "Card-0483.png"
+    }
   },
   {
     "id": "naruto-uzumaki-seal-of-light",
@@ -9349,7 +10651,11 @@
     "globalDate": "2017-08-22",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0427.png",
+      "6": "Card-0428.png"
+    }
   },
   {
     "id": "naruto-uzumaki-shining-warrior-of-bonds",
@@ -9379,7 +10685,11 @@
     "globalDate": "2018-04-03",
     "sources": [
       "\"Path of Heroes\" Login Bonus"
-    ]
+    ],
+    "images": {
+      "5": "Card-0583.png",
+      "6": "Card-0584.png"
+    }
   },
   {
     "id": "naruto-uzumaki-taboo-breaking-frustration",
@@ -9419,7 +10729,12 @@
     "globalDate": "2019-03-19",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0780.png",
+      "6": "Card-0781.png",
+      "ba": "Card-0782.png"
+    }
   },
   {
     "id": "naruto-uzumaki-the-back-of-a-figure",
@@ -9436,7 +10751,10 @@
     "sources": [
       "Panel Mission",
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "6": "Card-2133.png"
+    }
   },
   {
     "id": "naruto-uzumaki-the-future-we-want",
@@ -9476,7 +10794,12 @@
     "globalDate": "2019-08-20",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0862.png",
+      "6": "Card-0863.png",
+      "ba": "Card-0864.png"
+    }
   },
   {
     "id": "naruto-uzumaki-the-inheritor",
@@ -9503,7 +10826,11 @@
     "globalDate": "2018-08-28",
     "sources": [
       "Super Impact! Catching up to You"
-    ]
+    ],
+    "images": {
+      "6": "Card-0665.png",
+      "ba": "Card-0666.png"
+    }
   },
   {
     "id": "naruto-uzumaki-the-worst-loser",
@@ -9542,7 +10869,12 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Stage 7: Exam Round 3"
-    ]
+    ],
+    "images": {
+      "3": "Card-0001.png",
+      "4": "Card-0002.png",
+      "5": "Card-0003.png"
+    }
   },
   {
     "id": "naruto-uzumaki-true-peace",
@@ -9582,7 +10914,12 @@
     "globalDate": "2020-01-21",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-2036.png",
+      "6": "Card-2037.png",
+      "ba": "Card-2038.png"
+    }
   },
   {
     "id": "naruto-uzumaki-two-suns",
@@ -9613,7 +10950,11 @@
     "globalDate": "2017-06-13",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0383.png",
+      "6": "Card-0384.png"
+    }
   },
   {
     "id": "naruto-uzumaki-unshakeable-will",
@@ -9644,7 +10985,11 @@
     "globalDate": "2016-12-15",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0237.png",
+      "6": "Card-0238.png"
+    }
   },
   {
     "id": "neji-hyuga-a-caged-bird",
@@ -9675,7 +11020,11 @@
     "globalDate": "2016-09-21",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0150.png",
+      "6": "Card-0151.png"
+    }
   },
   {
     "id": "neji-hyuga-a-quiet-acumen",
@@ -9694,7 +11043,10 @@
       "Phantom Castle 25",
       "Phantom Castle 28",
       "Phantom Castle 44"
-    ]
+    ],
+    "images": {
+      "6": "Card-0406.png"
+    }
   },
   {
     "id": "neji-hyuga-an-unchangeable-destiny",
@@ -9725,7 +11077,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0066.png",
+      "5": "Card-0067.png"
+    }
   },
   {
     "id": "neji-hyuga-burden-of-fate",
@@ -9766,7 +11122,12 @@
     "globalDate": "2017-12-05",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0493.png",
+      "6": "Card-0494.png",
+      "ba": "Card-0495.png"
+    }
   },
   {
     "id": "neji-hyuga-freedom-of-choice",
@@ -9794,7 +11155,11 @@
     "sources": [
       "Super Impact! Wings of Freedom",
       "Super Impact! Boss Rush"
-    ]
+    ],
+    "images": {
+      "6": "Card-2004.png",
+      "ba": "Card-2005.png"
+    }
   },
   {
     "id": "obito-uchiha-despair-of-loneliness",
@@ -9825,7 +11190,11 @@
     "globalDate": "2017-06-29",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0394.png",
+      "6": "Card-0395.png"
+    }
   },
   {
     "id": "obito-uchiha-drawn-to-life",
@@ -9856,7 +11225,11 @@
     "globalDate": "2017-10-24",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0468.png",
+      "6": "Card-0469.png"
+    }
   },
   {
     "id": "obito-uchiha-faraway-dream",
@@ -9889,7 +11262,11 @@
       "Impact! Origin of Destruction",
       "Battleground! Giant Boss Rush",
       "Super Impact! Giant Boss Rush"
-    ]
+    ],
+    "images": {
+      "5": "Card-0411.png",
+      "6": "Card-0412.png"
+    }
   },
   {
     "id": "obito-uchiha-hollow-heart",
@@ -9916,7 +11293,11 @@
     "globalDate": "2018-12-11",
     "sources": [
       "Super Impact! Empty Spectacle"
-    ]
+    ],
+    "images": {
+      "6": "Card-0736.png",
+      "ba": "Card-0737.png"
+    }
   },
   {
     "id": "obito-uchiha-inching-towards-perfection",
@@ -9943,7 +11324,11 @@
     "globalDate": "2020-04-07",
     "sources": [
       "Super Impact! Inhabited Demise"
-    ]
+    ],
+    "images": {
+      "6": "Card-2071.png",
+      "ba": "Card-2072.png"
+    }
   },
   {
     "id": "obito-uchiha-into-total-darkness",
@@ -9983,7 +11368,12 @@
     "globalDate": "2018-09-04",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0669.png",
+      "6": "Card-0670.png",
+      "ba": "Card-0671.png"
+    }
   },
   {
     "id": "obito-uchiha-remnants-of-despair",
@@ -10013,7 +11403,11 @@
     "globalDate": "2018-11-13",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0710.png",
+      "6": "Card-0711.png"
+    }
   },
   {
     "id": "obito-uchiha-state-of-carnage",
@@ -10053,7 +11447,12 @@
     "globalDate": "2019-02-22",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0767.png",
+      "6": "Card-0768.png",
+      "ba": "Card-0769.png"
+    }
   },
   {
     "id": "obito-uchiha-the-final-destination",
@@ -10079,7 +11478,11 @@
     "globalDate": "2019-08-06",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0856.png",
+      "6": "Card-0857.png"
+    }
   },
   {
     "id": "obito-uchiha-the-illusory-world",
@@ -10105,7 +11508,11 @@
     "globalDate": "2020-04-28",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-2080.png",
+      "6": "Card-2081.png"
+    }
   },
   {
     "id": "obito-uchiha-the-world-we-seek",
@@ -10124,7 +11531,10 @@
       "Phantom Castle 26",
       "Phantom Castle 28",
       "Phantom Castle 46"
-    ]
+    ],
+    "images": {
+      "6": "Card-0448.png"
+    }
   },
   {
     "id": "obito-uchiha-to-protect-his-allies",
@@ -10155,7 +11565,11 @@
     "globalDate": "2016-12-28",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0253.png",
+      "6": "Card-0254.png"
+    }
   },
   {
     "id": "obito-uchiha-true-self",
@@ -10172,7 +11586,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-2123.png"
+    }
   },
   {
     "id": "obito-uchiha-wrapped-in-mysteries",
@@ -10199,7 +11616,11 @@
     "globalDate": "2019-04-23",
     "sources": [
       "Super Impact! The End of Salvation"
-    ]
+    ],
+    "images": {
+      "6": "Card-0804.png",
+      "ba": "Card-0805.png"
+    }
   },
   {
     "id": "oboro-warrior-of-the-trinity",
@@ -10216,7 +11637,10 @@
     "sources": [
       "Story Mode",
       "Stage 5: Exam Round 2"
-    ]
+    ],
+    "images": {
+      "3": "Card-0038.png"
+    }
   },
   {
     "id": "ohnoki-between-a-rock-and-a-hard-place",
@@ -10247,7 +11671,11 @@
     "globalDate": "2017-05-23",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0368.png",
+      "6": "Card-0369.png"
+    }
   },
   {
     "id": "omoi-intense-conviction",
@@ -10277,7 +11705,11 @@
     "globalDate": "2019-05-28",
     "sources": [
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "5": "Card-0821.png",
+      "6": "Card-0822.png"
+    }
   },
   {
     "id": "orochimaru-aspirations-of-indulgence",
@@ -10307,7 +11739,11 @@
     "globalDate": "2019-06-18",
     "sources": [
       "The All-Knowing Serpent"
-    ]
+    ],
+    "images": {
+      "5": "Card-0831.png",
+      "6": "Card-0832.png"
+    }
   },
   {
     "id": "orochimaru-corrupt-rebirth",
@@ -10339,7 +11775,11 @@
     "sources": [
       "Impact! The Ruler of the Serpents!",
       "Battleground! Giant Boss Rush"
-    ]
+    ],
+    "images": {
+      "5": "Card-0269.png",
+      "6": "Card-0270.png"
+    }
   },
   {
     "id": "orochimaru-endless-rebirth",
@@ -10367,7 +11807,11 @@
     "sources": [
       "Super Impact! Eternal Life",
       "Super Impact! Boss Rush"
-    ]
+    ],
+    "images": {
+      "6": "Card-0888.png",
+      "ba": "Card-0889.png"
+    }
   },
   {
     "id": "orochimaru-hidden-ambitions",
@@ -10398,7 +11842,11 @@
     "globalDate": "2017-09-19",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0446.png",
+      "6": "Card-0447.png"
+    }
   },
   {
     "id": "orochimaru-searching-for-great-wisdom",
@@ -10415,7 +11863,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-2108.png"
+    }
   },
   {
     "id": "orochimaru-the-horror-returns",
@@ -10446,7 +11897,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0074.png",
+      "5": "Card-0075.png"
+    }
   },
   {
     "id": "orochimaru-the-snake-ninja",
@@ -10476,7 +11931,11 @@
     "globalDate": "2016-10-05",
     "sources": [
       "Shadow of the Vile Serpent"
-    ]
+    ],
+    "images": {
+      "4": "Card-0171.png",
+      "5": "Card-0172.png"
+    }
   },
   {
     "id": "orochimaru-winds-of-chaos",
@@ -10516,7 +11975,12 @@
     "globalDate": "2018-05-08",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0598.png",
+      "6": "Card-0599.png",
+      "ba": "Card-0600.png"
+    }
   },
   {
     "id": "pain-chikushodo-eyes-of-judgement",
@@ -10533,7 +11997,10 @@
     "sources": [
       "Phantom Castle 19",
       "Phantom Castle 28"
-    ]
+    ],
+    "images": {
+      "6": "Card-0572.png"
+    }
   },
   {
     "id": "pain-chikushodo-glimpse-of-the-divine",
@@ -10564,7 +12031,11 @@
     "globalDate": "2018-05-22",
     "sources": [
       "Impact! Divine Intervention"
-    ]
+    ],
+    "images": {
+      "5": "Card-0612.png",
+      "6": "Card-0613.png"
+    }
   },
   {
     "id": "pain-gakido-limitless-maelstrom",
@@ -10594,7 +12065,11 @@
     "globalDate": "2018-07-03",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0640.png",
+      "6": "Card-0641.png"
+    }
   },
   {
     "id": "pain-jigokudo-the-judge-of-truth",
@@ -10624,7 +12099,11 @@
     "globalDate": "2018-09-11",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0676.png",
+      "6": "Card-0677.png"
+    }
   },
   {
     "id": "pain-ningendo-palm-that-touches-the-soul",
@@ -10654,7 +12133,11 @@
     "globalDate": "2018-12-04",
     "sources": [
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "5": "Card-0727.png",
+      "6": "Card-0728.png"
+    }
   },
   {
     "id": "pain-shurado-vessel-of-madness",
@@ -10684,7 +12167,11 @@
     "globalDate": "2018-05-08",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0604.png",
+      "6": "Card-0605.png"
+    }
   },
   {
     "id": "pain-tendo-dawn-of-peace",
@@ -10701,7 +12188,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-0850.png"
+    }
   },
   {
     "id": "pain-tendo-endless-cycle-of-battle",
@@ -10741,7 +12231,12 @@
     "globalDate": "2018-10-02",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0685.png",
+      "6": "Card-0686.png",
+      "ba": "Card-0687.png"
+    }
   },
   {
     "id": "pain-tendo-godlike-power",
@@ -10781,7 +12276,12 @@
     "globalDate": "2020-05-12",
     "sources": [
       "Various \"Ultimate Blazing Bash\" Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-2085.png",
+      "6": "Card-2086.png",
+      "ba": "Card-2087.png"
+    }
   },
   {
     "id": "pain-tendo-hammer-of-pain",
@@ -10812,7 +12312,11 @@
     "globalDate": "2017-05-02",
     "sources": [
       "Impact! Force of Justice"
-    ]
+    ],
+    "images": {
+      "5": "Card-0352.png",
+      "6": "Card-0353.png"
+    }
   },
   {
     "id": "pain-tendo-signal-flare-of-revolution",
@@ -10843,7 +12347,11 @@
     "globalDate": "2017-09-26",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0451.png",
+      "6": "Card-0452.png"
+    }
   },
   {
     "id": "pain-tendo-visage-of-justice",
@@ -10869,7 +12377,11 @@
     "globalDate": "2019-05-28",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0817.png",
+      "6": "Card-0818.png"
+    }
   },
   {
     "id": "pakura-scorching-red",
@@ -10899,7 +12411,11 @@
     "globalDate": "2019-05-21",
     "sources": [
       "Scorching Heroine"
-    ]
+    ],
+    "images": {
+      "5": "Card-0815.png",
+      "6": "Card-0816.png"
+    }
   },
   {
     "id": "raido-namiashi-an-indomitable-spirit",
@@ -10916,7 +12432,10 @@
     "sources": [
       "Story Mode",
       "Stage 4: Exam Round 1"
-    ]
+    ],
+    "images": {
+      "3": "Card-0028.png"
+    }
   },
   {
     "id": "rasa-family-values",
@@ -10946,7 +12465,11 @@
     "globalDate": "2017-09-12",
     "sources": [
       "Reunion and Clash on the Golden Sands"
-    ]
+    ],
+    "images": {
+      "5": "Card-0442.png",
+      "6": "Card-0443.png"
+    }
   },
   {
     "id": "rin-nohara-all-loving-gaze",
@@ -10962,7 +12485,10 @@
     "globalDate": "2019-08-06",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "6": "Card-0858.png"
+    }
   },
   {
     "id": "rin-nohara-harboring-calamity",
@@ -10980,7 +12506,10 @@
       "Phantom Castle 31",
       "Phantom Castle 36",
       "Phantom Castle 46"
-    ]
+    ],
+    "images": {
+      "6": "Card-0786.png"
+    }
   },
   {
     "id": "rin-nohara-loving-gift",
@@ -11010,7 +12539,11 @@
     "globalDate": "2017-02-21",
     "sources": [
       "Sweet Gift Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0294.png",
+      "6": "Card-0295.png"
+    }
   },
   {
     "id": "rin-nohara-overflowing-kindness",
@@ -11041,7 +12574,11 @@
     "globalDate": "2016-12-28",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0251.png",
+      "6": "Card-0252.png"
+    }
   },
   {
     "id": "rock-lee-a-genius-of-hard-work",
@@ -11082,7 +12619,12 @@
     "globalDate": "2017-11-07",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0473.png",
+      "6": "Card-0474.png",
+      "ba": "Card-0475.png"
+    }
   },
   {
     "id": "rock-lee-fighting-spirit-overflowing",
@@ -11112,7 +12654,11 @@
     "globalDate": "2017-12-12",
     "sources": [
       "Shinobi Life on the Battlefield"
-    ]
+    ],
+    "images": {
+      "5": "Card-0506.png",
+      "6": "Card-0507.png"
+    }
   },
   {
     "id": "rock-lee-never-gives-up",
@@ -11143,7 +12689,11 @@
     "globalDate": "2016-09-21",
     "sources": [
       "The Leaf's Handsome Devil"
-    ]
+    ],
+    "images": {
+      "4": "Card-0158.png",
+      "5": "Card-0159.png"
+    }
   },
   {
     "id": "rock-lee-the-eight-gates",
@@ -11170,7 +12720,11 @@
     "globalDate": "2016-09-21",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0148.png",
+      "6": "Card-0149.png"
+    }
   },
   {
     "id": "rock-lee-the-path-of-trust",
@@ -11200,7 +12754,11 @@
     "globalDate": "2019-05-08",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0809.png",
+      "6": "Card-0810.png"
+    }
   },
   {
     "id": "roshi-magma-veteran",
@@ -11232,7 +12790,11 @@
     "sources": [
       "Impact! Molten Torrent",
       "Super Impact! Giant Boss Rush"
-    ]
+    ],
+    "images": {
+      "5": "Card-0553.png",
+      "6": "Card-0554.png"
+    }
   },
   {
     "id": "roshi-scorching-shroud",
@@ -11262,7 +12824,11 @@
     "globalDate": "2019-10-15",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0896.png",
+      "6": "Card-0897.png"
+    }
   },
   {
     "id": "rou-melting-presence",
@@ -11292,7 +12858,11 @@
     "globalDate": "2017-02-07",
     "sources": [
       "A Shadow Hiding in the Night"
-    ]
+    ],
+    "images": {
+      "5": "Card-0285.png",
+      "6": "Card-0286.png"
+    }
   },
   {
     "id": "sai-drawings-unleashed",
@@ -11322,7 +12892,11 @@
     "globalDate": "2019-09-02",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0873.png",
+      "6": "Card-0874.png"
+    }
   },
   {
     "id": "sai-ink-drawn-from-the-heart",
@@ -11353,7 +12927,11 @@
     "sources": [
       "Clash Coin Exchange Shop",
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0500.png",
+      "6": "Card-0501.png"
+    }
   },
   {
     "id": "sai-mask-like-smile",
@@ -11383,7 +12961,11 @@
     "globalDate": "2016-12-15",
     "sources": [
       "Life-giving Brushstrokes"
-    ]
+    ],
+    "images": {
+      "5": "Card-0239.png",
+      "6": "Card-0240.png"
+    }
   },
   {
     "id": "sakon-grotesque-ninja",
@@ -11414,7 +12996,11 @@
     "globalDate": "2016-10-26",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0196.png",
+      "5": "Card-0197.png"
+    }
   },
   {
     "id": "sakon-sakon-of-the-west-gate",
@@ -11445,7 +13031,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0082.png",
+      "5": "Card-0083.png"
+    }
   },
   {
     "id": "sakumo-hatake-between-duty-and-comrades",
@@ -11475,7 +13065,11 @@
     "globalDate": "2019-11-26",
     "sources": [
       "Limited Period Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-2010.png",
+      "6": "Card-2011.png"
+    }
   },
   {
     "id": "sakura-haruno-back-to-back",
@@ -11501,7 +13095,11 @@
     "globalDate": "2020-04-07",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-2069.png",
+      "6": "Card-2070.png"
+    }
   },
   {
     "id": "sakura-haruno-beautiful-attire",
@@ -11531,7 +13129,11 @@
     "globalDate": "2017-01-24",
     "sources": [
       "Beauties Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0277.png",
+      "6": "Card-0278.png"
+    }
   },
   {
     "id": "sakura-haruno-cherry-blossoms-on-the-front-line",
@@ -11561,7 +13163,11 @@
     "globalDate": "2019-08-20",
     "sources": [
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "5": "Card-0868.png",
+      "6": "Card-0869.png"
+    }
   },
   {
     "id": "sakura-haruno-critical-fist",
@@ -11578,7 +13184,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-2097.png"
+    }
   },
   {
     "id": "sakura-haruno-dancing-cherry-blossoms",
@@ -11608,7 +13217,11 @@
     "globalDate": "2017-06-06",
     "sources": [
       "Rookie Mission"
-    ]
+    ],
+    "images": {
+      "4": "Card-0379.png",
+      "5": "Card-0380.png"
+    }
   },
   {
     "id": "sakura-haruno-hardened-resolve",
@@ -11639,7 +13252,11 @@
     "globalDate": "2016-09-21",
     "sources": [
       "Ninja Pearl Bundle purchase"
-    ]
+    ],
+    "images": {
+      "5": "Card-0152.png",
+      "6": "Card-0153.png"
+    }
   },
   {
     "id": "sakura-haruno-heroine-of-the-battlefield",
@@ -11669,7 +13286,11 @@
     "globalDate": "2017-05-17",
     "sources": [
       "A Woman's Battle Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0364.png",
+      "6": "Card-0365.png"
+    }
   },
   {
     "id": "sakura-haruno-maiden-in-love",
@@ -11700,7 +13321,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0052.png",
+      "5": "Card-0053.png"
+    }
   },
   {
     "id": "sakura-haruno-rich-aroma",
@@ -11730,7 +13355,11 @@
     "globalDate": "2019-02-05",
     "sources": [
       "Love-Filled Sweets Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0754.png",
+      "6": "Card-0755.png"
+    }
   },
   {
     "id": "sakura-haruno-sandy-beach-dreams",
@@ -11760,7 +13389,11 @@
     "globalDate": "2017-11-14",
     "sources": [
       "\"Swimsuit Shinobi\" Summon Round 1"
-    ]
+    ],
+    "images": {
+      "5": "Card-0480.png",
+      "6": "Card-0481.png"
+    }
   },
   {
     "id": "sakura-haruno-sheer-diligence",
@@ -11787,7 +13420,11 @@
     "globalDate": "2017-12-14",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0510.png",
+      "6": "Card-0511.png"
+    }
   },
   {
     "id": "sakura-haruno-spring-in-full-bloom",
@@ -11807,7 +13444,10 @@
       "Phantom Castle 5",
       "Phantom Castle 23",
       "Phantom Castle 38"
-    ]
+    ],
+    "images": {
+      "5": "Card-0191.png"
+    }
   },
   {
     "id": "sakura-haruno-standing-equal",
@@ -11838,7 +13478,11 @@
     "globalDate": "2017-07-06",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0398.png",
+      "6": "Card-0399.png"
+    }
   },
   {
     "id": "sakura-haruno-stunning-spring-breeze",
@@ -11878,7 +13522,12 @@
     "globalDate": "2019-04-09",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0792.png",
+      "6": "Card-0793.png",
+      "ba": "Card-0794.png"
+    }
   },
   {
     "id": "sakura-haruno-the-indomitable-maiden",
@@ -11905,7 +13554,11 @@
     "sources": [
       "Story Mode",
       "Stage 4: Exam Round 1"
-    ]
+    ],
+    "images": {
+      "3": "Card-0006.png",
+      "4": "Card-0007.png"
+    }
   },
   {
     "id": "sakura-haruno-unrelenting-commitment",
@@ -11936,7 +13589,11 @@
     "globalDate": "2016-12-15",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0235.png",
+      "6": "Card-0236.png"
+    }
   },
   {
     "id": "sakura-haruno-unwavering-feelings",
@@ -11977,7 +13634,12 @@
     "globalDate": "2018-03-06",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0556.png",
+      "6": "Card-0557.png",
+      "ba": "Card-0558.png"
+    }
   },
   {
     "id": "sand-chunin-male-assassin-from-the-sand",
@@ -11993,7 +13655,10 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Story Mode"
-    ]
+    ],
+    "images": {
+      "2": "Card-0127.png"
+    }
   },
   {
     "id": "sasori-eternal-art",
@@ -12024,7 +13689,11 @@
     "globalDate": "2016-11-25",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0221.png",
+      "6": "Card-0222.png"
+    }
   },
   {
     "id": "sasori-eternal-creation",
@@ -12050,7 +13719,11 @@
     "globalDate": "2019-10-02",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0882.png",
+      "6": "Card-0883.png"
+    }
   },
   {
     "id": "sasori-everlasting-being",
@@ -12080,7 +13753,11 @@
     "globalDate": "2018-07-17",
     "sources": [
       "Living Puppet Show of Doom"
-    ]
+    ],
+    "images": {
+      "5": "Card-0644.png",
+      "6": "Card-0645.png"
+    }
   },
   {
     "id": "sasori-puppet-mastery",
@@ -12110,7 +13787,11 @@
     "globalDate": "2019-03-26",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0784.png",
+      "6": "Card-0785.png"
+    }
   },
   {
     "id": "sasori-the-ultimate-puppet",
@@ -12150,7 +13831,12 @@
     "globalDate": "2018-08-07",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0651.png",
+      "6": "Card-0652.png",
+      "ba": "Card-0653.png"
+    }
   },
   {
     "id": "sasori-unchanging-embodiment",
@@ -12168,7 +13854,10 @@
       "Phantom Castle 9",
       "Phantom Castle 24",
       "Phantom Castle 26"
-    ]
+    ],
+    "images": {
+      "6": "Card-0372.png"
+    }
   },
   {
     "id": "sasuke-uchiha-a-break-from-the-waves",
@@ -12198,7 +13887,11 @@
     "globalDate": "2017-11-28",
     "sources": [
       "\"Swimsuit Shinobi\" Summon Round 2"
-    ]
+    ],
+    "images": {
+      "5": "Card-0490.png",
+      "6": "Card-0491.png"
+    }
   },
   {
     "id": "sasuke-uchiha-a-lone-heart",
@@ -12225,7 +13918,11 @@
     "sources": [
       "Story Mode",
       "Stage 8: Destruction of the Hidden Leaf"
-    ]
+    ],
+    "images": {
+      "3": "Card-0004.png",
+      "4": "Card-0005.png"
+    }
   },
   {
     "id": "sasuke-uchiha-a-new-ideal",
@@ -12241,7 +13938,10 @@
     "globalDate": "2018-12-26",
     "sources": [
       "Ninja World Clash"
-    ]
+    ],
+    "images": {
+      "6": "Card-0743.png"
+    }
   },
   {
     "id": "sasuke-uchiha-all-ending-thunderbolt",
@@ -12268,7 +13968,11 @@
     "globalDate": "2018-10-30",
     "sources": [
       "Super Impact! End of Retaliation"
-    ]
+    ],
+    "images": {
+      "6": "Card-0702.png",
+      "ba": "Card-0703.png"
+    }
   },
   {
     "id": "sasuke-uchiha-avenger",
@@ -12299,7 +14003,11 @@
     "globalDate": "2017-02-21",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0302.png",
+      "6": "Card-0303.png"
+    }
   },
   {
     "id": "sasuke-uchiha-battling-with-your-eyes",
@@ -12325,7 +14033,11 @@
     "globalDate": "2019-12-31",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-2029.png",
+      "6": "Card-2030.png"
+    }
   },
   {
     "id": "sasuke-uchiha-buried-past",
@@ -12365,7 +14077,12 @@
     "globalDate": "2019-08-20",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0865.png",
+      "6": "Card-0866.png",
+      "ba": "Card-0867.png"
+    }
   },
   {
     "id": "sasuke-uchiha-catalyst-of-ambition",
@@ -12382,7 +14099,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-0783.png"
+    }
   },
   {
     "id": "sasuke-uchiha-chidori-a-new-skill",
@@ -12413,7 +14133,11 @@
     "globalDate": "2016-10-14",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0175.png",
+      "6": "Card-0176.png"
+    }
   },
   {
     "id": "sasuke-uchiha-curse-mark-2nd-state",
@@ -12444,7 +14168,11 @@
     "globalDate": "2017-01-05",
     "sources": [
       "Impact! Battle in the Final Valley!"
-    ]
+    ],
+    "images": {
+      "5": "Card-0261.png",
+      "6": "Card-0262.png"
+    }
   },
   {
     "id": "sasuke-uchiha-darkness-of-deep-hatred",
@@ -12475,7 +14203,11 @@
     "globalDate": "2017-05-23",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0370.png",
+      "6": "Card-0371.png"
+    }
   },
   {
     "id": "sasuke-uchiha-desired-future",
@@ -12515,7 +14247,12 @@
     "globalDate": "2020-11-17",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-2139.png",
+      "6": "Card-2140.png",
+      "ba": "Card-2141.png"
+    }
   },
   {
     "id": "sasuke-uchiha-heart-warming-gift",
@@ -12545,7 +14282,11 @@
     "globalDate": "2017-12-09",
     "sources": [
       "A Very Uchiha Christmas Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0502.png",
+      "6": "Card-0503.png"
+    }
   },
   {
     "id": "sasuke-uchiha-hints-leading-to-the-truth",
@@ -12576,7 +14317,11 @@
     "globalDate": "2017-06-20",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0389.png",
+      "6": "Card-0390.png"
+    }
   },
   {
     "id": "sasuke-uchiha-judging-the-conventional",
@@ -12602,7 +14347,11 @@
     "globalDate": "2019-04-23",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0802.png",
+      "6": "Card-0803.png"
+    }
   },
   {
     "id": "sasuke-uchiha-lightning-storm-genius",
@@ -12632,7 +14381,11 @@
     "globalDate": "2019-12-03",
     "sources": [
       "\"Battle Prodigy\" Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-2012.png",
+      "6": "Card-2013.png"
+    }
   },
   {
     "id": "sasuke-uchiha-lone-survivor",
@@ -12663,7 +14416,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0046.png",
+      "6": "Card-0047.png"
+    }
   },
   {
     "id": "sasuke-uchiha-long-road-to-atonement",
@@ -12694,7 +14451,11 @@
     "globalDate": "2018-03-20",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0568.png",
+      "6": "Card-0569.png"
+    }
   },
   {
     "id": "sasuke-uchiha-one-step-to-hokage",
@@ -12721,7 +14482,11 @@
     "globalDate": "2018-08-28",
     "sources": [
       "Super Impact! Farewell to the Past"
-    ]
+    ],
+    "images": {
+      "6": "Card-0667.png",
+      "ba": "Card-0668.png"
+    }
   },
   {
     "id": "sasuke-uchiha-parting-wings",
@@ -12762,7 +14527,12 @@
     "globalDate": "2017-10-03",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0456.png",
+      "6": "Card-0457.png",
+      "ba": "Card-0458.png"
+    }
   },
   {
     "id": "sasuke-uchiha-pure-hatred",
@@ -12802,7 +14572,12 @@
     "globalDate": "2018-12-04",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0721.png",
+      "6": "Card-0722.png",
+      "ba": "Card-0723.png"
+    }
   },
   {
     "id": "sasuke-uchiha-rain-of-extinction",
@@ -12828,7 +14603,11 @@
     "globalDate": "2020-10-06",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-2131.png",
+      "6": "Card-2132.png"
+    }
   },
   {
     "id": "sasuke-uchiha-ready-for-the-curse-mark",
@@ -12859,7 +14638,11 @@
     "globalDate": "2016-10-14",
     "sources": [
       "Ninja Pearl Bundle purchase"
-    ]
+    ],
+    "images": {
+      "5": "Card-0177.png",
+      "6": "Card-0178.png"
+    }
   },
   {
     "id": "sasuke-uchiha-seal-of-shadow",
@@ -12886,7 +14669,11 @@
     "globalDate": "2017-08-22",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0429.png",
+      "6": "Card-0430.png"
+    }
   },
   {
     "id": "sasuke-uchiha-sole-friend",
@@ -12916,7 +14703,11 @@
     "globalDate": "2020-08-04",
     "sources": [
       "Legendary Summon Banner"
-    ]
+    ],
+    "images": {
+      "6": "Card-2116.png",
+      "7": "Card-2117.png"
+    }
   },
   {
     "id": "sasuke-uchiha-soul-shrouded-in-sorrow",
@@ -12947,7 +14738,11 @@
     "globalDate": "2016-12-22",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0244.png",
+      "6": "Card-0245.png"
+    }
   },
   {
     "id": "sasuke-uchiha-thunder-of-retaliation",
@@ -12977,7 +14772,11 @@
     "globalDate": "2017-08-24",
     "sources": [
       "Ninja Pearl Bundle purchase"
-    ]
+    ],
+    "images": {
+      "5": "Card-0419.png",
+      "6": "Card-0420.png"
+    }
   },
   {
     "id": "sasuke-uchiha-to-eternal-loneliness",
@@ -13004,7 +14803,11 @@
     "globalDate": "2018-08-21",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0661.png",
+      "6": "Card-0662.png"
+    }
   },
   {
     "id": "sasuke-uchiha-violet-flame-hunter",
@@ -13034,7 +14837,11 @@
     "globalDate": "2018-04-03",
     "sources": [
       "April Fools Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0585.png",
+      "6": "Card-0586.png"
+    }
   },
   {
     "id": "sasuke-uchiha-wandering-swordsman",
@@ -13051,7 +14858,10 @@
     "sources": [
       "Panel Mission",
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "6": "Card-2113.png"
+    }
   },
   {
     "id": "sasuke-uchiha-world-within-a-kaleidoscope",
@@ -13082,7 +14892,11 @@
     "globalDate": "2017-04-18",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0343.png",
+      "6": "Card-0344.png"
+    }
   },
   {
     "id": "shibi-aburame-a-reticent-man",
@@ -13108,7 +14922,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Rare Summon"
-    ]
+    ],
+    "images": {
+      "3": "Card-0108.png",
+      "4": "Card-0109.png"
+    }
   },
   {
     "id": "shikaku-nara-covert-operations",
@@ -13125,7 +14943,10 @@
     "sources": [
       "Phantom Castle 40",
       "Phantom Castle 45"
-    ]
+    ],
+    "images": {
+      "6": "Card-2061.png"
+    }
   },
   {
     "id": "shikaku-nara-the-ino-shika-cho-trio",
@@ -13151,7 +14972,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Rare Summon"
-    ]
+    ],
+    "images": {
+      "3": "Card-0110.png",
+      "4": "Card-0111.png"
+    }
   },
   {
     "id": "shikamaru-nara-beyond-silence",
@@ -13182,7 +15007,11 @@
     "globalDate": "2017-02-07",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0291.png",
+      "6": "Card-0292.png"
+    }
   },
   {
     "id": "shikamaru-nara-crucial-decision",
@@ -13223,7 +15052,12 @@
     "globalDate": "2018-06-05",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0615.png",
+      "6": "Card-0616.png",
+      "ba": "Card-0617.png"
+    }
   },
   {
     "id": "shikamaru-nara-lazy-guy",
@@ -13254,7 +15088,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0054.png",
+      "5": "Card-0055.png"
+    }
   },
   {
     "id": "shikamaru-nara-lucid-talent",
@@ -13281,7 +15119,11 @@
     "sources": [
       "Story Mode",
       "Stage 2: Team 7 United"
-    ]
+    ],
+    "images": {
+      "3": "Card-0010.png",
+      "4": "Card-0011.png"
+    }
   },
   {
     "id": "shikamaru-nara-new-resolve",
@@ -13311,7 +15153,11 @@
     "globalDate": "2019-05-08",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0807.png",
+      "6": "Card-0808.png"
+    }
   },
   {
     "id": "shikamaru-nara-surpassing-the-master",
@@ -13337,7 +15183,11 @@
     "globalDate": "2019-07-23",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0846.png",
+      "6": "Card-0847.png"
+    }
   },
   {
     "id": "shikamaru-nara-the-decoy",
@@ -13368,7 +15218,11 @@
     "globalDate": "2016-10-14",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0181.png",
+      "5": "Card-0182.png"
+    }
   },
   {
     "id": "shikamaru-nara-view-to-victory",
@@ -13408,7 +15262,12 @@
     "globalDate": "2020-07-14",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-2105.png",
+      "6": "Card-2106.png",
+      "ba": "Card-2107.png"
+    }
   },
   {
     "id": "shima-fukasaku-the-sacred-mountain-s-two-great-toad-sages",
@@ -13425,7 +15284,10 @@
     "sources": [
       "Phantom Castle 42",
       "Phantom Castle 47"
-    ]
+    ],
+    "images": {
+      "6": "Card-2093.png"
+    }
   },
   {
     "id": "shino-aburame-cold-beetle-user",
@@ -13456,7 +15318,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0064.png",
+      "5": "Card-0065.png"
+    }
   },
   {
     "id": "shino-aburame-raging-passion",
@@ -13472,7 +15338,10 @@
     "globalDate": "2018-01-30",
     "sources": [
       "Phantom Castle 17"
-    ]
+    ],
+    "images": {
+      "6": "Card-0536.png"
+    }
   },
   {
     "id": "shino-aburame-unflinching-heart",
@@ -13499,7 +15368,11 @@
     "sources": [
       "Story Mode",
       "Stage 6: Preliminaries!"
-    ]
+    ],
+    "images": {
+      "3": "Card-0020.png",
+      "4": "Card-0021.png"
+    }
   },
   {
     "id": "shisui-uchiha-entrusted-wish",
@@ -13518,7 +15391,10 @@
       "Phantom Castle 23",
       "Phantom Castle 28",
       "Phantom Castle 39"
-    ]
+    ],
+    "images": {
+      "6": "Card-0218.png"
+    }
   },
   {
     "id": "shisui-uchiha-eyes-inviting-illusion",
@@ -13545,7 +15421,11 @@
     "globalDate": "2018-11-20",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0714.png",
+      "6": "Card-0715.png"
+    }
   },
   {
     "id": "shisui-uchiha-guiding-light",
@@ -13586,7 +15466,12 @@
     "globalDate": "2018-04-05",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0576.png",
+      "6": "Card-0577.png",
+      "ba": "Card-0578.png"
+    }
   },
   {
     "id": "shisui-uchiha-hero-without-glory",
@@ -13616,7 +15501,11 @@
     "globalDate": "2017-07-04",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0396.png",
+      "6": "Card-0397.png"
+    }
   },
   {
     "id": "shisui-uchiha-the-elite-who-makes-his-mark-infinite-tsukuyomi",
@@ -13632,7 +15521,10 @@
     "globalDate": "2019-04-26",
     "sources": [
       "Limited Period Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "6": "Card-0806.png"
+    }
   },
   {
     "id": "shisui-uchiha-the-price-of-pride",
@@ -13672,7 +15564,12 @@
     "globalDate": "2020-03-16",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-2062.png",
+      "6": "Card-2063.png",
+      "ba": "Card-2064.png"
+    }
   },
   {
     "id": "shizune-benevolent-heart",
@@ -13702,7 +15599,11 @@
     "globalDate": "2018-11-13",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0712.png",
+      "6": "Card-0713.png"
+    }
   },
   {
     "id": "shizune-tsunade-s-attendant",
@@ -13728,7 +15629,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Rare Summon"
-    ]
+    ],
+    "images": {
+      "3": "Card-0102.png",
+      "4": "Card-0103.png"
+    }
   },
   {
     "id": "soku-stubborn-will",
@@ -13758,7 +15663,11 @@
     "globalDate": "2017-02-07",
     "sources": [
       "A Shadow Hiding in the Night"
-    ]
+    ],
+    "images": {
+      "5": "Card-0287.png",
+      "6": "Card-0288.png"
+    }
   },
   {
     "id": "sound-ninja-orochimaru-s-soldier",
@@ -13774,7 +15683,10 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Story Mode"
-    ]
+    ],
+    "images": {
+      "1": "Card-0134.png"
+    }
   },
   {
     "id": "suigetsu-the-demon-lives-on",
@@ -13804,7 +15716,11 @@
     "globalDate": "2017-02-21",
     "sources": [
       "An Unhealthy Sword Obsession"
-    ]
+    ],
+    "images": {
+      "5": "Card-0304.png",
+      "6": "Card-0305.png"
+    }
   },
   {
     "id": "suigetsu-hozuki-liquid-cruelty",
@@ -13835,7 +15751,11 @@
     "globalDate": "2018-06-12",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0621.png",
+      "6": "Card-0622.png"
+    }
   },
   {
     "id": "taiseki-masterful-camouflage",
@@ -13852,7 +15772,10 @@
     "sources": [
       "Story Mode",
       "Stage 8: Destruction of the Hidden Leaf"
-    ]
+    ],
+    "images": {
+      "3": "Card-0024.png"
+    }
   },
   {
     "id": "tayuya-a-bewitching-flute",
@@ -13882,7 +15805,11 @@
     "globalDate": "2016-12-28",
     "sources": [
       "Melody of the Demon Flute"
-    ]
+    ],
+    "images": {
+      "5": "Card-0257.png",
+      "6": "Card-0258.png"
+    }
   },
   {
     "id": "tayuya-aggressive-strategist",
@@ -13913,7 +15840,11 @@
     "globalDate": "2016-10-26",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0192.png",
+      "5": "Card-0193.png"
+    }
   },
   {
     "id": "tayuya-elegy",
@@ -13930,7 +15861,10 @@
     "sources": [
       "Phantom Castle 29",
       "Phantom Castle 34"
-    ]
+    ],
+    "images": {
+      "6": "Card-0753.png"
+    }
   },
   {
     "id": "tayuya-tayuya-of-the-north-gate",
@@ -13961,7 +15895,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0078.png",
+      "5": "Card-0079.png"
+    }
   },
   {
     "id": "temari-a-bold-analyzer",
@@ -13991,7 +15929,11 @@
     "globalDate": "2016-10-21",
     "sources": [
       "A Massive Dancing Fan"
-    ]
+    ],
+    "images": {
+      "4": "Card-0187.png",
+      "5": "Card-0188.png"
+    }
   },
   {
     "id": "temari-high-winds",
@@ -14022,7 +15964,11 @@
     "globalDate": "2017-02-07",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0289.png",
+      "6": "Card-0290.png"
+    }
   },
   {
     "id": "temari-sand-hurricane",
@@ -14053,7 +15999,11 @@
     "globalDate": "2016-09-28",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0163.png",
+      "5": "Card-0164.png"
+    }
   },
   {
     "id": "temari-surging-blustery-wind",
@@ -14070,7 +16020,10 @@
     "sources": [
       "Phantom Castle 35",
       "Phantom Castle 40"
-    ]
+    ],
+    "images": {
+      "6": "Card-0875.png"
+    }
   },
   {
     "id": "temari-wind-wrapped-talent",
@@ -14087,7 +16040,10 @@
     "sources": [
       "Phantom Castle 22",
       "Phantom Castle 31"
-    ]
+    ],
+    "images": {
+      "6": "Card-0633.png"
+    }
   },
   {
     "id": "tenten-battle-blade-dance",
@@ -14117,7 +16073,11 @@
     "globalDate": "2019-04-16",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0795.png",
+      "6": "Card-0796.png"
+    }
   },
   {
     "id": "tenten-ninja-tool-maestro",
@@ -14147,7 +16107,11 @@
     "globalDate": "2018-04-05",
     "sources": [
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "5": "Card-0579.png",
+      "6": "Card-0580.png"
+    }
   },
   {
     "id": "tenten-ninja-tool-specialist",
@@ -14178,7 +16142,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Very Rare Summon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0068.png",
+      "5": "Card-0069.png"
+    }
   },
   {
     "id": "tenten-valiant-warrior",
@@ -14209,7 +16177,11 @@
     "globalDate": "2017-01-10",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0265.png",
+      "6": "Card-0266.png"
+    }
   },
   {
     "id": "tenzo-yamato-beneath-the-sun",
@@ -14239,7 +16211,11 @@
     "globalDate": "2020-02-04",
     "sources": [
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "5": "Card-2046.png",
+      "6": "Card-2047.png"
+    }
   },
   {
     "id": "thief-heartless-burglar",
@@ -14255,7 +16231,10 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Story Mode"
-    ]
+    ],
+    "images": {
+      "1": "Card-0132.png"
+    }
   },
   {
     "id": "thief-lackey-enemy-of-the-village",
@@ -14271,7 +16250,10 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Story Mode"
-    ]
+    ],
+    "images": {
+      "1": "Card-0131.png"
+    }
   },
   {
     "id": "thief-leader-head-of-the-robbers",
@@ -14287,7 +16269,10 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Story Mode"
-    ]
+    ],
+    "images": {
+      "2": "Card-0133.png"
+    }
   },
   {
     "id": "third-raikage-ay-one-man-army",
@@ -14318,7 +16303,11 @@
     "globalDate": "2017-10-24",
     "sources": [
       "Impact! Thundering Veteran"
-    ]
+    ],
+    "images": {
+      "5": "Card-0470.png",
+      "6": "Card-0471.png"
+    }
   },
   {
     "id": "tobi-evil-eyes-behind-the-mask",
@@ -14348,7 +16337,11 @@
     "globalDate": "2017-03-08",
     "sources": [
       "The Creeping Joker"
-    ]
+    ],
+    "images": {
+      "5": "Card-0317.png",
+      "6": "Card-0318.png"
+    }
   },
   {
     "id": "tobi-writhing-towards-ambition",
@@ -14365,7 +16358,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-2054.png"
+    }
   },
   {
     "id": "tobirama-senju-enlightened-brilliance",
@@ -14396,7 +16392,11 @@
     "globalDate": "2017-06-18",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0407.png",
+      "6": "Card-0408.png"
+    }
   },
   {
     "id": "tobirama-senju-father-of-reanimation",
@@ -14441,7 +16441,12 @@
     "sources": [
       "Ninja Gods Summoned",
       "Impact! A Bold Leader"
-    ]
+    ],
+    "images": {
+      "4": "Card-0205.png",
+      "5": "Card-0206.png",
+      "6": "Card-0207.png"
+    }
   },
   {
     "id": "tobirama-senju-inherited-will-of-fire",
@@ -14481,7 +16486,12 @@
     "globalDate": "2019-11-19",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-2006.png",
+      "6": "Card-2007.png",
+      "ba": "Card-2008.png"
+    }
   },
   {
     "id": "tobirama-senju-judicious-master",
@@ -14508,7 +16518,11 @@
     "globalDate": "2019-02-19",
     "sources": [
       "Super Impact! Return of the Prodigy"
-    ]
+    ],
+    "images": {
+      "6": "Card-0762.png",
+      "ba": "Card-0763.png"
+    }
   },
   {
     "id": "tobirama-senju-quiet-fighting-spirit",
@@ -14524,7 +16538,10 @@
     "globalDate": "2018-01-09",
     "sources": [
       "Phantom Castle 16"
-    ]
+    ],
+    "images": {
+      "6": "Card-0514.png"
+    }
   },
   {
     "id": "tobirama-senju-the-founder",
@@ -14540,7 +16557,10 @@
     "globalDate": "2018-09-11",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "6": "Card-0675.png"
+    }
   },
   {
     "id": "torune-aburame-lurking-poison",
@@ -14570,7 +16590,11 @@
     "globalDate": "2018-06-12",
     "sources": [
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "5": "Card-0625.png",
+      "6": "Card-0626.png"
+    }
   },
   {
     "id": "tsume-inuzuka-a-brave-mother",
@@ -14596,7 +16620,11 @@
     "globalDate": "2016-08-24",
     "sources": [
       "Rare Summon"
-    ]
+    ],
+    "images": {
+      "3": "Card-0120.png",
+      "4": "Card-0121.png"
+    }
   },
   {
     "id": "tsunade-brilliant-bravery",
@@ -14627,7 +16655,11 @@
     "sources": [
       "Clash Coin Exchange Shop",
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0460.png",
+      "6": "Card-0461.png"
+    }
   },
   {
     "id": "tsunade-daring-courage",
@@ -14668,7 +16700,12 @@
     "globalDate": "2018-07-03",
     "sources": [
       "Various Ultimate Blazing Bash Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0637.png",
+      "6": "Card-0638.png",
+      "ba": "Card-0639.png"
+    }
   },
   {
     "id": "tsunade-gorgeous-attire",
@@ -14698,7 +16735,11 @@
     "globalDate": "2017-01-24",
     "sources": [
       "Ninja Pearl Bundle purchase"
-    ]
+    ],
+    "images": {
+      "5": "Card-0279.png",
+      "6": "Card-0280.png"
+    }
   },
   {
     "id": "tsunade-inherited-dream",
@@ -14715,7 +16756,10 @@
     "sources": [
       "Phantom Castle 41",
       "Phantom Castle 46"
-    ]
+    ],
+    "images": {
+      "6": "Card-2068.png"
+    }
   },
   {
     "id": "tsunade-protector-of-the-great-tree",
@@ -14741,7 +16785,11 @@
     "globalDate": "2019-12-06",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-2014.png",
+      "6": "Card-2015.png"
+    }
   },
   {
     "id": "tsunade-risking-her-life",
@@ -14758,7 +16806,10 @@
     "sources": [
       "Ninja World Ultimate Showdown",
       "Clash Coin Exchange Shop"
-    ]
+    ],
+    "images": {
+      "6": "Card-0898.png"
+    }
   },
   {
     "id": "tsunade-the-slug-ninja",
@@ -14789,7 +16840,11 @@
     "globalDate": "2016-10-05",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0167.png",
+      "6": "Card-0168.png"
+    }
   },
   {
     "id": "tsunade-the-will-of-blooming-flames",
@@ -14820,7 +16875,11 @@
     "globalDate": "2017-05-30",
     "sources": [
       "Various Blazing Fest Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0375.png",
+      "6": "Card-0376.png"
+    }
   },
   {
     "id": "tsunade-unbreakable-tree-flower",
@@ -14852,7 +16911,11 @@
     "sources": [
       "Impact! Slug Princess Exorcism",
       "Super Impact! Giant Boss Rush"
-    ]
+    ],
+    "images": {
+      "5": "Card-0532.png",
+      "6": "Card-0533.png"
+    }
   },
   {
     "id": "ukon-sakon-brimming-with-brutality",
@@ -14882,7 +16945,11 @@
     "globalDate": "2016-12-22",
     "sources": [
       "Sharing a Common Destiny"
-    ]
+    ],
+    "images": {
+      "5": "Card-0248.png",
+      "6": "Card-0249.png"
+    }
   },
   {
     "id": "utakata-fleeting-tranquility",
@@ -14913,7 +16980,11 @@
     "globalDate": "2017-03-03",
     "sources": [
       "Various Blazing Fest Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0310.png",
+      "6": "Card-0311.png"
+    }
   },
   {
     "id": "utakata-floating-bubble",
@@ -14943,7 +17014,11 @@
     "globalDate": "2018-07-31",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0648.png",
+      "6": "Card-0649.png"
+    }
   },
   {
     "id": "waraji-bodyguard-w-eyepatch",
@@ -14960,7 +17035,10 @@
     "sources": [
       "Story Mode",
       "Stage 3: Land of Waves"
-    ]
+    ],
+    "images": {
+      "3": "Card-0041.png"
+    }
   },
   {
     "id": "yagura-child-of-the-blood-mist",
@@ -14990,7 +17068,11 @@
     "globalDate": "2018-05-15",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0606.png",
+      "6": "Card-0607.png"
+    }
   },
   {
     "id": "yagura-shadow-of-the-mist",
@@ -15020,7 +17102,11 @@
     "globalDate": "2017-10-09",
     "sources": [
       "Granny Cat's Hiding Place"
-    ]
+    ],
+    "images": {
+      "5": "Card-0464.png",
+      "6": "Card-0465.png"
+    }
   },
   {
     "id": "yahiko-aspiring-for-peace",
@@ -15039,7 +17125,10 @@
       "Phantom Castle 23",
       "Phantom Castle 26",
       "Phantom Castle 40"
-    ]
+    ],
+    "images": {
+      "6": "Card-0312.png"
+    }
   },
   {
     "id": "yamato-figure-of-serenity",
@@ -15056,7 +17145,10 @@
     "sources": [
       "Phantom Castle 15",
       "Phantom Castle 27"
-    ]
+    ],
+    "images": {
+      "6": "Card-0492.png"
+    }
   },
   {
     "id": "yamato-heartless-thought",
@@ -15087,7 +17179,11 @@
     "globalDate": "2017-01-27",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0271.png",
+      "6": "Card-0272.png"
+    }
   },
   {
     "id": "yamato-guruguru-unmalicious-murderous-intent",
@@ -15104,7 +17200,10 @@
     "sources": [
       "Phantom Castle 34",
       "Phantom Castle 39"
-    ]
+    ],
+    "images": {
+      "6": "Card-0851.png"
+    }
   },
   {
     "id": "yashamaru-all-for-his-late-sister",
@@ -15121,7 +17220,10 @@
     "sources": [
       "Story Mode",
       "Stage 6: Preliminaries!"
-    ]
+    ],
+    "images": {
+      "3": "Card-0039.png"
+    }
   },
   {
     "id": "yoroi-akado-heretical-abilities",
@@ -15138,7 +17240,10 @@
     "sources": [
       "Story Mode",
       "Stage 6: Preliminaries!"
-    ]
+    ],
+    "images": {
+      "3": "Card-0031.png"
+    }
   },
   {
     "id": "yugito-ni-i-unbreakable-will",
@@ -15170,7 +17275,11 @@
     "sources": [
       "Impact! Two Tailed Cat Demon",
       "Battleground! Giant Boss Rush"
-    ]
+    ],
+    "images": {
+      "5": "Card-0331.png",
+      "6": "Card-0332.png"
+    }
   },
   {
     "id": "yugito-ni-i-unclouded-mind",
@@ -15200,7 +17309,11 @@
     "globalDate": "2018-05-15",
     "sources": [
       "Super Rare Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0608.png",
+      "6": "Card-0609.png"
+    }
   },
   {
     "id": "zabuza-momochi-demonic-presence",
@@ -15241,7 +17354,12 @@
     "globalDate": "2018-02-06",
     "sources": [
       "Various Ultimate Blazing Bash Summon"
-    ]
+    ],
+    "images": {
+      "5": "Card-0540.png",
+      "6": "Card-0541.png",
+      "ba": "Card-0542.png"
+    }
   },
   {
     "id": "zabuza-momochi-silent-madness",
@@ -15268,7 +17386,11 @@
     "globalDate": "2016-08-30",
     "sources": [
       "Various Blazing Festival Summons"
-    ]
+    ],
+    "images": {
+      "5": "Card-0142.png",
+      "6": "Card-0143.png"
+    }
   },
   {
     "id": "zabuza-momochi-the-demon-returns",
@@ -15299,7 +17421,11 @@
     "globalDate": "2016-08-30",
     "sources": [
       "The Mist Demon"
-    ]
+    ],
+    "images": {
+      "4": "Card-0144.png",
+      "5": "Card-0145.png"
+    }
   },
   {
     "id": "zabuza-momochi-the-measure-of-a-demon",
@@ -15329,7 +17455,11 @@
     "globalDate": "2017-08-07",
     "sources": [
       "The Demon-Haunted Mist of Battle"
-    ]
+    ],
+    "images": {
+      "5": "Card-0415.png",
+      "6": "Card-0416.png"
+    }
   },
   {
     "id": "zabuza-momochi-unbounded-dread",
@@ -15346,7 +17476,10 @@
     "sources": [
       "Phantom Castle 36",
       "Phantom Castle 41"
-    ]
+    ],
+    "images": {
+      "6": "Card-0890.png"
+    }
   },
   {
     "id": "zaku-abumi-the-confident-one",
@@ -15364,7 +17497,10 @@
       "Story Mode",
       "Stage 5: Exam Round 2",
       "Stage 6: Preliminaries!"
-    ]
+    ],
+    "images": {
+      "3": "Card-0034.png"
+    }
   },
   {
     "id": "zetsu-black-white-shadow",
@@ -15394,7 +17530,11 @@
     "globalDate": "2017-06-13",
     "sources": [
       "Underground Maw"
-    ]
+    ],
+    "images": {
+      "5": "Card-0381.png",
+      "6": "Card-0382.png"
+    }
   },
   {
     "id": "zori-bodyguard-w-hat",
@@ -15411,6 +17551,9 @@
     "sources": [
       "Story Mode",
       "Stage 3: Land of Waves"
-    ]
+    ],
+    "images": {
+      "3": "Card-0040.png"
+    }
   }
 ]

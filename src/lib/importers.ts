@@ -92,6 +92,9 @@ export function normalizeNinja(raw: Record<string, unknown>, line: number): Ninj
   if (cardNo > 0) ninja.cardNo = cardNo;
   if (raw.range) ninja.range = String(raw.range);
   if (Array.isArray(raw.sources)) ninja.sources = raw.sources.map(String);
+  if (raw.images && typeof raw.images === 'object' && !Array.isArray(raw.images)) {
+    ninja.images = Object.fromEntries(Object.entries(raw.images as Record<string, unknown>).map(([k, v]) => [k, String(v)]));
+  }
   if (typeof raw.globalDate === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(raw.globalDate)) ninja.globalDate = raw.globalDate;
   return ninja;
 }
@@ -103,7 +106,8 @@ export function normalizeResource(raw: Record<string, unknown>, line: number): R
   if (!fr && !en) return `#${line}: name missing`;
   const category = CATEGORIES.includes(raw.category as ResourceCategory) ? (raw.category as ResourceCategory) : 'other';
   const element = normalizeElement(raw.element) ?? undefined;
-  return { id: String(raw.id ?? '').trim() || slugify(en || fr), name: { fr: fr || en, en: en || fr }, category, element };
+  const image = raw.image ? String(raw.image) : undefined;
+  return { id: String(raw.id ?? '').trim() || slugify(en || fr), name: { fr: fr || en, en: en || fr }, category, element, image };
 }
 
 function collect<T>(rows: Record<string, unknown>[], fn: (r: Record<string, unknown>, line: number) => T | string): ImportResult<T> {

@@ -38,6 +38,7 @@ describe('wiki mapping', () => {
       limitBreak: true,
       range: 'short',
       globalDate: '2019-04-02',
+      image: 'Card-0789.png',
     });
     expect(card.materials).toEqual([
       'Deadly Beads "Devoted to Studies"',
@@ -75,7 +76,10 @@ describe('wiki mapping', () => {
         { resourceId: 'deadly-beads-devoted-to-studies', qty: 3 },
         { resourceId: 'ferocious-beads-devoted-to-studies', qty: 2 },
       ],
+      // The BA test page reuses the ★6 templates, so it carries the same card file.
+      images: { 6: 'Card-0789.png', ba: 'Card-0789.png' },
     });
+    expect(resources.find((r: { id: string }) => r.id === 'deadly-beads-devoted-to-studies')).toMatchObject({ image: 'Card-1192.png' });
     expect(resources.find((r: { id: string }) => r.id === 'tome-of-heart')).toMatchObject({ category: 'awakening', element: 'heart' });
     expect(resources.find((r: { id: string }) => r.id === 'deadly-beads-devoted-to-studies')).toMatchObject({ category: 'blazing' });
   });

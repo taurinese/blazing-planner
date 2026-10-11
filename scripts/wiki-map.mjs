@@ -32,6 +32,12 @@ export function slugify(text) {
     .replace(/^-+|-+$/g, '');
 }
 
+/** File name in `[[File:Card-0789.png|100px]]` → "Card-0789.png". */
+export function fileName(value) {
+  const m = String(value ?? '').match(/\[\[\s*(?:File|Image):([^|\]]+)/i);
+  return m ? m[1].trim() : undefined;
+}
+
 /** Name of the material card in `[[File:Card-1192.png|75px|link=Deadly Beads "X"]]` or `[[Name]]`. */
 export function materialName(value) {
   const raw = String(value ?? '');
@@ -96,9 +102,13 @@ export function pageToCard(page) {
   const name = plainText(p['char-name']);
   if (!name) return null;
   const materials = [];
+  const materialImages = {};
   for (let i = 1; i <= 12; i++) {
     const m = materialName(p[`material-${i}`]);
-    if (m) materials.push(m);
+    if (!m) continue;
+    materials.push(m);
+    const img = fileName(p[`material-${i}`]);
+    if (img) materialImages[m] = img;
   }
   return {
     pageTitle: page.title,
@@ -115,7 +125,9 @@ export function pageToCard(page) {
     range: plainText(p.range).toLowerCase() || undefined,
     globalDate: toIsoDate(p['global-date']),
     sources: extractSources(p['how-obtain']),
+    image: fileName(p['char-image']),
     materials,
+    materialImages,
   };
 }
 
@@ -144,6 +156,8 @@ export function buildCatalog(pages, materialCategories = {}) {
   }
 
   const materialNames = new Set();
+  const materialImage = new Map();
+  for (const card of cards) for (const [n, img] of Object.entries(card.materialImages)) materialImage.set(n, img);
   const resourceIdByName = (n) => {
     materialNames.add(n);
     return slugify(n);
@@ -189,6 +203,12 @@ export function buildCatalog(pages, materialCategories = {}) {
     if (dates.length) ninja.globalDate = dates[0];
     const sources = [...new Set(regular.sort((a, b) => a.stars - b.stars).flatMap((c) => c.sources))];
     if (sources.length) ninja.sources = sources;
+    // Card art per star level, plus the Blazing Awakened card under "ba".
+    const images = {};
+    for (const c of regular) if (c.image) images[c.stars] = c.image;
+    const baCard = group.find((c) => c.blazingAwakened && c.image);
+    if (baCard) images.ba = baCard.image;
+    if (Object.keys(images).length) ninja.images = images;
     ninjas.push(ninja);
   }
 
@@ -216,6 +236,7 @@ export function buildCatalog(pages, materialCategories = {}) {
       const resource = { id: slugify(n), name: { fr: n, en: n }, category: categoryByTitle.get(n) ?? 'awakening' };
       const element = n.match(/\b(Heart|Skill|Body|Bravery|Wisdom)\b/);
       if (element) resource.element = element[1].toLowerCase();
+      if (materialImage.has(n)) resource.image = materialImage.get(n);
       return resource;
     });
 

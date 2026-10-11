@@ -71,4 +71,4 @@ Les données sont dans le `localStorage` du navigateur (clé `nbr-planner:v1`). 
 
 ## Licence
 
-Code sous licence [MIT](LICENSE). Projet de fan non officiel, sans lien avec Bandai Namco, Shueisha ou Masashi Kishimoto. Aucun visuel du jeu n'est inclus.
+Code sous licence [MIT](LICENSE). Projet de fan non officiel, sans lien avec Bandai Namco, Shueisha ou Masashi Kishimoto. Les icônes sont chargées depuis le wiki Fandom au moment de l'affichage ; aucun visuel du jeu n'est stocké dans ce dépôt.

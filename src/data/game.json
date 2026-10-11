@@ -1,5 +1,5 @@
 {
-  "_comment": "Element cycle from the original game, to verify on the revival. awakeningTemplates can hold shared awakening costs reused by several ninjas ({element} is replaced).",
+  "_comment": "Element cycle, limits, optional shared awakening templates, revival timeline. imageBase serves wiki files by name (thumbnails via ?width=).",
   "elements": [
     {
       "id": "heart",
@@ -37,5 +37,6 @@
   "timeline": {
     "originalLaunch": "2016-08-24",
     "revivalLaunch": "2026-10-10"
-  }
+  },
+  "imageBase": "https://naruto-blazing.fandom.com/wiki/Special:FilePath/"
 }

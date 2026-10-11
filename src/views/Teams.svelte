@@ -1,7 +1,7 @@
 <script lang="ts">
   import ElementTag from '../components/ElementTag.svelte';
   import NinjaPicker from '../components/NinjaPicker.svelte';
-  import Stars from '../components/Stars.svelte';
+  import NinjaIcon from '../components/NinjaIcon.svelte';
   import { t } from '../lib/i18n.svelte';
   import { duplicateUids, teamElements } from '../lib/planning';
   import { addTeam, catalog, duplicateTeam, elements, player, removeTeam } from '../lib/store.svelte';
@@ -77,17 +77,25 @@
               <span class="pos muted">{t('teams.slot', { n: i + 1 })}</span>
               {#each ['main', 'support'] as const as role (role)}
                 {@const d = describe(slot[role])}
-                <div class="cell {role}" style:--el={d ? `var(--${d.n.element})` : 'var(--line)'}>
-                  <span class="role">{t(role === 'main' ? 'teams.main' : 'teams.support')}</span>
+                {@const size = role === 'main' ? 80 : 52}
+                {@const roleLabel = t(role === 'main' ? 'teams.main' : 'teams.support')}
+                <div class="cell {role}">
                   {#if d}
-                    <button type="button" class="filled" onclick={() => choose(team, i, role)}>
-                      <strong>{d.n.name}</strong>
-                      <span class="muted title">{d.n.title}</span>
-                      <span class="line"><Stars value={d.o.stars} max={d.n.maxStars} /><span class="num muted">Lv {d.o.level}</span></span>
+                    <button type="button" class="filled" onclick={() => choose(team, i, role)}
+                      aria-label="{roleLabel} : {d.n.name} {d.n.title}, {d.o.stars}★, Lv {d.o.level}">
+                      <span class="art">
+                        <NinjaIcon ninja={d.n} stars={d.o.stars} blazing={d.o.blazingAwakened && !!d.n.blazingAwakening} {size} dim={d.o.planned} />
+                        <span class="lv num">Lv {d.o.level}</span>
+                      </span>
+                      <span class="nm">{d.n.name}</span>
+                      {#if role === 'main'}<span class="tt">{d.n.title}</span>{/if}
                     </button>
-                    <button type="button" class="btn ghost small clear" onclick={() => (slot[role] = null)}>{t('teams.clear')}</button>
+                    <button type="button" class="clear" onclick={() => (slot[role] = null)} aria-label="{t('teams.clear')} {d.n.name}" title={t('teams.clear')}>×</button>
                   {:else}
-                    <button type="button" class="pick" onclick={() => choose(team, i, role)}>+ {t('teams.pick')}</button>
+                    <button type="button" class="pick" style:--size="{size}px" onclick={() => choose(team, i, role)} aria-label="{roleLabel} : {t('teams.pick')}">
+                      <span class="plus" aria-hidden="true">+</span>
+                    </button>
+                    <span class="role">{roleLabel}</span>
                   {/if}
                 </div>
               {/each}
@@ -144,35 +152,77 @@
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 0.6rem;
   }
-  .slot { display: grid; gap: 0.4rem; align-content: start; }
-  .pos { font-size: 0.8rem; font-weight: 600; }
-  .cell {
-    position: relative;
+  .slot {
     display: grid;
-    gap: 0.2rem;
-    padding: 0.5rem 0.6rem 0.5rem 0.75rem;
-    border: 1px solid var(--line);
-    border-left: 4px solid var(--el);
-    border-radius: var(--radius-s);
-    min-height: 6.2rem;
+    gap: 0.5rem;
     align-content: start;
+    justify-items: center;
+    padding: 0.6rem 0.4rem 0.75rem;
+    border-radius: var(--radius-m);
+    background: var(--stone);
   }
-  .cell.support { min-height: 5.2rem; background: var(--stone); }
-  .role { font-size: 0.75rem; color: var(--muted); font-weight: 600; }
-  .filled, .pick {
+  .pos { font-size: 0.75rem; font-weight: 600; }
+  .cell { position: relative; display: grid; justify-items: center; gap: 0.1rem; width: 100%; }
+  .cell.support { padding-top: 0.5rem; border-top: 1px dashed var(--line-strong); }
+  .role { font-size: 0.72rem; color: var(--muted); font-weight: 600; }
+  .filled {
+    display: grid;
+    justify-items: center;
+    gap: 0.1rem;
     background: none;
     border: 0;
     padding: 0;
-    text-align: left;
     cursor: pointer;
-    display: grid;
-    line-height: 1.25;
+    text-align: center;
+    max-width: 100%;
   }
-  .filled strong { font-family: var(--font-cond); font-size: 1.05rem; }
-  .title { font-size: 0.8rem; }
-  .line { display: flex; flex-wrap: wrap; white-space: nowrap; gap: 0 0.5rem; align-items: center; font-size: 0.85rem; margin-top: 0.15rem; }
-  .pick { color: var(--chakra); font-weight: 600; min-height: 2.5rem; }
-  .clear { justify-self: start; padding-left: 0; margin-left: -0.1rem; color: var(--muted); }
+  .art { position: relative; margin-bottom: 0.45rem; }
+  .lv {
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    transform: translateX(-50%);
+    padding: 0 0.35rem;
+    border-radius: 999px;
+    font-size: 0.68rem;
+    font-weight: 700;
+    background: var(--ink);
+    color: var(--paper);
+    white-space: nowrap;
+  }
+  .nm { font-family: var(--font-cond); font-weight: 700; font-size: 0.98rem; line-height: 1.1; }
+  .support .nm { font-size: 0.85rem; }
+  .tt { font-size: 0.74rem; color: var(--muted); line-height: 1.15; }
+  .clear {
+    position: absolute;
+    top: -6px;
+    right: calc(50% - 52px);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 0;
+    background: var(--paper);
+    box-shadow: 0 0 0 1px var(--line-strong);
+    color: var(--muted);
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 1;
+  }
+  .support .clear { right: calc(50% - 38px); top: 2px; }
+  .clear:hover { color: var(--danger); }
+  .pick {
+    width: var(--size);
+    height: var(--size);
+    display: grid;
+    place-items: center;
+    border: 2px dashed var(--line-strong);
+    border-radius: calc(var(--size) * 0.16);
+    background: var(--paper);
+    color: var(--chakra);
+    cursor: pointer;
+  }
+  .pick:hover { border-color: var(--chakra); background: var(--chakra-soft); }
+  .plus { font-size: 1.6rem; font-weight: 700; line-height: 1; }
   .analysis { display: grid; gap: 0.5rem; }
   .label { font-size: 0.85rem; display: block; margin-bottom: 0.3rem; }
   .bar { display: flex; gap: 3px; max-width: 320px; }

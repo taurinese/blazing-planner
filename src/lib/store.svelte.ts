@@ -14,8 +14,8 @@ export const elements = game.elements as ElementDef[];
 export const limits = game.limits;
 export const templates = game.awakeningTemplates as unknown as Templates;
 export const timeline = game.timeline as Timeline;
-const baseNinjas = baseNinjasJson as NinjaDef[];
-const baseResources = baseResourcesJson as ResourceDef[];
+const baseNinjas = baseNinjasJson as unknown as NinjaDef[];
+const baseResources = baseResourcesJson as unknown as ResourceDef[];
 
 function emptyState(): PlayerState {
   return {

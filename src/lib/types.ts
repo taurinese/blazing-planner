@@ -46,6 +46,8 @@ export interface NinjaDef {
   globalDate?: string;
   /** Banners, events and modes where the ninja was obtainable. */
   sources?: string[];
+  /** Wiki card file per star level ("5", "6"…) and "ba" for the Blazing Awakened card. */
+  images?: Record<string, string>;
 }
 
 export type ResourceCategory = 'currency' | 'awakening' | 'blazing' | 'limitbreak' | 'enhance' | 'event' | 'other';
@@ -56,6 +58,8 @@ export interface ResourceDef {
   name: { fr: string; en: string };
   category: ResourceCategory;
   element?: ElementId;
+  /** Wiki card file of the material. */
+  image?: string;
 }
 
 export interface OwnedNinja {

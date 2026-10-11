@@ -2,6 +2,7 @@
   import Modal from './Modal.svelte';
   import ElementTag from './ElementTag.svelte';
   import Stars from './Stars.svelte';
+  import NinjaIcon from './NinjaIcon.svelte';
   import { fmtDate, t } from '../lib/i18n.svelte';
   import { catalog, elements, player } from '../lib/store.svelte';
   import type { ElementId } from '../lib/types';
@@ -29,8 +30,10 @@
 
   const rows = $derived.by(() => {
     if (mode === 'catalog') {
+      // Released ninjas first: they are the ones players add most.
       return catalog.ninjas
         .filter((n) => matches(n.name, n.title, n.element))
+        .toSorted((a, b) => Number(!catalog.isReleased(a)) - Number(!catalog.isReleased(b)))
         .map((n) => ({ id: n.id, ninja: n, stars: n.minStars, extra: ownedCount.get(n.id) ?? 0, planned: false }));
     }
     return player.owned
@@ -63,6 +66,7 @@
       {@const upcoming = !catalog.isReleased(row.ninja)}
       <li>
         <button type="button" class="row" class:upcoming class:planned={row.planned} style:--el="var(--{row.ninja.element})" onclick={() => pick(row.id)}>
+          <NinjaIcon ninja={row.ninja} stars={row.stars} size={48} dim={upcoming} />
           <span class="who">
             <strong>{row.ninja.name}</strong>
             <span class="muted">{row.ninja.title}</span>
@@ -104,19 +108,18 @@
   .row {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr auto auto;
+    grid-template-columns: auto minmax(0, 1fr) auto auto;
     align-items: center;
     gap: 0.75rem;
-    padding: 0.55rem 0.75rem 0.55rem 0.9rem;
+    padding: 0.45rem 0.75rem 0.45rem 0.5rem;
     border: 1px solid var(--line);
-    border-left: 4px solid var(--el);
     border-radius: var(--radius-s);
     background: var(--paper);
     text-align: left;
     cursor: pointer;
   }
   .row:hover { background: var(--chakra-soft); }
-  .row.upcoming, .row.planned { border-style: dashed; border-left-style: solid; }
+  .row.upcoming, .row.planned { border-style: dashed; }
   .row.upcoming .who strong, .row.upcoming .who .muted { opacity: 0.6; }
   .release { font-size: 0.78rem; font-weight: 600; color: var(--muted); }
   .who { display: grid; line-height: 1.25; }

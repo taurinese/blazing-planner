@@ -1,6 +1,8 @@
 <script lang="ts">
   import ElementTag from '../components/ElementTag.svelte';
   import Modal from '../components/Modal.svelte';
+  import NinjaIcon from '../components/NinjaIcon.svelte';
+  import ResourceIcon from '../components/ResourceIcon.svelte';
   import NinjaForm from '../components/NinjaForm.svelte';
   import { downloadText, readFile, today } from '../lib/files';
   import { importNinjas, importResources } from '../lib/importers';
@@ -179,7 +181,7 @@ Naruto Uzumaki,Sage Mode,bravery,5,6,attacker|aoe,150,true</pre>
         <tbody>
           {#each filtered as n (n.id)}
             <tr>
-              <th scope="row"><strong>{n.name}</strong> <span class="muted">{n.title}</span></th>
+              <th scope="row"><span class="who"><NinjaIcon ninja={n} size={36} /><span><strong>{n.name}</strong> <span class="muted">{n.title}</span></span></span></th>
               <td><ElementTag element={n.element} /></td>
               <td class="num">{n.minStars}–{n.maxStars}</td>
               <td class="flags">
@@ -213,7 +215,7 @@ scroll-heart-1,Rouleau Cœur I,Heart Scroll I,awakening,heart</pre>
     <ul class="resources">
       {#each catalog.resources as r (r.id)}
         <li style:--el={r.element ? `var(--${r.element})` : 'var(--line-strong)'}>
-          <span>{r.name[prefs.lang]}</span>
+          <span class="res"><ResourceIcon resource={r} size={32} /><span>{r.name[prefs.lang]}</span></span>
           <span class="muted small">{t(`inventory.category.${r.category}`)}</span>
           <span class="row-actions">
             <button class="btn ghost small" type="button" onclick={() => editResource(r)}>{t('common.edit')}</button>
@@ -284,6 +286,7 @@ scroll-heart-1,Rouleau Cœur I,Heart Scroll I,awakening,heart</pre>
   tbody tr + tr { border-top: 1px solid var(--line); }
   .num { white-space: nowrap; font-variant-numeric: tabular-nums; }
   .flags { white-space: nowrap; }
+  .who, .res { display: inline-flex; align-items: center; gap: 0.6rem; }
   .flag { font-size: 0.75rem; font-weight: 600; color: var(--chakra); margin-right: 0.4rem; }
   .flag.ok { color: var(--ok); }
   .row-actions { white-space: nowrap; text-align: right; }

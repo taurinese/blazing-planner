@@ -1,6 +1,7 @@
 <script lang="ts">
   import ElementTag from '../components/ElementTag.svelte';
   import Modal from '../components/Modal.svelte';
+  import NinjaIcon from '../components/NinjaIcon.svelte';
   import NinjaPicker from '../components/NinjaPicker.svelte';
   import Stars from '../components/Stars.svelte';
   import { fmtDate, t } from '../lib/i18n.svelte';
@@ -105,27 +106,24 @@
 
     <ul class="grid">
       {#each rows as { o, n } (o.uid)}
+        {@const ba = o.blazingAwakened && !!n?.blazingAwakening}
         <li>
-          <button type="button" class="card" class:planned={o.planned} style:--el="var(--{n?.element ?? 'muted'})" onclick={() => openEditor(o)}>
-            <span class="top">
-              <span class="who">
-                <strong>{n?.name ?? o.ninjaId}{#if o.favorite}<span class="fav" aria-label={t('collection.favorite')}> ♥</span>{/if}</strong>
-                <span class="muted">{n?.title ?? ''}</span>
-              </span>
-              {#if n}<ElementTag element={n.element} compact />{/if}
+          <button type="button" class="tile" class:planned={o.planned} onclick={() => openEditor(o)}
+            aria-label="{n?.name ?? o.ninjaId} {n?.title ?? ''}, {o.stars}★, Lv {o.level}">
+            <span class="art">
+              <NinjaIcon ninja={n} stars={o.stars} blazing={ba} size={88} dim={o.planned} />
+              {#if goalUids.has(o.uid)}<span class="badge goal-badge" title={t('collection.goalExists')}>◎</span>{/if}
+              {#if o.favorite}<span class="badge fav-badge" title={t('collection.favorite')}>♥</span>{/if}
+              <span class="lv num">Lv {o.level}</span>
             </span>
-            <span class="meta">
-              <span class="stars-ba">
-                <Stars value={o.stars} max={n?.maxStars ?? 6} />
-                {#if o.blazingAwakened && n?.blazingAwakening}<span class="ba" title={t('collection.blazing')}>BA</span>{/if}
-              </span>
-              <span class="num">Lv {o.level}{#if o.limitBreak > 0} · LB {o.limitBreak}{/if}</span>
+            <span class="name">{n?.name ?? o.ninjaId}</span>
+            <span class="title">{n?.title ?? ''}</span>
+            <span class="stars-ba">
+              <Stars value={o.stars} max={n?.maxStars ?? 6} />
+              {#if ba}<span class="ba" title={t('collection.blazing')}>BA</span>{/if}
             </span>
-            {#if o.planned || goalUids.has(o.uid)}
-              <span class="tags">
-                {#if o.planned}<span class="planned-tag" title={t('collection.plannedHint')}>{t('collection.planned')}{#if n && !catalog.isReleased(n) && n.globalDate}{' · '}{fmtDate(catalog.expectedDate(n.globalDate))}{/if}</span>{/if}
-                {#if goalUids.has(o.uid)}<span class="goal">{t('collection.goalExists')}</span>{/if}
-              </span>
+            {#if o.planned}
+              <span class="planned-tag" title={t('collection.plannedHint')}>{t('collection.planned')}{#if n && !catalog.isReleased(n) && n.globalDate}{' · '}{fmtDate(catalog.expectedDate(n.globalDate))}{/if}</span>
             {/if}
           </button>
         </li>
@@ -141,14 +139,15 @@
 <Modal bind:open={editOpen} title={editingNinja ? `${editingNinja.name} · ${editingNinja.title}` : ''}>
   {#if editing}
     <div class="form">
-      {#if editingNinja}
-        <div class="row-between">
-          <ElementTag element={editingNinja.element} />
+      <div class="hero">
+        <NinjaIcon ninja={editingNinja} stars={editing.stars} blazing={editing.blazingAwakened && !!editingNinja?.blazingAwakening} size={96} dim={editing.planned} />
+        <div class="hero-side">
+          {#if editingNinja}<ElementTag element={editingNinja.element} />{/if}
+          <div class="field">
+            <span>{t('common.stars')}</span>
+            <Stars bind:value={editing.stars} editable min={editingNinja?.minStars ?? 1} max={editingNinja?.maxStars ?? limits.maxStars} />
+          </div>
         </div>
-      {/if}
-      <div class="field">
-        <span>{t('common.stars')}</span>
-        <Stars bind:value={editing.stars} editable min={editingNinja?.minStars ?? 1} max={editingNinja?.maxStars ?? limits.maxStars} />
       </div>
       {#if editingNinja?.blazingAwakening}
         {@const atMax = editing.stars >= editingNinja.maxStars}
@@ -200,40 +199,74 @@
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 0.6rem;
+    grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+    gap: 0.75rem;
   }
-  .card {
+  .tile {
     width: 100%;
     height: 100%;
     display: grid;
-    gap: 0.5rem;
+    justify-items: center;
     align-content: start;
-    padding: 0.75rem 0.9rem 0.75rem 1rem;
+    gap: 0.15rem;
+    padding: 0.85rem 0.5rem 0.7rem;
     border: 1px solid var(--line);
-    border-left: 5px solid var(--el);
     border-radius: var(--radius-m);
     background: var(--paper);
-    text-align: left;
+    text-align: center;
     cursor: pointer;
   }
-  .card:hover { border-color: var(--line-strong); border-left-color: var(--el); }
-  .top { display: flex; justify-content: space-between; align-items: start; gap: 0.5rem; }
-  .who { display: grid; line-height: 1.25; }
-  .who strong { font-family: var(--font-cond); font-size: 1.15rem; }
-  .who .muted { font-size: 0.85rem; }
-  .fav { color: var(--skill); }
-  .meta { display: flex; justify-content: space-between; align-items: center; font-size: 0.9rem; }
-  .stars-ba { display: inline-flex; align-items: center; gap: 0.4rem; }
-  .ba { font-size: 0.7rem; font-weight: 700; padding: 0 0.3rem; border-radius: 3px; background: var(--ink); color: var(--paper); }
+  .tile:hover { border-color: var(--line-strong); background: var(--chakra-soft); }
+  .tile.planned { border-style: dashed; background: transparent; }
+  .art { position: relative; margin-bottom: 0.4rem; }
+  .badge {
+    position: absolute;
+    top: -7px;
+    display: grid;
+    place-items: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    font-weight: 700;
+    background: var(--paper);
+    box-shadow: 0 0 0 1px var(--line-strong);
+  }
+  .goal-badge { right: -8px; color: var(--chakra); }
+  .fav-badge { left: -8px; color: var(--skill); }
+  .lv {
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    transform: translateX(-50%);
+    padding: 0 0.35rem;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    background: var(--ink);
+    color: var(--paper);
+    white-space: nowrap;
+  }
+  .name { font-family: var(--font-cond); font-weight: 700; font-size: 1.02rem; line-height: 1.15; }
+  .title {
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.2;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .stars-ba { display: inline-flex; align-items: center; gap: 0.3rem; margin-top: 0.2rem; }
+  .stars-ba :global(.star) { font-size: 0.8rem; }
+  .ba { font-size: 0.65rem; font-weight: 700; padding: 0 0.25rem; border-radius: 3px; background: #e5a50a; color: #1d2433; }
+  .planned-tag { font-size: 0.72rem; font-weight: 600; color: var(--muted); }
   .off { opacity: 0.5; }
-  .card.planned { border-style: dashed; border-left-style: solid; background: transparent; }
-  .tags { display: flex; flex-wrap: wrap; gap: 0.2rem 0.75rem; }
-  .planned-tag { font-size: 0.8rem; font-weight: 600; color: var(--muted); }
-  .goal { font-size: 0.8rem; color: var(--chakra); font-weight: 600; }
+  .hero { display: flex; gap: 1rem; align-items: center; }
+  .hero-side { display: grid; gap: 0.5rem; }
   .form { display: grid; gap: 0.9rem; }
   .cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.6rem; }
-  .row-between { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
   .small { font-size: 0.85rem; }
   .spacer { flex: 1; }
 </style>

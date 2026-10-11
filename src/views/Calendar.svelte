@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ElementTag from '../components/ElementTag.svelte';
+  import NinjaIcon from '../components/NinjaIcon.svelte';
   import { fmtDate, t } from '../lib/i18n.svelte';
   import { isIsoDate } from '../lib/timeline';
   import { addGoal, addOwned, catalog, elements, player, timeline } from '../lib/store.svelte';
@@ -124,16 +124,15 @@
             {/if}
             <ul class="ninjas">
               {#each expanded.has(release.date) || query ? release.ninjas : release.ninjas.slice(0, COLLAPSED_SIZE) as n (n.id)}
-                <li class="ninja" style:--el="var(--{n.element})">
-                  <span class="who">
-                    <strong>{n.name}</strong>
-                    <span class="muted">{n.title} · {n.minStars}–{n.maxStars}★</span>
-                  </span>
-                  <ElementTag element={n.element} compact />
+                <li class="ninja" title="{n.name} · {n.title} · {n.minStars}–{n.maxStars}★">
+                  <NinjaIcon ninja={n} size={72} />
+                  <span class="nm">{n.name}</span>
+                  <span class="tt">{n.title}</span>
+                  <span class="range">{n.minStars}–{n.maxStars}★{#if n.blazingAwakening}{' · '}BA{/if}</span>
                   {#if ownedIds.has(n.id)}
-                    <span class="have">{t('calendar.planned')}</span>
+                    <span class="have">✓ {t('calendar.planned')}</span>
                   {:else}
-                    <button class="btn small" type="button" onclick={() => plan(n)}>{t('calendar.plan')}</button>
+                    <button class="btn small" type="button" onclick={() => plan(n)} aria-label="{t('calendar.plan')} {n.name} {n.title}">{t('calendar.plan')}</button>
                   {/if}
                 </li>
               {/each}
@@ -186,22 +185,24 @@
   .when .muted { font-size: 0.8rem; }
   .what { display: grid; gap: 0.6rem; min-width: 0; }
   .sources { font-size: 0.88rem; color: var(--muted); }
-  .ninjas { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0.4rem; }
+  .ninjas { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 0.5rem; }
   .ninja {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto auto;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.4rem 0.5rem 0.4rem 0.7rem;
+    gap: 0.1rem;
+    padding: 0.7rem 0.4rem 0.6rem;
     border: 1px solid var(--line);
-    border-left: 4px solid var(--el);
-    border-radius: var(--radius-s);
+    border-radius: var(--radius-m);
+    text-align: center;
   }
-  .who { display: grid; line-height: 1.25; min-width: 0; }
-  .who strong { font-size: 0.95rem; }
-  .who .muted { font-size: 0.8rem; }
+  .ninja :global(.icon) { margin-bottom: 0.35rem; }
+  .nm { font-family: var(--font-cond); font-weight: 700; font-size: 0.95rem; line-height: 1.1; }
+  .tt { font-size: 0.74rem; color: var(--muted); line-height: 1.15; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .range { font-size: 0.72rem; color: var(--muted); margin-bottom: 0.3rem; }
+  .ninja > :last-child { margin-top: auto; }
   .more { justify-self: start; }
-  .have { font-size: 0.78rem; font-weight: 600; color: var(--ok); white-space: nowrap; }
+  .have { font-size: 0.75rem; font-weight: 600; color: var(--ok); min-height: 1.9rem; display: grid; place-items: center; }
 
   .here { display: flex; align-items: center; gap: 0.75rem; color: var(--chakra); font-weight: 700; font-size: 0.9rem; }
   .here::before, .here::after { content: ''; flex: 1; height: 2px; background: var(--chakra); }

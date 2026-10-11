@@ -1,5 +1,6 @@
 <script lang="ts">
-  import ElementTag from '../components/ElementTag.svelte';
+  import NinjaIcon from '../components/NinjaIcon.svelte';
+  import ResourceIcon from '../components/ResourceIcon.svelte';
   import NinjaPicker from '../components/NinjaPicker.svelte';
   import Stars from '../components/Stars.svelte';
   import { fmt, fmtDate, prefs, t } from '../lib/i18n.svelte';
@@ -68,9 +69,16 @@
           {@const label = g.ninja ? `${g.ninja.name} · ${g.ninja.title}` : t('goals.ninjaGone')}
           <article class="panel goal" class:done={goal.done} style:--el={g.ninja ? `var(--${g.ninja.element})` : 'var(--line)'}>
             <header>
+              {#if g.ninja}
+                <div class="evo" aria-hidden="true">
+                  <NinjaIcon ninja={g.ninja} stars={g.owned?.stars} blazing={!!g.owned?.blazingAwakened && !!g.ninja.blazingAwakening} size={64} dim={!catalog.isReleased(g.ninja)} />
+                  <span class="arrow">→</span>
+                  <NinjaIcon ninja={g.ninja} stars={effectiveTargetStars(goal, g.ninja)} blazing={goal.targetBlazing} size={64} dim={!catalog.isReleased(g.ninja)} />
+                </div>
+              {/if}
               <div class="who">
                 <h2>{g.ninja?.name ?? t('goals.ninjaGone')}</h2>
-                {#if g.ninja}<span class="muted">{g.ninja.title}</span> <ElementTag element={g.ninja.element} compact />{/if}
+                {#if g.ninja}<span class="muted">{g.ninja.title}</span>{/if}
                 {#if g.ninja && !catalog.isReleased(g.ninja) && g.ninja.globalDate}
                   <p class="release">{t('release.upcoming')} · {t('release.expected', { date: fmtDate(catalog.expectedDate(g.ninja.globalDate)) })}</p>
                 {:else if g.owned?.planned}
@@ -124,7 +132,7 @@
                   {#each g.costs as c (c.resourceId)}
                     {@const have = player.inventory[c.resourceId] ?? 0}
                     <tr class:ok={have >= c.qty}>
-                      <th scope="row">{name(c.resourceId)}</th>
+                      <th scope="row"><span class="mat"><ResourceIcon resource={catalog.resourceById.get(c.resourceId)} size={36} />{name(c.resourceId)}</span></th>
                       <td class="num">{fmt(Math.min(have, c.qty))} / {fmt(c.qty)}</td>
                     </tr>
                   {/each}
@@ -180,7 +188,7 @@
             <tbody>
               {#each toFarm as line (line.resourceId)}
                 <tr>
-                  <th scope="row">{name(line.resourceId)}</th>
+                  <th scope="row"><span class="mat"><ResourceIcon resource={catalog.resourceById.get(line.resourceId)} size={28} />{name(line.resourceId)}</span></th>
                   <td class="num">{fmt(line.need)}</td>
                   <td class="num">{fmt(line.have)}</td>
                   <td class="num miss">{fmt(line.missing)}</td>
@@ -202,7 +210,11 @@
   .goals { display: grid; gap: 0.75rem; }
   .goal { padding: 1rem 1rem 0.75rem 1.1rem; border-left: 5px solid var(--el); display: grid; gap: 0.75rem; }
   .goal.done { opacity: 0.7; }
-  header { display: flex; justify-content: space-between; gap: 1rem; align-items: start; }
+  header { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
+  header .who { flex: 1 1 12rem; }
+  .evo { display: flex; align-items: center; gap: 0.5rem; }
+  .evo .arrow { font-size: 1.2rem; }
+  .mat { display: inline-flex; align-items: center; gap: 0.6rem; }
   .who h2 { font-size: 1.35rem; }
   .who .muted { font-size: 0.9rem; }
   .prio { min-width: 8rem; }
@@ -229,7 +241,7 @@
   .shopping table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
   .shopping th, .shopping td { padding: 0.3rem 0.25rem; }
   .shopping thead th { color: var(--muted); font-weight: 500; font-size: 0.8rem; }
-  .shopping tbody th { text-align: left; font-weight: 500; }
+  .shopping tbody th { text-align: left; font-weight: 500; font-size: 0.82rem; line-height: 1.25; }
   .shopping tbody tr { border-top: 1px solid var(--line); }
   .num { text-align: right; }
   .miss { color: var(--danger); font-weight: 700; }

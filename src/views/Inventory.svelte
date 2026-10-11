@@ -1,4 +1,5 @@
 <script lang="ts">
+  import ResourceIcon from '../components/ResourceIcon.svelte';
   import { fmt, prefs, t } from '../lib/i18n.svelte';
   import { resourceName, shoppingList } from '../lib/planning';
   import { catalog, player, setQty, templates } from '../lib/store.svelte';
@@ -51,6 +52,7 @@
           {@const need = needs.get(r.id)}
           {@const qty = player.inventory[r.id] ?? 0}
           <li class="item" style:--el={r.element ? `var(--${r.element})` : 'var(--line-strong)'}>
+            <ResourceIcon resource={r} size={56} />
             <div class="label">
               <span class="name">{resourceName(r, r.id, prefs.lang)}</span>
               {#if need}
@@ -89,24 +91,26 @@
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 0.5rem;
   }
   .item {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-areas: "icon label" "icon qty";
+    column-gap: 0.75rem;
+    row-gap: 0.4rem;
     align-items: center;
-    gap: 0.75rem;
-    padding: 0.55rem 0.6rem 0.55rem 0.8rem;
+    padding: 0.6rem 0.7rem;
     background: var(--paper);
     border: 1px solid var(--line);
-    border-left: 4px solid var(--el);
-    border-radius: var(--radius-s);
+    border-radius: var(--radius-m);
   }
-  .label { display: grid; gap: 0.1rem; min-width: 0; }
-  .name { font-weight: 600; }
-  .need { font-size: 0.8rem; color: var(--danger); }
+  .item > :global(.icon) { grid-area: icon; }
+  .label { grid-area: label; display: grid; gap: 0.1rem; min-width: 0; }
+  .name { font-size: 0.9rem; line-height: 1.2; font-weight: 600; }
+  .need { font-size: 0.78rem; color: var(--danger); }
   .need.met { color: var(--ok); }
-  .qty { display: flex; gap: 0.25rem; align-items: center; flex: none; }
-  .qty input { width: 6.5rem; text-align: right; }
+  .qty { grid-area: qty; display: flex; gap: 0.25rem; align-items: center; }
+  .qty input { flex: 1; min-width: 0; max-width: 8rem; text-align: right; }
 </style>
