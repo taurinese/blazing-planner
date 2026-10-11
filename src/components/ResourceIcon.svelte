@@ -6,6 +6,7 @@
 
   const src = $derived(wikiImageUrl(resource?.image, size));
   let failedSrc = $state<string | undefined>();
+  let loadedSrc = $state<string | undefined>();
   const showImage = $derived(!!src && failedSrc !== src);
   const label = $derived(resource?.name.en ?? '?');
 </script>
@@ -17,9 +18,9 @@
   aria-hidden="true"
 >
   <!-- Initials sit underneath: visible while the image loads or if it never does. -->
-  <span class="fallback">{initials(label)}</span>
+  <span class="fallback" class:hidden={loadedSrc === src && showImage}>{initials(label)}</span>
   {#if showImage}
-    <img {src} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width={size} height={size} onerror={() => (failedSrc = src)} />
+    <img {src} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width={size} height={size} onload={() => (loadedSrc = src)} onerror={() => (failedSrc = src)} />
   {/if}
 </span>
 
@@ -37,4 +38,5 @@
   }
   img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
   .fallback { font-family: var(--font-cond); font-weight: 700; font-size: calc(var(--size) * 0.36); color: var(--el); }
+  .fallback.hidden { visibility: hidden; }
 </style>

@@ -1,7 +1,7 @@
 <script lang="ts">
   import ElementTag from '../components/ElementTag.svelte';
   import Modal from '../components/Modal.svelte';
-  import NinjaIcon from '../components/NinjaIcon.svelte';
+  import NinjaCard from '../components/NinjaCard.svelte';
   import NinjaPicker from '../components/NinjaPicker.svelte';
   import Stars from '../components/Stars.svelte';
   import { fmtDate, t } from '../lib/i18n.svelte';
@@ -110,18 +110,12 @@
         <li>
           <button type="button" class="tile" class:planned={o.planned} onclick={() => openEditor(o)}
             aria-label="{n?.name ?? o.ninjaId} {n?.title ?? ''}, {o.stars}★, Lv {o.level}">
-            <span class="art">
-              <NinjaIcon ninja={n} stars={o.stars} blazing={ba} size={88} dim={o.planned} />
-              {#if goalUids.has(o.uid)}<span class="badge goal-badge" title={t('collection.goalExists')}>◎</span>{/if}
-              {#if o.favorite}<span class="badge fav-badge" title={t('collection.favorite')}>♥</span>{/if}
-              <span class="lv num">Lv {o.level}</span>
-            </span>
-            <span class="name">{n?.name ?? o.ninjaId}</span>
-            <span class="title">{n?.title ?? ''}</span>
-            <span class="stars-ba">
-              <Stars value={o.stars} max={n?.maxStars ?? 6} />
-              {#if ba}<span class="ba" title={t('collection.blazing')}>BA</span>{/if}
-            </span>
+            <NinjaCard ninja={n} stars={o.stars} blazing={ba} level={o.level} size={104} dim={o.planned} showTitle>
+              {#snippet badges()}
+                {#if o.favorite}<span class="badge fav-badge" title={t('collection.favorite')}>♥</span>{/if}
+                {#if goalUids.has(o.uid)}<span class="badge goal-badge" title={t('collection.goalExists')}>◎</span>{/if}
+              {/snippet}
+            </NinjaCard>
             {#if o.planned}
               <span class="planned-tag" title={t('collection.plannedHint')}>{t('collection.planned')}{#if n && !catalog.isReleased(n) && n.globalDate}{' · '}{fmtDate(catalog.expectedDate(n.globalDate))}{/if}</span>
             {/if}
@@ -140,7 +134,7 @@
   {#if editing}
     <div class="form">
       <div class="hero">
-        <NinjaIcon ninja={editingNinja} stars={editing.stars} blazing={editing.blazingAwakened && !!editingNinja?.blazingAwakening} size={96} dim={editing.planned} />
+        <NinjaCard ninja={editingNinja} stars={editing.stars} blazing={editing.blazingAwakened && !!editingNinja?.blazingAwakening} size={112} dim={editing.planned} showName={false} />
         <div class="hero-side">
           {#if editingNinja}<ElementTag element={editingNinja.element} />{/if}
           <div class="field">
@@ -199,8 +193,8 @@
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
-    gap: 0.75rem;
+    grid-template-columns: repeat(auto-fill, minmax(118px, 1fr));
+    gap: 0.9rem 0.5rem;
   }
   .tile {
     width: 100%;
@@ -209,58 +203,26 @@
     justify-items: center;
     align-content: start;
     gap: 0.15rem;
-    padding: 0.85rem 0.5rem 0.7rem;
-    border: 1px solid var(--line);
+    padding: 0.5rem 0.25rem;
+    border: 1px solid transparent;
     border-radius: var(--radius-m);
-    background: var(--paper);
-    text-align: center;
+    background: none;
     cursor: pointer;
   }
-  .tile:hover { border-color: var(--line-strong); background: var(--chakra-soft); }
-  .tile.planned { border-style: dashed; background: transparent; }
-  .art { position: relative; margin-bottom: 0.4rem; }
+  .tile:hover, .tile:focus-visible { background: var(--paper); border-color: var(--line); }
   .badge {
-    position: absolute;
-    top: -7px;
     display: grid;
     place-items: center;
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
-    font-size: 0.75rem;
-    font-weight: 700;
-    background: var(--paper);
-    box-shadow: 0 0 0 1px var(--line-strong);
-  }
-  .goal-badge { right: -8px; color: var(--chakra); }
-  .fav-badge { left: -8px; color: var(--skill); }
-  .lv {
-    position: absolute;
-    left: 50%;
-    bottom: -8px;
-    transform: translateX(-50%);
-    padding: 0 0.35rem;
-    border-radius: 999px;
     font-size: 0.72rem;
     font-weight: 700;
-    background: var(--ink);
-    color: var(--paper);
-    white-space: nowrap;
+    background: rgb(255 255 255 / 0.92);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 0.4);
   }
-  .name { font-family: var(--font-cond); font-weight: 700; font-size: 1.02rem; line-height: 1.15; }
-  .title {
-    font-size: 0.78rem;
-    color: var(--muted);
-    line-height: 1.2;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-  .stars-ba { display: inline-flex; align-items: center; gap: 0.3rem; margin-top: 0.2rem; }
-  .stars-ba :global(.star) { font-size: 0.8rem; }
-  .ba { font-size: 0.65rem; font-weight: 700; padding: 0 0.25rem; border-radius: 3px; background: #e5a50a; color: #1d2433; }
+  .goal-badge { color: var(--chakra); }
+  .fav-badge { color: #d64545; }
   .planned-tag { font-size: 0.72rem; font-weight: 600; color: var(--muted); }
   .off { opacity: 0.5; }
   .hero { display: flex; gap: 1rem; align-items: center; }

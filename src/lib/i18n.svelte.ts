@@ -77,6 +77,8 @@ const fr = {
   'picker.placeholder': 'Nom ou titre…',
   'picker.notInCatalog': "Ce ninja n'est pas dans la base ? Ajoute-le depuis l'onglet Données.",
   'picker.owned': 'Possédé ×{n}',
+  'picker.released': 'Disponibles',
+  'picker.upcoming': 'À venir sur le revival',
 
   'teams.title': 'Équipes',
   'teams.add': 'Nouvelle équipe',
@@ -260,6 +262,8 @@ const en: Record<MessageKey, string> = {
   'picker.placeholder': 'Name or title…',
   'picker.notInCatalog': 'Ninja missing from the database? Add it from the Data tab.',
   'picker.owned': 'Owned ×{n}',
+  'picker.released': 'Available',
+  'picker.upcoming': 'Coming to the revival',
 
   'teams.title': 'Teams',
   'teams.add': 'New team',

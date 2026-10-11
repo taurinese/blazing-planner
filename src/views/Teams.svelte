@@ -1,7 +1,7 @@
 <script lang="ts">
   import ElementTag from '../components/ElementTag.svelte';
   import NinjaPicker from '../components/NinjaPicker.svelte';
-  import NinjaIcon from '../components/NinjaIcon.svelte';
+  import NinjaCard from '../components/NinjaCard.svelte';
   import { t } from '../lib/i18n.svelte';
   import { duplicateUids, teamElements } from '../lib/planning';
   import { addTeam, catalog, duplicateTeam, elements, player, removeTeam } from '../lib/store.svelte';
@@ -77,18 +77,13 @@
               <span class="pos muted">{t('teams.slot', { n: i + 1 })}</span>
               {#each ['main', 'support'] as const as role (role)}
                 {@const d = describe(slot[role])}
-                {@const size = role === 'main' ? 80 : 52}
+                {@const size = role === 'main' ? 88 : 60}
                 {@const roleLabel = t(role === 'main' ? 'teams.main' : 'teams.support')}
                 <div class="cell {role}">
                   {#if d}
                     <button type="button" class="filled" onclick={() => choose(team, i, role)}
                       aria-label="{roleLabel} : {d.n.name} {d.n.title}, {d.o.stars}★, Lv {d.o.level}">
-                      <span class="art">
-                        <NinjaIcon ninja={d.n} stars={d.o.stars} blazing={d.o.blazingAwakened && !!d.n.blazingAwakening} {size} dim={d.o.planned} />
-                        <span class="lv num">Lv {d.o.level}</span>
-                      </span>
-                      <span class="nm">{d.n.name}</span>
-                      {#if role === 'main'}<span class="tt">{d.n.title}</span>{/if}
+                      <NinjaCard ninja={d.n} stars={d.o.stars} blazing={d.o.blazingAwakened && !!d.n.blazingAwakening} level={d.o.level} {size} dim={d.o.planned} showTitle={role === 'main'} />
                     </button>
                     <button type="button" class="clear" onclick={() => (slot[role] = null)} aria-label="{t('teams.clear')} {d.n.name}" title={t('teams.clear')}>×</button>
                   {:else}
@@ -176,27 +171,10 @@
     text-align: center;
     max-width: 100%;
   }
-  .art { position: relative; margin-bottom: 0.45rem; }
-  .lv {
-    position: absolute;
-    left: 50%;
-    bottom: -8px;
-    transform: translateX(-50%);
-    padding: 0 0.35rem;
-    border-radius: 999px;
-    font-size: 0.68rem;
-    font-weight: 700;
-    background: var(--ink);
-    color: var(--paper);
-    white-space: nowrap;
-  }
-  .nm { font-family: var(--font-cond); font-weight: 700; font-size: 0.98rem; line-height: 1.1; }
-  .support .nm { font-size: 0.85rem; }
-  .tt { font-size: 0.74rem; color: var(--muted); line-height: 1.15; }
   .clear {
     position: absolute;
     top: -6px;
-    right: calc(50% - 52px);
+    right: calc(50% - 56px);
     width: 22px;
     height: 22px;
     border-radius: 50%;
@@ -208,7 +186,7 @@
     cursor: pointer;
     line-height: 1;
   }
-  .support .clear { right: calc(50% - 38px); top: 2px; }
+  .support .clear { right: calc(50% - 42px); top: 2px; }
   .clear:hover { color: var(--danger); }
   .pick {
     width: var(--size);

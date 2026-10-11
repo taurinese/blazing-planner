@@ -12,6 +12,7 @@
 
   const src = $derived(wikiImageUrl(ninjaCard(ninja, stars, blazing), size));
   let failedSrc = $state<string | undefined>();
+  let loadedSrc = $state<string | undefined>();
   const showImage = $derived(!!src && failedSrc !== src);
 </script>
 
@@ -24,9 +25,9 @@
   aria-hidden="true"
 >
   <!-- Initials sit underneath: visible while the image loads or if it never does. -->
-  <span class="fallback">{ninja ? initials(ninja.name) : '?'}</span>
+  <span class="fallback" class:hidden={loadedSrc === src && showImage}>{ninja ? initials(ninja.name) : '?'}</span>
   {#if showImage}
-    <img {src} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width={size} height={size} onerror={() => (failedSrc = src)} />
+    <img {src} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width={size} height={size} onload={() => (loadedSrc = src)} onerror={() => (failedSrc = src)} />
   {/if}
 </span>
 
@@ -53,4 +54,5 @@
     letter-spacing: 0.02em;
   }
   .dim img, .dim .fallback { filter: grayscale(1); opacity: 0.55; }
+  .fallback.hidden { visibility: hidden; }
 </style>

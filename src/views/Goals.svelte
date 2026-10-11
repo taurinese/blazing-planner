@@ -1,5 +1,5 @@
 <script lang="ts">
-  import NinjaIcon from '../components/NinjaIcon.svelte';
+  import NinjaCard from '../components/NinjaCard.svelte';
   import ResourceIcon from '../components/ResourceIcon.svelte';
   import NinjaPicker from '../components/NinjaPicker.svelte';
   import Stars from '../components/Stars.svelte';
@@ -71,9 +71,9 @@
             <header>
               {#if g.ninja}
                 <div class="evo" aria-hidden="true">
-                  <NinjaIcon ninja={g.ninja} stars={g.owned?.stars} blazing={!!g.owned?.blazingAwakened && !!g.ninja.blazingAwakening} size={64} dim={!catalog.isReleased(g.ninja)} />
+                  <NinjaCard ninja={g.ninja} stars={g.owned?.stars} blazing={!!g.owned?.blazingAwakened && !!g.ninja.blazingAwakening} size={76} dim={!catalog.isReleased(g.ninja)} showName={false} />
                   <span class="arrow">→</span>
-                  <NinjaIcon ninja={g.ninja} stars={effectiveTargetStars(goal, g.ninja)} blazing={goal.targetBlazing} size={64} dim={!catalog.isReleased(g.ninja)} />
+                  <NinjaCard ninja={g.ninja} stars={effectiveTargetStars(goal, g.ninja)} blazing={goal.targetBlazing} size={76} dim={!catalog.isReleased(g.ninja)} showName={false} />
                 </div>
               {/if}
               <div class="who">

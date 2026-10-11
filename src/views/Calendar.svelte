@@ -1,5 +1,5 @@
 <script lang="ts">
-  import NinjaIcon from '../components/NinjaIcon.svelte';
+  import NinjaCard from '../components/NinjaCard.svelte';
   import { fmtDate, t } from '../lib/i18n.svelte';
   import { isIsoDate } from '../lib/timeline';
   import { addGoal, addOwned, catalog, elements, player, timeline } from '../lib/store.svelte';
@@ -125,10 +125,7 @@
             <ul class="ninjas">
               {#each expanded.has(release.date) || query ? release.ninjas : release.ninjas.slice(0, COLLAPSED_SIZE) as n (n.id)}
                 <li class="ninja" title="{n.name} · {n.title} · {n.minStars}–{n.maxStars}★">
-                  <NinjaIcon ninja={n} size={72} />
-                  <span class="nm">{n.name}</span>
-                  <span class="tt">{n.title}</span>
-                  <span class="range">{n.minStars}–{n.maxStars}★{#if n.blazingAwakening}{' · '}BA{/if}</span>
+                  <NinjaCard ninja={n} stars={n.maxStars} size={84} dim={!catalog.isReleased(n)} showTitle />
                   {#if ownedIds.has(n.id)}
                     <span class="have">✓ {t('calendar.planned')}</span>
                   {:else}
@@ -185,21 +182,8 @@
   .when .muted { font-size: 0.8rem; }
   .what { display: grid; gap: 0.6rem; min-width: 0; }
   .sources { font-size: 0.88rem; color: var(--muted); }
-  .ninjas { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 0.5rem; }
-  .ninja {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.1rem;
-    padding: 0.7rem 0.4rem 0.6rem;
-    border: 1px solid var(--line);
-    border-radius: var(--radius-m);
-    text-align: center;
-  }
-  .ninja :global(.icon) { margin-bottom: 0.35rem; }
-  .nm { font-family: var(--font-cond); font-weight: 700; font-size: 0.95rem; line-height: 1.1; }
-  .tt { font-size: 0.74rem; color: var(--muted); line-height: 1.15; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .range { font-size: 0.72rem; color: var(--muted); margin-bottom: 0.3rem; }
+  .ninjas { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 0.75rem 0.4rem; }
+  .ninja { display: flex; flex-direction: column; align-items: center; gap: 0.3rem; }
   .ninja > :last-child { margin-top: auto; }
   .more { justify-self: start; }
   .have { font-size: 0.75rem; font-weight: 600; color: var(--ok); min-height: 1.9rem; display: grid; place-items: center; }
