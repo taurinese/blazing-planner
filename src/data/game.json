@@ -28,7 +28,7 @@
     }
   ],
   "limits": {
-    "maxStars": 6,
+    "maxStars": 7,
     "maxLevel": 150,
     "maxLimitBreak": 10,
     "maxSkillLevel": 10

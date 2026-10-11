@@ -4,6 +4,7 @@ import { slugify } from './planning';
 
 export const ELEMENT_IDS: ElementId[] = ['heart', 'skill', 'body', 'bravery', 'wisdom'];
 const CATEGORIES = RESOURCE_CATEGORIES;
+const MAX_STARS = 7;
 
 /** Minimal RFC 4180 CSV parser: quoted fields, escaped quotes, `,` or `;` separator. */
 export function parseCsv(text: string): Record<string, string>[] {
@@ -62,8 +63,8 @@ export function normalizeNinja(raw: Record<string, unknown>, line: number): Ninj
   const element = normalizeElement(raw.element);
   if (!element) return `#${line} (${name}): unknown element "${raw.element ?? ''}"`;
   const title = String(raw.title ?? '').trim();
-  const minStars = Math.min(6, Math.max(1, toInt(raw.minStars ?? raw.minstars, 1)));
-  const maxStars = Math.min(6, Math.max(minStars, toInt(raw.maxStars ?? raw.maxstars, minStars)));
+  const minStars = Math.min(MAX_STARS, Math.max(1, toInt(raw.minStars ?? raw.minstars, 1)));
+  const maxStars = Math.min(MAX_STARS, Math.max(minStars, toInt(raw.maxStars ?? raw.maxstars, minStars)));
   const tagsRaw = raw.tags;
   const tags = Array.isArray(tagsRaw)
     ? tagsRaw.map(String)

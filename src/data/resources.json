@@ -14,5 +14,746 @@
       "en": "Ninja Pearls"
     },
     "category": "currency"
+  },
+  {
+    "id": "awakening-charm-talisman-of-legends",
+    "name": {
+      "fr": "Awakening Charm \"Talisman of Legends\"",
+      "en": "Awakening Charm \"Talisman of Legends\""
+    },
+    "category": "awakening"
+  },
+  {
+    "id": "awakening-scroll-body-book-1",
+    "name": {
+      "fr": "Awakening Scroll \"Body Book\" (★1)",
+      "en": "Awakening Scroll \"Body Book\" (★1)"
+    },
+    "category": "awakening",
+    "element": "body"
+  },
+  {
+    "id": "awakening-scroll-body-book-2",
+    "name": {
+      "fr": "Awakening Scroll \"Body Book\" (★2)",
+      "en": "Awakening Scroll \"Body Book\" (★2)"
+    },
+    "category": "awakening",
+    "element": "body"
+  },
+  {
+    "id": "awakening-scroll-body-book-3",
+    "name": {
+      "fr": "Awakening Scroll \"Body Book\" (★3)",
+      "en": "Awakening Scroll \"Body Book\" (★3)"
+    },
+    "category": "awakening",
+    "element": "body"
+  },
+  {
+    "id": "awakening-scroll-body-book-4",
+    "name": {
+      "fr": "Awakening Scroll \"Body Book\" (★4)",
+      "en": "Awakening Scroll \"Body Book\" (★4)"
+    },
+    "category": "awakening",
+    "element": "body"
+  },
+  {
+    "id": "awakening-scroll-book-of-victor-5",
+    "name": {
+      "fr": "Awakening Scroll \"Book of Victor\" (★5)",
+      "en": "Awakening Scroll \"Book of Victor\" (★5)"
+    },
+    "category": "awakening"
+  },
+  {
+    "id": "awakening-scroll-book-of-victor-6",
+    "name": {
+      "fr": "Awakening Scroll \"Book of Victor\" (★6)",
+      "en": "Awakening Scroll \"Book of Victor\" (★6)"
+    },
+    "category": "awakening"
+  },
+  {
+    "id": "awakening-scroll-bravery-book-1",
+    "name": {
+      "fr": "Awakening Scroll \"Bravery Book\" (★1)",
+      "en": "Awakening Scroll \"Bravery Book\" (★1)"
+    },
+    "category": "awakening",
+    "element": "bravery"
+  },
+  {
+    "id": "awakening-scroll-bravery-book-2",
+    "name": {
+      "fr": "Awakening Scroll \"Bravery Book\" (★2)",
+      "en": "Awakening Scroll \"Bravery Book\" (★2)"
+    },
+    "category": "awakening",
+    "element": "bravery"
+  },
+  {
+    "id": "awakening-scroll-bravery-book-3",
+    "name": {
+      "fr": "Awakening Scroll \"Bravery Book\" (★3)",
+      "en": "Awakening Scroll \"Bravery Book\" (★3)"
+    },
+    "category": "awakening",
+    "element": "bravery"
+  },
+  {
+    "id": "awakening-scroll-bravery-book-4",
+    "name": {
+      "fr": "Awakening Scroll \"Bravery Book\" (★4)",
+      "en": "Awakening Scroll \"Bravery Book\" (★4)"
+    },
+    "category": "awakening",
+    "element": "bravery"
+  },
+  {
+    "id": "awakening-scroll-heart-book-1",
+    "name": {
+      "fr": "Awakening Scroll \"Heart Book\" (★1)",
+      "en": "Awakening Scroll \"Heart Book\" (★1)"
+    },
+    "category": "awakening",
+    "element": "heart"
+  },
+  {
+    "id": "awakening-scroll-heart-book-2",
+    "name": {
+      "fr": "Awakening Scroll \"Heart Book\" (★2)",
+      "en": "Awakening Scroll \"Heart Book\" (★2)"
+    },
+    "category": "awakening",
+    "element": "heart"
+  },
+  {
+    "id": "awakening-scroll-heart-book-3",
+    "name": {
+      "fr": "Awakening Scroll \"Heart Book\" (★3)",
+      "en": "Awakening Scroll \"Heart Book\" (★3)"
+    },
+    "category": "awakening",
+    "element": "heart"
+  },
+  {
+    "id": "awakening-scroll-heart-book-4",
+    "name": {
+      "fr": "Awakening Scroll \"Heart Book\" (★4)",
+      "en": "Awakening Scroll \"Heart Book\" (★4)"
+    },
+    "category": "awakening",
+    "element": "heart"
+  },
+  {
+    "id": "awakening-scroll-skill-book-1",
+    "name": {
+      "fr": "Awakening Scroll \"Skill Book\" (★1)",
+      "en": "Awakening Scroll \"Skill Book\" (★1)"
+    },
+    "category": "awakening",
+    "element": "skill"
+  },
+  {
+    "id": "awakening-scroll-skill-book-2",
+    "name": {
+      "fr": "Awakening Scroll \"Skill Book\" (★2)",
+      "en": "Awakening Scroll \"Skill Book\" (★2)"
+    },
+    "category": "awakening",
+    "element": "skill"
+  },
+  {
+    "id": "awakening-scroll-skill-book-3",
+    "name": {
+      "fr": "Awakening Scroll \"Skill Book\" (★3)",
+      "en": "Awakening Scroll \"Skill Book\" (★3)"
+    },
+    "category": "awakening",
+    "element": "skill"
+  },
+  {
+    "id": "awakening-scroll-skill-book-4",
+    "name": {
+      "fr": "Awakening Scroll \"Skill Book\" (★4)",
+      "en": "Awakening Scroll \"Skill Book\" (★4)"
+    },
+    "category": "awakening",
+    "element": "skill"
+  },
+  {
+    "id": "awakening-scroll-wisdom-book-4",
+    "name": {
+      "fr": "Awakening Scroll \"Wisdom  Book\" (★4)",
+      "en": "Awakening Scroll \"Wisdom  Book\" (★4)"
+    },
+    "category": "awakening",
+    "element": "wisdom"
+  },
+  {
+    "id": "awakening-scroll-wisdom-book-1",
+    "name": {
+      "fr": "Awakening Scroll \"Wisdom Book\" (★1)",
+      "en": "Awakening Scroll \"Wisdom Book\" (★1)"
+    },
+    "category": "awakening",
+    "element": "wisdom"
+  },
+  {
+    "id": "awakening-scroll-wisdom-book-2",
+    "name": {
+      "fr": "Awakening Scroll \"Wisdom Book\" (★2)",
+      "en": "Awakening Scroll \"Wisdom Book\" (★2)"
+    },
+    "category": "awakening",
+    "element": "wisdom"
+  },
+  {
+    "id": "awakening-scroll-wisdom-book-3",
+    "name": {
+      "fr": "Awakening Scroll \"Wisdom Book\" (★3)",
+      "en": "Awakening Scroll \"Wisdom Book\" (★3)"
+    },
+    "category": "awakening",
+    "element": "wisdom"
+  },
+  {
+    "id": "awakening-scroll-wisdom-book-4",
+    "name": {
+      "fr": "Awakening Scroll \"Wisdom Book\" (★4)",
+      "en": "Awakening Scroll \"Wisdom Book\" (★4)"
+    },
+    "category": "awakening",
+    "element": "wisdom"
+  },
+  {
+    "id": "body-beads-battle-body-beads",
+    "name": {
+      "fr": "Body Beads \"Battle Body Beads\"",
+      "en": "Body Beads \"Battle Body Beads\""
+    },
+    "category": "blazing",
+    "element": "body"
+  },
+  {
+    "id": "body-beads-light-body-beads",
+    "name": {
+      "fr": "Body Beads \"Light Body Beads\"",
+      "en": "Body Beads \"Light Body Beads\""
+    },
+    "category": "blazing",
+    "element": "body"
+  },
+  {
+    "id": "bravery-ichiraku-ramen-xxl",
+    "name": {
+      "fr": "Bravery \"Ichiraku Ramen, XXL\"",
+      "en": "Bravery \"Ichiraku Ramen, XXL\""
+    },
+    "category": "awakening",
+    "element": "bravery"
+  },
+  {
+    "id": "bravery-beads-battle-bravery-beads",
+    "name": {
+      "fr": "Bravery Beads \"Battle Bravery Beads\"",
+      "en": "Bravery Beads \"Battle Bravery Beads\""
+    },
+    "category": "blazing",
+    "element": "bravery"
+  },
+  {
+    "id": "bravery-beads-light-bravery-beads",
+    "name": {
+      "fr": "Bravery Beads \"Light Bravery Beads\"",
+      "en": "Bravery Beads \"Light Bravery Beads\""
+    },
+    "category": "blazing",
+    "element": "bravery"
+  },
+  {
+    "id": "deadly-beads-all-ending-thunderbolt",
+    "name": {
+      "fr": "Deadly Beads \"All-Ending Thunderbolt\"",
+      "en": "Deadly Beads \"All-Ending Thunderbolt\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-at-the-battle-s-end",
+    "name": {
+      "fr": "Deadly Beads \"At the Battle's End\"",
+      "en": "Deadly Beads \"At the Battle's End\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-between-love-and-madness",
+    "name": {
+      "fr": "Deadly Beads \"Between Love and Madness\"",
+      "en": "Deadly Beads \"Between Love and Madness\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-blind-rage",
+    "name": {
+      "fr": "Deadly Beads \"Blind Rage\"",
+      "en": "Deadly Beads \"Blind Rage\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-cataclysm-eaters",
+    "name": {
+      "fr": "Deadly Beads \"Cataclysm-Eaters\"",
+      "en": "Deadly Beads \"Cataclysm-Eaters\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-devoted-to-studies",
+    "name": {
+      "fr": "Deadly Beads \"Devoted to Studies\"",
+      "en": "Deadly Beads \"Devoted to Studies\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-embodiment-of-darkness",
+    "name": {
+      "fr": "Deadly Beads \"Embodiment of Darkness\"",
+      "en": "Deadly Beads \"Embodiment of Darkness\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-endless-rebirth",
+    "name": {
+      "fr": "Deadly Beads \"Endless Rebirth\"",
+      "en": "Deadly Beads \"Endless Rebirth\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-evil-heart",
+    "name": {
+      "fr": "Deadly Beads \"Evil Heart\"",
+      "en": "Deadly Beads \"Evil Heart\""
+    },
+    "category": "blazing",
+    "element": "heart"
+  },
+  {
+    "id": "deadly-beads-final-words",
+    "name": {
+      "fr": "Deadly Beads \"Final Words\"",
+      "en": "Deadly Beads \"Final Words\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-fortitude-resolution",
+    "name": {
+      "fr": "Deadly Beads \"Fortitude & Resolution\"",
+      "en": "Deadly Beads \"Fortitude & Resolution\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-freedom-of-choice",
+    "name": {
+      "fr": "Deadly Beads \"Freedom of Choice\"",
+      "en": "Deadly Beads \"Freedom of Choice\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-hollow-heart",
+    "name": {
+      "fr": "Deadly Beads \"Hollow Heart\"",
+      "en": "Deadly Beads \"Hollow Heart\""
+    },
+    "category": "blazing",
+    "element": "heart"
+  },
+  {
+    "id": "deadly-beads-inching-towards-perfection",
+    "name": {
+      "fr": "Deadly Beads \"Inching Towards Perfection\"",
+      "en": "Deadly Beads \"Inching Towards Perfection\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-judicious-master",
+    "name": {
+      "fr": "Deadly Beads \"Judicious Master\"",
+      "en": "Deadly Beads \"Judicious Master\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-let-s-bee-friends",
+    "name": {
+      "fr": "Deadly Beads \"Let's \"Bee\" Friends\"",
+      "en": "Deadly Beads \"Let's \"Bee\" Friends\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-magnum-opus",
+    "name": {
+      "fr": "Deadly Beads \"Magnum Opus\"",
+      "en": "Deadly Beads \"Magnum Opus\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-one-step-to-hokage",
+    "name": {
+      "fr": "Deadly Beads \"One Step to Hokage\"",
+      "en": "Deadly Beads \"One Step to Hokage\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-pursuit-of-a-dream",
+    "name": {
+      "fr": "Deadly Beads \"Pursuit of a Dream\"",
+      "en": "Deadly Beads \"Pursuit of a Dream\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-strength-based-leadership",
+    "name": {
+      "fr": "Deadly Beads \"Strength-Based Leadership\"",
+      "en": "Deadly Beads \"Strength-Based Leadership\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-the-inheritor",
+    "name": {
+      "fr": "Deadly Beads \"The Inheritor\"",
+      "en": "Deadly Beads \"The Inheritor\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-the-tailless-tailed-beast",
+    "name": {
+      "fr": "Deadly Beads \"The Tailless Tailed Beast\"",
+      "en": "Deadly Beads \"The Tailless Tailed Beast\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-truth-of-the-divine-tree",
+    "name": {
+      "fr": "Deadly Beads \"Truth of the Divine Tree\"",
+      "en": "Deadly Beads \"Truth of the Divine Tree\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "deadly-beads-wrapped-in-mysteries",
+    "name": {
+      "fr": "Deadly Beads \"Wrapped in Mysteries\"",
+      "en": "Deadly Beads \"Wrapped in Mysteries\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "executioner-s-blade-special-awakening-tool",
+    "name": {
+      "fr": "Executioner's Blade \"Special Awakening Tool\"",
+      "en": "Executioner's Blade \"Special Awakening Tool\""
+    },
+    "category": "awakening"
+  },
+  {
+    "id": "ferocious-beads-all-ending-thunderbolt",
+    "name": {
+      "fr": "Ferocious Beads \"All-Ending Thunderbolt\"",
+      "en": "Ferocious Beads \"All-Ending Thunderbolt\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-at-the-battle-s-end",
+    "name": {
+      "fr": "Ferocious Beads \"At the Battle's End\"",
+      "en": "Ferocious Beads \"At the Battle's End\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-between-love-and-madness",
+    "name": {
+      "fr": "Ferocious Beads \"Between Love and Madness\"",
+      "en": "Ferocious Beads \"Between Love and Madness\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-blind-rage",
+    "name": {
+      "fr": "Ferocious Beads \"Blind Rage\"",
+      "en": "Ferocious Beads \"Blind Rage\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-cataclysm-eaters",
+    "name": {
+      "fr": "Ferocious Beads \"Cataclysm-Eaters\"",
+      "en": "Ferocious Beads \"Cataclysm-Eaters\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-devoted-to-studies",
+    "name": {
+      "fr": "Ferocious Beads \"Devoted to Studies\"",
+      "en": "Ferocious Beads \"Devoted to Studies\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-embodiment-of-darkness",
+    "name": {
+      "fr": "Ferocious Beads \"Embodiment of Darkness\"",
+      "en": "Ferocious Beads \"Embodiment of Darkness\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-endless-rebirth",
+    "name": {
+      "fr": "Ferocious Beads \"Endless Rebirth\"",
+      "en": "Ferocious Beads \"Endless Rebirth\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-evil-heart",
+    "name": {
+      "fr": "Ferocious Beads \"Evil Heart\"",
+      "en": "Ferocious Beads \"Evil Heart\""
+    },
+    "category": "blazing",
+    "element": "heart"
+  },
+  {
+    "id": "ferocious-beads-final-words",
+    "name": {
+      "fr": "Ferocious Beads \"Final Words\"",
+      "en": "Ferocious Beads \"Final Words\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-fortitude-resolution",
+    "name": {
+      "fr": "Ferocious Beads \"Fortitude & Resolution\"",
+      "en": "Ferocious Beads \"Fortitude & Resolution\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-freedom-of-choice",
+    "name": {
+      "fr": "Ferocious Beads \"Freedom of Choice\"",
+      "en": "Ferocious Beads \"Freedom of Choice\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-hollow-heart",
+    "name": {
+      "fr": "Ferocious Beads \"Hollow Heart\"",
+      "en": "Ferocious Beads \"Hollow Heart\""
+    },
+    "category": "blazing",
+    "element": "heart"
+  },
+  {
+    "id": "ferocious-beads-inching-towards-perfection",
+    "name": {
+      "fr": "Ferocious Beads \"Inching Towards Perfection\"",
+      "en": "Ferocious Beads \"Inching Towards Perfection\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-judicious-master",
+    "name": {
+      "fr": "Ferocious Beads \"Judicious Master\"",
+      "en": "Ferocious Beads \"Judicious Master\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-let-s-bee-friends",
+    "name": {
+      "fr": "Ferocious Beads \"Let's \"Bee\" Friends\"",
+      "en": "Ferocious Beads \"Let's \"Bee\" Friends\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-magnum-opus",
+    "name": {
+      "fr": "Ferocious Beads \"Magnum Opus\"",
+      "en": "Ferocious Beads \"Magnum Opus\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-one-step-to-hokage",
+    "name": {
+      "fr": "Ferocious Beads \"One Step to Hokage\"",
+      "en": "Ferocious Beads \"One Step to Hokage\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-pursuit-of-a-dream",
+    "name": {
+      "fr": "Ferocious Beads \"Pursuit of a Dream\"",
+      "en": "Ferocious Beads \"Pursuit of a Dream\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-strength-based-leadership",
+    "name": {
+      "fr": "Ferocious Beads \"Strength-Based Leadership\"",
+      "en": "Ferocious Beads \"Strength-Based Leadership\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-the-inheritor",
+    "name": {
+      "fr": "Ferocious Beads \"The Inheritor\"",
+      "en": "Ferocious Beads \"The Inheritor\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-the-tailless-tailed-beast",
+    "name": {
+      "fr": "Ferocious Beads \"The Tailless Tailed Beast\"",
+      "en": "Ferocious Beads \"The Tailless Tailed Beast\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-truth-of-the-divine-tree",
+    "name": {
+      "fr": "Ferocious Beads \"Truth of the Divine Tree\"",
+      "en": "Ferocious Beads \"Truth of the Divine Tree\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "ferocious-beads-wrapped-in-mysteries",
+    "name": {
+      "fr": "Ferocious Beads \"Wrapped in Mysteries\"",
+      "en": "Ferocious Beads \"Wrapped in Mysteries\""
+    },
+    "category": "blazing"
+  },
+  {
+    "id": "heart-beads-battle-heart-beads",
+    "name": {
+      "fr": "Heart Beads \"Battle Heart Beads\"",
+      "en": "Heart Beads \"Battle Heart Beads\""
+    },
+    "category": "blazing",
+    "element": "heart"
+  },
+  {
+    "id": "heart-beads-light-heart-beads",
+    "name": {
+      "fr": "Heart Beads \"Light Heart Beads\"",
+      "en": "Heart Beads \"Light Heart Beads\""
+    },
+    "category": "blazing",
+    "element": "heart"
+  },
+  {
+    "id": "limit-break-crystal-body-crystal",
+    "name": {
+      "fr": "Limit Break Crystal \"Body Crystal\"",
+      "en": "Limit Break Crystal \"Body Crystal\""
+    },
+    "category": "limitbreak",
+    "element": "body"
+  },
+  {
+    "id": "red-ring-special-awakening-tool",
+    "name": {
+      "fr": "Red Ring \"Special Awakening Tool\"",
+      "en": "Red Ring \"Special Awakening Tool\""
+    },
+    "category": "awakening"
+  },
+  {
+    "id": "sand-gourd-special-awakening-tool",
+    "name": {
+      "fr": "Sand Gourd \"Special Awakening Tool\"",
+      "en": "Sand Gourd \"Special Awakening Tool\""
+    },
+    "category": "awakening"
+  },
+  {
+    "id": "skill-beads-battle-skill-beads",
+    "name": {
+      "fr": "Skill Beads \"Battle Skill Beads\"",
+      "en": "Skill Beads \"Battle Skill Beads\""
+    },
+    "category": "blazing",
+    "element": "skill"
+  },
+  {
+    "id": "skill-beads-light-skill-beads",
+    "name": {
+      "fr": "Skill Beads \"Light Skill Beads\"",
+      "en": "Skill Beads \"Light Skill Beads\""
+    },
+    "category": "blazing",
+    "element": "skill"
+  },
+  {
+    "id": "training-weights-special-awakening-tool",
+    "name": {
+      "fr": "Training Weights \"Special Awakening Tool\"",
+      "en": "Training Weights \"Special Awakening Tool\""
+    },
+    "category": "awakening"
+  },
+  {
+    "id": "wisdom-beads-battle-wisdom-beads",
+    "name": {
+      "fr": "Wisdom Beads \"Battle Wisdom Beads\"",
+      "en": "Wisdom Beads \"Battle Wisdom Beads\""
+    },
+    "category": "blazing",
+    "element": "wisdom"
+  },
+  {
+    "id": "wisdom-beads-light-wisdom-beads",
+    "name": {
+      "fr": "Wisdom Beads \"Light Wisdom Beads\"",
+      "en": "Wisdom Beads \"Light Wisdom Beads\""
+    },
+    "category": "blazing",
+    "element": "wisdom"
   }
 ]

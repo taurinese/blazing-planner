@@ -171,7 +171,12 @@ export function buildCatalog(pages, materialCategories = {}) {
   }
   const resources = [...materialNames]
     .sort((a, b) => a.localeCompare(b))
-    .map((n) => ({ id: slugify(n), name: { fr: n, en: n }, category: categoryByTitle.get(n) ?? 'awakening' }));
+    .map((n) => {
+      const resource = { id: slugify(n), name: { fr: n, en: n }, category: categoryByTitle.get(n) ?? 'awakening' };
+      const element = n.match(/\b(Heart|Skill|Body|Bravery|Wisdom)\b/);
+      if (element) resource.element = element[1].toLowerCase();
+      return resource;
+    });
 
   return { ninjas, resources, warnings, stats: { pages: pages.length, cards: cards.length, ninjas: ninjas.length, resources: resources.length } };
 }

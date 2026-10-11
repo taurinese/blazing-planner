@@ -75,7 +75,7 @@ describe('wiki mapping', () => {
         { resourceId: 'ferocious-beads-devoted-to-studies', qty: 2 },
       ],
     });
-    expect(resources.find((r: { id: string }) => r.id === 'tome-of-heart')).toMatchObject({ category: 'awakening' });
+    expect(resources.find((r: { id: string }) => r.id === 'tome-of-heart')).toMatchObject({ category: 'awakening', element: 'heart' });
     expect(resources.find((r: { id: string }) => r.id === 'deadly-beads-devoted-to-studies')).toMatchObject({ category: 'blazing' });
   });
 
