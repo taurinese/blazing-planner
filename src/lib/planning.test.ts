@@ -23,7 +23,7 @@ const templates: Templates = {
 
 const ninja: NinjaDef = {
   id: 'n1', name: 'Naruto', title: 'Test', element: 'bravery',
-  minStars: 4, maxStars: 6, awakening: [], awakeningTemplate: 'standard', verified: false,
+  minStars: 4, maxStars: 6, awakening: [], awakeningTemplate: 'standard',
 };
 
 const owned = (uid: string, stars = 4): OwnedNinja => ({

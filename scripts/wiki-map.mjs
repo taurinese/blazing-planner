@@ -48,6 +48,16 @@ function countStars(params, title) {
   return m ? Number(m[1]) : 0;
 }
 
+/** "April 2, 2019" → "2019-04-02". */
+export function toIsoDate(v) {
+  const text = plainText(v);
+  const m = text.match(/([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})/);
+  if (!m) return undefined;
+  const month = ['january','february','march','april','may','june','july','august','september','october','november','december'].indexOf(m[1].toLowerCase());
+  if (month < 0) return undefined;
+  return `${m[3]}-${String(month + 1).padStart(2, '0')}-${m[2].padStart(2, '0')}`;
+}
+
 function toInt(v) {
   const n = parseInt(plainText(v).replace(/[^\d]/g, ''), 10);
   return Number.isFinite(n) ? n : undefined;
@@ -78,6 +88,7 @@ export function pageToCard(page) {
     maxLevelLB: toInt(p['max-lv-lb']),
     limitBreak: /^yes$/i.test(plainText(p['limit-break'])),
     range: plainText(p.range).toLowerCase() || undefined,
+    globalDate: toIsoDate(p['global-date']),
     materials,
   };
 }
@@ -141,13 +152,15 @@ export function buildCatalog(pages, materialCategories = {}) {
       minStars,
       maxStars,
       awakening,
-      verified: false,
     };
     if (blazingAwakening) ninja.blazingAwakening = blazingAwakening;
     if (top.limitBreak) ninja.limitBreak = true;
     if (top.maxLevel) ninja.maxLevel = top.limitBreak && top.maxLevelLB ? top.maxLevelLB : top.maxLevel;
     if (top.cardNo) ninja.cardNo = top.cardNo;
     if (top.range) ninja.range = top.range;
+    // Earliest release among the ninja's pages: when it first became obtainable.
+    const dates = group.map((c) => c.globalDate).filter(Boolean).sort();
+    if (dates.length) ninja.globalDate = dates[0];
     ninjas.push(ninja);
   }
 

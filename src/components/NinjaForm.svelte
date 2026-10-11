@@ -88,7 +88,6 @@
     <label class="check pad"><input type="checkbox" bind:checked={draft.limitBreak} /> {t('form.limitBreak')}</label>
   </div>
   {#if isNew}<p class="muted small">ID : {slugify(`${draft.name} ${draft.title}`) || '—'}</p>{/if}
-  <label class="check"><input type="checkbox" bind:checked={draft.verified} /> {t('form.verified')}</label>
 
   <fieldset>
     <legend>{t('form.awakening')}</legend>

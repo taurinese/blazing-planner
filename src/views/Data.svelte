@@ -82,7 +82,7 @@
   }
 
   function newNinja() {
-    editingNinja = { id: '', name: '', title: '', element: 'heart', minStars: 1, maxStars: 6, awakening: [], tags: [], verified: false };
+    editingNinja = { id: '', name: '', title: '', element: 'heart', minStars: 1, maxStars: 6, awakening: [], tags: [] };
     ninjaFormOpen = true;
   }
 
@@ -159,8 +159,8 @@
     </div>
     <details class="help">
       <summary>{t('data.formatHelp')}</summary>
-      <pre>name,title,element,minStars,maxStars,tags,awakeningTemplate,verified
-Naruto Uzumaki,Sage Mode,bravery,5,6,attacker|aoe,standard,false</pre>
+      <pre>name,title,element,minStars,maxStars,tags,maxLevel,limitBreak
+Naruto Uzumaki,Sage Mode,bravery,5,6,attacker|aoe,150,true</pre>
       <p class="muted small">element : heart · skill · body · bravery · wisdom (ou cœur, technique, corps, bravoure, sagesse)</p>
     </details>
 
@@ -183,7 +183,6 @@ Naruto Uzumaki,Sage Mode,bravery,5,6,attacker|aoe,standard,false</pre>
               <td><ElementTag element={n.element} /></td>
               <td class="num">{n.minStars}–{n.maxStars}</td>
               <td class="flags">
-                {#if n.verified}<span class="flag ok">{t('data.verified')}</span>{/if}
                 {#if n.blazingAwakening}<span class="flag">BA</span>{/if}
                 {#if n.limitBreak}<span class="flag">LB</span>{/if}
                 {#if customIds.has(n.id)}<span class="flag">{t('data.custom')}</span>{/if}

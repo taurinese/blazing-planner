@@ -137,7 +137,6 @@
       {#if editingNinja}
         <div class="row-between">
           <ElementTag element={editingNinja.element} />
-          {#if !editingNinja.verified}<span class="muted small">{t('common.unverified')}</span>{/if}
         </div>
       {/if}
       <div class="field">

@@ -21,10 +21,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2079,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-04-21"
   },
   {
     "id": "ameyuri-ringo-furious-full-tilt-lightning-blade",
@@ -48,10 +48,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 485,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-11-14"
   },
   {
     "id": "anko-mitarashi-a-smile-that-could-kill",
@@ -75,10 +75,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 683,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-09-18"
   },
   {
     "id": "anko-mitarashi-dangerous-dumpling-lover",
@@ -98,10 +98,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 95,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "ao-an-eye-of-mist",
@@ -125,10 +125,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 766,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-02-26"
   },
   {
     "id": "ashura-devoted-to-studies",
@@ -138,7 +138,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-devoted-to-studies",
@@ -152,7 +151,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 789,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-04-02"
   },
   {
     "id": "ashura-heir-to-the-ninja-creed",
@@ -176,10 +176,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 518,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-12-26"
   },
   {
     "id": "ashura-successor",
@@ -203,7 +203,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "bravery-beads-light-bravery-beads",
@@ -216,7 +215,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 842,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-07-17"
   },
   {
     "id": "ashura-the-power-of-bonds",
@@ -236,10 +236,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2110,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2020-07-21"
   },
   {
     "id": "asuma-sarutobi-all-powerful-infighter",
@@ -263,11 +263,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 215,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-11-16"
   },
   {
     "id": "asuma-sarutobi-final-words",
@@ -277,7 +277,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-final-words",
@@ -291,7 +290,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 848,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-07-23"
   },
   {
     "id": "asuma-sarutobi-master-s-teachings",
@@ -315,7 +315,6 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 403,
     "range": "mid"
@@ -338,10 +337,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 105,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "bandit-mountain-thug",
@@ -351,10 +350,10 @@
     "minStars": 1,
     "maxStars": 1,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 129,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "bandit-lackey-mountain-lackey",
@@ -364,10 +363,10 @@
     "minStars": 1,
     "maxStars": 1,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 128,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "bandit-leader-head-of-the-thugs",
@@ -377,10 +376,10 @@
     "minStars": 2,
     "maxStars": 2,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 130,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "cee-earnest-with-composure",
@@ -404,10 +403,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 881,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-09-25"
   },
   {
     "id": "chino-ill-omened-red-eyes",
@@ -431,11 +430,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 571,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-03-20"
   },
   {
     "id": "chiriku-ultimate-training",
@@ -459,10 +458,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 326,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-03-22"
   },
   {
     "id": "chiyo-joint-puppet-performance",
@@ -486,10 +485,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 340,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-04-10"
   },
   {
     "id": "choji-akimichi-a-life-bet-on-two-wings",
@@ -513,11 +512,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 226,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-11-30"
   },
   {
     "id": "choji-akimichi-fluttering-butterfly",
@@ -541,7 +540,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "wisdom-beads-light-wisdom-beads",
@@ -555,7 +553,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 619,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-06-05"
   },
   {
     "id": "choji-akimichi-gentle-resolve",
@@ -579,10 +578,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2041,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-01-28"
   },
   {
     "id": "choji-akimichi-glutton",
@@ -606,11 +605,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 59,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "choji-akimichi-insatiable-appetite",
@@ -630,10 +629,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 15,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "choji-akimichi-quickening-wings",
@@ -643,10 +642,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 595,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-04-24"
   },
   {
     "id": "chojuro-slashing-twinsword",
@@ -670,11 +669,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 565,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-03-13"
   },
   {
     "id": "chojuro-successor-of-the-ninja-sword",
@@ -698,10 +697,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 367,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-05-16"
   },
   {
     "id": "choza-akimichi-the-ino-shika-cho-trio",
@@ -721,10 +720,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 115,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "dan-kato-unfaltering-ambition",
@@ -748,10 +747,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2067,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2020-03-24"
   },
   {
     "id": "danzo-shimura-embodiment-of-darkness",
@@ -761,7 +760,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-embodiment-of-darkness",
@@ -775,7 +773,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 2034,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2020-01-07"
   },
   {
     "id": "danzo-shimura-root-of-the-great-tree",
@@ -799,11 +798,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 374,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-05-30"
   },
   {
     "id": "darui-carved-seal-of-lightning",
@@ -827,10 +826,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 759,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-02-11"
   },
   {
     "id": "darui-from-the-heart",
@@ -854,7 +853,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "skill-beads-battle-skill-beads",
@@ -867,7 +865,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 2129,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-09-15"
   },
   {
     "id": "darui-words-of-conviction",
@@ -891,11 +890,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 386,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-06-13"
   },
   {
     "id": "deidara-creation-of-light",
@@ -915,10 +914,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 885,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-10-02"
   },
   {
     "id": "deidara-ephemeral-art",
@@ -942,11 +941,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 220,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-11-25"
   },
   {
     "id": "deidara-explosive-fury",
@@ -970,10 +969,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 441,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-09-05"
   },
   {
     "id": "deidara-glimmering-art",
@@ -997,10 +996,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 732,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-12-07"
   },
   {
     "id": "deidara-magnum-opus",
@@ -1010,7 +1009,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-magnum-opus",
@@ -1024,7 +1022,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 836,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2019-06-25"
   },
   {
     "id": "deidara-pursued-aesthetic",
@@ -1048,7 +1047,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "wisdom-beads-light-wisdom-beads",
@@ -1061,7 +1059,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 655,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-08-07"
   },
   {
     "id": "deidara-true-arts",
@@ -1085,10 +1084,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 351,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-04-25"
   },
   {
     "id": "dosu-kinuta-the-cool-calm-leader",
@@ -1098,10 +1097,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 33,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "ebisu-an-elite-teacher",
@@ -1111,10 +1110,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 26,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "fourth-raikage-ay-savage-lightning",
@@ -1138,11 +1137,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 357,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-05-04"
   },
   {
     "id": "fourth-raikage-ay-solid-lightning",
@@ -1166,10 +1165,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 467,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-10-17"
   },
   {
     "id": "fugaku-uchiha-prosperity-and-faith",
@@ -1193,10 +1192,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2023,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-12-10"
   },
   {
     "id": "fuguki-suikazan-darkness-of-the-blood-mist",
@@ -1220,10 +1219,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 597,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-05-01"
   },
   {
     "id": "fuu-bright-and-cheerful",
@@ -1233,10 +1232,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 838,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-07-02"
   },
   {
     "id": "fuu-wild-and-free",
@@ -1260,10 +1259,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 414,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-07-31"
   },
   {
     "id": "gaara-a-true-gift",
@@ -1273,10 +1272,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2127,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-09-01"
   },
   {
     "id": "gaara-finally-friendship",
@@ -1296,10 +1295,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 835,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-06-25"
   },
   {
     "id": "gaara-many-bonds",
@@ -1323,11 +1322,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 437,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-09-06"
   },
   {
     "id": "gaara-proclaimed-faith",
@@ -1337,10 +1336,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 879,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-10-03"
   },
   {
     "id": "gaara-protector-of-the-sands",
@@ -1364,11 +1363,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 284,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-02-01"
   },
   {
     "id": "gaara-sand-clad-demon",
@@ -1392,11 +1391,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 186,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-10-14"
   },
   {
     "id": "gaara-sand-defense",
@@ -1420,11 +1419,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 51,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "gaara-sandstorm-commanding-kage",
@@ -1448,10 +1447,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 730,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-12-07"
   },
   {
     "id": "gaara-solid-sandstorm",
@@ -1475,7 +1474,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "bravery-beads-light-bravery-beads",
@@ -1489,7 +1487,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 477,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2017-11-07"
   },
   {
     "id": "gaara-the-sand-s-final-weapon",
@@ -1509,11 +1508,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 174,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-10-14"
   },
   {
     "id": "gaara-the-strongest-shield",
@@ -1537,10 +1536,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 268,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-01-10"
   },
   {
     "id": "gengetsu-hozuki-mists-over-the-darkness",
@@ -1564,11 +1563,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 489,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-11-21"
   },
   {
     "id": "gengo-master-of-silence",
@@ -1592,11 +1591,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 299,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-02-14"
   },
   {
     "id": "genma-shiranui-always-aimless",
@@ -1606,10 +1605,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 27,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "gozu-poisonous-right-arm",
@@ -1619,10 +1618,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 42,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "hagoromo-otsutsuki-sage-of-the-six-paths",
@@ -1632,10 +1631,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 663,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-08-21"
   },
   {
     "id": "hagoromo-otsutsuki-truth-of-the-divine-tree",
@@ -1645,7 +1644,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-truth-of-the-divine-tree",
@@ -1659,7 +1657,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 2044,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-02-04"
   },
   {
     "id": "haku-a-frozen-heart",
@@ -1683,11 +1682,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 140,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "haku-all-for-his-loved-ones",
@@ -1697,11 +1696,11 @@
     "minStars": 5,
     "maxStars": 5,
     "awakening": [],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 141,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-09-08"
   },
   {
     "id": "haku-chilling-edge",
@@ -1725,7 +1724,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "bravery-beads-battle-bravery-beads",
@@ -1739,7 +1737,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 538,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-02-06"
   },
   {
     "id": "haku-tears-of-the-ice-mirror",
@@ -1763,11 +1762,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 424,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-08-15"
   },
   {
     "id": "haku-the-icy-mask-s-blades",
@@ -1791,11 +1790,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 138,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "hamura-otsutsuki-ancestral-lineage",
@@ -1805,10 +1804,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 733,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-12-11"
   },
   {
     "id": "han-sprint-barrage",
@@ -1832,10 +1831,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 544,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-02-06"
   },
   {
     "id": "hanabi-hyuga-daughter-of-the-byakugan",
@@ -1859,10 +1858,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 774,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-02-26"
   },
   {
     "id": "hanabi-hyuga-the-will-of-the-hyuga",
@@ -1872,10 +1871,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 431,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-09-19"
   },
   {
     "id": "hanzo-hero-of-purple-poison",
@@ -1899,10 +1898,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 342,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-04-10"
   },
   {
     "id": "hanzo-steadfast-veteran",
@@ -1926,11 +1925,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 450,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-09-26"
   },
   {
     "id": "hashirama-senju-among-the-strongest",
@@ -1950,11 +1949,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 746,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-12-31"
   },
   {
     "id": "hashirama-senju-bravery-known-throughout-the-war",
@@ -1978,10 +1977,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 698,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2018-10-16"
   },
   {
     "id": "hashirama-senju-bravery-unrivalled",
@@ -2005,11 +2004,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 418,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-08-07"
   },
   {
     "id": "hashirama-senju-father-of-leaf-village",
@@ -2046,11 +2045,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 204,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-10-29"
   },
   {
     "id": "hashirama-senju-long-held-dream",
@@ -2070,7 +2069,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "heart-beads-battle-heart-beads",
@@ -2084,7 +2082,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 521,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-12-26"
   },
   {
     "id": "hashirama-senju-pursuit-of-a-dream",
@@ -2094,7 +2093,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-pursuit-of-a-dream",
@@ -2108,7 +2106,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 2017,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-12-10"
   },
   {
     "id": "hashirama-senju-resolve-to-protect",
@@ -2128,10 +2127,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2058,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-03-03"
   },
   {
     "id": "hashirama-senju-sorrowful-parting",
@@ -2141,10 +2140,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2028,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2019-12-25"
   },
   {
     "id": "hayate-gekko-composed-dexterity",
@@ -2168,10 +2167,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 779,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-03-12"
   },
   {
     "id": "hayate-gekko-crystal-clear-mind",
@@ -2195,10 +2194,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 70,
     "cardNo": 184,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-10-14"
   },
   {
     "id": "hayate-gekko-third-round-prelim-judge",
@@ -2218,10 +2217,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 97,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "hiashi-hyuga-a-strict-leader",
@@ -2241,10 +2240,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 117,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "hiashi-hyuga-clan-head-s-dignity",
@@ -2254,10 +2253,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2092,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2020-05-26"
   },
   {
     "id": "hidan-pure-bloodlust",
@@ -2281,10 +2280,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 830,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-06-11"
   },
   {
     "id": "hidan-worshiping-a-mad-god",
@@ -2308,11 +2307,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 322,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-03-22"
   },
   {
     "id": "hinata-hyuga-a-pure-heart",
@@ -2322,11 +2321,11 @@
     "minStars": 5,
     "maxStars": 5,
     "awakening": [],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 160,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-09-28"
   },
   {
     "id": "hinata-hyuga-beyond-the-ceaseless",
@@ -2350,7 +2349,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "wisdom-beads-battle-wisdom-beads",
@@ -2363,7 +2361,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 812,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-05-14"
   },
   {
     "id": "hinata-hyuga-blooming-talent",
@@ -2387,11 +2386,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 243,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-12-22"
   },
   {
     "id": "hinata-hyuga-day-of-happiness",
@@ -2415,10 +2414,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 330,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-03-24"
   },
   {
     "id": "hinata-hyuga-elegant-attire",
@@ -2442,10 +2441,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 276,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-01-24"
   },
   {
     "id": "hinata-hyuga-loyal-emotions",
@@ -2465,10 +2464,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 17,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "hinata-hyuga-nice-girl",
@@ -2492,11 +2491,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 61,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "hinata-hyuga-path-to-the-ideal",
@@ -2506,10 +2505,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 614,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-05-29"
   },
   {
     "id": "hinata-hyuga-proof-of-resolution",
@@ -2533,11 +2532,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 157,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-09-21"
   },
   {
     "id": "hinata-hyuga-redemptive-words",
@@ -2557,10 +2556,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2003,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2019-11-05"
   },
   {
     "id": "hinata-hyuga-sunflower-s-admiration",
@@ -2570,10 +2569,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2009,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-12-04"
   },
   {
     "id": "hinata-hyuga-tug-of-the-heart-strings",
@@ -2597,10 +2596,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 757,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-02-05"
   },
   {
     "id": "hinata-hyuga-unwavering-courage",
@@ -2624,7 +2623,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "wisdom-beads-battle-wisdom-beads",
@@ -2638,7 +2636,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 497,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-12-05"
   },
   {
     "id": "hiruzen-sarutobi-looking-into-the-future",
@@ -2662,10 +2661,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 799,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-05-08"
   },
   {
     "id": "hiruzen-sarutobi-ninja-clothes",
@@ -2689,11 +2688,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 201,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-10-26"
   },
   {
     "id": "hiruzen-sarutobi-the-makings-of-a-kage",
@@ -2703,10 +2702,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2124,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-08-18"
   },
   {
     "id": "hiruzen-sarutobi-the-third-hokage",
@@ -2730,11 +2729,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 71,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "hizashi-hyuga-brotherly-fate",
@@ -2754,10 +2753,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 119,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "ibiki-morino-sadist",
@@ -2777,10 +2776,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 93,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "indra-danger-of-the-almighty",
@@ -2790,10 +2789,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2033,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-12-25"
   },
   {
     "id": "indra-lone-war-god",
@@ -2817,10 +2816,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 516,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-12-26"
   },
   {
     "id": "indra-strength-based-leadership",
@@ -2830,7 +2829,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-strength-based-leadership",
@@ -2844,7 +2842,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 2111,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-07-21"
   },
   {
     "id": "indra-unparalleled-genius",
@@ -2864,11 +2863,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 788,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-04-02"
   },
   {
     "id": "ino-yamanaka-bittersweet-gift",
@@ -2892,10 +2891,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 550,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-02-13"
   },
   {
     "id": "ino-yamanaka-ever-changing-movements",
@@ -2915,10 +2914,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 13,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "ino-yamanaka-flourishing-bush-clover",
@@ -2928,10 +2927,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2016,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-12-03"
   },
   {
     "id": "ino-yamanaka-flowers-in-full-bloom",
@@ -2955,10 +2954,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 692,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-10-02"
   },
   {
     "id": "ino-yamanaka-i-don-t-want-to-lose",
@@ -2982,11 +2981,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 155,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-09-21"
   },
   {
     "id": "ino-yamanaka-like-a-peony",
@@ -3010,11 +3009,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 264,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-01-10"
   },
   {
     "id": "ino-yamanaka-promise-upheld",
@@ -3038,7 +3037,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "wisdom-beads-light-wisdom-beads",
@@ -3052,7 +3050,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 560,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-03-06"
   },
   {
     "id": "ino-yamanaka-truly-wise",
@@ -3076,11 +3075,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 57,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "inoichi-yamanaka-the-ino-shika-cho-trio",
@@ -3100,10 +3099,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 113,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "iruka-umino-because-of-trust",
@@ -3127,10 +3126,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 872,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2019-08-27"
   },
   {
     "id": "iruka-umino-sympathizer",
@@ -3150,10 +3149,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 23,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "iruka-umino-teachings-of-fire",
@@ -3163,10 +3162,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 345,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-05-23"
   },
   {
     "id": "itachi-uchiha-a-cold-hearted-criminal",
@@ -3190,11 +3189,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 89,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "itachi-uchiha-akatsuki-warrior",
@@ -3204,10 +3203,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 499,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-12-05"
   },
   {
     "id": "itachi-uchiha-beyond-the-sharingan",
@@ -3227,11 +3226,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 211,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-11-09"
   },
   {
     "id": "itachi-uchiha-brotherly-pledge",
@@ -3251,11 +3250,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 700,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-10-23"
   },
   {
     "id": "itachi-uchiha-eyes-gazing-over-the-future",
@@ -3279,7 +3278,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "body-beads-light-body-beads",
@@ -3293,7 +3291,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 574,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2018-04-05"
   },
   {
     "id": "itachi-uchiha-eyes-which-weave-truth-and-lies",
@@ -3317,7 +3316,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "heart-beads-light-heart-beads",
@@ -3330,7 +3328,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 725,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-12-04"
   },
   {
     "id": "itachi-uchiha-limits-of-his-ability",
@@ -3354,11 +3353,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 209,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-11-09"
   },
   {
     "id": "itachi-uchiha-proof-of-will",
@@ -3382,11 +3381,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 388,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-06-20"
   },
   {
     "id": "itachi-uchiha-shura-s-truth",
@@ -3410,11 +3409,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 309,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-02-28"
   },
   {
     "id": "itachi-uchiha-silent-night-visitor",
@@ -3438,10 +3437,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 505,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-12-09"
   },
   {
     "id": "itachi-uchiha-talent-and-burden",
@@ -3465,7 +3464,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "heart-beads-light-heart-beads",
@@ -3478,7 +3476,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 2095,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-06-16"
   },
   {
     "id": "itachi-uchiha-the-promised-day",
@@ -3498,10 +3497,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2032,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2019-12-31"
   },
   {
     "id": "itachi-uchiha-the-way-of-the-hero",
@@ -3511,10 +3510,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 833,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-06-27"
   },
   {
     "id": "itachi-uchiha-truth-behind-the-tragedy",
@@ -3524,10 +3523,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 742,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-12-18"
   },
   {
     "id": "izumo-kamizuki-certainly-capable",
@@ -3551,10 +3550,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 845,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-07-17"
   },
   {
     "id": "izumo-kamizuki-the-calm-proctor",
@@ -3564,10 +3563,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 29,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "izuna-uchiha-eyes-firm-in-faith",
@@ -3577,10 +3576,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 555,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-02-26"
   },
   {
     "id": "izuna-uchiha-intelligent-blade",
@@ -3604,10 +3603,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 776,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-03-05"
   },
   {
     "id": "izuna-uchiha-mercilessly-uncompromising",
@@ -3631,10 +3630,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2027,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-12-17"
   },
   {
     "id": "izuna-uchiha-wishing-for-peace",
@@ -3658,10 +3657,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 752,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-01-15"
   },
   {
     "id": "jinin-akebino-crushing-bluntsword",
@@ -3685,10 +3684,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 582,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-04-05"
   },
   {
     "id": "jinpachi-munashi-volatile-explosive-blade",
@@ -3712,10 +3711,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 563,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-03-06"
   },
   {
     "id": "jiraiya-a-tale-woven",
@@ -3725,10 +3724,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 861,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-08-13"
   },
   {
     "id": "jiraiya-chance-encounter-under-fire",
@@ -3752,11 +3751,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 445,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-09-19"
   },
   {
     "id": "jiraiya-enter-the-sage",
@@ -3780,11 +3779,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 73,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "jiraiya-hidden-heart",
@@ -3808,7 +3807,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "heart-beads-light-heart-beads",
@@ -3822,7 +3820,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 635,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-07-03"
   },
   {
     "id": "jiraiya-moment-of-choice",
@@ -3846,11 +3845,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 611,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2018-05-22"
   },
   {
     "id": "jiraiya-the-toad-ninja",
@@ -3874,10 +3873,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 247,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-12-22"
   },
   {
     "id": "jiraiya-way-of-the-ninja",
@@ -3901,11 +3900,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 336,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-04-06"
   },
   {
     "id": "jiraiya-what-makes-a-ninja",
@@ -3915,10 +3914,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2077,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-05-01"
   },
   {
     "id": "jirobo-brute-strength",
@@ -3942,10 +3941,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 228,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-11-30"
   },
   {
     "id": "jirobo-herculean-appetite",
@@ -3969,11 +3968,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 199,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-10-26"
   },
   {
     "id": "jirobo-jirobo-of-the-south-gate",
@@ -3997,11 +3996,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 85,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "jugo-all-consuming-fury",
@@ -4025,10 +4024,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 624,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-06-12"
   },
   {
     "id": "jugo-scales-of-ruin-and-peace",
@@ -4052,10 +4051,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 307,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-02-27"
   },
   {
     "id": "juzo-biwa-bloody-existence",
@@ -4079,10 +4078,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 717,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-11-20"
   },
   {
     "id": "kabuto-yakushi-craving-for-wisdom",
@@ -4106,11 +4105,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 393,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-06-27"
   },
   {
     "id": "kabuto-yakushi-creeping-ill-intent",
@@ -4120,10 +4119,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2099,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-06-23"
   },
   {
     "id": "kabuto-yakushi-dragon-transformation",
@@ -4143,11 +4142,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 643,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2018-07-17"
   },
   {
     "id": "kabuto-yakushi-proof-of-self",
@@ -4171,7 +4170,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "skill-beads-battle-skill-beads",
@@ -4184,7 +4182,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 894,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-10-15"
   },
   {
     "id": "kabuto-yakushi-surprising-regeneration",
@@ -4208,11 +4207,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 170,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-10-05"
   },
   {
     "id": "kabuto-yakushi-the-sound-s-spy",
@@ -4236,11 +4235,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 77,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "kabuto-yakushi-warrior-s-quest",
@@ -4250,10 +4249,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 519,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-12-26"
   },
   {
     "id": "kagari-sensor-of-the-trinity",
@@ -4263,10 +4262,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 36,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "kaguya-otsutsuki-between-love-and-madness",
@@ -4276,7 +4275,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-between-love-and-madness",
@@ -4290,7 +4288,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 749,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-01-08"
   },
   {
     "id": "kaguya-otsutsuki-divine-madness",
@@ -4310,11 +4309,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 594,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-04-24"
   },
   {
     "id": "kaguya-otsutsuki-forbidden-fruit",
@@ -4334,10 +4333,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2043,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-02-04"
   },
   {
     "id": "kaguya-otsutsuki-founding-goddess",
@@ -4361,11 +4360,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 513,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2017-12-14"
   },
   {
     "id": "kaguya-otsutsuki-plot-for-rebirth",
@@ -4389,7 +4388,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "body-beads-light-body-beads",
@@ -4402,7 +4400,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 2020,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-12-10"
   },
   {
     "id": "kaguya-otsutsuki-truth-behind-the-myth",
@@ -4412,10 +4411,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2088,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2020-05-29"
   },
   {
     "id": "kakashi-hatake-a-bolt-from-the-dark",
@@ -4439,7 +4438,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "wisdom-beads-light-wisdom-beads",
@@ -4452,7 +4450,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 2052,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2020-02-18"
   },
   {
     "id": "kakashi-hatake-a-father-s-blade",
@@ -4476,11 +4475,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 256,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-12-28"
   },
   {
     "id": "kakashi-hatake-battle-tactician",
@@ -4490,10 +4489,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 797,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-04-23"
   },
   {
     "id": "kakashi-hatake-copier-of-1k-techniques",
@@ -4517,11 +4516,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 49,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "kakashi-hatake-entrusted-with-hope",
@@ -4558,11 +4557,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 2091,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-12-14"
   },
   {
     "id": "kakashi-hatake-friend-s-way-of-life",
@@ -4582,10 +4581,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 855,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-08-06"
   },
   {
     "id": "kakashi-hatake-hidden-left-eye",
@@ -4609,11 +4608,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 147,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-09-08"
   },
   {
     "id": "kakashi-hatake-iron-resolve",
@@ -4633,10 +4632,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 735,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-12-11"
   },
   {
     "id": "kakashi-hatake-kage-s-successor",
@@ -4660,10 +4659,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2126,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2020-08-25"
   },
   {
     "id": "kakashi-hatake-rousing-pact",
@@ -4673,10 +4672,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 899,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-10-29"
   },
   {
     "id": "kakashi-hatake-severing-lightning",
@@ -4700,10 +4699,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 426,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-08-10"
   },
   {
     "id": "kakashi-hatake-silent-sorcery",
@@ -4727,10 +4726,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 588,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-04-03"
   },
   {
     "id": "kakashi-hatake-the-best-teacher",
@@ -4754,11 +4753,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 9,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "kakashi-hatake-the-bitterness-of-fate",
@@ -4782,7 +4781,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "body-beads-light-body-beads",
@@ -4795,7 +4793,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 673,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-09-04"
   },
   {
     "id": "kakashi-hatake-the-wound-inside",
@@ -4805,10 +4804,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 664,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-08-21"
   },
   {
     "id": "kakashi-hatake-unique-eyes-blooming",
@@ -4832,11 +4831,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 314,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-03-08"
   },
   {
     "id": "kakashi-hatake-unshakeable-calm",
@@ -4860,7 +4859,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "skill-beads-battle-skill-beads",
@@ -4873,7 +4871,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 705,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-11-06"
   },
   {
     "id": "kakkou-powerful-and-aggressive",
@@ -4893,10 +4892,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 107,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "kakuzu-life-reavers",
@@ -4920,11 +4919,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 324,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-03-22"
   },
   {
     "id": "kakuzu-menacing-man",
@@ -4934,10 +4933,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2050,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2020-02-12"
   },
   {
     "id": "kakuzu-powerhouse-of-old",
@@ -4961,10 +4960,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 694,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-10-16"
   },
   {
     "id": "kankuro-a-new-act",
@@ -4988,10 +4987,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2056,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-02-25"
   },
   {
     "id": "kankuro-mechanical-puppeteer",
@@ -5015,10 +5014,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 70,
     "cardNo": 190,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-10-21"
   },
   {
     "id": "kankuro-orchestrator-of-tragedy",
@@ -5042,11 +5041,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 166,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-09-28"
   },
   {
     "id": "kankuro-pride-in-his-work",
@@ -5070,11 +5069,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 439,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-09-06"
   },
   {
     "id": "karin-acute-perception",
@@ -5098,11 +5097,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 301,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-02-21"
   },
   {
     "id": "karin-thousand-mile-perception",
@@ -5126,10 +5125,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 363,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-05-17"
   },
   {
     "id": "karin-with-the-noble-taka",
@@ -5139,10 +5138,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 701,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-10-23"
   },
   {
     "id": "kiba-inuzuka-sharp-claws-and-fangs",
@@ -5162,10 +5161,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 19,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "kiba-inuzuka-two-headed-fangs",
@@ -5189,11 +5188,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 224,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-11-30"
   },
   {
     "id": "kiba-inuzuka-well-honed-fangs",
@@ -5217,10 +5216,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 567,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-03-13"
   },
   {
     "id": "kiba-inuzuka-wild-partners",
@@ -5244,11 +5243,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 63,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "kidomaru-a-cruel-game",
@@ -5272,10 +5271,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 234,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-12-07"
   },
   {
     "id": "kidomaru-kidomaru-of-the-east-gate",
@@ -5299,11 +5298,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 81,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "kidomaru-solid-flexible-threads",
@@ -5327,11 +5326,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 195,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-10-26"
   },
   {
     "id": "killer-bee-completed-jinchuriki",
@@ -5355,11 +5354,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 355,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-05-04"
   },
   {
     "id": "killer-bee-engraved-words",
@@ -5383,11 +5382,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 463,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-10-09"
   },
   {
     "id": "killer-bee-let-s-bee-friends",
@@ -5397,7 +5396,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-let-s-bee-friends",
@@ -5411,7 +5409,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 1155,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-09-25"
   },
   {
     "id": "killer-bee-rumbling-strong-arm",
@@ -5435,7 +5434,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "wisdom-beads-light-wisdom-beads",
@@ -5448,7 +5446,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 877,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-09-17"
   },
   {
     "id": "killer-bee-ultimate-tag-team",
@@ -5458,10 +5457,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2065,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-04-02"
   },
   {
     "id": "kimimaro-dance-of-carnage",
@@ -5485,10 +5484,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 887,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-10-02"
   },
   {
     "id": "kimimaro-dance-of-death",
@@ -5512,7 +5511,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "skill-beads-battle-skill-beads",
@@ -5525,7 +5523,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 602,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-05-08"
   },
   {
     "id": "kimimaro-kimimaro-of-the-earth",
@@ -5549,11 +5548,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 87,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "kimimaro-the-strongest-spear",
@@ -5577,10 +5576,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 274,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-01-30"
   },
   {
     "id": "kin-tsuchi-brimming-with-jealousy",
@@ -5590,10 +5589,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 35,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "kinkaku-ginkaku-cataclysm-eaters",
@@ -5603,7 +5602,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-cataclysm-eaters",
@@ -5617,7 +5615,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 2082,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-04-28"
   },
   {
     "id": "kisame-hoshigaki-body-and-blade-as-one",
@@ -5641,7 +5640,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "skill-beads-battle-skill-beads",
@@ -5654,7 +5652,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 827,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-06-11"
   },
   {
     "id": "kisame-hoshigaki-monster-of-the-mist",
@@ -5678,11 +5677,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 91,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "kisame-hoshigaki-ruler-of-the-torrent",
@@ -5706,11 +5705,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 320,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-03-15"
   },
   {
     "id": "kisame-hoshigaki-swordsman-of-the-raging-waves",
@@ -5720,10 +5719,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 479,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-11-07"
   },
   {
     "id": "kisame-hoshigaki-the-tailless-tailed-beast",
@@ -5733,7 +5732,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-the-tailless-tailed-beast",
@@ -5747,7 +5745,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 719,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2018-11-27"
   },
   {
     "id": "konan-a-bridge-to-hope",
@@ -5771,10 +5770,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 378,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-06-06"
   },
   {
     "id": "konan-a-god-s-messenger",
@@ -5798,11 +5797,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 338,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-04-06"
   },
   {
     "id": "konan-a-new-light",
@@ -5826,10 +5825,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2049,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-02-12"
   },
   {
     "id": "konan-sign-of-destruction",
@@ -5853,7 +5852,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "wisdom-beads-light-wisdom-beads",
@@ -5866,7 +5864,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 689,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2018-10-02"
   },
   {
     "id": "konan-two-hopes",
@@ -5876,10 +5875,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 825,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-06-04"
   },
   {
     "id": "konan-wrapped-in-sweetness",
@@ -5903,10 +5902,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 548,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-02-13"
   },
   {
     "id": "konohamaru-sarutobi-the-third-s-last-stand",
@@ -5926,10 +5925,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 101,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "konohamaru-sarutobi-the-will-of-budding-flames",
@@ -5953,11 +5952,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 347,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-04-25"
   },
   {
     "id": "kotetsu-hagane-tempered-strength",
@@ -5981,10 +5980,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 853,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-07-30"
   },
   {
     "id": "kotetsu-hagane-the-deceptive-proctor",
@@ -5994,10 +5993,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 30,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "kurenai-yuhi-between-fantasy-and-reality",
@@ -6007,10 +6006,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2104,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-07-07"
   },
   {
     "id": "kurenai-yuhi-illusionary-expert",
@@ -6034,11 +6033,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 217,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-11-20"
   },
   {
     "id": "kurenai-yuhi-welcome-to-the-illusion",
@@ -6048,10 +6047,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 650,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-07-31"
   },
   {
     "id": "kurotsuchi-magnanimous-tomboy-of-the-stone",
@@ -6061,10 +6060,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 718,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-11-20"
   },
   {
     "id": "kurotsuchi-the-fence-sitter-s-granddaughter",
@@ -6088,10 +6087,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 527,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-01-15"
   },
   {
     "id": "kushimaru-kuriarare-needle-blade",
@@ -6115,10 +6114,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 546,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-02-06"
   },
   {
     "id": "kushina-uzumaki-enveloping-kindness",
@@ -6142,10 +6141,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 297,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-02-21"
   },
   {
     "id": "kushina-uzumaki-fist-of-hidden-embarrassment",
@@ -6169,10 +6168,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 840,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-07-09"
   },
   {
     "id": "kushina-uzumaki-mother-s-wishes",
@@ -6182,10 +6181,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 684,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2018-09-18"
   },
   {
     "id": "kushina-uzumaki-the-red-hot-habanero",
@@ -6209,10 +6208,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 232,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-12-08"
   },
   {
     "id": "kushina-uzumaki-vermillion-prayer",
@@ -6236,10 +6235,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 531,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-01-15"
   },
   {
     "id": "leaf-anbu-female-masked-ways",
@@ -6249,10 +6248,10 @@
     "minStars": 2,
     "maxStars": 2,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 124,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "leaf-anbu-male-the-hokage-s-servant",
@@ -6262,10 +6261,10 @@
     "minStars": 2,
     "maxStars": 2,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 123,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "leaf-chunin-male-supporter-of-the-tree",
@@ -6275,10 +6274,10 @@
     "minStars": 1,
     "maxStars": 1,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 122,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "madara-uchiha-an-imposing-air",
@@ -6302,10 +6301,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2025,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-12-17"
   },
   {
     "id": "madara-uchiha-at-the-battle-s-end",
@@ -6315,7 +6314,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-at-the-battle-s-end",
@@ -6329,7 +6327,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 2059,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-03-03"
   },
   {
     "id": "madara-uchiha-dreams-of-the-far-future",
@@ -6339,10 +6338,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 870,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2019-09-04"
   },
   {
     "id": "madara-uchiha-endless-moonlight",
@@ -6362,11 +6361,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 590,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-04-17"
   },
   {
     "id": "madara-uchiha-eyes-of-the-moon",
@@ -6390,11 +6389,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 435,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-08-29"
   },
   {
     "id": "madara-uchiha-falling-into-place",
@@ -6418,11 +6417,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 647,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-07-24"
   },
   {
     "id": "madara-uchiha-fortitude-resolution",
@@ -6432,7 +6431,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-fortitude-resolution",
@@ -6446,7 +6444,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 859,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-08-06"
   },
   {
     "id": "madara-uchiha-out-of-the-darkness",
@@ -6456,10 +6455,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 738,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-12-11"
   },
   {
     "id": "madara-uchiha-path-of-dreams",
@@ -6492,11 +6491,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 2098,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-12-31"
   },
   {
     "id": "madara-uchiha-phantasy-s-beckoning-light",
@@ -6516,11 +6515,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 748,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2018-12-31"
   },
   {
     "id": "madara-uchiha-power-of-life-or-death",
@@ -6540,10 +6539,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 681,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-09-18"
   },
   {
     "id": "madara-uchiha-power-of-rinne",
@@ -6567,7 +6566,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "body-beads-light-body-beads",
@@ -6580,7 +6578,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 2121,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2020-08-18"
   },
   {
     "id": "madara-uchiha-solitary-devastation",
@@ -6604,7 +6603,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "bravery-beads-light-bravery-beads",
@@ -6617,7 +6615,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 771,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-02-22"
   },
   {
     "id": "madara-uchiha-the-eyes-that-shook-heaven-and-earth",
@@ -6641,10 +6640,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 696,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-10-16"
   },
   {
     "id": "madara-uchiha-the-vilest-name",
@@ -6668,11 +6667,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 334,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-03-30"
   },
   {
     "id": "mahiru-superior-swordsmanship",
@@ -6682,10 +6681,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 25,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "mangetsu-hozuki-wielder-of-the-seven-swords",
@@ -6709,10 +6708,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 630,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-06-19"
   },
   {
     "id": "masked-man-evil-heart",
@@ -6722,7 +6721,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-evil-heart",
@@ -6736,7 +6734,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 2102,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-06-30"
   },
   {
     "id": "masked-man-mad-dreamer",
@@ -6760,11 +6759,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 632,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-06-26"
   },
   {
     "id": "mecha-naruto-steel-heart",
@@ -6774,7 +6773,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 791,
     "range": "vast"
@@ -6787,10 +6785,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 764,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-02-19"
   },
   {
     "id": "mei-terumi-the-mist-that-melts-all",
@@ -6814,11 +6812,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 359,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-05-04"
   },
   {
     "id": "meizu-poisonous-left-arm",
@@ -6828,10 +6826,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 43,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "menma-namikaze-calm-and-collected",
@@ -6841,10 +6839,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2073,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-03-31"
   },
   {
     "id": "mifune-self-respect",
@@ -6854,10 +6852,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 472,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-11-28"
   },
   {
     "id": "might-dai-something-to-protect",
@@ -6881,10 +6879,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 658,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-08-07"
   },
   {
     "id": "might-guy-azure-roar",
@@ -6908,11 +6906,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 433,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-08-29"
   },
   {
     "id": "might-guy-carrying-out-the-oath",
@@ -6922,10 +6920,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2039,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-02-05"
   },
   {
     "id": "might-guy-deep-crimson-youth",
@@ -6949,11 +6947,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 487,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-11-21"
   },
   {
     "id": "might-guy-exploding-fists",
@@ -6977,11 +6975,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 316,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-03-08"
   },
   {
     "id": "might-guy-hot-blooded-youth",
@@ -7005,11 +7003,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 213,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-11-09"
   },
   {
     "id": "might-guy-passionate-fist",
@@ -7033,7 +7031,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "bravery-beads-light-bravery-beads",
@@ -7046,7 +7043,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 708,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-11-06"
   },
   {
     "id": "might-guy-surging-blood",
@@ -7070,11 +7068,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 592,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-04-17"
   },
   {
     "id": "minato-namikaze-confronting-karma",
@@ -7098,11 +7096,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 410,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2017-07-25"
   },
   {
     "id": "minato-namikaze-dazzling-bravery",
@@ -7126,7 +7124,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "wisdom-beads-light-wisdom-beads",
@@ -7139,7 +7136,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 740,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-12-18"
   },
   {
     "id": "minato-namikaze-flash-of-dawn",
@@ -7163,10 +7161,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 529,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-01-15"
   },
   {
     "id": "minato-namikaze-flash-of-the-battlefield",
@@ -7176,10 +7174,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 459,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-10-03"
   },
   {
     "id": "minato-namikaze-natural-talent",
@@ -7189,10 +7187,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 814,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-05-30"
   },
   {
     "id": "minato-namikaze-raikosekka",
@@ -7212,10 +7210,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2101,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-06-30"
   },
   {
     "id": "minato-namikaze-rapid-lightning",
@@ -7239,11 +7237,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 230,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2016-12-07"
   },
   {
     "id": "minato-namikaze-reowned-flash",
@@ -7253,10 +7251,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2118,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-08-04"
   },
   {
     "id": "minato-namikaze-swift-flash",
@@ -7276,11 +7274,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 628,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-06-19"
   },
   {
     "id": "minato-namikaze-the-silent-hero",
@@ -7304,10 +7302,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 679,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-09-11"
   },
   {
     "id": "minato-namikaze-unfading-courage",
@@ -7327,10 +7325,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 761,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-02-19"
   },
   {
     "id": "minato-namikaze-yellow-flash-of-the-leaf",
@@ -7340,10 +7338,10 @@
     "minStars": 5,
     "maxStars": 5,
     "awakening": [],
-    "verified": false,
     "maxLevel": 70,
     "cardNo": 250,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-12-28"
   },
   {
     "id": "mist-anbu-male-mask-without-mercy",
@@ -7353,10 +7351,10 @@
     "minStars": 2,
     "maxStars": 2,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 126,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "mist-chunin-male-harsh-exam-graduate",
@@ -7366,10 +7364,10 @@
     "minStars": 1,
     "maxStars": 1,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 125,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "misumi-tsurugi-360-degree-movement",
@@ -7379,10 +7377,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 32,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "mizuki-hidden-treachery",
@@ -7402,10 +7400,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 99,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "mu-ingenuity-reborn",
@@ -7415,10 +7413,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 391,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-07-18"
   },
   {
     "id": "mubi-phantom-of-the-trinity",
@@ -7428,10 +7426,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 37,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "nagato-as-the-older-student",
@@ -7455,7 +7453,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "skill-beads-battle-skill-beads",
@@ -7468,7 +7465,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 2075,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2020-04-14"
   },
   {
     "id": "nagato-hope-for-peace",
@@ -7492,10 +7490,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 824,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-06-04"
   },
   {
     "id": "nagato-proclaimed-ideals",
@@ -7519,10 +7517,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 361,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-05-04"
   },
   {
     "id": "nagato-reunion-with-hope",
@@ -7546,11 +7544,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 535,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-01-23"
   },
   {
     "id": "naruto-uzumaki-as-a-friend",
@@ -7570,11 +7568,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 660,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2018-08-21"
   },
   {
     "id": "naruto-uzumaki-bewitching-transformation",
@@ -7584,10 +7582,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 293,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-03-15"
   },
   {
     "id": "naruto-uzumaki-beyond-rasen",
@@ -7611,10 +7609,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2001,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-10-23"
   },
   {
     "id": "naruto-uzumaki-blind-rage",
@@ -7624,7 +7622,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-blind-rage",
@@ -7638,7 +7635,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 819,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-05-28"
   },
   {
     "id": "naruto-uzumaki-blowing-gale",
@@ -7648,10 +7646,10 @@
     "minStars": 5,
     "maxStars": 5,
     "awakening": [],
-    "verified": false,
     "maxLevel": 70,
     "cardNo": 241,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-12-15"
   },
   {
     "id": "naruto-uzumaki-boy-who-aims-to-be-hokage",
@@ -7671,10 +7669,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 136,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "naruto-uzumaki-brave-unyielding-heart",
@@ -7684,10 +7682,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2119,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2020-08-04"
   },
   {
     "id": "naruto-uzumaki-child-of-the-prophecy",
@@ -7711,11 +7709,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 349,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-04-25"
   },
   {
     "id": "naruto-uzumaki-day-of-vows",
@@ -7739,10 +7737,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 328,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-03-24"
   },
   {
     "id": "naruto-uzumaki-endowed-power",
@@ -7766,10 +7764,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2090,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-05-22"
   },
   {
     "id": "naruto-uzumaki-full-out-battle",
@@ -7793,10 +7791,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2115,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-08-04"
   },
   {
     "id": "naruto-uzumaki-gale-of-vigor",
@@ -7820,10 +7818,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 892,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-10-09"
   },
   {
     "id": "naruto-uzumaki-happy-new-year",
@@ -7833,10 +7831,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 744,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2018-12-31"
   },
   {
     "id": "naruto-uzumaki-indomitable-ninja-way",
@@ -7860,10 +7858,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 422,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-08-07"
   },
   {
     "id": "naruto-uzumaki-name-and-soul",
@@ -7873,10 +7871,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 777,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-03-12"
   },
   {
     "id": "naruto-uzumaki-nine-tails-power-up",
@@ -7900,10 +7898,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 70,
     "cardNo": 180,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-10-14"
   },
   {
     "id": "naruto-uzumaki-nine-tails-shroud",
@@ -7927,11 +7925,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 260,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-01-04"
   },
   {
     "id": "naruto-uzumaki-no-1-maverick",
@@ -7955,11 +7953,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 45,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "naruto-uzumaki-pervading-feelings",
@@ -7979,10 +7977,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 801,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-04-23"
   },
   {
     "id": "naruto-uzumaki-power-of-determination",
@@ -8006,7 +8004,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "skill-beads-light-skill-beads",
@@ -8020,7 +8017,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 454,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-10-03"
   },
   {
     "id": "naruto-uzumaki-power-of-the-fourth-tail",
@@ -8044,11 +8042,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 282,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-01-27"
   },
   {
     "id": "naruto-uzumaki-prankster",
@@ -8058,10 +8056,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2084,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2020-04-28"
   },
   {
     "id": "naruto-uzumaki-precious-feelings",
@@ -8085,7 +8083,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "wisdom-beads-light-wisdom-beads",
@@ -8098,7 +8095,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 2135,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2020-10-20"
   },
   {
     "id": "naruto-uzumaki-proof-of-bonds",
@@ -8122,11 +8120,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 401,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-07-06"
   },
   {
     "id": "naruto-uzumaki-proof-of-ties-that-bind",
@@ -8150,11 +8148,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 552,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-02-20"
   },
   {
     "id": "naruto-uzumaki-rasengan-mastered",
@@ -8178,11 +8176,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 162,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-09-28"
   },
   {
     "id": "naruto-uzumaki-roaring-tears",
@@ -8202,10 +8200,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2138,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-11-04"
   },
   {
     "id": "naruto-uzumaki-sea-spray-blast",
@@ -8229,10 +8227,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 483,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-11-14"
   },
   {
     "id": "naruto-uzumaki-seal-of-light",
@@ -8252,11 +8250,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 428,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-08-22"
   },
   {
     "id": "naruto-uzumaki-shining-warrior-of-bonds",
@@ -8280,10 +8278,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 584,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-04-03"
   },
   {
     "id": "naruto-uzumaki-taboo-breaking-frustration",
@@ -8307,7 +8305,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "heart-beads-light-heart-beads",
@@ -8320,7 +8317,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 781,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-03-19"
   },
   {
     "id": "naruto-uzumaki-the-back-of-a-figure",
@@ -8330,10 +8328,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2133,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-10-06"
   },
   {
     "id": "naruto-uzumaki-the-future-we-want",
@@ -8357,7 +8355,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "body-beads-light-body-beads",
@@ -8370,7 +8367,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 863,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-08-20"
   },
   {
     "id": "naruto-uzumaki-the-inheritor",
@@ -8380,7 +8378,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-the-inheritor",
@@ -8394,7 +8391,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 665,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-08-28"
   },
   {
     "id": "naruto-uzumaki-the-worst-loser",
@@ -8427,10 +8425,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 70,
     "cardNo": 3,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "naruto-uzumaki-true-peace",
@@ -8454,7 +8452,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "heart-beads-light-heart-beads",
@@ -8467,7 +8464,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 2037,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-01-21"
   },
   {
     "id": "naruto-uzumaki-two-suns",
@@ -8491,11 +8489,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 384,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-06-13"
   },
   {
     "id": "naruto-uzumaki-unshakeable-will",
@@ -8519,11 +8517,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 238,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-12-15"
   },
   {
     "id": "neji-hyuga-a-caged-bird",
@@ -8547,11 +8545,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 151,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-09-21"
   },
   {
     "id": "neji-hyuga-a-quiet-acumen",
@@ -8561,10 +8559,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 406,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-08-22"
   },
   {
     "id": "neji-hyuga-an-unchangeable-destiny",
@@ -8588,11 +8586,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 67,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "neji-hyuga-burden-of-fate",
@@ -8616,7 +8614,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "body-beads-battle-body-beads",
@@ -8630,7 +8627,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 494,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-12-05"
   },
   {
     "id": "neji-hyuga-freedom-of-choice",
@@ -8640,7 +8638,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-freedom-of-choice",
@@ -8654,7 +8651,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 2004,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-11-05"
   },
   {
     "id": "obito-uchiha-despair-of-loneliness",
@@ -8678,11 +8676,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 395,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2017-06-29"
   },
   {
     "id": "obito-uchiha-drawn-to-life",
@@ -8706,11 +8704,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 469,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-10-24"
   },
   {
     "id": "obito-uchiha-faraway-dream",
@@ -8734,11 +8732,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 412,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-07-25"
   },
   {
     "id": "obito-uchiha-hollow-heart",
@@ -8748,7 +8746,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-hollow-heart",
@@ -8762,7 +8759,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 736,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-12-11"
   },
   {
     "id": "obito-uchiha-inching-towards-perfection",
@@ -8772,7 +8770,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-inching-towards-perfection",
@@ -8786,7 +8783,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 2071,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2020-04-07"
   },
   {
     "id": "obito-uchiha-into-total-darkness",
@@ -8810,7 +8808,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "heart-beads-light-heart-beads",
@@ -8823,7 +8820,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 670,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-09-04"
   },
   {
     "id": "obito-uchiha-remnants-of-despair",
@@ -8847,10 +8845,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 711,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2018-11-13"
   },
   {
     "id": "obito-uchiha-state-of-carnage",
@@ -8874,7 +8872,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "skill-beads-battle-skill-beads",
@@ -8887,7 +8884,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 768,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2019-02-22"
   },
   {
     "id": "obito-uchiha-the-final-destination",
@@ -8907,10 +8905,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 857,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-08-06"
   },
   {
     "id": "obito-uchiha-the-illusory-world",
@@ -8930,10 +8928,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2081,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2020-04-28"
   },
   {
     "id": "obito-uchiha-the-world-we-seek",
@@ -8943,10 +8941,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 448,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-10-31"
   },
   {
     "id": "obito-uchiha-to-protect-his-allies",
@@ -8970,11 +8968,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 254,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-12-28"
   },
   {
     "id": "obito-uchiha-true-self",
@@ -8984,10 +8982,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2123,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-08-18"
   },
   {
     "id": "obito-uchiha-wrapped-in-mysteries",
@@ -8997,7 +8995,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-wrapped-in-mysteries",
@@ -9011,7 +9008,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 804,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-04-23"
   },
   {
     "id": "oboro-warrior-of-the-trinity",
@@ -9021,10 +9019,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 38,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "ohnoki-between-a-rock-and-a-hard-place",
@@ -9048,11 +9046,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 369,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-05-23"
   },
   {
     "id": "omoi-intense-conviction",
@@ -9076,10 +9074,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 822,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-05-28"
   },
   {
     "id": "orochimaru-aspirations-of-indulgence",
@@ -9103,10 +9101,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 832,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-06-18"
   },
   {
     "id": "orochimaru-corrupt-rebirth",
@@ -9130,11 +9128,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 270,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-01-18"
   },
   {
     "id": "orochimaru-endless-rebirth",
@@ -9144,7 +9142,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-endless-rebirth",
@@ -9158,7 +9155,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 888,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-10-02"
   },
   {
     "id": "orochimaru-hidden-ambitions",
@@ -9182,11 +9180,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 447,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-09-19"
   },
   {
     "id": "orochimaru-searching-for-great-wisdom",
@@ -9196,10 +9194,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2108,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2020-07-24"
   },
   {
     "id": "orochimaru-the-horror-returns",
@@ -9223,11 +9221,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 75,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "orochimaru-the-snake-ninja",
@@ -9251,10 +9249,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 70,
     "cardNo": 172,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-10-05"
   },
   {
     "id": "orochimaru-winds-of-chaos",
@@ -9278,7 +9276,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "heart-beads-light-heart-beads",
@@ -9291,7 +9288,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 599,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-05-08"
   },
   {
     "id": "pain-chikushodo-eyes-of-judgement",
@@ -9301,10 +9299,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 572,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-03-27"
   },
   {
     "id": "pain-chikushodo-glimpse-of-the-divine",
@@ -9328,11 +9326,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 613,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-05-22"
   },
   {
     "id": "pain-gakido-limitless-maelstrom",
@@ -9356,10 +9354,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 641,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-07-03"
   },
   {
     "id": "pain-jigokudo-the-judge-of-truth",
@@ -9383,10 +9381,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 677,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-09-11"
   },
   {
     "id": "pain-ningendo-palm-that-touches-the-soul",
@@ -9410,10 +9408,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 728,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-12-04"
   },
   {
     "id": "pain-shurado-vessel-of-madness",
@@ -9437,10 +9435,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 605,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-05-08"
   },
   {
     "id": "pain-tendo-dawn-of-peace",
@@ -9450,10 +9448,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 850,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-07-31"
   },
   {
     "id": "pain-tendo-endless-cycle-of-battle",
@@ -9477,7 +9475,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "bravery-beads-light-bravery-beads",
@@ -9490,7 +9487,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 686,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-10-02"
   },
   {
     "id": "pain-tendo-godlike-power",
@@ -9514,7 +9512,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "wisdom-beads-light-wisdom-beads",
@@ -9527,7 +9524,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 2086,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-05-12"
   },
   {
     "id": "pain-tendo-hammer-of-pain",
@@ -9551,11 +9549,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 353,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-05-02"
   },
   {
     "id": "pain-tendo-signal-flare-of-revolution",
@@ -9579,11 +9577,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 452,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-09-26"
   },
   {
     "id": "pain-tendo-visage-of-justice",
@@ -9603,10 +9601,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 818,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-05-28"
   },
   {
     "id": "pakura-scorching-red",
@@ -9630,10 +9628,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 816,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-05-21"
   },
   {
     "id": "raido-namiashi-an-indomitable-spirit",
@@ -9643,10 +9641,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 28,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "rasa-family-values",
@@ -9670,10 +9668,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 443,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-09-12"
   },
   {
     "id": "rin-nohara-all-loving-gaze",
@@ -9683,10 +9681,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 858,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-08-06"
   },
   {
     "id": "rin-nohara-harboring-calamity",
@@ -9696,10 +9694,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 786,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-03-26"
   },
   {
     "id": "rin-nohara-loving-gift",
@@ -9723,10 +9721,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 295,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-02-21"
   },
   {
     "id": "rin-nohara-overflowing-kindness",
@@ -9750,11 +9748,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 252,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-12-28"
   },
   {
     "id": "rock-lee-a-genius-of-hard-work",
@@ -9778,7 +9776,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "heart-beads-light-heart-beads",
@@ -9792,7 +9789,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 474,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-11-07"
   },
   {
     "id": "rock-lee-fighting-spirit-overflowing",
@@ -9816,10 +9814,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 507,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-12-12"
   },
   {
     "id": "rock-lee-never-gives-up",
@@ -9843,11 +9841,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 159,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-09-21"
   },
   {
     "id": "rock-lee-the-eight-gates",
@@ -9867,11 +9865,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 149,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-09-21"
   },
   {
     "id": "rock-lee-the-path-of-trust",
@@ -9895,10 +9893,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 810,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-05-08"
   },
   {
     "id": "roshi-magma-veteran",
@@ -9922,11 +9920,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 554,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-02-20"
   },
   {
     "id": "roshi-scorching-shroud",
@@ -9950,10 +9948,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 897,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-10-15"
   },
   {
     "id": "rou-melting-presence",
@@ -9977,10 +9975,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 286,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-02-07"
   },
   {
     "id": "sai-drawings-unleashed",
@@ -10004,10 +10002,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 874,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-09-02"
   },
   {
     "id": "sai-ink-drawn-from-the-heart",
@@ -10031,10 +10029,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 501,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-12-05"
   },
   {
     "id": "sai-mask-like-smile",
@@ -10058,10 +10056,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 240,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-12-15"
   },
   {
     "id": "sakon-grotesque-ninja",
@@ -10085,11 +10083,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 197,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-10-26"
   },
   {
     "id": "sakon-sakon-of-the-west-gate",
@@ -10113,11 +10111,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 83,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "sakumo-hatake-between-duty-and-comrades",
@@ -10141,10 +10139,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2011,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-11-26"
   },
   {
     "id": "sakura-haruno-back-to-back",
@@ -10164,10 +10162,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2070,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2020-04-07"
   },
   {
     "id": "sakura-haruno-beautiful-attire",
@@ -10191,10 +10189,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 278,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-01-24"
   },
   {
     "id": "sakura-haruno-cherry-blossoms-on-the-front-line",
@@ -10218,10 +10216,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 869,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-08-20"
   },
   {
     "id": "sakura-haruno-critical-fist",
@@ -10231,10 +10229,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2097,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-06-26"
   },
   {
     "id": "sakura-haruno-dancing-cherry-blossoms",
@@ -10258,10 +10256,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 70,
     "cardNo": 380,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-06-06"
   },
   {
     "id": "sakura-haruno-hardened-resolve",
@@ -10285,11 +10283,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 153,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-09-21"
   },
   {
     "id": "sakura-haruno-heroine-of-the-battlefield",
@@ -10313,10 +10311,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 365,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-05-17"
   },
   {
     "id": "sakura-haruno-maiden-in-love",
@@ -10340,11 +10338,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 53,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "sakura-haruno-rich-aroma",
@@ -10368,10 +10366,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 755,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-02-05"
   },
   {
     "id": "sakura-haruno-sandy-beach-dreams",
@@ -10395,10 +10393,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 481,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-11-14"
   },
   {
     "id": "sakura-haruno-sheer-diligence",
@@ -10418,11 +10416,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 511,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-12-14"
   },
   {
     "id": "sakura-haruno-spring-in-full-bloom",
@@ -10432,11 +10430,11 @@
     "minStars": 5,
     "maxStars": 5,
     "awakening": [],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 191,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-11-16"
   },
   {
     "id": "sakura-haruno-standing-equal",
@@ -10460,11 +10458,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 399,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-07-06"
   },
   {
     "id": "sakura-haruno-stunning-spring-breeze",
@@ -10488,7 +10486,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "body-beads-light-body-beads",
@@ -10501,7 +10498,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 793,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-04-09"
   },
   {
     "id": "sakura-haruno-the-indomitable-maiden",
@@ -10521,10 +10519,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 7,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "sakura-haruno-unrelenting-commitment",
@@ -10548,11 +10546,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 236,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-12-15"
   },
   {
     "id": "sakura-haruno-unwavering-feelings",
@@ -10576,7 +10574,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "heart-beads-light-heart-beads",
@@ -10590,7 +10587,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 557,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2018-03-06"
   },
   {
     "id": "sand-chunin-male-assassin-from-the-sand",
@@ -10600,10 +10598,10 @@
     "minStars": 2,
     "maxStars": 2,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 127,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "sasori-eternal-art",
@@ -10627,11 +10625,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 222,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-11-25"
   },
   {
     "id": "sasori-eternal-creation",
@@ -10651,10 +10649,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 883,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-10-02"
   },
   {
     "id": "sasori-everlasting-being",
@@ -10678,10 +10676,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 645,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-07-17"
   },
   {
     "id": "sasori-puppet-mastery",
@@ -10705,10 +10703,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 785,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-03-26"
   },
   {
     "id": "sasori-the-ultimate-puppet",
@@ -10732,7 +10730,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "bravery-beads-light-bravery-beads",
@@ -10745,7 +10742,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 652,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-08-07"
   },
   {
     "id": "sasori-unchanging-embodiment",
@@ -10755,10 +10753,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 372,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-05-19"
   },
   {
     "id": "sasuke-uchiha-a-break-from-the-waves",
@@ -10782,10 +10780,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 491,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-11-28"
   },
   {
     "id": "sasuke-uchiha-a-lone-heart",
@@ -10805,10 +10803,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 5,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "sasuke-uchiha-a-new-ideal",
@@ -10818,10 +10816,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 743,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-12-26"
   },
   {
     "id": "sasuke-uchiha-all-ending-thunderbolt",
@@ -10831,7 +10829,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-all-ending-thunderbolt",
@@ -10845,7 +10842,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 702,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-10-30"
   },
   {
     "id": "sasuke-uchiha-avenger",
@@ -10869,11 +10867,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 303,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-02-21"
   },
   {
     "id": "sasuke-uchiha-battling-with-your-eyes",
@@ -10893,10 +10891,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2030,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-12-31"
   },
   {
     "id": "sasuke-uchiha-buried-past",
@@ -10920,7 +10918,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "heart-beads-light-heart-beads",
@@ -10933,7 +10930,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 866,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-08-20"
   },
   {
     "id": "sasuke-uchiha-catalyst-of-ambition",
@@ -10943,10 +10941,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 783,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2019-04-03"
   },
   {
     "id": "sasuke-uchiha-chidori-a-new-skill",
@@ -10970,11 +10968,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 176,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-10-14"
   },
   {
     "id": "sasuke-uchiha-curse-mark-2nd-state",
@@ -10998,11 +10996,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 262,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-01-05"
   },
   {
     "id": "sasuke-uchiha-darkness-of-deep-hatred",
@@ -11026,11 +11024,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 371,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-05-23"
   },
   {
     "id": "sasuke-uchiha-desired-future",
@@ -11054,7 +11052,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "heart-beads-light-heart-beads",
@@ -11067,7 +11064,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 2140,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-11-17"
   },
   {
     "id": "sasuke-uchiha-heart-warming-gift",
@@ -11091,10 +11089,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 503,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-12-09"
   },
   {
     "id": "sasuke-uchiha-hints-leading-to-the-truth",
@@ -11118,11 +11116,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 390,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-06-20"
   },
   {
     "id": "sasuke-uchiha-judging-the-conventional",
@@ -11142,10 +11140,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 803,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2019-04-23"
   },
   {
     "id": "sasuke-uchiha-lightning-storm-genius",
@@ -11169,10 +11167,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2013,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-12-03"
   },
   {
     "id": "sasuke-uchiha-lone-survivor",
@@ -11196,11 +11194,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 47,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "sasuke-uchiha-long-road-to-atonement",
@@ -11224,11 +11222,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 569,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-03-20"
   },
   {
     "id": "sasuke-uchiha-one-step-to-hokage",
@@ -11238,7 +11236,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-one-step-to-hokage",
@@ -11252,7 +11249,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 667,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-08-28"
   },
   {
     "id": "sasuke-uchiha-parting-wings",
@@ -11276,7 +11274,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "body-beads-light-body-beads",
@@ -11290,7 +11287,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 457,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-10-03"
   },
   {
     "id": "sasuke-uchiha-pure-hatred",
@@ -11314,7 +11312,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "body-beads-light-body-beads",
@@ -11327,7 +11324,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 722,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-12-04"
   },
   {
     "id": "sasuke-uchiha-rain-of-extinction",
@@ -11347,10 +11345,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2132,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-10-06"
   },
   {
     "id": "sasuke-uchiha-ready-for-the-curse-mark",
@@ -11374,11 +11372,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 178,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-10-14"
   },
   {
     "id": "sasuke-uchiha-seal-of-shadow",
@@ -11398,11 +11396,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 430,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-08-22"
   },
   {
     "id": "sasuke-uchiha-sole-friend",
@@ -11426,10 +11424,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2117,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2020-08-04"
   },
   {
     "id": "sasuke-uchiha-soul-shrouded-in-sorrow",
@@ -11453,11 +11451,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 245,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-12-22"
   },
   {
     "id": "sasuke-uchiha-thunder-of-retaliation",
@@ -11481,10 +11479,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 420,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-08-24"
   },
   {
     "id": "sasuke-uchiha-to-eternal-loneliness",
@@ -11504,11 +11502,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 662,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-08-21"
   },
   {
     "id": "sasuke-uchiha-violet-flame-hunter",
@@ -11532,10 +11530,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 586,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-04-03"
   },
   {
     "id": "sasuke-uchiha-wandering-swordsman",
@@ -11545,10 +11543,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2113,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-07-21"
   },
   {
     "id": "sasuke-uchiha-world-within-a-kaleidoscope",
@@ -11572,11 +11570,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 344,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-04-18"
   },
   {
     "id": "shibi-aburame-a-reticent-man",
@@ -11596,10 +11594,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 109,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "shikaku-nara-covert-operations",
@@ -11609,10 +11607,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2061,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-03-10"
   },
   {
     "id": "shikaku-nara-the-ino-shika-cho-trio",
@@ -11632,10 +11630,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 111,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "shikamaru-nara-beyond-silence",
@@ -11659,11 +11657,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 292,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-02-07"
   },
   {
     "id": "shikamaru-nara-crucial-decision",
@@ -11687,7 +11685,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "skill-beads-battle-skill-beads",
@@ -11701,7 +11698,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 616,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-06-05"
   },
   {
     "id": "shikamaru-nara-lazy-guy",
@@ -11725,11 +11723,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 55,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "shikamaru-nara-lucid-talent",
@@ -11749,10 +11747,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 11,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "shikamaru-nara-new-resolve",
@@ -11776,10 +11774,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 808,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2019-05-08"
   },
   {
     "id": "shikamaru-nara-surpassing-the-master",
@@ -11799,10 +11797,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 847,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-07-23"
   },
   {
     "id": "shikamaru-nara-the-decoy",
@@ -11826,11 +11824,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 182,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-10-14"
   },
   {
     "id": "shikamaru-nara-view-to-victory",
@@ -11854,7 +11852,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "bravery-beads-light-bravery-beads",
@@ -11867,7 +11864,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 2106,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2020-07-14"
   },
   {
     "id": "shima-fukasaku-the-sacred-mountain-s-two-great-toad-sages",
@@ -11877,10 +11875,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2093,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2020-06-02"
   },
   {
     "id": "shino-aburame-cold-beetle-user",
@@ -11904,11 +11902,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 65,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "shino-aburame-raging-passion",
@@ -11918,10 +11916,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 536,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-01-30"
   },
   {
     "id": "shino-aburame-unflinching-heart",
@@ -11941,10 +11939,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 21,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "shisui-uchiha-entrusted-wish",
@@ -11954,10 +11952,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 218,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-12-28"
   },
   {
     "id": "shisui-uchiha-eyes-inviting-illusion",
@@ -11977,11 +11975,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 715,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-11-20"
   },
   {
     "id": "shisui-uchiha-guiding-light",
@@ -12005,7 +12003,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "bravery-beads-light-bravery-beads",
@@ -12019,7 +12016,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 577,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-04-05"
   },
   {
     "id": "shisui-uchiha-hero-without-glory",
@@ -12043,10 +12041,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 397,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-07-04"
   },
   {
     "id": "shisui-uchiha-the-elite-who-makes-his-mark-infinite-tsukuyomi",
@@ -12056,10 +12054,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 806,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2019-04-26"
   },
   {
     "id": "shisui-uchiha-the-price-of-pride",
@@ -12083,7 +12081,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "body-beads-light-body-beads",
@@ -12096,7 +12093,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 2063,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2020-03-16"
   },
   {
     "id": "shizune-benevolent-heart",
@@ -12120,10 +12118,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 713,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-11-13"
   },
   {
     "id": "shizune-tsunade-s-attendant",
@@ -12143,10 +12141,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 103,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "soku-stubborn-will",
@@ -12170,10 +12168,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 288,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-02-07"
   },
   {
     "id": "sound-ninja-orochimaru-s-soldier",
@@ -12183,10 +12181,10 @@
     "minStars": 1,
     "maxStars": 1,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 134,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "suigetsu-the-demon-lives-on",
@@ -12210,10 +12208,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 305,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-02-21"
   },
   {
     "id": "suigetsu-hozuki-liquid-cruelty",
@@ -12237,11 +12235,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 622,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-06-12"
   },
   {
     "id": "taiseki-masterful-camouflage",
@@ -12251,10 +12249,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 24,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "tayuya-a-bewitching-flute",
@@ -12278,10 +12276,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 258,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-12-28"
   },
   {
     "id": "tayuya-aggressive-strategist",
@@ -12305,11 +12303,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 193,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-10-26"
   },
   {
     "id": "tayuya-elegy",
@@ -12319,10 +12317,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 753,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-01-22"
   },
   {
     "id": "tayuya-tayuya-of-the-north-gate",
@@ -12346,11 +12344,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 79,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "temari-a-bold-analyzer",
@@ -12374,10 +12372,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 70,
     "cardNo": 188,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-10-21"
   },
   {
     "id": "temari-high-winds",
@@ -12401,11 +12399,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 290,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-02-07"
   },
   {
     "id": "temari-sand-hurricane",
@@ -12429,11 +12427,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 164,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-09-28"
   },
   {
     "id": "temari-surging-blustery-wind",
@@ -12443,10 +12441,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 875,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-09-10"
   },
   {
     "id": "temari-wind-wrapped-talent",
@@ -12456,10 +12454,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 633,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-06-26"
   },
   {
     "id": "tenten-battle-blade-dance",
@@ -12483,10 +12481,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 796,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2019-04-16"
   },
   {
     "id": "tenten-ninja-tool-maestro",
@@ -12510,10 +12508,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 580,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-04-05"
   },
   {
     "id": "tenten-ninja-tool-specialist",
@@ -12537,11 +12535,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 69,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "tenten-valiant-warrior",
@@ -12565,11 +12563,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 266,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-01-10"
   },
   {
     "id": "tenzo-yamato-beneath-the-sun",
@@ -12593,10 +12591,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2047,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-02-04"
   },
   {
     "id": "thief-heartless-burglar",
@@ -12606,10 +12604,10 @@
     "minStars": 1,
     "maxStars": 1,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 132,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "thief-lackey-enemy-of-the-village",
@@ -12619,10 +12617,10 @@
     "minStars": 1,
     "maxStars": 1,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 131,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "thief-leader-head-of-the-robbers",
@@ -12632,10 +12630,10 @@
     "minStars": 2,
     "maxStars": 2,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 133,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "third-raikage-ay-one-man-army",
@@ -12659,11 +12657,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 471,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-10-24"
   },
   {
     "id": "tobi-evil-eyes-behind-the-mask",
@@ -12687,10 +12685,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 318,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-03-08"
   },
   {
     "id": "tobi-writhing-towards-ambition",
@@ -12700,10 +12698,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2054,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2020-03-05"
   },
   {
     "id": "tobirama-senju-enlightened-brilliance",
@@ -12727,11 +12725,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 408,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-06-18"
   },
   {
     "id": "tobirama-senju-father-of-reanimation",
@@ -12768,11 +12766,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 207,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-10-29"
   },
   {
     "id": "tobirama-senju-inherited-will-of-fire",
@@ -12796,7 +12794,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "bravery-beads-light-bravery-beads",
@@ -12809,7 +12806,8 @@
     ],
     "maxLevel": 100,
     "cardNo": 2007,
-    "range": "vast"
+    "range": "vast",
+    "globalDate": "2019-11-19"
   },
   {
     "id": "tobirama-senju-judicious-master",
@@ -12819,7 +12817,6 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "deadly-beads-judicious-master",
@@ -12833,7 +12830,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 762,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-02-19"
   },
   {
     "id": "tobirama-senju-quiet-fighting-spirit",
@@ -12843,10 +12841,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 514,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-01-09"
   },
   {
     "id": "tobirama-senju-the-founder",
@@ -12856,10 +12854,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 675,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-09-11"
   },
   {
     "id": "torune-aburame-lurking-poison",
@@ -12883,10 +12881,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 626,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-06-12"
   },
   {
     "id": "tsume-inuzuka-a-brave-mother",
@@ -12906,10 +12904,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 50,
     "cardNo": 121,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "tsunade-brilliant-bravery",
@@ -12933,10 +12931,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 461,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-10-03"
   },
   {
     "id": "tsunade-daring-courage",
@@ -12960,7 +12958,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "body-beads-light-body-beads",
@@ -12974,7 +12971,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 638,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-07-03"
   },
   {
     "id": "tsunade-gorgeous-attire",
@@ -12998,10 +12996,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 280,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-01-24"
   },
   {
     "id": "tsunade-inherited-dream",
@@ -13011,10 +13009,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2068,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2020-03-31"
   },
   {
     "id": "tsunade-protector-of-the-great-tree",
@@ -13034,10 +13032,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 2015,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-12-06"
   },
   {
     "id": "tsunade-risking-her-life",
@@ -13047,10 +13045,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 898,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2019-10-30"
   },
   {
     "id": "tsunade-the-slug-ninja",
@@ -13074,11 +13072,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 168,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-10-05"
   },
   {
     "id": "tsunade-the-will-of-blooming-flames",
@@ -13102,11 +13100,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 376,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-05-30"
   },
   {
     "id": "tsunade-unbreakable-tree-flower",
@@ -13130,11 +13128,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 533,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-01-23"
   },
   {
     "id": "ukon-sakon-brimming-with-brutality",
@@ -13158,10 +13156,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 249,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-12-22"
   },
   {
     "id": "utakata-fleeting-tranquility",
@@ -13185,11 +13183,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 311,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-03-03"
   },
   {
     "id": "utakata-floating-bubble",
@@ -13213,10 +13211,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 649,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-07-31"
   },
   {
     "id": "waraji-bodyguard-w-eyepatch",
@@ -13226,10 +13224,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 41,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "yagura-child-of-the-blood-mist",
@@ -13253,10 +13251,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 607,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2018-05-15"
   },
   {
     "id": "yagura-shadow-of-the-mist",
@@ -13280,10 +13278,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 465,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-10-09"
   },
   {
     "id": "yahiko-aspiring-for-peace",
@@ -13293,10 +13291,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 312,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-04-18"
   },
   {
     "id": "yamato-figure-of-serenity",
@@ -13306,10 +13304,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 492,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2017-12-19"
   },
   {
     "id": "yamato-heartless-thought",
@@ -13333,11 +13331,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 272,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-01-27"
   },
   {
     "id": "yamato-guruguru-unmalicious-murderous-intent",
@@ -13347,10 +13345,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 851,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-07-30"
   },
   {
     "id": "yashamaru-all-for-his-late-sister",
@@ -13360,10 +13358,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 39,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "yoroi-akado-heretical-abilities",
@@ -13373,10 +13371,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 31,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "yugito-ni-i-unbreakable-will",
@@ -13400,11 +13398,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 332,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2017-03-31"
   },
   {
     "id": "yugito-ni-i-unclouded-mind",
@@ -13428,10 +13426,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 609,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2018-05-15"
   },
   {
     "id": "zabuza-momochi-demonic-presence",
@@ -13455,7 +13453,6 @@
         ]
       }
     ],
-    "verified": false,
     "blazingAwakening": [
       {
         "resourceId": "body-beads-battle-body-beads",
@@ -13469,7 +13466,8 @@
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 541,
-    "range": "long"
+    "range": "long",
+    "globalDate": "2018-02-06"
   },
   {
     "id": "zabuza-momochi-silent-madness",
@@ -13489,11 +13487,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 150,
     "cardNo": 143,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-30"
   },
   {
     "id": "zabuza-momochi-the-demon-returns",
@@ -13517,11 +13515,11 @@
         ]
       }
     ],
-    "verified": false,
     "limitBreak": true,
     "maxLevel": 100,
     "cardNo": 145,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-30"
   },
   {
     "id": "zabuza-momochi-the-measure-of-a-demon",
@@ -13545,10 +13543,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 416,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-08-07"
   },
   {
     "id": "zabuza-momochi-unbounded-dread",
@@ -13558,10 +13556,10 @@
     "minStars": 6,
     "maxStars": 6,
     "awakening": [],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 890,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2019-10-08"
   },
   {
     "id": "zaku-abumi-the-confident-one",
@@ -13571,10 +13569,10 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 34,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2016-08-24"
   },
   {
     "id": "zetsu-black-white-shadow",
@@ -13598,10 +13596,10 @@
         ]
       }
     ],
-    "verified": false,
     "maxLevel": 100,
     "cardNo": 382,
-    "range": "mid"
+    "range": "mid",
+    "globalDate": "2017-06-13"
   },
   {
     "id": "zori-bodyguard-w-hat",
@@ -13611,9 +13609,9 @@
     "minStars": 3,
     "maxStars": 3,
     "awakening": [],
-    "verified": false,
     "maxLevel": 30,
     "cardNo": 40,
-    "range": "short"
+    "range": "short",
+    "globalDate": "2016-08-24"
   }
 ]

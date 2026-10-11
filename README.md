@@ -14,11 +14,11 @@ Planificateur non officiel pour **Naruto Blazing Revival** : collection, composi
 
 ## Données de jeu
 
-Les données viennent du [wiki Fandom de l'ancien jeu](https://naruto-blazing.fandom.com) et peuvent différer sur le revival : chaque fiche reste marquée *non vérifiée* tant que personne ne l'a confirmée.
+Les données viennent du [wiki Fandom du jeu original](https://naruto-blazing.fandom.com). Le revival reprend les mêmes données et ressort les ninjas dans l'ordre du calendrier d'origine ; chaque fiche garde donc sa date de sortie globale (`globalDate`). Le contenu inédit du revival s'ajoute depuis l'onglet **Données**.
 
 | Fichier | Contenu |
 | --- | --- |
-| `src/data/ninjas.json` | Les ninjas : élément, étoiles min/max, matériaux par étape d'éveil, éveil Blazing, limit break, niveau max |
+| `src/data/ninjas.json` | Les ninjas : élément, étoiles min/max, matériaux par étape d’éveil, éveil Blazing, limit break, niveau max, date de sortie |
 | `src/data/resources.json` | Les ressources : monnaies et cartes matériaux (éveil, éveil Blazing, limit break, amélioration) |
 | `src/data/game.json` | Cycle des éléments, limites, modèles d'éveil partagés (optionnels) |
 

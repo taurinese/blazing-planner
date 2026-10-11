@@ -42,8 +42,8 @@ export interface NinjaDef {
   range?: string;
   tags?: string[];
   notes?: string;
-  /** false until someone has checked the entry against the revival. */
-  verified: boolean;
+  /** Global release date in the original game (YYYY-MM-DD); the revival follows the same order. */
+  globalDate?: string;
 }
 
 export type ResourceCategory = 'currency' | 'awakening' | 'blazing' | 'limitbreak' | 'enhance' | 'event' | 'other';

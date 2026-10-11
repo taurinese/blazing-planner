@@ -84,13 +84,13 @@ export function normalizeNinja(raw: Record<string, unknown>, line: number): Ninj
     awakeningTemplate: template || undefined,
     tags,
     notes: raw.notes ? String(raw.notes) : undefined,
-    verified: raw.verified === true || String(raw.verified).toLowerCase() === 'true',
   };
   if (Array.isArray(raw.blazingAwakening)) ninja.blazingAwakening = raw.blazingAwakening as MaterialCost[];
   if (raw.limitBreak === true || String(raw.limitBreak ?? raw.limitbreak).toLowerCase() === 'true') ninja.limitBreak = true;
   if (maxLevel > 0) ninja.maxLevel = maxLevel;
   if (cardNo > 0) ninja.cardNo = cardNo;
   if (raw.range) ninja.range = String(raw.range);
+  if (typeof raw.globalDate === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(raw.globalDate)) ninja.globalDate = raw.globalDate;
   return ninja;
 }
 

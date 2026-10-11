@@ -37,6 +37,7 @@ describe('wiki mapping', () => {
       maxLevelLB: 150,
       limitBreak: true,
       range: 'short',
+      globalDate: '2019-04-02',
     });
     expect(card.materials).toEqual([
       'Deadly Beads "Devoted to Studies"',
