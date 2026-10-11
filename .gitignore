@@ -23,5 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# Wiki import output
-scripts/wiki-out/
+
+# GachaWiki download (refreshed with `node scripts/import-gachawiki.mjs fetch`)
+scripts/gachawiki/

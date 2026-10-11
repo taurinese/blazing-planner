@@ -60,8 +60,8 @@
               {#if mode === 'catalog' && row.extra > 0}<span class="owned" title={t('picker.owned', { n: row.extra })}>×{row.extra}</span>{/if}
             {/snippet}
           </NinjaCard>
-          {#if upcoming && row.ninja.globalDate}
-            <span class="release">~{fmtDate(catalog.expectedDate(row.ninja.globalDate))}</span>
+          {#if upcoming && row.ninja.revivalDate}
+            <span class="release">{fmtDate(row.ninja.revivalDate)}</span>
           {:else if row.planned}
             <span class="release">{t('collection.planned')}</span>
           {/if}

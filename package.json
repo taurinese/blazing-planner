@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
     "test": "vitest run",
-    "import:wiki": "node scripts/import-wiki.mjs"
+    "data:fetch": "node scripts/import-gachawiki.mjs fetch",
+    "data:build": "node scripts/import-gachawiki.mjs build && node scripts/resolve-images.mjs"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
@@ -21,7 +22,7 @@
     "vite": "^8.3.0",
     "vitest": "^5.0.3"
   },
-  "description": "Unofficial planner for Naruto Blazing Revival: collection, teams, awakening goals and resources.",
+  "description": "Planner for Naruto Blazing Revival: collection, teams, awakening goals, resources and release calendar.",
   "license": "MIT",
   "engines": {
     "node": ">=20"

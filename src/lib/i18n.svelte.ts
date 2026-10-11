@@ -9,19 +9,15 @@ const fr = {
   'nav.data': 'Données',
   'nav.calendar': 'Calendrier',
   'release.upcoming': 'Pas encore sorti',
-  'release.expected': 'Sortie estimée le {date}',
+  'release.expected': 'Sortie prévue le {date}',
   'collection.planned': 'Prévu',
   'collection.plannedHint': "Pas encore obtenu : sert à préparer équipes et objectifs",
   'collection.plannedToggle': 'Pas encore obtenu (prévision)',
   'calendar.title': 'Calendrier des sorties',
-  'calendar.progress': 'Le revival en est à',
-  'calendar.progressHint': "Date du jeu original atteinte par le revival. Estimée au rythme d'origine depuis la sortie du revival le {date} ; corrige-la si le revival prend de l'avance ou du retard.",
-  'calendar.auto': 'Estimation automatique',
-  'calendar.resetAuto': "Revenir à l'estimation",
-  'calendar.here': 'Le revival en est ici',
+  'calendar.credit': 'Sorties du revival, sources mises à jour le {date} :',
+  'calendar.today': "Aujourd'hui",
+  'calendar.inDays': 'dans {n} j',
   'calendar.showPast': 'Afficher les sorties passées',
-  'calendar.original': 'Jeu original : {date}',
-  'calendar.expected': 'Revival : ~{date}',
   'calendar.plan': 'Planifier',
   'calendar.planned': 'Dans ta collection',
   'calendar.empty': 'Aucune sortie à afficher.',
@@ -180,6 +176,7 @@ const fr = {
 
   'footer.disclaimer': 'Projet de fan non officiel, sans lien avec Bandai Namco, Shueisha ou Masashi Kishimoto.',
   'footer.source': 'Code source',
+  'footer.data': 'Données :'
 };
 
 export type MessageKey = keyof typeof fr;
@@ -194,19 +191,15 @@ const en: Record<MessageKey, string> = {
   'nav.data': 'Data',
   'nav.calendar': 'Calendar',
   'release.upcoming': 'Not released yet',
-  'release.expected': 'Expected on {date}',
+  'release.expected': 'Due on {date}',
   'collection.planned': 'Planned',
   'collection.plannedHint': 'Not obtained yet: used to prepare teams and goals',
   'collection.plannedToggle': 'Not obtained yet (planning)',
   'calendar.title': 'Release calendar',
-  'calendar.progress': 'The revival has reached',
-  'calendar.progressHint': 'Original-game date the revival has reached. Estimated at the original pace since the revival launched on {date}; adjust it if the revival runs ahead or behind.',
-  'calendar.auto': 'Automatic estimate',
-  'calendar.resetAuto': 'Back to the estimate',
-  'calendar.here': 'The revival is here',
+  'calendar.credit': 'Revival releases, sources updated on {date}:',
+  'calendar.today': 'Today',
+  'calendar.inDays': 'in {n} d',
   'calendar.showPast': 'Show past releases',
-  'calendar.original': 'Original game: {date}',
-  'calendar.expected': 'Revival: ~{date}',
   'calendar.plan': 'Plan',
   'calendar.planned': 'In your collection',
   'calendar.empty': 'No releases to show.',
@@ -365,6 +358,7 @@ const en: Record<MessageKey, string> = {
 
   'footer.disclaimer': 'Unofficial fan project, not affiliated with Bandai Namco, Shueisha or Masashi Kishimoto.',
   'footer.source': 'Source code',
+  'footer.data': 'Data:'
 };
 
 export type Lang = 'fr' | 'en';

@@ -79,8 +79,8 @@
               <div class="who">
                 <h2>{g.ninja?.name ?? t('goals.ninjaGone')}</h2>
                 {#if g.ninja}<span class="muted">{g.ninja.title}</span>{/if}
-                {#if g.ninja && !catalog.isReleased(g.ninja) && g.ninja.globalDate}
-                  <p class="release">{t('release.upcoming')} · {t('release.expected', { date: fmtDate(catalog.expectedDate(g.ninja.globalDate)) })}</p>
+                {#if g.ninja && !catalog.isReleased(g.ninja) && g.ninja.revivalDate}
+                  <p class="release">{t('release.upcoming')} · {t('release.expected', { date: fmtDate(g.ninja.revivalDate) })}</p>
                 {:else if g.owned?.planned}
                   <p class="release">{t('collection.planned')}</p>
                 {/if}

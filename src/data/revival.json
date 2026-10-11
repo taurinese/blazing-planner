@@ -1,0 +1,103 @@
+{
+  "importedAt": "2026-10-11",
+  "sources": [
+    {
+      "name": "GachaWiki",
+      "url": "https://gachawiki.net/naruto-blazing",
+      "role": "Revival roster and release waves"
+    },
+    {
+      "name": "Naruto Shippuden: Ultimate Ninja Blazing Wiki (Fandom)",
+      "url": "https://naruto-blazing.fandom.com",
+      "license": "CC BY-SA 3.0",
+      "role": "Game data"
+    }
+  ],
+  "batches": [
+    {
+      "id": 1,
+      "label": "Launch roster",
+      "date": "2026-10-10"
+    },
+    {
+      "id": 2,
+      "label": "Summons ★4",
+      "date": "2026-10-10"
+    },
+    {
+      "id": 3,
+      "label": "Summons ★3",
+      "date": "2026-10-10"
+    },
+    {
+      "id": 4,
+      "label": "Event ninjas (Emergency / Impact)",
+      "date": "2026-10-10"
+    },
+    {
+      "id": 5,
+      "label": "Mission rewards (Rookie / Gaiden)",
+      "date": "2026-10-10"
+    },
+    {
+      "id": 6,
+      "label": "Friend Summon",
+      "date": "2026-10-10"
+    },
+    {
+      "id": 7,
+      "label": "Granny Cat Shop",
+      "date": "2026-10-10"
+    },
+    {
+      "id": 8,
+      "label": "Awakening Tool missions",
+      "date": "2026-10-10"
+    },
+    {
+      "id": 9,
+      "label": "Upcoming 2026-10-17",
+      "date": "2026-10-17"
+    },
+    {
+      "id": 10,
+      "label": "Upcoming 2026-10-24",
+      "date": "2026-10-24"
+    },
+    {
+      "id": 11,
+      "label": "Upcoming 2026-10-31",
+      "date": "2026-10-31"
+    },
+    {
+      "id": 12,
+      "label": "Upcoming 2026-11-07",
+      "date": "2026-11-07"
+    },
+    {
+      "id": 13,
+      "label": "Upcoming 2026-11-14",
+      "date": "2026-11-14"
+    },
+    {
+      "id": 14,
+      "label": "Upcoming 2026-11-21",
+      "date": "2026-11-21"
+    },
+    {
+      "id": 15,
+      "label": "Upcoming 2026-11-28",
+      "date": "2026-11-28"
+    },
+    {
+      "id": 16,
+      "label": "Upcoming 2026-12-05",
+      "date": "2026-12-05"
+    },
+    {
+      "id": 17,
+      "label": "Upcoming 2026-12-12",
+      "date": "2026-12-12"
+    }
+  ]
+}

@@ -4,7 +4,8 @@ import baseResourcesJson from '../data/resources.json';
 import game from '../data/game.json';
 import { mergeById, newId, type Templates } from './planning';
 import { parseBackup } from './importers';
-import { estimateProgress, expectedRevivalDate, isReleased, todayIso, type Timeline } from './timeline';
+import { isReleased, todayIso } from './timeline';
+import revival from '../data/revival.json';
 import type { ElementDef, Goal, NinjaDef, OwnedNinja, PlayerState, ResourceDef, Team } from './types';
 
 export const STORAGE_KEY = 'nbr-planner:v1';
@@ -13,7 +14,11 @@ export const SCHEMA_VERSION = 3;
 export const elements = game.elements as ElementDef[];
 export const limits = game.limits;
 export const templates = game.awakeningTemplates as unknown as Templates;
-export const timeline = game.timeline as Timeline;
+export const revivalInfo = revival as {
+  importedAt: string;
+  sources: { name: string; url: string; role: string; license?: string }[];
+  batches: { id: number; label: string; date: string }[];
+};
 const baseNinjas = baseNinjasJson as unknown as NinjaDef[];
 const baseResources = baseResourcesJson as unknown as ResourceDef[];
 
@@ -27,14 +32,13 @@ function emptyState(): PlayerState {
     customNinjas: [],
     customResources: [],
     hiddenNinjaIds: [],
-    revivalDate: null,
   };
 }
 
 /** Upgrades older saves. Add a case here whenever PlayerState changes shape. */
 function migrate(state: PlayerState): PlayerState {
   const next = { ...emptyState(), ...state };
-  // v2: Blazing Awakening on owned ninjas and goals. v3: planned ninjas, revivalDate (null via emptyState).
+  // v2: Blazing Awakening on owned ninjas and goals. v3: planned ninjas.
   next.owned = next.owned.map((o) => ({ ...o, blazingAwakened: o.blazingAwakened ?? false, planned: o.planned ?? false }));
   next.goals = next.goals.map((g) => ({ ...g, targetBlazing: g.targetBlazing ?? false }));
   return { ...next, version: SCHEMA_VERSION };
@@ -62,13 +66,8 @@ class Catalog {
   ninjaById = $derived(new Map(this.ninjas.map((n) => [n.id, n])));
   resourceById = $derived(new Map(this.resources.map((r) => [r.id, r])));
   ownedByUid = $derived(new Map(player.owned.map((o) => [o.uid, o])));
-  /** Original-timeline date the revival has reached (manual setting or estimate). */
   today = todayIso();
-  estimatedProgress = estimateProgress(this.today, timeline);
-  progress = $derived(player.revivalDate ?? this.estimatedProgress);
-  isReleased = (n: NinjaDef) => isReleased(n, this.progress);
-  /** Expected revival date for an original-game date, following the current progress. */
-  expectedDate = (originalDate: string) => expectedRevivalDate(originalDate, this.progress, this.today);
+  isReleased = (n: NinjaDef) => isReleased(n, this.today);
   baseNinjaIds = new Set(baseNinjas.map((n) => n.id));
   baseResourceIds = new Set(baseResources.map((r) => r.id));
 }

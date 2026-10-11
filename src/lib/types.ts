@@ -44,6 +44,10 @@ export interface NinjaDef {
   notes?: string;
   /** Global release date in the original game (YYYY-MM-DD); the revival follows the same order. */
   globalDate?: string;
+  /** Release date on the revival (past = out, future = announced). */
+  revivalDate?: string;
+  /** Revival release wave (see src/data/revival.json). */
+  batch?: number;
   /** Banners, events and modes where the ninja was obtainable. */
   sources?: string[];
   /** Wiki card file per star level ("5", "6"…) and "ba" for the Blazing Awakened card. */
@@ -111,6 +115,4 @@ export interface PlayerState {
   customNinjas: NinjaDef[];
   customResources: ResourceDef[];
   hiddenNinjaIds: string[];
-  /** Original-timeline date the revival has reached; null = estimated from today. */
-  revivalDate: string | null;
 }

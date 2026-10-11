@@ -86,6 +86,7 @@
 
 <footer class="inner foot muted">
   <p>{t('footer.disclaimer')}</p>
+  <p>{t('footer.data')} <a href="https://gachawiki.net/naruto-blazing" target="_blank" rel="noopener">GachaWiki</a> · <a href="https://naruto-blazing.fandom.com" target="_blank" rel="noopener">Naruto Blazing Wiki</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>)</p>
   <a href={REPO_URL} target="_blank" rel="noopener">{t('footer.source')}</a>
 </footer>
 

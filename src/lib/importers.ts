@@ -95,7 +95,9 @@ export function normalizeNinja(raw: Record<string, unknown>, line: number): Ninj
   if (raw.images && typeof raw.images === 'object' && !Array.isArray(raw.images)) {
     ninja.images = Object.fromEntries(Object.entries(raw.images as Record<string, unknown>).map(([k, v]) => [k, String(v)]));
   }
-  if (typeof raw.globalDate === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(raw.globalDate)) ninja.globalDate = raw.globalDate;
+  if (isIsoDate(raw.globalDate)) ninja.globalDate = raw.globalDate;
+  if (isIsoDate(raw.revivalDate)) ninja.revivalDate = raw.revivalDate;
+  if (Number.isFinite(Number(raw.batch)) && raw.batch !== undefined && raw.batch !== '') ninja.batch = Number(raw.batch);
   return ninja;
 }
 
@@ -159,6 +161,5 @@ export function parseBackup(text: string): PlayerState {
     customNinjas: arr(data.customNinjas),
     customResources: arr(data.customResources),
     hiddenNinjaIds: arr<string>(data.hiddenNinjaIds).filter((x) => typeof x === 'string'),
-    revivalDate: isIsoDate(data.revivalDate) ? data.revivalDate : null,
   };
 }

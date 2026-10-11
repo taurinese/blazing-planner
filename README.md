@@ -9,32 +9,36 @@ Planificateur non officiel pour **Naruto Blazing Revival** : collection, composi
 - **Collection** : les ninjas possédés avec étoiles, niveau, limit break, niveaux de ninjutsu et de technique secrète, favoris et notes.
 - **Équipes** : 4 positions avec un principal et un soutien chacune, répartition des éléments et alerte quand aucun ninja n'est fort contre un élément.
 - **Objectifs** : choisis l'étoile visée, le coût d'éveil est calculé depuis la base. Une liste agrégée indique ce qu'il reste à farmer. Valider un éveil met à jour le ninja et retire les matériaux de l'inventaire.
-- **Calendrier** : les sorties du jeu original, dans l'ordre que suit le revival, avec leurs bannières et événements et une date de sortie estimée. L'avancement du revival est estimé automatiquement et se corrige à la main ; les ninjas pas encore sortis sont grisés mais restent planifiables (statut « Prévu »).
+- **Calendrier** : les vagues de sortie du revival, passées et annoncées, avec leurs bannières. Les ninjas pas encore sortis sont grisés mais restent planifiables (statut « Prévu »).
 - **Inventaire** : quantités par ressource, avec ce que tes objectifs réclament.
 - **Données** : sauvegarde et restauration en JSON (pour changer d'appareil ou partager avec un ami), édition de la base de ninjas et de ressources, import CSV/JSON.
 
 ## Données de jeu
 
-Les données viennent du [wiki Fandom du jeu original](https://naruto-blazing.fandom.com). Le revival reprend les mêmes données et ressort les ninjas dans l'ordre du calendrier d'origine ; chaque fiche garde donc sa date de sortie globale (`globalDate`). Le contenu inédit du revival s'ajoute depuis l'onglet **Données**.
+L'app suit **uniquement le roster du revival** : les ninjas déjà sortis et ceux annoncés, avec leurs vraies dates de sortie.
 
 | Fichier | Contenu |
 | --- | --- |
-| `src/data/ninjas.json` | Les ninjas : élément, étoiles min/max, matériaux par étape d’éveil, éveil Blazing, limit break, niveau max, date de sortie |
-| `src/data/resources.json` | Les ressources : monnaies et cartes matériaux (éveil, éveil Blazing, limit break, amélioration) |
-| `src/data/game.json` | Cycle des éléments, limites, modèles d'éveil partagés (optionnels) |
+| `src/data/ninjas.json` | Les ninjas du revival : élément, étoiles, matériaux par étape d'éveil, limit break, niveau max, date de sortie sur le revival, bannières |
+| `src/data/resources.json` | Les matériaux d'éveil (et les monnaies) |
+| `src/data/revival.json` | Les vagues de sortie du revival et les crédits des sources |
+| `src/data/image-urls.json` | Adresse des cartes sur le CDN du wiki Fandom |
+| `src/data/game.json` | Cycle des éléments, limites |
 
-Chaque joueur peut compléter ou corriger la base depuis l'onglet **Données** ; ses modifications sont stockées avec sa sauvegarde. Pour intégrer des corrections à la base commune : **Exporter la base (JSON)** puis remplacer `src/data/ninjas.json`.
-
-### Import depuis le wiki
-
-Le wiki expose l'API MediaWiki publique. Sur le wiki, chaque niveau d'étoiles d'un ninja est une fiche à part (★5, ★6, ★6 Blazing Awakened) dont l'infobox porte le nom de l'élément (`Heart Characters`…) et liste les cartes matériaux de l'étape suivante. Le script regroupe ces fiches par ninja :
+### Mettre à jour après une nouvelle vague
 
 ```bash
-node scripts/import-wiki.mjs fetch    # toutes les fiches des 5 éléments + catégories de matériaux → scripts/wiki-out/raw.json
-node scripts/import-wiki.mjs build    # raw.json → src/data/ninjas.json et src/data/resources.json
+npm run data:fetch   # télécharge le roster depuis GachaWiki
+npm run data:build   # le convertit pour l'app et résout les nouvelles images
 ```
 
-Les requêtes sont séquentielles et espacées pour ménager le wiki. `discover` affiche les catégories et la structure d'une fiche, utile si le wiki change de format. Les avertissements de conversion sont écrits dans `scripts/wiki-out/warnings.txt`.
+Puis commit de `src/data/`. Chaque joueur peut aussi ajouter du contenu inédit depuis l'onglet **Données**.
+
+### Sources et licences
+
+- **Roster et vagues de sortie du revival :** [GachaWiki](https://gachawiki.net/naruto-blazing).
+- **Données de jeu :** [wiki Fandom Naruto Blazing](https://naruto-blazing.fandom.com), sous licence [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Les fichiers de `src/data/` en sont dérivés et restent sous cette licence.
+- **Icônes :** chargées depuis le CDN du wiki Fandom au moment de l'affichage ; aucun visuel du jeu n'est stocké dans ce dépôt.
 
 ## Développement
 
@@ -58,7 +62,7 @@ src/
   lib/i18n.svelte.ts    traductions FR/EN
   views/                un fichier par onglet
   components/           éléments réutilisables (sélecteur de ninja, étoiles, modale…)
-scripts/                import depuis le wiki
+scripts/                import du roster (GachaWiki) et des adresses d'images (Fandom)
 ```
 
 ### Déploiement
@@ -71,4 +75,4 @@ Les données sont dans le `localStorage` du navigateur (clé `nbr-planner:v1`). 
 
 ## Licence
 
-Code sous licence [MIT](LICENSE). Projet de fan non officiel, sans lien avec Bandai Namco, Shueisha ou Masashi Kishimoto. Les icônes sont chargées depuis le wiki Fandom au moment de l'affichage ; aucun visuel du jeu n'est stocké dans ce dépôt.
+Code sous licence [MIT](LICENSE). Projet de fan non officiel, sans lien avec Bandai Namco, Shueisha ou Masashi Kishimoto. Les données de jeu de `src/data/` sont sous CC BY-SA 3.0 (voir [Sources et licences](#sources-et-licences)).

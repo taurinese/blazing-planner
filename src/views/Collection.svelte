@@ -117,7 +117,7 @@
               {/snippet}
             </NinjaCard>
             {#if o.planned}
-              <span class="planned-tag" title={t('collection.plannedHint')}>{t('collection.planned')}{#if n && !catalog.isReleased(n) && n.globalDate}{' · '}{fmtDate(catalog.expectedDate(n.globalDate))}{/if}</span>
+              <span class="planned-tag" title={t('collection.plannedHint')}>{t('collection.planned')}{#if n && !catalog.isReleased(n) && n.revivalDate}{' · '}{fmtDate(n.revivalDate)}{/if}</span>
             {/if}
           </button>
         </li>

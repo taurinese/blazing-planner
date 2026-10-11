@@ -1,5 +1,5 @@
 {
-  "_comment": "Element cycle, limits, optional shared awakening templates, revival timeline. imageBase serves wiki files by name (thumbnails via ?width=).",
+  "_comment": "Element cycle, limits, optional shared awakening templates. imageBase serves wiki files by name.",
   "elements": [
     {
       "id": "heart",
@@ -34,9 +34,5 @@
     "maxSkillLevel": 10
   },
   "awakeningTemplates": {},
-  "timeline": {
-    "originalLaunch": "2016-08-24",
-    "revivalLaunch": "2026-10-10"
-  },
   "imageBase": "https://naruto-blazing.fandom.com/wiki/Special:FilePath/"
 }
