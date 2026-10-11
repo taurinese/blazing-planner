@@ -62,7 +62,7 @@ scripts/                import depuis le wiki
 
 ### Déploiement
 
-Le workflow `.github/workflows/deploy.yml` vérifie, teste et publie sur GitHub Pages à chaque push sur `main`. Dans les réglages du repo : **Settings → Pages → Source : GitHub Actions**. Pense à mettre l'adresse du repo dans `src/lib/config.ts`.
+Le workflow `.github/workflows/deploy.yml` vérifie, teste et publie sur GitHub Pages à chaque push sur `main`. Dans les réglages du repo : **Settings → Pages → Source : GitHub Actions**. Le site est publié sur https://taurinese.github.io/blazing-planner/.
 
 ### Sauvegarde
 
