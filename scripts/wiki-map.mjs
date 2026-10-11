@@ -48,6 +48,31 @@ function countStars(params, title) {
   return m ? Number(m[1]) : 0;
 }
 
+/** Wiki pages that are guides, renamed to what players call them. */
+const SOURCE_ALIASES = { 'Story Mode Guide': 'Story Mode' };
+
+/**
+ * Banners, events and modes listed in `how-obtain`, in order, without duplicates.
+ * Banner images carry the event in `link=`, text links use [[Target|label]].
+ */
+export function extractSources(value) {
+  const raw = String(value ?? '');
+  const found = [];
+  const re = /\[\[(File:[^\]]*?link=([^\]|]+)[^\]]*|(?!File:)([^\]|]+)(?:\|[^\]]*)?)\]\]/gi;
+  let m;
+  while ((m = re.exec(raw))) {
+    const name = (m[2] ?? m[3] ?? '').trim();
+    // Links to another star page of a ninja ("obtained by awakening ★5") are not sources.
+    if (name && !/\(★\d\)/.test(name)) found.push(SOURCE_ALIASES[name] ?? name);
+  }
+  // Plain text only when the field has no links at all (e.g. "Story Mode").
+  if (found.length === 0 && !raw.includes('[[')) {
+    const text = plainText(raw);
+    if (text) found.push(text);
+  }
+  return [...new Set(found)];
+}
+
 /** "April 2, 2019" → "2019-04-02". */
 export function toIsoDate(v) {
   const text = plainText(v);
@@ -89,6 +114,7 @@ export function pageToCard(page) {
     limitBreak: /^yes$/i.test(plainText(p['limit-break'])),
     range: plainText(p.range).toLowerCase() || undefined,
     globalDate: toIsoDate(p['global-date']),
+    sources: extractSources(p['how-obtain']),
     materials,
   };
 }
@@ -161,6 +187,8 @@ export function buildCatalog(pages, materialCategories = {}) {
     // Earliest release among the ninja's pages: when it first became obtainable.
     const dates = group.map((c) => c.globalDate).filter(Boolean).sort();
     if (dates.length) ninja.globalDate = dates[0];
+    const sources = [...new Set(regular.sort((a, b) => a.stars - b.stars).flatMap((c) => c.sources))];
+    if (sources.length) ninja.sources = sources;
     ninjas.push(ninja);
   }
 

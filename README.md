@@ -9,6 +9,7 @@ Planificateur non officiel pour **Naruto Blazing Revival** : collection, composi
 - **Collection** : les ninjas possédés avec étoiles, niveau, limit break, niveaux de ninjutsu et de technique secrète, favoris et notes.
 - **Équipes** : 4 positions avec un principal et un soutien chacune, répartition des éléments et alerte quand aucun ninja n'est fort contre un élément.
 - **Objectifs** : choisis l'étoile visée, le coût d'éveil est calculé depuis la base. Une liste agrégée indique ce qu'il reste à farmer. Valider un éveil met à jour le ninja et retire les matériaux de l'inventaire.
+- **Calendrier** : les sorties du jeu original, dans l'ordre que suit le revival, avec leurs bannières et événements et une date de sortie estimée. L'avancement du revival est estimé automatiquement et se corrige à la main ; les ninjas pas encore sortis sont grisés mais restent planifiables (statut « Prévu »).
 - **Inventaire** : quantités par ressource, avec ce que tes objectifs réclament.
 - **Données** : sauvegarde et restauration en JSON (pour changer d'appareil ou partager avec un ami), édition de la base de ninjas et de ressources, import CSV/JSON.
 

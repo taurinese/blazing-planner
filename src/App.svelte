@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Calendar from './views/Calendar.svelte';
   import Collection from './views/Collection.svelte';
   import Data from './views/Data.svelte';
   import Goals from './views/Goals.svelte';
@@ -8,8 +9,8 @@
   import { prefs, t, type MessageKey } from './lib/i18n.svelte';
   import { player, status } from './lib/store.svelte';
 
-  type Route = 'collection' | 'teams' | 'goals' | 'inventory' | 'data';
-  const ROUTES: Route[] = ['collection', 'teams', 'goals', 'inventory', 'data'];
+  type Route = 'collection' | 'teams' | 'goals' | 'calendar' | 'inventory' | 'data';
+  const ROUTES: Route[] = ['collection', 'teams', 'goals', 'calendar', 'inventory', 'data'];
 
   function fromHash(): Route {
     const h = location.hash.replace(/^#\/?/, '') as Route;
@@ -28,6 +29,7 @@
     location.hash = `/${r}`;
   }
 
+  const ownedCount = $derived(player.owned.filter((o) => !o.planned).length);
   const openGoals = $derived(player.goals.filter((g) => !g.done).length);
 
   function cycleTheme() {
@@ -60,7 +62,7 @@
         <li>
           <a href="#/{r}" aria-current={route === r ? 'page' : undefined} onclick={(e) => { e.preventDefault(); go(r); }}>
             {t(`nav.${r}` as MessageKey)}
-            {#if r === 'collection' && player.owned.length}<span class="count">{player.owned.length}</span>{/if}
+            {#if r === 'collection' && ownedCount}<span class="count">{ownedCount}</span>{/if}
             {#if r === 'goals' && openGoals}<span class="count">{openGoals}</span>{/if}
           </a>
         </li>
@@ -77,6 +79,7 @@
   {#if route === 'collection'}<Collection ongoal={() => go('goals')} />
   {:else if route === 'teams'}<Teams />
   {:else if route === 'goals'}<Goals />
+  {:else if route === 'calendar'}<Calendar />
   {:else if route === 'inventory'}<Inventory />
   {:else}<Data />{/if}
 </main>

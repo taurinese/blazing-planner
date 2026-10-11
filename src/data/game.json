@@ -33,5 +33,9 @@
     "maxLimitBreak": 10,
     "maxSkillLevel": 10
   },
-  "awakeningTemplates": {}
+  "awakeningTemplates": {},
+  "timeline": {
+    "originalLaunch": "2016-08-24",
+    "revivalLaunch": "2026-10-10"
+  }
 }

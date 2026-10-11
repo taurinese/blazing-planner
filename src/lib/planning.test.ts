@@ -27,7 +27,7 @@ const ninja: NinjaDef = {
 };
 
 const owned = (uid: string, stars = 4): OwnedNinja => ({
-  uid, ninjaId: 'n1', stars, blazingAwakened: false, level: 1, limitBreak: 0, ninjutsuLevel: 1, secretLevel: 1, favorite: false, notes: '',
+  uid, ninjaId: 'n1', stars, blazingAwakened: false, level: 1, limitBreak: 0, ninjutsuLevel: 1, secretLevel: 1, favorite: false, planned: false, notes: '',
 });
 
 describe('awakening', () => {

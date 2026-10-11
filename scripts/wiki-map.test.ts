@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 // @ts-expect-error plain JS module without types
-import { buildCatalog, materialName, pageToCard } from './wiki-map.mjs';
+import { buildCatalog, extractSources, materialName, pageToCard, toIsoDate } from './wiki-map.mjs';
 import ashura6 from './fixtures/ashura-6.json';
 
 // Real page from the wiki (Ashura "Devoted to Studies" ★6), plus a hand-made ★5 page for the chain.
@@ -78,6 +78,21 @@ describe('wiki mapping', () => {
     });
     expect(resources.find((r: { id: string }) => r.id === 'tome-of-heart')).toMatchObject({ category: 'awakening', element: 'heart' });
     expect(resources.find((r: { id: string }) => r.id === 'deadly-beads-devoted-to-studies')).toMatchObject({ category: 'blazing' });
+  });
+
+  it('lists obtain sources from banner images and text links', () => {
+    expect(pageToCard(ashura6).sources).toEqual(['Super Impact! Secrets of the Ninshu', 'Super Impact! Boss Rush']);
+    expect(extractSources('[[Story Mode Guide|Story Mode]]: Stage 4-5 in "[[Stage 4: Exam Round 1|Exam Round #1]]"'))
+      .toEqual(['Story Mode', 'Stage 4: Exam Round 1']);
+    expect(extractSources('Story Mode')).toEqual(['Story Mode']);
+    expect(extractSources('Awaken [[File:Card-0415.png|50px|link=Zabuza Momochi "The Measure of a Demon" (★5)]]')).toEqual([]);
+    expect(extractSources('[[Zabuza Momochi "Silent Madness" (★5)]] / [[The Mist Demon]]')).toEqual(['The Mist Demon']);
+  });
+
+  it('parses wiki dates', () => {
+    expect(toIsoDate('April 2, 2019')).toBe('2019-04-02');
+    expect(toIsoDate('[[August 24, 2016]]')).toBe('2016-08-24');
+    expect(toIsoDate('TBA')).toBeUndefined();
   });
 
   it('ignores pages without a character infobox', () => {

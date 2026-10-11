@@ -2,7 +2,7 @@
   import Modal from './Modal.svelte';
   import ElementTag from './ElementTag.svelte';
   import Stars from './Stars.svelte';
-  import { t } from '../lib/i18n.svelte';
+  import { fmtDate, t } from '../lib/i18n.svelte';
   import { catalog, elements, player } from '../lib/store.svelte';
   import type { ElementId } from '../lib/types';
 
@@ -31,12 +31,12 @@
     if (mode === 'catalog') {
       return catalog.ninjas
         .filter((n) => matches(n.name, n.title, n.element))
-        .map((n) => ({ id: n.id, ninja: n, stars: n.minStars, extra: ownedCount.get(n.id) ?? 0 }));
+        .map((n) => ({ id: n.id, ninja: n, stars: n.minStars, extra: ownedCount.get(n.id) ?? 0, planned: false }));
     }
     return player.owned
       .map((o) => ({ o, n: catalog.ninjaById.get(o.ninjaId) }))
       .filter((r) => r.n && matches(r.n.name, r.n.title, r.n.element))
-      .map((r) => ({ id: r.o.uid, ninja: r.n!, stars: r.o.stars, extra: r.o.level }));
+      .map((r) => ({ id: r.o.uid, ninja: r.n!, stars: r.o.stars, extra: r.o.level, planned: r.o.planned }));
   });
 
   function pick(id: string) {
@@ -60,11 +60,17 @@
 
   <ul class="list">
     {#each rows as row (row.id)}
+      {@const upcoming = !catalog.isReleased(row.ninja)}
       <li>
-        <button type="button" class="row" style:--el="var(--{row.ninja.element})" onclick={() => pick(row.id)}>
+        <button type="button" class="row" class:upcoming class:planned={row.planned} style:--el="var(--{row.ninja.element})" onclick={() => pick(row.id)}>
           <span class="who">
             <strong>{row.ninja.name}</strong>
             <span class="muted">{row.ninja.title}</span>
+            {#if upcoming && row.ninja.globalDate}
+              <span class="release">{t('release.expected', { date: fmtDate(catalog.expectedDate(row.ninja.globalDate)) })}</span>
+            {:else if row.planned}
+              <span class="release">{t('collection.planned')}</span>
+            {/if}
           </span>
           <Stars value={row.stars} max={row.ninja.maxStars} />
           {#if mode === 'catalog' && row.extra > 0}
@@ -110,6 +116,9 @@
     cursor: pointer;
   }
   .row:hover { background: var(--chakra-soft); }
+  .row.upcoming, .row.planned { border-style: dashed; border-left-style: solid; }
+  .row.upcoming .who strong, .row.upcoming .who .muted { opacity: 0.6; }
+  .release { font-size: 0.78rem; font-weight: 600; color: var(--muted); }
   .who { display: grid; line-height: 1.25; }
   .who .muted { font-size: 0.85rem; }
   .badge { font-size: 0.8rem; color: var(--muted); }

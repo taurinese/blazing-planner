@@ -2,7 +2,7 @@
   import ElementTag from '../components/ElementTag.svelte';
   import NinjaPicker from '../components/NinjaPicker.svelte';
   import Stars from '../components/Stars.svelte';
-  import { fmt, prefs, t } from '../lib/i18n.svelte';
+  import { fmt, fmtDate, prefs, t } from '../lib/i18n.svelte';
   import { effectiveTargetStars, goalCost, goalProgress, missingSteps, resourceName, shoppingList } from '../lib/planning';
   import { addGoal, catalog, completeGoal, limits, player, removeGoal, templates } from '../lib/store.svelte';
   import type { Goal } from '../lib/types';
@@ -71,6 +71,11 @@
               <div class="who">
                 <h2>{g.ninja?.name ?? t('goals.ninjaGone')}</h2>
                 {#if g.ninja}<span class="muted">{g.ninja.title}</span> <ElementTag element={g.ninja.element} compact />{/if}
+                {#if g.ninja && !catalog.isReleased(g.ninja) && g.ninja.globalDate}
+                  <p class="release">{t('release.upcoming')} · {t('release.expected', { date: fmtDate(catalog.expectedDate(g.ninja.globalDate)) })}</p>
+                {:else if g.owned?.planned}
+                  <p class="release">{t('collection.planned')}</p>
+                {/if}
               </div>
               <label class="field prio">
                 <span>{t('goals.priority')}</span>
@@ -203,6 +208,7 @@
   .prio { min-width: 8rem; }
   .stars-line { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
   .arrow { color: var(--muted); }
+  .release { font-size: 0.85rem; font-weight: 600; color: var(--muted); margin-top: 0.15rem; }
   .ba { font-size: 0.75rem; font-weight: 700; padding: 0 0.35rem; border-radius: 3px; background: var(--ink); color: var(--paper); }
   .targets { display: grid; grid-template-columns: repeat(2, minmax(0, 10rem)); gap: 0.6rem; }
   .warn { color: var(--warn); font-size: 0.9rem; font-weight: 500; }

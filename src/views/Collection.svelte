@@ -3,7 +3,7 @@
   import Modal from '../components/Modal.svelte';
   import NinjaPicker from '../components/NinjaPicker.svelte';
   import Stars from '../components/Stars.svelte';
-  import { t } from '../lib/i18n.svelte';
+  import { fmtDate, t } from '../lib/i18n.svelte';
   import { addGoal, addOwned, catalog, elements, limits, player, removeOwned } from '../lib/store.svelte';
   import type { ElementId, OwnedNinja } from '../lib/types';
 
@@ -41,7 +41,9 @@
   }
 
   function onPick(ninjaId: string) {
-    openEditor(addOwned(ninjaId));
+    const ninja = catalog.ninjaById.get(ninjaId);
+    // A ninja not released yet on the revival can only be planned.
+    openEditor(addOwned(ninjaId, ninja ? !catalog.isReleased(ninja) : false));
   }
 
   function remove(o: OwnedNinja) {
@@ -67,7 +69,7 @@
   <div class="view-head">
     <div>
       <h1>{t('collection.title')}</h1>
-      <p class="muted">{t('collection.count', { n: player.owned.length })}</p>
+      <p class="muted">{t('collection.count', { n: player.owned.filter((o) => !o.planned).length })}</p>
     </div>
     <button class="btn primary" type="button" onclick={() => (pickerOpen = true)}>{t('collection.add')}</button>
   </div>
@@ -104,7 +106,7 @@
     <ul class="grid">
       {#each rows as { o, n } (o.uid)}
         <li>
-          <button type="button" class="card" style:--el="var(--{n?.element ?? 'muted'})" onclick={() => openEditor(o)}>
+          <button type="button" class="card" class:planned={o.planned} style:--el="var(--{n?.element ?? 'muted'})" onclick={() => openEditor(o)}>
             <span class="top">
               <span class="who">
                 <strong>{n?.name ?? o.ninjaId}{#if o.favorite}<span class="fav" aria-label={t('collection.favorite')}> ♥</span>{/if}</strong>
@@ -119,7 +121,12 @@
               </span>
               <span class="num">Lv {o.level}{#if o.limitBreak > 0} · LB {o.limitBreak}{/if}</span>
             </span>
-            {#if goalUids.has(o.uid)}<span class="goal">{t('collection.goalExists')}</span>{/if}
+            {#if o.planned || goalUids.has(o.uid)}
+              <span class="tags">
+                {#if o.planned}<span class="planned-tag" title={t('collection.plannedHint')}>{t('collection.planned')}{#if n && !catalog.isReleased(n) && n.globalDate}{' · '}{fmtDate(catalog.expectedDate(n.globalDate))}{/if}</span>{/if}
+                {#if goalUids.has(o.uid)}<span class="goal">{t('collection.goalExists')}</span>{/if}
+              </span>
+            {/if}
           </button>
         </li>
       {:else}
@@ -166,6 +173,7 @@
           <input type="number" min="1" max={limits.maxSkillLevel} value={editing.secretLevel}
             onchange={(e) => editing && (editing.secretLevel = clamp(e.currentTarget.valueAsNumber, 1, limits.maxSkillLevel))} /></label>
       </div>
+      <label class="check"><input type="checkbox" bind:checked={editing.planned} /> {t('collection.plannedToggle')}</label>
       <label class="check"><input type="checkbox" bind:checked={editing.favorite} /> {t('collection.favorite')}</label>
       <label class="field"><span>{t('common.notes')}</span><textarea bind:value={editing.notes}></textarea></label>
     </div>
@@ -219,6 +227,9 @@
   .stars-ba { display: inline-flex; align-items: center; gap: 0.4rem; }
   .ba { font-size: 0.7rem; font-weight: 700; padding: 0 0.3rem; border-radius: 3px; background: var(--ink); color: var(--paper); }
   .off { opacity: 0.5; }
+  .card.planned { border-style: dashed; border-left-style: solid; background: transparent; }
+  .tags { display: flex; flex-wrap: wrap; gap: 0.2rem 0.75rem; }
+  .planned-tag { font-size: 0.8rem; font-weight: 600; color: var(--muted); }
   .goal { font-size: 0.8rem; color: var(--chakra); font-weight: 600; }
   .form { display: grid; gap: 0.9rem; }
   .cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.6rem; }

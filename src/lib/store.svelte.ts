@@ -4,14 +4,16 @@ import baseResourcesJson from '../data/resources.json';
 import game from '../data/game.json';
 import { mergeById, newId, type Templates } from './planning';
 import { parseBackup } from './importers';
+import { estimateProgress, expectedRevivalDate, isReleased, todayIso, type Timeline } from './timeline';
 import type { ElementDef, Goal, NinjaDef, OwnedNinja, PlayerState, ResourceDef, Team } from './types';
 
 export const STORAGE_KEY = 'nbr-planner:v1';
-export const SCHEMA_VERSION = 2;
+export const SCHEMA_VERSION = 3;
 
 export const elements = game.elements as ElementDef[];
 export const limits = game.limits;
 export const templates = game.awakeningTemplates as unknown as Templates;
+export const timeline = game.timeline as Timeline;
 const baseNinjas = baseNinjasJson as NinjaDef[];
 const baseResources = baseResourcesJson as ResourceDef[];
 
@@ -25,14 +27,15 @@ function emptyState(): PlayerState {
     customNinjas: [],
     customResources: [],
     hiddenNinjaIds: [],
+    revivalDate: null,
   };
 }
 
 /** Upgrades older saves. Add a case here whenever PlayerState changes shape. */
 function migrate(state: PlayerState): PlayerState {
   const next = { ...emptyState(), ...state };
-  // v2: Blazing Awakening on owned ninjas and goals.
-  next.owned = next.owned.map((o) => ({ ...o, blazingAwakened: o.blazingAwakened ?? false }));
+  // v2: Blazing Awakening on owned ninjas and goals. v3: planned ninjas, revivalDate (null via emptyState).
+  next.owned = next.owned.map((o) => ({ ...o, blazingAwakened: o.blazingAwakened ?? false, planned: o.planned ?? false }));
   next.goals = next.goals.map((g) => ({ ...g, targetBlazing: g.targetBlazing ?? false }));
   return { ...next, version: SCHEMA_VERSION };
 }
@@ -59,6 +62,13 @@ class Catalog {
   ninjaById = $derived(new Map(this.ninjas.map((n) => [n.id, n])));
   resourceById = $derived(new Map(this.resources.map((r) => [r.id, r])));
   ownedByUid = $derived(new Map(player.owned.map((o) => [o.uid, o])));
+  /** Original-timeline date the revival has reached (manual setting or estimate). */
+  today = todayIso();
+  estimatedProgress = estimateProgress(this.today, timeline);
+  progress = $derived(player.revivalDate ?? this.estimatedProgress);
+  isReleased = (n: NinjaDef) => isReleased(n, this.progress);
+  /** Expected revival date for an original-game date, following the current progress. */
+  expectedDate = (originalDate: string) => expectedRevivalDate(originalDate, this.progress, this.today);
   baseNinjaIds = new Set(baseNinjas.map((n) => n.id));
   baseResourceIds = new Set(baseResources.map((r) => r.id));
 }
@@ -91,7 +101,7 @@ if (typeof window !== 'undefined') {
 }
 
 // ---- Collection ----
-export function addOwned(ninjaId: string): OwnedNinja {
+export function addOwned(ninjaId: string, planned = false): OwnedNinja {
   const ninja = catalog.ninjaById.get(ninjaId);
   const owned: OwnedNinja = {
     uid: newId('own'),
@@ -103,6 +113,7 @@ export function addOwned(ninjaId: string): OwnedNinja {
     ninjutsuLevel: 1,
     secretLevel: 1,
     favorite: false,
+    planned,
     notes: '',
   };
   player.owned.push(owned);
@@ -174,6 +185,7 @@ export function completeGoal(id: string, costs: { resourceId: string; qty: numbe
     const ninja = catalog.ninjaById.get(owned.ninjaId);
     owned.stars = Math.max(owned.stars, goal.targetBlazing && ninja ? ninja.maxStars : goal.targetStars);
     if (goal.targetBlazing) owned.blazingAwakened = true;
+    owned.planned = false; // awakening it means it has been obtained
     if (goal.targetLevel) owned.level = Math.max(owned.level, goal.targetLevel);
     if (goal.targetLimitBreak) owned.limitBreak = Math.max(owned.limitBreak, goal.targetLimitBreak);
   }

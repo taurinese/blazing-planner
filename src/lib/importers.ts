@@ -1,6 +1,7 @@
 // Parsing and validation for everything that comes from outside: CSV/JSON catalogs and backup files.
 import { RESOURCE_CATEGORIES, type ElementId, type MaterialCost, type NinjaDef, type PlayerState, type ResourceCategory, type ResourceDef } from './types';
 import { slugify } from './planning';
+import { isIsoDate } from './timeline';
 
 export const ELEMENT_IDS: ElementId[] = ['heart', 'skill', 'body', 'bravery', 'wisdom'];
 const CATEGORIES = RESOURCE_CATEGORIES;
@@ -90,6 +91,7 @@ export function normalizeNinja(raw: Record<string, unknown>, line: number): Ninj
   if (maxLevel > 0) ninja.maxLevel = maxLevel;
   if (cardNo > 0) ninja.cardNo = cardNo;
   if (raw.range) ninja.range = String(raw.range);
+  if (Array.isArray(raw.sources)) ninja.sources = raw.sources.map(String);
   if (typeof raw.globalDate === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(raw.globalDate)) ninja.globalDate = raw.globalDate;
   return ninja;
 }
@@ -153,5 +155,6 @@ export function parseBackup(text: string): PlayerState {
     customNinjas: arr(data.customNinjas),
     customResources: arr(data.customResources),
     hiddenNinjaIds: arr<string>(data.hiddenNinjaIds).filter((x) => typeof x === 'string'),
+    revivalDate: isIsoDate(data.revivalDate) ? data.revivalDate : null,
   };
 }

@@ -24,7 +24,10 @@
     "maxLevel": 100,
     "cardNo": 2079,
     "range": "short",
-    "globalDate": "2020-04-21"
+    "globalDate": "2020-04-21",
+    "sources": [
+      "Equanimous Shield"
+    ]
   },
   {
     "id": "ameyuri-ringo-furious-full-tilt-lightning-blade",
@@ -51,7 +54,10 @@
     "maxLevel": 100,
     "cardNo": 485,
     "range": "short",
-    "globalDate": "2017-11-14"
+    "globalDate": "2017-11-14",
+    "sources": [
+      "Sky-Piercing Lightning Blade"
+    ]
   },
   {
     "id": "anko-mitarashi-a-smile-that-could-kill",
@@ -78,7 +84,10 @@
     "maxLevel": 100,
     "cardNo": 683,
     "range": "long",
-    "globalDate": "2018-09-18"
+    "globalDate": "2018-09-18",
+    "sources": [
+      "Snake Master Lurking in the Shadows"
+    ]
   },
   {
     "id": "anko-mitarashi-dangerous-dumpling-lover",
@@ -101,7 +110,10 @@
     "maxLevel": 50,
     "cardNo": 95,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Rare Summon"
+    ]
   },
   {
     "id": "ao-an-eye-of-mist",
@@ -128,7 +140,10 @@
     "maxLevel": 100,
     "cardNo": 766,
     "range": "mid",
-    "globalDate": "2019-02-26"
+    "globalDate": "2019-02-26",
+    "sources": [
+      "Sublime Byakugan of the Mist"
+    ]
   },
   {
     "id": "ashura-devoted-to-studies",
@@ -152,7 +167,11 @@
     "maxLevel": 150,
     "cardNo": 789,
     "range": "short",
-    "globalDate": "2019-04-02"
+    "globalDate": "2019-04-02",
+    "sources": [
+      "Super Impact! Secrets of the Ninshu",
+      "Super Impact! Boss Rush"
+    ]
   },
   {
     "id": "ashura-heir-to-the-ninja-creed",
@@ -179,7 +198,11 @@
     "maxLevel": 100,
     "cardNo": 518,
     "range": "short",
-    "globalDate": "2017-12-26"
+    "globalDate": "2017-12-26",
+    "sources": [
+      "Clash Coin Exchange Shop",
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "ashura-successor",
@@ -216,7 +239,10 @@
     "maxLevel": 100,
     "cardNo": 842,
     "range": "mid",
-    "globalDate": "2019-07-17"
+    "globalDate": "2019-07-17",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "ashura-the-power-of-bonds",
@@ -239,7 +265,10 @@
     "maxLevel": 100,
     "cardNo": 2110,
     "range": "vast",
-    "globalDate": "2020-07-21"
+    "globalDate": "2020-07-21",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "asuma-sarutobi-all-powerful-infighter",
@@ -267,7 +296,10 @@
     "maxLevel": 100,
     "cardNo": 215,
     "range": "short",
-    "globalDate": "2016-11-16"
+    "globalDate": "2016-11-16",
+    "sources": [
+      "New Year's Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "asuma-sarutobi-final-words",
@@ -291,7 +323,11 @@
     "maxLevel": 150,
     "cardNo": 848,
     "range": "long",
-    "globalDate": "2019-07-23"
+    "globalDate": "2019-07-23",
+    "sources": [
+      "Super Impact! Undesirable Reunion!",
+      "Super Impact! Boss Rush"
+    ]
   },
   {
     "id": "asuma-sarutobi-master-s-teachings",
@@ -317,7 +353,10 @@
     ],
     "maxLevel": 100,
     "cardNo": 403,
-    "range": "mid"
+    "range": "mid",
+    "sources": [
+      "Shining Blade of Wind"
+    ]
   },
   {
     "id": "baki-protector-of-the-village",
@@ -340,7 +379,10 @@
     "maxLevel": 50,
     "cardNo": 105,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Rare Summon"
+    ]
   },
   {
     "id": "bandit-mountain-thug",
@@ -353,7 +395,10 @@
     "maxLevel": 30,
     "cardNo": 129,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode"
+    ]
   },
   {
     "id": "bandit-lackey-mountain-lackey",
@@ -366,7 +411,10 @@
     "maxLevel": 30,
     "cardNo": 128,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode"
+    ]
   },
   {
     "id": "bandit-leader-head-of-the-thugs",
@@ -379,7 +427,10 @@
     "maxLevel": 30,
     "cardNo": 130,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode"
+    ]
   },
   {
     "id": "cee-earnest-with-composure",
@@ -406,7 +457,10 @@
     "maxLevel": 100,
     "cardNo": 881,
     "range": "short",
-    "globalDate": "2019-09-25"
+    "globalDate": "2019-09-25",
+    "sources": [
+      "Master Illusionist Supporting the Lightning"
+    ]
   },
   {
     "id": "chino-ill-omened-red-eyes",
@@ -434,7 +488,10 @@
     "maxLevel": 150,
     "cardNo": 571,
     "range": "mid",
-    "globalDate": "2018-03-20"
+    "globalDate": "2018-03-20",
+    "sources": [
+      "Impact! Eyes Dyed Red"
+    ]
   },
   {
     "id": "chiriku-ultimate-training",
@@ -461,7 +518,10 @@
     "maxLevel": 100,
     "cardNo": 326,
     "range": "short",
-    "globalDate": "2017-03-22"
+    "globalDate": "2017-03-22",
+    "sources": [
+      "The Sagely Ninja Monk"
+    ]
   },
   {
     "id": "chiyo-joint-puppet-performance",
@@ -488,7 +548,10 @@
     "maxLevel": 100,
     "cardNo": 340,
     "range": "long",
-    "globalDate": "2017-04-10"
+    "globalDate": "2017-04-10",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "choji-akimichi-a-life-bet-on-two-wings",
@@ -516,7 +579,10 @@
     "maxLevel": 150,
     "cardNo": 226,
     "range": "short",
-    "globalDate": "2016-11-30"
+    "globalDate": "2016-11-30",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "choji-akimichi-fluttering-butterfly",
@@ -554,7 +620,10 @@
     "maxLevel": 150,
     "cardNo": 619,
     "range": "short",
-    "globalDate": "2018-06-05"
+    "globalDate": "2018-06-05",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "choji-akimichi-gentle-resolve",
@@ -581,7 +650,10 @@
     "maxLevel": 100,
     "cardNo": 2041,
     "range": "mid",
-    "globalDate": "2020-01-28"
+    "globalDate": "2020-01-28",
+    "sources": [
+      "Flight of the Resolute Butterfly"
+    ]
   },
   {
     "id": "choji-akimichi-glutton",
@@ -609,7 +681,10 @@
     "maxLevel": 100,
     "cardNo": 59,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "choji-akimichi-insatiable-appetite",
@@ -632,7 +707,11 @@
     "maxLevel": 50,
     "cardNo": 15,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 3: Land of Waves"
+    ]
   },
   {
     "id": "choji-akimichi-quickening-wings",
@@ -645,7 +724,11 @@
     "maxLevel": 100,
     "cardNo": 595,
     "range": "mid",
-    "globalDate": "2018-04-24"
+    "globalDate": "2018-04-24",
+    "sources": [
+      "Phantom Castle 20",
+      "Phantom Castle 30"
+    ]
   },
   {
     "id": "chojuro-slashing-twinsword",
@@ -673,7 +756,10 @@
     "maxLevel": 150,
     "cardNo": 565,
     "range": "long",
-    "globalDate": "2018-03-13"
+    "globalDate": "2018-03-13",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "chojuro-successor-of-the-ninja-sword",
@@ -700,7 +786,10 @@
     "maxLevel": 100,
     "cardNo": 367,
     "range": "short",
-    "globalDate": "2017-05-16"
+    "globalDate": "2017-05-16",
+    "sources": [
+      "Deadly Versatile Twinsword"
+    ]
   },
   {
     "id": "choza-akimichi-the-ino-shika-cho-trio",
@@ -723,7 +812,10 @@
     "maxLevel": 50,
     "cardNo": 115,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Rare Summon"
+    ]
   },
   {
     "id": "dan-kato-unfaltering-ambition",
@@ -750,7 +842,10 @@
     "maxLevel": 100,
     "cardNo": 2067,
     "range": "long",
-    "globalDate": "2020-03-24"
+    "globalDate": "2020-03-24",
+    "sources": [
+      "Heartbreaking Happenings"
+    ]
   },
   {
     "id": "danzo-shimura-embodiment-of-darkness",
@@ -774,7 +869,10 @@
     "maxLevel": 150,
     "cardNo": 2034,
     "range": "vast",
-    "globalDate": "2020-01-07"
+    "globalDate": "2020-01-07",
+    "sources": [
+      "Super Impact! Revolutionary Scheme"
+    ]
   },
   {
     "id": "danzo-shimura-root-of-the-great-tree",
@@ -802,7 +900,10 @@
     "maxLevel": 150,
     "cardNo": 374,
     "range": "mid",
-    "globalDate": "2017-05-30"
+    "globalDate": "2017-05-30",
+    "sources": [
+      "Impact! Darkness of the Ninja"
+    ]
   },
   {
     "id": "darui-carved-seal-of-lightning",
@@ -829,7 +930,10 @@
     "maxLevel": 100,
     "cardNo": 759,
     "range": "long",
-    "globalDate": "2019-02-11"
+    "globalDate": "2019-02-11",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "darui-from-the-heart",
@@ -866,7 +970,10 @@
     "maxLevel": 100,
     "cardNo": 2129,
     "range": "short",
-    "globalDate": "2020-09-15"
+    "globalDate": "2020-09-15",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "darui-words-of-conviction",
@@ -894,7 +1001,10 @@
     "maxLevel": 150,
     "cardNo": 386,
     "range": "mid",
-    "globalDate": "2017-06-13"
+    "globalDate": "2017-06-13",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "deidara-creation-of-light",
@@ -917,7 +1027,10 @@
     "maxLevel": 100,
     "cardNo": 885,
     "range": "long",
-    "globalDate": "2019-10-02"
+    "globalDate": "2019-10-02",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "deidara-ephemeral-art",
@@ -945,7 +1058,10 @@
     "maxLevel": 150,
     "cardNo": 220,
     "range": "mid",
-    "globalDate": "2016-11-25"
+    "globalDate": "2016-11-25",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "deidara-explosive-fury",
@@ -972,7 +1088,10 @@
     "maxLevel": 100,
     "cardNo": 441,
     "range": "mid",
-    "globalDate": "2017-09-05"
+    "globalDate": "2017-09-05",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "deidara-glimmering-art",
@@ -999,7 +1118,10 @@
     "maxLevel": 100,
     "cardNo": 732,
     "range": "mid",
-    "globalDate": "2018-12-07"
+    "globalDate": "2018-12-07",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "deidara-magnum-opus",
@@ -1023,7 +1145,10 @@
     "maxLevel": 150,
     "cardNo": 836,
     "range": "vast",
-    "globalDate": "2019-06-25"
+    "globalDate": "2019-06-25",
+    "sources": [
+      "Super Impact! Sandstorm-Destroying Blaze!"
+    ]
   },
   {
     "id": "deidara-pursued-aesthetic",
@@ -1060,7 +1185,10 @@
     "maxLevel": 100,
     "cardNo": 655,
     "range": "mid",
-    "globalDate": "2018-08-07"
+    "globalDate": "2018-08-07",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "deidara-true-arts",
@@ -1087,7 +1215,10 @@
     "maxLevel": 100,
     "cardNo": 351,
     "range": "long",
-    "globalDate": "2017-04-25"
+    "globalDate": "2017-04-25",
+    "sources": [
+      "Deadly Arts of Sublimation"
+    ]
   },
   {
     "id": "dosu-kinuta-the-cool-calm-leader",
@@ -1100,7 +1231,12 @@
     "maxLevel": 30,
     "cardNo": 33,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 5: Exam Round 2",
+      "Stage 6: Preliminaries!"
+    ]
   },
   {
     "id": "ebisu-an-elite-teacher",
@@ -1113,7 +1249,11 @@
     "maxLevel": 30,
     "cardNo": 26,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 4: Exam Round 1"
+    ]
   },
   {
     "id": "fourth-raikage-ay-savage-lightning",
@@ -1141,7 +1281,10 @@
     "maxLevel": 150,
     "cardNo": 357,
     "range": "short",
-    "globalDate": "2017-05-04"
+    "globalDate": "2017-05-04",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "fourth-raikage-ay-solid-lightning",
@@ -1168,7 +1311,10 @@
     "maxLevel": 100,
     "cardNo": 467,
     "range": "mid",
-    "globalDate": "2017-10-17"
+    "globalDate": "2017-10-17",
+    "sources": [
+      "You're On! Lightning Torrent!"
+    ]
   },
   {
     "id": "fugaku-uchiha-prosperity-and-faith",
@@ -1195,7 +1341,10 @@
     "maxLevel": 100,
     "cardNo": 2023,
     "range": "mid",
-    "globalDate": "2019-12-10"
+    "globalDate": "2019-12-10",
+    "sources": [
+      "Sign of a Silently Growing Calamity"
+    ]
   },
   {
     "id": "fuguki-suikazan-darkness-of-the-blood-mist",
@@ -1222,7 +1371,10 @@
     "maxLevel": 100,
     "cardNo": 597,
     "range": "short",
-    "globalDate": "2018-05-01"
+    "globalDate": "2018-05-01",
+    "sources": [
+      "Blood Mist's Dark-Clad Giant"
+    ]
   },
   {
     "id": "fuu-bright-and-cheerful",
@@ -1235,7 +1387,11 @@
     "maxLevel": 100,
     "cardNo": 838,
     "range": "short",
-    "globalDate": "2019-07-02"
+    "globalDate": "2019-07-02",
+    "sources": [
+      "Phantom Castle 33",
+      "Phantom Castle 38"
+    ]
   },
   {
     "id": "fuu-wild-and-free",
@@ -1262,7 +1418,10 @@
     "maxLevel": 100,
     "cardNo": 414,
     "range": "mid",
-    "globalDate": "2017-07-31"
+    "globalDate": "2017-07-31",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "gaara-a-true-gift",
@@ -1275,7 +1434,10 @@
     "maxLevel": 100,
     "cardNo": 2127,
     "range": "mid",
-    "globalDate": "2020-09-01"
+    "globalDate": "2020-09-01",
+    "sources": [
+      "Phantom Castle 44"
+    ]
   },
   {
     "id": "gaara-finally-friendship",
@@ -1298,7 +1460,10 @@
     "maxLevel": 100,
     "cardNo": 835,
     "range": "short",
-    "globalDate": "2019-06-25"
+    "globalDate": "2019-06-25",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "gaara-many-bonds",
@@ -1326,7 +1491,10 @@
     "maxLevel": 150,
     "cardNo": 437,
     "range": "short",
-    "globalDate": "2017-09-06"
+    "globalDate": "2017-09-06",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "gaara-proclaimed-faith",
@@ -1339,7 +1507,11 @@
     "maxLevel": 100,
     "cardNo": 879,
     "range": "long",
-    "globalDate": "2019-10-03"
+    "globalDate": "2019-10-03",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "gaara-protector-of-the-sands",
@@ -1367,7 +1539,10 @@
     "maxLevel": 150,
     "cardNo": 284,
     "range": "mid",
-    "globalDate": "2017-02-01"
+    "globalDate": "2017-02-01",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "gaara-sand-clad-demon",
@@ -1395,7 +1570,10 @@
     "maxLevel": 100,
     "cardNo": 186,
     "range": "short",
-    "globalDate": "2016-10-14"
+    "globalDate": "2016-10-14",
+    "sources": [
+      "Endless Sand Shurado"
+    ]
   },
   {
     "id": "gaara-sand-defense",
@@ -1423,7 +1601,10 @@
     "maxLevel": 150,
     "cardNo": 51,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "gaara-sandstorm-commanding-kage",
@@ -1450,7 +1631,10 @@
     "maxLevel": 100,
     "cardNo": 730,
     "range": "short",
-    "globalDate": "2018-12-07"
+    "globalDate": "2018-12-07",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "gaara-solid-sandstorm",
@@ -1488,7 +1672,10 @@
     "maxLevel": 150,
     "cardNo": 477,
     "range": "vast",
-    "globalDate": "2017-11-07"
+    "globalDate": "2017-11-07",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "gaara-the-sand-s-final-weapon",
@@ -1512,7 +1699,10 @@
     "maxLevel": 150,
     "cardNo": 174,
     "range": "mid",
-    "globalDate": "2016-10-14"
+    "globalDate": "2016-10-14",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "gaara-the-strongest-shield",
@@ -1539,7 +1729,10 @@
     "maxLevel": 100,
     "cardNo": 268,
     "range": "mid",
-    "globalDate": "2017-01-10"
+    "globalDate": "2017-01-10",
+    "sources": [
+      "Ruler of the Endless Sands"
+    ]
   },
   {
     "id": "gengetsu-hozuki-mists-over-the-darkness",
@@ -1567,7 +1760,10 @@
     "maxLevel": 150,
     "cardNo": 489,
     "range": "long",
-    "globalDate": "2017-11-21"
+    "globalDate": "2017-11-21",
+    "sources": [
+      "Impact! The Towering Fog"
+    ]
   },
   {
     "id": "gengo-master-of-silence",
@@ -1595,7 +1791,10 @@
     "maxLevel": 150,
     "cardNo": 299,
     "range": "long",
-    "globalDate": "2017-02-14"
+    "globalDate": "2017-02-14",
+    "sources": [
+      "Impact! Lord of Silence"
+    ]
   },
   {
     "id": "genma-shiranui-always-aimless",
@@ -1608,7 +1807,11 @@
     "maxLevel": 30,
     "cardNo": 27,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 4: Exam Round 1"
+    ]
   },
   {
     "id": "gozu-poisonous-right-arm",
@@ -1621,7 +1824,11 @@
     "maxLevel": 30,
     "cardNo": 42,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 3: Land of Waves"
+    ]
   },
   {
     "id": "hagoromo-otsutsuki-sage-of-the-six-paths",
@@ -1634,7 +1841,11 @@
     "maxLevel": 100,
     "cardNo": 663,
     "range": "long",
-    "globalDate": "2018-08-21"
+    "globalDate": "2018-08-21",
+    "sources": [
+      "Phantom Castle 24",
+      "Phantom Castle 32"
+    ]
   },
   {
     "id": "hagoromo-otsutsuki-truth-of-the-divine-tree",
@@ -1658,7 +1869,11 @@
     "maxLevel": 150,
     "cardNo": 2044,
     "range": "mid",
-    "globalDate": "2020-02-04"
+    "globalDate": "2020-02-04",
+    "sources": [
+      "Super Impact! Six Paths Genealogy",
+      "Super Impact! Boss Rush"
+    ]
   },
   {
     "id": "haku-a-frozen-heart",
@@ -1686,7 +1901,10 @@
     "maxLevel": 150,
     "cardNo": 140,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "haku-all-for-his-loved-ones",
@@ -1700,7 +1918,13 @@
     "maxLevel": 100,
     "cardNo": 141,
     "range": "mid",
-    "globalDate": "2016-09-08"
+    "globalDate": "2016-09-08",
+    "sources": [
+      "Phantom Castle 1",
+      "Phantom Castle 5",
+      "Phantom Castle 21",
+      "Phantom Castle 35"
+    ]
   },
   {
     "id": "haku-chilling-edge",
@@ -1738,7 +1962,10 @@
     "maxLevel": 150,
     "cardNo": 538,
     "range": "short",
-    "globalDate": "2018-02-06"
+    "globalDate": "2018-02-06",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "haku-tears-of-the-ice-mirror",
@@ -1766,7 +1993,10 @@
     "maxLevel": 150,
     "cardNo": 424,
     "range": "short",
-    "globalDate": "2017-08-15"
+    "globalDate": "2017-08-15",
+    "sources": [
+      "Impact! Chance Encounter at the Edge of Hell"
+    ]
   },
   {
     "id": "haku-the-icy-mask-s-blades",
@@ -1794,7 +2024,10 @@
     "maxLevel": 100,
     "cardNo": 138,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Behind the Ice Mask"
+    ]
   },
   {
     "id": "hamura-otsutsuki-ancestral-lineage",
@@ -1807,7 +2040,11 @@
     "maxLevel": 100,
     "cardNo": 733,
     "range": "long",
-    "globalDate": "2018-12-11"
+    "globalDate": "2018-12-11",
+    "sources": [
+      "Phantom Castle 28",
+      "Phantom Castle 34"
+    ]
   },
   {
     "id": "han-sprint-barrage",
@@ -1834,7 +2071,11 @@
     "maxLevel": 100,
     "cardNo": 544,
     "range": "long",
-    "globalDate": "2018-02-06"
+    "globalDate": "2018-02-06",
+    "sources": [
+      "Clash Coin Exchange Shop",
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "hanabi-hyuga-daughter-of-the-byakugan",
@@ -1861,7 +2102,10 @@
     "maxLevel": 100,
     "cardNo": 774,
     "range": "short",
-    "globalDate": "2019-02-26"
+    "globalDate": "2019-02-26",
+    "sources": [
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "hanabi-hyuga-the-will-of-the-hyuga",
@@ -1874,7 +2118,12 @@
     "maxLevel": 100,
     "cardNo": 431,
     "range": "short",
-    "globalDate": "2017-09-19"
+    "globalDate": "2017-09-19",
+    "sources": [
+      "Phantom Castle 12",
+      "Phantom Castle 26",
+      "Phantom Castle 45"
+    ]
   },
   {
     "id": "hanzo-hero-of-purple-poison",
@@ -1901,7 +2150,10 @@
     "maxLevel": 100,
     "cardNo": 342,
     "range": "mid",
-    "globalDate": "2017-04-10"
+    "globalDate": "2017-04-10",
+    "sources": [
+      "Mists of Deadly Poison"
+    ]
   },
   {
     "id": "hanzo-steadfast-veteran",
@@ -1929,7 +2181,10 @@
     "maxLevel": 150,
     "cardNo": 450,
     "range": "long",
-    "globalDate": "2017-09-26"
+    "globalDate": "2017-09-26",
+    "sources": [
+      "Impact! Confrontation and Courage"
+    ]
   },
   {
     "id": "hashirama-senju-among-the-strongest",
@@ -1953,7 +2208,10 @@
     "maxLevel": 150,
     "cardNo": 746,
     "range": "short",
-    "globalDate": "2018-12-31"
+    "globalDate": "2018-12-31",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "hashirama-senju-bravery-known-throughout-the-war",
@@ -1980,7 +2238,10 @@
     "maxLevel": 100,
     "cardNo": 698,
     "range": "vast",
-    "globalDate": "2018-10-16"
+    "globalDate": "2018-10-16",
+    "sources": [
+      "Rival Warlords Summon"
+    ]
   },
   {
     "id": "hashirama-senju-bravery-unrivalled",
@@ -2008,7 +2269,10 @@
     "maxLevel": 150,
     "cardNo": 418,
     "range": "long",
-    "globalDate": "2017-08-07"
+    "globalDate": "2017-08-07",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "hashirama-senju-father-of-leaf-village",
@@ -2049,7 +2313,11 @@
     "maxLevel": 150,
     "cardNo": 204,
     "range": "short",
-    "globalDate": "2016-10-29"
+    "globalDate": "2016-10-29",
+    "sources": [
+      "Ninja Gods Summoned",
+      "Impact! A Legend Reborn"
+    ]
   },
   {
     "id": "hashirama-senju-long-held-dream",
@@ -2083,7 +2351,10 @@
     "maxLevel": 150,
     "cardNo": 521,
     "range": "mid",
-    "globalDate": "2017-12-26"
+    "globalDate": "2017-12-26",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "hashirama-senju-pursuit-of-a-dream",
@@ -2107,7 +2378,10 @@
     "maxLevel": 150,
     "cardNo": 2017,
     "range": "long",
-    "globalDate": "2019-12-10"
+    "globalDate": "2019-12-10",
+    "sources": [
+      "Super Impact! Revered Ninja"
+    ]
   },
   {
     "id": "hashirama-senju-resolve-to-protect",
@@ -2130,7 +2404,10 @@
     "maxLevel": 100,
     "cardNo": 2058,
     "range": "short",
-    "globalDate": "2020-03-03"
+    "globalDate": "2020-03-03",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "hashirama-senju-sorrowful-parting",
@@ -2143,7 +2420,11 @@
     "maxLevel": 100,
     "cardNo": 2028,
     "range": "vast",
-    "globalDate": "2019-12-25"
+    "globalDate": "2019-12-25",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "hayate-gekko-composed-dexterity",
@@ -2170,7 +2451,10 @@
     "maxLevel": 100,
     "cardNo": 779,
     "range": "short",
-    "globalDate": "2019-03-12"
+    "globalDate": "2019-03-12",
+    "sources": [
+      "Crescent Moon Blade and the Dance of Leaves"
+    ]
   },
   {
     "id": "hayate-gekko-crystal-clear-mind",
@@ -2197,7 +2481,10 @@
     "maxLevel": 70,
     "cardNo": 184,
     "range": "mid",
-    "globalDate": "2016-10-14"
+    "globalDate": "2016-10-14",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "hayate-gekko-third-round-prelim-judge",
@@ -2220,7 +2507,10 @@
     "maxLevel": 50,
     "cardNo": 97,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Rare Summon"
+    ]
   },
   {
     "id": "hiashi-hyuga-a-strict-leader",
@@ -2243,7 +2533,10 @@
     "maxLevel": 50,
     "cardNo": 117,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Rare Summon"
+    ]
   },
   {
     "id": "hiashi-hyuga-clan-head-s-dignity",
@@ -2256,7 +2549,11 @@
     "maxLevel": 100,
     "cardNo": 2092,
     "range": "long",
-    "globalDate": "2020-05-26"
+    "globalDate": "2020-05-26",
+    "sources": [
+      "Limited Period Granny Cat's Hiding Place",
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "hidan-pure-bloodlust",
@@ -2283,7 +2580,10 @@
     "maxLevel": 100,
     "cardNo": 830,
     "range": "short",
-    "globalDate": "2019-06-11"
+    "globalDate": "2019-06-11",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "hidan-worshiping-a-mad-god",
@@ -2311,7 +2611,10 @@
     "maxLevel": 150,
     "cardNo": 322,
     "range": "short",
-    "globalDate": "2017-03-22"
+    "globalDate": "2017-03-22",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "hinata-hyuga-a-pure-heart",
@@ -2325,7 +2628,12 @@
     "maxLevel": 100,
     "cardNo": 160,
     "range": "short",
-    "globalDate": "2016-09-28"
+    "globalDate": "2016-09-28",
+    "sources": [
+      "Phantom Castle 2",
+      "Phantom Castle 5",
+      "Phantom Castle 21"
+    ]
   },
   {
     "id": "hinata-hyuga-beyond-the-ceaseless",
@@ -2362,7 +2670,10 @@
     "maxLevel": 100,
     "cardNo": 812,
     "range": "short",
-    "globalDate": "2019-05-14"
+    "globalDate": "2019-05-14",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "hinata-hyuga-blooming-talent",
@@ -2390,7 +2701,10 @@
     "maxLevel": 150,
     "cardNo": 243,
     "range": "mid",
-    "globalDate": "2016-12-22"
+    "globalDate": "2016-12-22",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "hinata-hyuga-day-of-happiness",
@@ -2417,7 +2731,10 @@
     "maxLevel": 100,
     "cardNo": 330,
     "range": "mid",
-    "globalDate": "2017-03-24"
+    "globalDate": "2017-03-24",
+    "sources": [
+      "Wedding Special Summon"
+    ]
   },
   {
     "id": "hinata-hyuga-elegant-attire",
@@ -2444,7 +2761,10 @@
     "maxLevel": 100,
     "cardNo": 276,
     "range": "long",
-    "globalDate": "2017-01-24"
+    "globalDate": "2017-01-24",
+    "sources": [
+      "Beauties Summon"
+    ]
   },
   {
     "id": "hinata-hyuga-loyal-emotions",
@@ -2467,7 +2787,11 @@
     "maxLevel": 50,
     "cardNo": 17,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 7: Exam Round 3"
+    ]
   },
   {
     "id": "hinata-hyuga-nice-girl",
@@ -2495,7 +2819,10 @@
     "maxLevel": 100,
     "cardNo": 61,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "hinata-hyuga-path-to-the-ideal",
@@ -2508,7 +2835,11 @@
     "maxLevel": 100,
     "cardNo": 614,
     "range": "long",
-    "globalDate": "2018-05-29"
+    "globalDate": "2018-05-29",
+    "sources": [
+      "Phantom Castle 21",
+      "Phantom Castle 30"
+    ]
   },
   {
     "id": "hinata-hyuga-proof-of-resolution",
@@ -2536,7 +2867,10 @@
     "maxLevel": 100,
     "cardNo": 157,
     "range": "short",
-    "globalDate": "2016-09-21"
+    "globalDate": "2016-09-21",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "hinata-hyuga-redemptive-words",
@@ -2559,7 +2893,10 @@
     "maxLevel": 100,
     "cardNo": 2003,
     "range": "vast",
-    "globalDate": "2019-11-05"
+    "globalDate": "2019-11-05",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "hinata-hyuga-sunflower-s-admiration",
@@ -2572,7 +2909,11 @@
     "maxLevel": 100,
     "cardNo": 2009,
     "range": "long",
-    "globalDate": "2019-12-04"
+    "globalDate": "2019-12-04",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "hinata-hyuga-tug-of-the-heart-strings",
@@ -2599,7 +2940,10 @@
     "maxLevel": 100,
     "cardNo": 757,
     "range": "short",
-    "globalDate": "2019-02-05"
+    "globalDate": "2019-02-05",
+    "sources": [
+      "Love-Filled Sweets Summon"
+    ]
   },
   {
     "id": "hinata-hyuga-unwavering-courage",
@@ -2637,7 +2981,10 @@
     "maxLevel": 150,
     "cardNo": 497,
     "range": "long",
-    "globalDate": "2017-12-05"
+    "globalDate": "2017-12-05",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "hiruzen-sarutobi-looking-into-the-future",
@@ -2664,7 +3011,10 @@
     "maxLevel": 100,
     "cardNo": 799,
     "range": "long",
-    "globalDate": "2019-05-08"
+    "globalDate": "2019-05-08",
+    "sources": [
+      "Will of the Fiery Powerhouse of Old"
+    ]
   },
   {
     "id": "hiruzen-sarutobi-ninja-clothes",
@@ -2692,7 +3042,10 @@
     "maxLevel": 150,
     "cardNo": 201,
     "range": "mid",
-    "globalDate": "2016-10-26"
+    "globalDate": "2016-10-26",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "hiruzen-sarutobi-the-makings-of-a-kage",
@@ -2705,7 +3058,10 @@
     "maxLevel": 100,
     "cardNo": 2124,
     "range": "short",
-    "globalDate": "2020-08-18"
+    "globalDate": "2020-08-18",
+    "sources": [
+      "Limited Period Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "hiruzen-sarutobi-the-third-hokage",
@@ -2733,7 +3089,10 @@
     "maxLevel": 100,
     "cardNo": 71,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "hizashi-hyuga-brotherly-fate",
@@ -2756,7 +3115,10 @@
     "maxLevel": 50,
     "cardNo": 119,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Rare Summon"
+    ]
   },
   {
     "id": "ibiki-morino-sadist",
@@ -2779,7 +3141,10 @@
     "maxLevel": 50,
     "cardNo": 93,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Rare Summon"
+    ]
   },
   {
     "id": "indra-danger-of-the-almighty",
@@ -2792,7 +3157,10 @@
     "maxLevel": 100,
     "cardNo": 2033,
     "range": "short",
-    "globalDate": "2019-12-25"
+    "globalDate": "2019-12-25",
+    "sources": [
+      "Limited Period Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "indra-lone-war-god",
@@ -2819,7 +3187,10 @@
     "maxLevel": 100,
     "cardNo": 516,
     "range": "mid",
-    "globalDate": "2017-12-26"
+    "globalDate": "2017-12-26",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "indra-strength-based-leadership",
@@ -2843,7 +3214,10 @@
     "maxLevel": 150,
     "cardNo": 2111,
     "range": "short",
-    "globalDate": "2020-07-21"
+    "globalDate": "2020-07-21",
+    "sources": [
+      "Super Impact! Destiny's Beginnings"
+    ]
   },
   {
     "id": "indra-unparalleled-genius",
@@ -2867,7 +3241,10 @@
     "maxLevel": 150,
     "cardNo": 788,
     "range": "mid",
-    "globalDate": "2019-04-02"
+    "globalDate": "2019-04-02",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "ino-yamanaka-bittersweet-gift",
@@ -2894,7 +3271,10 @@
     "maxLevel": 100,
     "cardNo": 550,
     "range": "mid",
-    "globalDate": "2018-02-13"
+    "globalDate": "2018-02-13",
+    "sources": [
+      "\"Lucky's Valentine\" Summon"
+    ]
   },
   {
     "id": "ino-yamanaka-ever-changing-movements",
@@ -2917,7 +3297,11 @@
     "maxLevel": 50,
     "cardNo": 13,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 1: Graduation Exam"
+    ]
   },
   {
     "id": "ino-yamanaka-flourishing-bush-clover",
@@ -2930,7 +3314,11 @@
     "maxLevel": 100,
     "cardNo": 2016,
     "range": "short",
-    "globalDate": "2019-12-03"
+    "globalDate": "2019-12-03",
+    "sources": [
+      "Phantom Castle 38",
+      "Phantom Castle 43"
+    ]
   },
   {
     "id": "ino-yamanaka-flowers-in-full-bloom",
@@ -2957,7 +3345,10 @@
     "maxLevel": 100,
     "cardNo": 692,
     "range": "mid",
-    "globalDate": "2018-10-02"
+    "globalDate": "2018-10-02",
+    "sources": [
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "ino-yamanaka-i-don-t-want-to-lose",
@@ -2985,7 +3376,10 @@
     "maxLevel": 100,
     "cardNo": 155,
     "range": "long",
-    "globalDate": "2016-09-21"
+    "globalDate": "2016-09-21",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "ino-yamanaka-like-a-peony",
@@ -3013,7 +3407,10 @@
     "maxLevel": 150,
     "cardNo": 264,
     "range": "short",
-    "globalDate": "2017-01-10"
+    "globalDate": "2017-01-10",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "ino-yamanaka-promise-upheld",
@@ -3051,7 +3448,10 @@
     "maxLevel": 150,
     "cardNo": 560,
     "range": "mid",
-    "globalDate": "2018-03-06"
+    "globalDate": "2018-03-06",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "ino-yamanaka-truly-wise",
@@ -3079,7 +3479,10 @@
     "maxLevel": 100,
     "cardNo": 57,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "inoichi-yamanaka-the-ino-shika-cho-trio",
@@ -3102,7 +3505,10 @@
     "maxLevel": 50,
     "cardNo": 113,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Rare Summon"
+    ]
   },
   {
     "id": "iruka-umino-because-of-trust",
@@ -3129,7 +3535,10 @@
     "maxLevel": 100,
     "cardNo": 872,
     "range": "vast",
-    "globalDate": "2019-08-27"
+    "globalDate": "2019-08-27",
+    "sources": [
+      "The Guiding Will of Fire"
+    ]
   },
   {
     "id": "iruka-umino-sympathizer",
@@ -3152,7 +3561,11 @@
     "maxLevel": 50,
     "cardNo": 23,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 1: Graduation Exam"
+    ]
   },
   {
     "id": "iruka-umino-teachings-of-fire",
@@ -3165,7 +3578,12 @@
     "maxLevel": 100,
     "cardNo": 345,
     "range": "mid",
-    "globalDate": "2017-05-23"
+    "globalDate": "2017-05-23",
+    "sources": [
+      "Phantom Castle 8",
+      "Phantom Castle 24",
+      "Phantom Castle 41"
+    ]
   },
   {
     "id": "itachi-uchiha-a-cold-hearted-criminal",
@@ -3193,7 +3611,10 @@
     "maxLevel": 100,
     "cardNo": 89,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "itachi-uchiha-akatsuki-warrior",
@@ -3206,7 +3627,11 @@
     "maxLevel": 100,
     "cardNo": 499,
     "range": "short",
-    "globalDate": "2017-12-05"
+    "globalDate": "2017-12-05",
+    "sources": [
+      "Ninja World Clash",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "itachi-uchiha-beyond-the-sharingan",
@@ -3230,7 +3655,10 @@
     "maxLevel": 150,
     "cardNo": 211,
     "range": "long",
-    "globalDate": "2016-11-09"
+    "globalDate": "2016-11-09",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "itachi-uchiha-brotherly-pledge",
@@ -3254,7 +3682,10 @@
     "maxLevel": 150,
     "cardNo": 700,
     "range": "short",
-    "globalDate": "2018-10-23"
+    "globalDate": "2018-10-23",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "itachi-uchiha-eyes-gazing-over-the-future",
@@ -3292,7 +3723,10 @@
     "maxLevel": 150,
     "cardNo": 574,
     "range": "vast",
-    "globalDate": "2018-04-05"
+    "globalDate": "2018-04-05",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "itachi-uchiha-eyes-which-weave-truth-and-lies",
@@ -3329,7 +3763,10 @@
     "maxLevel": 100,
     "cardNo": 725,
     "range": "short",
-    "globalDate": "2018-12-04"
+    "globalDate": "2018-12-04",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "itachi-uchiha-limits-of-his-ability",
@@ -3357,7 +3794,10 @@
     "maxLevel": 100,
     "cardNo": 209,
     "range": "mid",
-    "globalDate": "2016-11-09"
+    "globalDate": "2016-11-09",
+    "sources": [
+      "Red Eyes, Burdened with Fate"
+    ]
   },
   {
     "id": "itachi-uchiha-proof-of-will",
@@ -3385,7 +3825,10 @@
     "maxLevel": 150,
     "cardNo": 388,
     "range": "long",
-    "globalDate": "2017-06-20"
+    "globalDate": "2017-06-20",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "itachi-uchiha-shura-s-truth",
@@ -3413,7 +3856,11 @@
     "maxLevel": 150,
     "cardNo": 309,
     "range": "mid",
-    "globalDate": "2017-02-28"
+    "globalDate": "2017-02-28",
+    "sources": [
+      "Impact! Arrival of a Savage God",
+      "Battleground! Giant Boss Rush"
+    ]
   },
   {
     "id": "itachi-uchiha-silent-night-visitor",
@@ -3440,7 +3887,10 @@
     "maxLevel": 100,
     "cardNo": 505,
     "range": "mid",
-    "globalDate": "2017-12-09"
+    "globalDate": "2017-12-09",
+    "sources": [
+      "A Very Uchiha Christmas Summon"
+    ]
   },
   {
     "id": "itachi-uchiha-talent-and-burden",
@@ -3477,7 +3927,10 @@
     "maxLevel": 100,
     "cardNo": 2095,
     "range": "short",
-    "globalDate": "2020-06-16"
+    "globalDate": "2020-06-16",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "itachi-uchiha-the-promised-day",
@@ -3500,7 +3953,10 @@
     "maxLevel": 100,
     "cardNo": 2032,
     "range": "vast",
-    "globalDate": "2019-12-31"
+    "globalDate": "2019-12-31",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "itachi-uchiha-the-way-of-the-hero",
@@ -3513,7 +3969,11 @@
     "maxLevel": 100,
     "cardNo": 833,
     "range": "mid",
-    "globalDate": "2019-06-27"
+    "globalDate": "2019-06-27",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "itachi-uchiha-truth-behind-the-tragedy",
@@ -3526,7 +3986,10 @@
     "maxLevel": 100,
     "cardNo": 742,
     "range": "short",
-    "globalDate": "2018-12-18"
+    "globalDate": "2018-12-18",
+    "sources": [
+      "Itachi's Story - Light and Darkness"
+    ]
   },
   {
     "id": "izumo-kamizuki-certainly-capable",
@@ -3553,7 +4016,10 @@
     "maxLevel": 100,
     "cardNo": 845,
     "range": "mid",
-    "globalDate": "2019-07-17"
+    "globalDate": "2019-07-17",
+    "sources": [
+      "The Shinobi Seeking Vindication"
+    ]
   },
   {
     "id": "izumo-kamizuki-the-calm-proctor",
@@ -3566,7 +4032,11 @@
     "maxLevel": 30,
     "cardNo": 29,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 4: Exam Round 1"
+    ]
   },
   {
     "id": "izuna-uchiha-eyes-firm-in-faith",
@@ -3579,7 +4049,11 @@
     "maxLevel": 100,
     "cardNo": 555,
     "range": "long",
-    "globalDate": "2018-02-26"
+    "globalDate": "2018-02-26",
+    "sources": [
+      "Phantom Castle 18",
+      "Phantom Castle 28"
+    ]
   },
   {
     "id": "izuna-uchiha-intelligent-blade",
@@ -3606,7 +4080,10 @@
     "maxLevel": 100,
     "cardNo": 776,
     "range": "long",
-    "globalDate": "2019-03-05"
+    "globalDate": "2019-03-05",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "izuna-uchiha-mercilessly-uncompromising",
@@ -3633,7 +4110,10 @@
     "maxLevel": 100,
     "cardNo": 2027,
     "range": "mid",
-    "globalDate": "2019-12-17"
+    "globalDate": "2019-12-17",
+    "sources": [
+      "Longing for Peace Summon"
+    ]
   },
   {
     "id": "izuna-uchiha-wishing-for-peace",
@@ -3660,7 +4140,10 @@
     "maxLevel": 100,
     "cardNo": 752,
     "range": "short",
-    "globalDate": "2019-01-15"
+    "globalDate": "2019-01-15",
+    "sources": [
+      "Wise Warrior and Upholder of the Mightiest"
+    ]
   },
   {
     "id": "jinin-akebino-crushing-bluntsword",
@@ -3687,7 +4170,10 @@
     "maxLevel": 100,
     "cardNo": 582,
     "range": "mid",
-    "globalDate": "2018-04-05"
+    "globalDate": "2018-04-05",
+    "sources": [
+      "Smoking Hammer Strike"
+    ]
   },
   {
     "id": "jinpachi-munashi-volatile-explosive-blade",
@@ -3714,7 +4200,10 @@
     "maxLevel": 100,
     "cardNo": 563,
     "range": "long",
-    "globalDate": "2018-03-06"
+    "globalDate": "2018-03-06",
+    "sources": [
+      "An Explosive Swing to Obliterate All"
+    ]
   },
   {
     "id": "jiraiya-a-tale-woven",
@@ -3727,7 +4216,10 @@
     "maxLevel": 100,
     "cardNo": 861,
     "range": "short",
-    "globalDate": "2019-08-13"
+    "globalDate": "2019-08-13",
+    "sources": [
+      "Limited Period Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "jiraiya-chance-encounter-under-fire",
@@ -3755,7 +4247,10 @@
     "maxLevel": 150,
     "cardNo": 445,
     "range": "long",
-    "globalDate": "2017-09-19"
+    "globalDate": "2017-09-19",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "jiraiya-enter-the-sage",
@@ -3783,7 +4278,10 @@
     "maxLevel": 100,
     "cardNo": 73,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "jiraiya-hidden-heart",
@@ -3821,7 +4319,10 @@
     "maxLevel": 150,
     "cardNo": 635,
     "range": "long",
-    "globalDate": "2018-07-03"
+    "globalDate": "2018-07-03",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "jiraiya-moment-of-choice",
@@ -3849,7 +4350,10 @@
     "maxLevel": 150,
     "cardNo": 611,
     "range": "vast",
-    "globalDate": "2018-05-22"
+    "globalDate": "2018-05-22",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "jiraiya-the-toad-ninja",
@@ -3876,7 +4380,10 @@
     "maxLevel": 100,
     "cardNo": 247,
     "range": "short",
-    "globalDate": "2016-12-22"
+    "globalDate": "2016-12-22",
+    "sources": [
+      "Impact! Toad Sage!"
+    ]
   },
   {
     "id": "jiraiya-way-of-the-ninja",
@@ -3904,7 +4411,10 @@
     "maxLevel": 150,
     "cardNo": 336,
     "range": "long",
-    "globalDate": "2017-04-06"
+    "globalDate": "2017-04-06",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "jiraiya-what-makes-a-ninja",
@@ -3917,7 +4427,11 @@
     "maxLevel": 100,
     "cardNo": 2077,
     "range": "short",
-    "globalDate": "2020-05-01"
+    "globalDate": "2020-05-01",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "jirobo-brute-strength",
@@ -3944,7 +4458,10 @@
     "maxLevel": 100,
     "cardNo": 228,
     "range": "short",
-    "globalDate": "2016-11-30"
+    "globalDate": "2016-11-30",
+    "sources": [
+      "The Chakra-Devouring Warrior"
+    ]
   },
   {
     "id": "jirobo-herculean-appetite",
@@ -3972,7 +4489,10 @@
     "maxLevel": 100,
     "cardNo": 199,
     "range": "long",
-    "globalDate": "2016-10-26"
+    "globalDate": "2016-10-26",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "jirobo-jirobo-of-the-south-gate",
@@ -4000,7 +4520,10 @@
     "maxLevel": 100,
     "cardNo": 85,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "jugo-all-consuming-fury",
@@ -4027,7 +4550,10 @@
     "maxLevel": 100,
     "cardNo": 624,
     "range": "long",
-    "globalDate": "2018-06-12"
+    "globalDate": "2018-06-12",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "jugo-scales-of-ruin-and-peace",
@@ -4054,7 +4580,10 @@
     "maxLevel": 100,
     "cardNo": 307,
     "range": "mid",
-    "globalDate": "2017-02-27"
+    "globalDate": "2017-02-27",
+    "sources": [
+      "The Ends of Destruction"
+    ]
   },
   {
     "id": "juzo-biwa-bloody-existence",
@@ -4081,7 +4610,10 @@
     "maxLevel": 100,
     "cardNo": 717,
     "range": "short",
-    "globalDate": "2018-11-20"
+    "globalDate": "2018-11-20",
+    "sources": [
+      "Life-Draining Bloody Blade"
+    ]
   },
   {
     "id": "kabuto-yakushi-craving-for-wisdom",
@@ -4109,7 +4641,10 @@
     "maxLevel": 150,
     "cardNo": 393,
     "range": "long",
-    "globalDate": "2017-06-27"
+    "globalDate": "2017-06-27",
+    "sources": [
+      "Impact! From a Snake to a Dragon"
+    ]
   },
   {
     "id": "kabuto-yakushi-creeping-ill-intent",
@@ -4122,7 +4657,11 @@
     "maxLevel": 100,
     "cardNo": 2099,
     "range": "mid",
-    "globalDate": "2020-06-23"
+    "globalDate": "2020-06-23",
+    "sources": [
+      "Limited Period Granny Cat's Hiding Place",
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "kabuto-yakushi-dragon-transformation",
@@ -4146,7 +4685,10 @@
     "maxLevel": 150,
     "cardNo": 643,
     "range": "vast",
-    "globalDate": "2018-07-17"
+    "globalDate": "2018-07-17",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "kabuto-yakushi-proof-of-self",
@@ -4183,7 +4725,10 @@
     "maxLevel": 100,
     "cardNo": 894,
     "range": "short",
-    "globalDate": "2019-10-15"
+    "globalDate": "2019-10-15",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "kabuto-yakushi-surprising-regeneration",
@@ -4211,7 +4756,10 @@
     "maxLevel": 100,
     "cardNo": 170,
     "range": "mid",
-    "globalDate": "2016-10-05"
+    "globalDate": "2016-10-05",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "kabuto-yakushi-the-sound-s-spy",
@@ -4239,7 +4787,10 @@
     "maxLevel": 100,
     "cardNo": 77,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "kabuto-yakushi-warrior-s-quest",
@@ -4252,7 +4803,11 @@
     "maxLevel": 100,
     "cardNo": 519,
     "range": "long",
-    "globalDate": "2017-12-26"
+    "globalDate": "2017-12-26",
+    "sources": [
+      "Ninja World Clash",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "kagari-sensor-of-the-trinity",
@@ -4265,7 +4820,11 @@
     "maxLevel": 30,
     "cardNo": 36,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 5: Exam Round 2"
+    ]
   },
   {
     "id": "kaguya-otsutsuki-between-love-and-madness",
@@ -4289,7 +4848,10 @@
     "maxLevel": 150,
     "cardNo": 749,
     "range": "short",
-    "globalDate": "2019-01-08"
+    "globalDate": "2019-01-08",
+    "sources": [
+      "Super Impact! Resurrection of the Goddess"
+    ]
   },
   {
     "id": "kaguya-otsutsuki-divine-madness",
@@ -4313,7 +4875,10 @@
     "maxLevel": 150,
     "cardNo": 594,
     "range": "short",
-    "globalDate": "2018-04-24"
+    "globalDate": "2018-04-24",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "kaguya-otsutsuki-forbidden-fruit",
@@ -4336,7 +4901,10 @@
     "maxLevel": 100,
     "cardNo": 2043,
     "range": "mid",
-    "globalDate": "2020-02-04"
+    "globalDate": "2020-02-04",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "kaguya-otsutsuki-founding-goddess",
@@ -4364,7 +4932,12 @@
     "maxLevel": 150,
     "cardNo": 513,
     "range": "vast",
-    "globalDate": "2017-12-14"
+    "globalDate": "2017-12-14",
+    "sources": [
+      "Impact! The Moon Goddess",
+      "Super Impact! Giant Boss Rush",
+      "Impact! The Moon Goddess (Hard Mode)"
+    ]
   },
   {
     "id": "kaguya-otsutsuki-plot-for-rebirth",
@@ -4401,7 +4974,10 @@
     "maxLevel": 100,
     "cardNo": 2020,
     "range": "short",
-    "globalDate": "2019-12-10"
+    "globalDate": "2019-12-10",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "kaguya-otsutsuki-truth-behind-the-myth",
@@ -4414,7 +4990,11 @@
     "maxLevel": 100,
     "cardNo": 2088,
     "range": "long",
-    "globalDate": "2020-05-29"
+    "globalDate": "2020-05-29",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "kakashi-hatake-a-bolt-from-the-dark",
@@ -4451,7 +5031,10 @@
     "maxLevel": 100,
     "cardNo": 2052,
     "range": "long",
-    "globalDate": "2020-02-18"
+    "globalDate": "2020-02-18",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "kakashi-hatake-a-father-s-blade",
@@ -4479,7 +5062,10 @@
     "maxLevel": 150,
     "cardNo": 256,
     "range": "short",
-    "globalDate": "2016-12-28"
+    "globalDate": "2016-12-28",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "kakashi-hatake-battle-tactician",
@@ -4492,7 +5078,11 @@
     "maxLevel": 100,
     "cardNo": 797,
     "range": "short",
-    "globalDate": "2019-04-23"
+    "globalDate": "2019-04-23",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "kakashi-hatake-copier-of-1k-techniques",
@@ -4520,7 +5110,10 @@
     "maxLevel": 150,
     "cardNo": 49,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "kakashi-hatake-entrusted-with-hope",
@@ -4561,7 +5154,10 @@
     "maxLevel": 150,
     "cardNo": 2091,
     "range": "mid",
-    "globalDate": "2017-12-14"
+    "globalDate": "2017-12-14",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "kakashi-hatake-friend-s-way-of-life",
@@ -4584,7 +5180,10 @@
     "maxLevel": 100,
     "cardNo": 855,
     "range": "mid",
-    "globalDate": "2019-08-06"
+    "globalDate": "2019-08-06",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "kakashi-hatake-hidden-left-eye",
@@ -4612,7 +5211,10 @@
     "maxLevel": 150,
     "cardNo": 147,
     "range": "mid",
-    "globalDate": "2016-09-08"
+    "globalDate": "2016-09-08",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "kakashi-hatake-iron-resolve",
@@ -4635,7 +5237,10 @@
     "maxLevel": 100,
     "cardNo": 735,
     "range": "mid",
-    "globalDate": "2018-12-11"
+    "globalDate": "2018-12-11",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "kakashi-hatake-kage-s-successor",
@@ -4662,7 +5267,10 @@
     "maxLevel": 100,
     "cardNo": 2126,
     "range": "vast",
-    "globalDate": "2020-08-25"
+    "globalDate": "2020-08-25",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "kakashi-hatake-rousing-pact",
@@ -4675,7 +5283,10 @@
     "maxLevel": 100,
     "cardNo": 899,
     "range": "long",
-    "globalDate": "2019-10-29"
+    "globalDate": "2019-10-29",
+    "sources": [
+      "Phantom Castle 37"
+    ]
   },
   {
     "id": "kakashi-hatake-severing-lightning",
@@ -4702,7 +5313,11 @@
     "maxLevel": 100,
     "cardNo": 426,
     "range": "long",
-    "globalDate": "2017-08-10"
+    "globalDate": "2017-08-10",
+    "sources": [
+      "Battle Coin Exchange Shop",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "kakashi-hatake-silent-sorcery",
@@ -4729,7 +5344,10 @@
     "maxLevel": 100,
     "cardNo": 588,
     "range": "mid",
-    "globalDate": "2018-04-03"
+    "globalDate": "2018-04-03",
+    "sources": [
+      "April Fools Summon"
+    ]
   },
   {
     "id": "kakashi-hatake-the-best-teacher",
@@ -4757,7 +5375,10 @@
     "maxLevel": 100,
     "cardNo": 9,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Hidden Leaf's Secret Ultimate Taijutsu"
+    ]
   },
   {
     "id": "kakashi-hatake-the-bitterness-of-fate",
@@ -4794,7 +5415,10 @@
     "maxLevel": 100,
     "cardNo": 673,
     "range": "short",
-    "globalDate": "2018-09-04"
+    "globalDate": "2018-09-04",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "kakashi-hatake-the-wound-inside",
@@ -4807,7 +5431,10 @@
     "maxLevel": 100,
     "cardNo": 664,
     "range": "long",
-    "globalDate": "2018-08-21"
+    "globalDate": "2018-08-21",
+    "sources": [
+      "Drop #3 Reward of Chapter 11 in \"Kakashi Gaiden\""
+    ]
   },
   {
     "id": "kakashi-hatake-unique-eyes-blooming",
@@ -4835,7 +5462,10 @@
     "maxLevel": 150,
     "cardNo": 314,
     "range": "short",
-    "globalDate": "2017-03-08"
+    "globalDate": "2017-03-08",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "kakashi-hatake-unshakeable-calm",
@@ -4872,7 +5502,10 @@
     "maxLevel": 100,
     "cardNo": 705,
     "range": "short",
-    "globalDate": "2018-11-06"
+    "globalDate": "2018-11-06",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "kakkou-powerful-and-aggressive",
@@ -4895,7 +5528,10 @@
     "maxLevel": 50,
     "cardNo": 107,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Rare Summon"
+    ]
   },
   {
     "id": "kakuzu-life-reavers",
@@ -4923,7 +5559,10 @@
     "maxLevel": 150,
     "cardNo": 324,
     "range": "long",
-    "globalDate": "2017-03-22"
+    "globalDate": "2017-03-22",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "kakuzu-menacing-man",
@@ -4936,7 +5575,11 @@
     "maxLevel": 100,
     "cardNo": 2050,
     "range": "long",
-    "globalDate": "2020-02-12"
+    "globalDate": "2020-02-12",
+    "sources": [
+      "Phantom Castle 39",
+      "Phantom Castle 44"
+    ]
   },
   {
     "id": "kakuzu-powerhouse-of-old",
@@ -4963,7 +5606,10 @@
     "maxLevel": 100,
     "cardNo": 694,
     "range": "mid",
-    "globalDate": "2018-10-16"
+    "globalDate": "2018-10-16",
+    "sources": [
+      "Immortal Warrior on the Battlefield"
+    ]
   },
   {
     "id": "kankuro-a-new-act",
@@ -4990,7 +5636,10 @@
     "maxLevel": 100,
     "cardNo": 2056,
     "range": "short",
-    "globalDate": "2020-02-25"
+    "globalDate": "2020-02-25",
+    "sources": [
+      "Secret Black Technique of the Dancing Red Sand"
+    ]
   },
   {
     "id": "kankuro-mechanical-puppeteer",
@@ -5017,7 +5666,10 @@
     "maxLevel": 70,
     "cardNo": 190,
     "range": "mid",
-    "globalDate": "2016-10-21"
+    "globalDate": "2016-10-21",
+    "sources": [
+      "Theater of Horrors"
+    ]
   },
   {
     "id": "kankuro-orchestrator-of-tragedy",
@@ -5045,7 +5697,10 @@
     "maxLevel": 100,
     "cardNo": 166,
     "range": "long",
-    "globalDate": "2016-09-28"
+    "globalDate": "2016-09-28",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "kankuro-pride-in-his-work",
@@ -5073,7 +5728,10 @@
     "maxLevel": 150,
     "cardNo": 439,
     "range": "mid",
-    "globalDate": "2017-09-06"
+    "globalDate": "2017-09-06",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "karin-acute-perception",
@@ -5101,7 +5759,10 @@
     "maxLevel": 150,
     "cardNo": 301,
     "range": "long",
-    "globalDate": "2017-02-21"
+    "globalDate": "2017-02-21",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "karin-thousand-mile-perception",
@@ -5128,7 +5789,10 @@
     "maxLevel": 100,
     "cardNo": 363,
     "range": "mid",
-    "globalDate": "2017-05-17"
+    "globalDate": "2017-05-17",
+    "sources": [
+      "A Woman's Battle Summon"
+    ]
   },
   {
     "id": "karin-with-the-noble-taka",
@@ -5141,7 +5805,11 @@
     "maxLevel": 100,
     "cardNo": 701,
     "range": "mid",
-    "globalDate": "2018-10-23"
+    "globalDate": "2018-10-23",
+    "sources": [
+      "Phantom Castle 26",
+      "Phantom Castle 33"
+    ]
   },
   {
     "id": "kiba-inuzuka-sharp-claws-and-fangs",
@@ -5164,7 +5832,11 @@
     "maxLevel": 50,
     "cardNo": 19,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 5: Exam Round 2"
+    ]
   },
   {
     "id": "kiba-inuzuka-two-headed-fangs",
@@ -5192,7 +5864,10 @@
     "maxLevel": 100,
     "cardNo": 224,
     "range": "mid",
-    "globalDate": "2016-11-30"
+    "globalDate": "2016-11-30",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "kiba-inuzuka-well-honed-fangs",
@@ -5219,7 +5894,10 @@
     "maxLevel": 100,
     "cardNo": 567,
     "range": "short",
-    "globalDate": "2018-03-13"
+    "globalDate": "2018-03-13",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "kiba-inuzuka-wild-partners",
@@ -5247,7 +5925,10 @@
     "maxLevel": 100,
     "cardNo": 63,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "kidomaru-a-cruel-game",
@@ -5274,7 +5955,10 @@
     "maxLevel": 100,
     "cardNo": 234,
     "range": "long",
-    "globalDate": "2016-12-07"
+    "globalDate": "2016-12-07",
+    "sources": [
+      "Fearsome Threads, Drawing in Death"
+    ]
   },
   {
     "id": "kidomaru-kidomaru-of-the-east-gate",
@@ -5302,7 +5986,10 @@
     "maxLevel": 100,
     "cardNo": 81,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "kidomaru-solid-flexible-threads",
@@ -5330,7 +6017,10 @@
     "maxLevel": 100,
     "cardNo": 195,
     "range": "short",
-    "globalDate": "2016-10-26"
+    "globalDate": "2016-10-26",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "killer-bee-completed-jinchuriki",
@@ -5358,7 +6048,10 @@
     "maxLevel": 150,
     "cardNo": 355,
     "range": "short",
-    "globalDate": "2017-05-04"
+    "globalDate": "2017-05-04",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "killer-bee-engraved-words",
@@ -5386,7 +6079,10 @@
     "maxLevel": 150,
     "cardNo": 463,
     "range": "mid",
-    "globalDate": "2017-10-09"
+    "globalDate": "2017-10-09",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "killer-bee-let-s-bee-friends",
@@ -5410,7 +6106,10 @@
     "maxLevel": 150,
     "cardNo": 1155,
     "range": "long",
-    "globalDate": "2018-09-25"
+    "globalDate": "2018-09-25",
+    "sources": [
+      "Super Impact! Master of Curls"
+    ]
   },
   {
     "id": "killer-bee-rumbling-strong-arm",
@@ -5447,7 +6146,10 @@
     "maxLevel": 100,
     "cardNo": 877,
     "range": "mid",
-    "globalDate": "2019-09-17"
+    "globalDate": "2019-09-17",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "killer-bee-ultimate-tag-team",
@@ -5460,7 +6162,11 @@
     "maxLevel": 100,
     "cardNo": 2065,
     "range": "mid",
-    "globalDate": "2020-04-02"
+    "globalDate": "2020-04-02",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "kimimaro-dance-of-carnage",
@@ -5487,7 +6193,10 @@
     "maxLevel": 100,
     "cardNo": 887,
     "range": "mid",
-    "globalDate": "2019-10-02"
+    "globalDate": "2019-10-02",
+    "sources": [
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "kimimaro-dance-of-death",
@@ -5524,7 +6233,10 @@
     "maxLevel": 100,
     "cardNo": 602,
     "range": "long",
-    "globalDate": "2018-05-08"
+    "globalDate": "2018-05-08",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "kimimaro-kimimaro-of-the-earth",
@@ -5552,7 +6264,10 @@
     "maxLevel": 100,
     "cardNo": 87,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "kimimaro-the-strongest-spear",
@@ -5579,7 +6294,10 @@
     "maxLevel": 100,
     "cardNo": 274,
     "range": "mid",
-    "globalDate": "2017-01-30"
+    "globalDate": "2017-01-30",
+    "sources": [
+      "A Flower of Bones, Blooming from Despair"
+    ]
   },
   {
     "id": "kin-tsuchi-brimming-with-jealousy",
@@ -5592,7 +6310,11 @@
     "maxLevel": 30,
     "cardNo": 35,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 6: Preliminaries!"
+    ]
   },
   {
     "id": "kinkaku-ginkaku-cataclysm-eaters",
@@ -5616,7 +6338,10 @@
     "maxLevel": 150,
     "cardNo": 2082,
     "range": "mid",
-    "globalDate": "2020-04-28"
+    "globalDate": "2020-04-28",
+    "sources": [
+      "Super Impact! Fellow Evildoer"
+    ]
   },
   {
     "id": "kisame-hoshigaki-body-and-blade-as-one",
@@ -5653,7 +6378,10 @@
     "maxLevel": 100,
     "cardNo": 827,
     "range": "short",
-    "globalDate": "2019-06-11"
+    "globalDate": "2019-06-11",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "kisame-hoshigaki-monster-of-the-mist",
@@ -5681,7 +6409,10 @@
     "maxLevel": 100,
     "cardNo": 91,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "kisame-hoshigaki-ruler-of-the-torrent",
@@ -5709,7 +6440,10 @@
     "maxLevel": 150,
     "cardNo": 320,
     "range": "mid",
-    "globalDate": "2017-03-15"
+    "globalDate": "2017-03-15",
+    "sources": [
+      "Impact! A Ferocious Visage"
+    ]
   },
   {
     "id": "kisame-hoshigaki-swordsman-of-the-raging-waves",
@@ -5722,7 +6456,11 @@
     "maxLevel": 100,
     "cardNo": 479,
     "range": "long",
-    "globalDate": "2017-11-07"
+    "globalDate": "2017-11-07",
+    "sources": [
+      "Ninja World Clash",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "kisame-hoshigaki-the-tailless-tailed-beast",
@@ -5746,7 +6484,10 @@
     "maxLevel": 150,
     "cardNo": 719,
     "range": "vast",
-    "globalDate": "2018-11-27"
+    "globalDate": "2018-11-27",
+    "sources": [
+      "Super Impact! Wandering Shark"
+    ]
   },
   {
     "id": "konan-a-bridge-to-hope",
@@ -5773,7 +6514,10 @@
     "maxLevel": 100,
     "cardNo": 378,
     "range": "long",
-    "globalDate": "2017-06-06"
+    "globalDate": "2017-06-06",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "konan-a-god-s-messenger",
@@ -5801,7 +6545,10 @@
     "maxLevel": 150,
     "cardNo": 338,
     "range": "mid",
-    "globalDate": "2017-04-06"
+    "globalDate": "2017-04-06",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "konan-a-new-light",
@@ -5828,7 +6575,10 @@
     "maxLevel": 100,
     "cardNo": 2049,
     "range": "mid",
-    "globalDate": "2020-02-12"
+    "globalDate": "2020-02-12",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "konan-sign-of-destruction",
@@ -5865,7 +6615,10 @@
     "maxLevel": 100,
     "cardNo": 689,
     "range": "vast",
-    "globalDate": "2018-10-02"
+    "globalDate": "2018-10-02",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "konan-two-hopes",
@@ -5878,7 +6631,11 @@
     "maxLevel": 100,
     "cardNo": 825,
     "range": "long",
-    "globalDate": "2019-06-04"
+    "globalDate": "2019-06-04",
+    "sources": [
+      "Phantom Castle 32",
+      "Phantom Castle 47"
+    ]
   },
   {
     "id": "konan-wrapped-in-sweetness",
@@ -5905,7 +6662,10 @@
     "maxLevel": 100,
     "cardNo": 548,
     "range": "short",
-    "globalDate": "2018-02-13"
+    "globalDate": "2018-02-13",
+    "sources": [
+      "\"Lucky's Valentine\" Summon"
+    ]
   },
   {
     "id": "konohamaru-sarutobi-the-third-s-last-stand",
@@ -5928,7 +6688,10 @@
     "maxLevel": 50,
     "cardNo": 101,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Rare Summon"
+    ]
   },
   {
     "id": "konohamaru-sarutobi-the-will-of-budding-flames",
@@ -5956,7 +6719,10 @@
     "maxLevel": 150,
     "cardNo": 347,
     "range": "short",
-    "globalDate": "2017-04-25"
+    "globalDate": "2017-04-25",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "kotetsu-hagane-tempered-strength",
@@ -5983,7 +6749,10 @@
     "maxLevel": 100,
     "cardNo": 853,
     "range": "mid",
-    "globalDate": "2019-07-30"
+    "globalDate": "2019-07-30",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "kotetsu-hagane-the-deceptive-proctor",
@@ -5996,7 +6765,11 @@
     "maxLevel": 30,
     "cardNo": 30,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 4: Exam Round 1"
+    ]
   },
   {
     "id": "kurenai-yuhi-between-fantasy-and-reality",
@@ -6009,7 +6782,10 @@
     "maxLevel": 100,
     "cardNo": 2104,
     "range": "short",
-    "globalDate": "2020-07-07"
+    "globalDate": "2020-07-07",
+    "sources": [
+      "Phantom Castle 43"
+    ]
   },
   {
     "id": "kurenai-yuhi-illusionary-expert",
@@ -6037,7 +6813,10 @@
     "maxLevel": 100,
     "cardNo": 217,
     "range": "mid",
-    "globalDate": "2016-11-20"
+    "globalDate": "2016-11-20",
+    "sources": [
+      "New Year's Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "kurenai-yuhi-welcome-to-the-illusion",
@@ -6050,7 +6829,11 @@
     "maxLevel": 100,
     "cardNo": 650,
     "range": "short",
-    "globalDate": "2018-07-31"
+    "globalDate": "2018-07-31",
+    "sources": [
+      "Phantom Castle 23",
+      "Phantom Castle 31"
+    ]
   },
   {
     "id": "kurotsuchi-magnanimous-tomboy-of-the-stone",
@@ -6063,7 +6846,11 @@
     "maxLevel": 100,
     "cardNo": 718,
     "range": "short",
-    "globalDate": "2018-11-20"
+    "globalDate": "2018-11-20",
+    "sources": [
+      "Phantom Castle 27",
+      "Phantom Castle 33"
+    ]
   },
   {
     "id": "kurotsuchi-the-fence-sitter-s-granddaughter",
@@ -6090,7 +6877,10 @@
     "maxLevel": 100,
     "cardNo": 527,
     "range": "long",
-    "globalDate": "2018-01-15"
+    "globalDate": "2018-01-15",
+    "sources": [
+      "The Power of Stone with Lava Style!"
+    ]
   },
   {
     "id": "kushimaru-kuriarare-needle-blade",
@@ -6117,7 +6907,10 @@
     "maxLevel": 100,
     "cardNo": 546,
     "range": "short",
-    "globalDate": "2018-02-06"
+    "globalDate": "2018-02-06",
+    "sources": [
+      "Lurking Death Needle"
+    ]
   },
   {
     "id": "kushina-uzumaki-enveloping-kindness",
@@ -6144,7 +6937,10 @@
     "maxLevel": 100,
     "cardNo": 297,
     "range": "short",
-    "globalDate": "2017-02-21"
+    "globalDate": "2017-02-21",
+    "sources": [
+      "Sweet Gift Summon"
+    ]
   },
   {
     "id": "kushina-uzumaki-fist-of-hidden-embarrassment",
@@ -6171,7 +6967,10 @@
     "maxLevel": 100,
     "cardNo": 840,
     "range": "short",
-    "globalDate": "2019-07-09"
+    "globalDate": "2019-07-09",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "kushina-uzumaki-mother-s-wishes",
@@ -6184,7 +6983,11 @@
     "maxLevel": 100,
     "cardNo": 684,
     "range": "vast",
-    "globalDate": "2018-09-18"
+    "globalDate": "2018-09-18",
+    "sources": [
+      "Phantom Castle 25",
+      "Phantom Castle 32"
+    ]
   },
   {
     "id": "kushina-uzumaki-the-red-hot-habanero",
@@ -6211,7 +7014,10 @@
     "maxLevel": 100,
     "cardNo": 232,
     "range": "mid",
-    "globalDate": "2016-12-08"
+    "globalDate": "2016-12-08",
+    "sources": [
+      "Impact! Nine Tails Appears!"
+    ]
   },
   {
     "id": "kushina-uzumaki-vermillion-prayer",
@@ -6238,7 +7044,10 @@
     "maxLevel": 100,
     "cardNo": 531,
     "range": "long",
-    "globalDate": "2018-01-15"
+    "globalDate": "2018-01-15",
+    "sources": [
+      "\"New Year's Resolution\" Summon"
+    ]
   },
   {
     "id": "leaf-anbu-female-masked-ways",
@@ -6251,7 +7060,10 @@
     "maxLevel": 30,
     "cardNo": 124,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode"
+    ]
   },
   {
     "id": "leaf-anbu-male-the-hokage-s-servant",
@@ -6264,7 +7076,10 @@
     "maxLevel": 30,
     "cardNo": 123,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode"
+    ]
   },
   {
     "id": "leaf-chunin-male-supporter-of-the-tree",
@@ -6277,7 +7092,10 @@
     "maxLevel": 30,
     "cardNo": 122,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode"
+    ]
   },
   {
     "id": "madara-uchiha-an-imposing-air",
@@ -6304,7 +7122,10 @@
     "maxLevel": 100,
     "cardNo": 2025,
     "range": "mid",
-    "globalDate": "2019-12-17"
+    "globalDate": "2019-12-17",
+    "sources": [
+      "Longing for Peace Summon"
+    ]
   },
   {
     "id": "madara-uchiha-at-the-battle-s-end",
@@ -6328,7 +7149,10 @@
     "maxLevel": 150,
     "cardNo": 2059,
     "range": "short",
-    "globalDate": "2020-03-03"
+    "globalDate": "2020-03-03",
+    "sources": [
+      "Super Impact! Parting in the Rain"
+    ]
   },
   {
     "id": "madara-uchiha-dreams-of-the-far-future",
@@ -6341,7 +7165,11 @@
     "maxLevel": 100,
     "cardNo": 870,
     "range": "vast",
-    "globalDate": "2019-09-04"
+    "globalDate": "2019-09-04",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "madara-uchiha-endless-moonlight",
@@ -6365,7 +7193,10 @@
     "maxLevel": 150,
     "cardNo": 590,
     "range": "long",
-    "globalDate": "2018-04-17"
+    "globalDate": "2018-04-17",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "madara-uchiha-eyes-of-the-moon",
@@ -6393,7 +7224,10 @@
     "maxLevel": 150,
     "cardNo": 435,
     "range": "mid",
-    "globalDate": "2017-08-29"
+    "globalDate": "2017-08-29",
+    "sources": [
+      "Impact! The Hour of Revival"
+    ]
   },
   {
     "id": "madara-uchiha-falling-into-place",
@@ -6421,7 +7255,11 @@
     "maxLevel": 150,
     "cardNo": 647,
     "range": "short",
-    "globalDate": "2018-07-24"
+    "globalDate": "2018-07-24",
+    "sources": [
+      "Impact! The Great War Begins",
+      "Impact! The Great War Begins (Hard Mode)"
+    ]
   },
   {
     "id": "madara-uchiha-fortitude-resolution",
@@ -6445,7 +7283,10 @@
     "maxLevel": 150,
     "cardNo": 859,
     "range": "short",
-    "globalDate": "2019-08-06"
+    "globalDate": "2019-08-06",
+    "sources": [
+      "Super Impact! Fate of Reincarnation"
+    ]
   },
   {
     "id": "madara-uchiha-out-of-the-darkness",
@@ -6458,7 +7299,10 @@
     "maxLevel": 100,
     "cardNo": 738,
     "range": "mid",
-    "globalDate": "2018-12-11"
+    "globalDate": "2018-12-11",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "madara-uchiha-path-of-dreams",
@@ -6495,7 +7339,10 @@
     "maxLevel": 150,
     "cardNo": 2098,
     "range": "short",
-    "globalDate": "2017-12-31"
+    "globalDate": "2017-12-31",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "madara-uchiha-phantasy-s-beckoning-light",
@@ -6519,7 +7366,10 @@
     "maxLevel": 150,
     "cardNo": 748,
     "range": "vast",
-    "globalDate": "2018-12-31"
+    "globalDate": "2018-12-31",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "madara-uchiha-power-of-life-or-death",
@@ -6542,7 +7392,10 @@
     "maxLevel": 100,
     "cardNo": 681,
     "range": "mid",
-    "globalDate": "2018-09-18"
+    "globalDate": "2018-09-18",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "madara-uchiha-power-of-rinne",
@@ -6579,7 +7432,10 @@
     "maxLevel": 100,
     "cardNo": 2121,
     "range": "long",
-    "globalDate": "2020-08-18"
+    "globalDate": "2020-08-18",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "madara-uchiha-solitary-devastation",
@@ -6616,7 +7472,10 @@
     "maxLevel": 100,
     "cardNo": 771,
     "range": "short",
-    "globalDate": "2019-02-22"
+    "globalDate": "2019-02-22",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "madara-uchiha-the-eyes-that-shook-heaven-and-earth",
@@ -6643,7 +7502,10 @@
     "maxLevel": 100,
     "cardNo": 696,
     "range": "long",
-    "globalDate": "2018-10-16"
+    "globalDate": "2018-10-16",
+    "sources": [
+      "Rival Warlords Summon"
+    ]
   },
   {
     "id": "madara-uchiha-the-vilest-name",
@@ -6671,7 +7533,10 @@
     "maxLevel": 150,
     "cardNo": 334,
     "range": "mid",
-    "globalDate": "2017-03-30"
+    "globalDate": "2017-03-30",
+    "sources": [
+      "Various Blazing Fest Summons"
+    ]
   },
   {
     "id": "mahiru-superior-swordsmanship",
@@ -6684,7 +7549,11 @@
     "maxLevel": 30,
     "cardNo": 25,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 8: Destruction of the Hidden Leaf"
+    ]
   },
   {
     "id": "mangetsu-hozuki-wielder-of-the-seven-swords",
@@ -6711,7 +7580,10 @@
     "maxLevel": 100,
     "cardNo": 630,
     "range": "long",
-    "globalDate": "2018-06-19"
+    "globalDate": "2018-06-19",
+    "sources": [
+      "Mist-Shrouded Heir of the Seven Swords"
+    ]
   },
   {
     "id": "masked-man-evil-heart",
@@ -6735,7 +7607,10 @@
     "maxLevel": 150,
     "cardNo": 2102,
     "range": "mid",
-    "globalDate": "2020-06-30"
+    "globalDate": "2020-06-30",
+    "sources": [
+      "Super Impact! Madness Beneath the Mask"
+    ]
   },
   {
     "id": "masked-man-mad-dreamer",
@@ -6763,7 +7638,11 @@
     "maxLevel": 150,
     "cardNo": 632,
     "range": "long",
-    "globalDate": "2018-06-26"
+    "globalDate": "2018-06-26",
+    "sources": [
+      "Impact! Mastermind of Calamity",
+      "Impact! Mastermind of Calamity (Hard Mode)"
+    ]
   },
   {
     "id": "mecha-naruto-steel-heart",
@@ -6775,7 +7654,10 @@
     "awakening": [],
     "maxLevel": 100,
     "cardNo": 791,
-    "range": "vast"
+    "range": "vast",
+    "sources": [
+      "Incoming! Superalloy Envoy"
+    ]
   },
   {
     "id": "mei-terumi-enticing-charm",
@@ -6788,7 +7670,12 @@
     "maxLevel": 100,
     "cardNo": 764,
     "range": "short",
-    "globalDate": "2019-02-19"
+    "globalDate": "2019-02-19",
+    "sources": [
+      "Phantom Castle 30",
+      "Phantom Castle 35",
+      "Phantom Castle 45"
+    ]
   },
   {
     "id": "mei-terumi-the-mist-that-melts-all",
@@ -6816,7 +7703,10 @@
     "maxLevel": 150,
     "cardNo": 359,
     "range": "long",
-    "globalDate": "2017-05-04"
+    "globalDate": "2017-05-04",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "meizu-poisonous-left-arm",
@@ -6829,7 +7719,11 @@
     "maxLevel": 30,
     "cardNo": 43,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 3: Land of Waves"
+    ]
   },
   {
     "id": "menma-namikaze-calm-and-collected",
@@ -6842,7 +7736,11 @@
     "maxLevel": 100,
     "cardNo": 2073,
     "range": "short",
-    "globalDate": "2020-03-31"
+    "globalDate": "2020-03-31",
+    "sources": [
+      "Road to Tenten",
+      "Panel Mission"
+    ]
   },
   {
     "id": "mifune-self-respect",
@@ -6855,7 +7753,12 @@
     "maxLevel": 100,
     "cardNo": 472,
     "range": "mid",
-    "globalDate": "2017-11-28"
+    "globalDate": "2017-11-28",
+    "sources": [
+      "Phantom Castle 14",
+      "Phantom Castle 27",
+      "Phantom Castle 47"
+    ]
   },
   {
     "id": "might-dai-something-to-protect",
@@ -6882,7 +7785,10 @@
     "maxLevel": 100,
     "cardNo": 658,
     "range": "short",
-    "globalDate": "2018-08-07"
+    "globalDate": "2018-08-07",
+    "sources": [
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "might-guy-azure-roar",
@@ -6910,7 +7816,10 @@
     "maxLevel": 150,
     "cardNo": 433,
     "range": "short",
-    "globalDate": "2017-08-29"
+    "globalDate": "2017-08-29",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "might-guy-carrying-out-the-oath",
@@ -6923,7 +7832,11 @@
     "maxLevel": 100,
     "cardNo": 2039,
     "range": "short",
-    "globalDate": "2020-02-05"
+    "globalDate": "2020-02-05",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "might-guy-deep-crimson-youth",
@@ -6951,7 +7864,10 @@
     "maxLevel": 150,
     "cardNo": 487,
     "range": "short",
-    "globalDate": "2017-11-21"
+    "globalDate": "2017-11-21",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "might-guy-exploding-fists",
@@ -6979,7 +7895,10 @@
     "maxLevel": 150,
     "cardNo": 316,
     "range": "mid",
-    "globalDate": "2017-03-08"
+    "globalDate": "2017-03-08",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "might-guy-hot-blooded-youth",
@@ -7007,7 +7926,10 @@
     "maxLevel": 150,
     "cardNo": 213,
     "range": "short",
-    "globalDate": "2016-11-09"
+    "globalDate": "2016-11-09",
+    "sources": [
+      "Ninja Pearl Bundle purchase"
+    ]
   },
   {
     "id": "might-guy-passionate-fist",
@@ -7044,7 +7966,10 @@
     "maxLevel": 100,
     "cardNo": 708,
     "range": "long",
-    "globalDate": "2018-11-06"
+    "globalDate": "2018-11-06",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "might-guy-surging-blood",
@@ -7072,7 +7997,11 @@
     "maxLevel": 150,
     "cardNo": 592,
     "range": "short",
-    "globalDate": "2018-04-17"
+    "globalDate": "2018-04-17",
+    "sources": [
+      "Impact! Burning Rage of the Crimson Dragon",
+      "Impact! Burning Rage of the Crimson Dragon (Hard Mode)"
+    ]
   },
   {
     "id": "minato-namikaze-confronting-karma",
@@ -7100,7 +8029,10 @@
     "maxLevel": 150,
     "cardNo": 410,
     "range": "vast",
-    "globalDate": "2017-07-25"
+    "globalDate": "2017-07-25",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "minato-namikaze-dazzling-bravery",
@@ -7137,7 +8069,10 @@
     "maxLevel": 100,
     "cardNo": 740,
     "range": "long",
-    "globalDate": "2018-12-18"
+    "globalDate": "2018-12-18",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "minato-namikaze-flash-of-dawn",
@@ -7164,7 +8099,10 @@
     "maxLevel": 100,
     "cardNo": 529,
     "range": "short",
-    "globalDate": "2018-01-15"
+    "globalDate": "2018-01-15",
+    "sources": [
+      "\"New Year's Resolution\" Summon"
+    ]
   },
   {
     "id": "minato-namikaze-flash-of-the-battlefield",
@@ -7177,7 +8115,11 @@
     "maxLevel": 100,
     "cardNo": 459,
     "range": "mid",
-    "globalDate": "2017-10-03"
+    "globalDate": "2017-10-03",
+    "sources": [
+      "Ninja World Clash",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "minato-namikaze-natural-talent",
@@ -7190,7 +8132,11 @@
     "maxLevel": 100,
     "cardNo": 814,
     "range": "long",
-    "globalDate": "2019-05-30"
+    "globalDate": "2019-05-30",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "minato-namikaze-raikosekka",
@@ -7213,7 +8159,10 @@
     "maxLevel": 100,
     "cardNo": 2101,
     "range": "mid",
-    "globalDate": "2020-06-30"
+    "globalDate": "2020-06-30",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "minato-namikaze-rapid-lightning",
@@ -7241,7 +8190,10 @@
     "maxLevel": 150,
     "cardNo": 230,
     "range": "vast",
-    "globalDate": "2016-12-07"
+    "globalDate": "2016-12-07",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "minato-namikaze-reowned-flash",
@@ -7254,7 +8206,11 @@
     "maxLevel": 100,
     "cardNo": 2118,
     "range": "short",
-    "globalDate": "2020-08-04"
+    "globalDate": "2020-08-04",
+    "sources": [
+      "Panel Mission",
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "minato-namikaze-swift-flash",
@@ -7278,7 +8234,10 @@
     "maxLevel": 150,
     "cardNo": 628,
     "range": "mid",
-    "globalDate": "2018-06-19"
+    "globalDate": "2018-06-19",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "minato-namikaze-the-silent-hero",
@@ -7305,7 +8264,10 @@
     "maxLevel": 100,
     "cardNo": 679,
     "range": "long",
-    "globalDate": "2018-09-11"
+    "globalDate": "2018-09-11",
+    "sources": [
+      "Ninja Pearl Bundle purchase"
+    ]
   },
   {
     "id": "minato-namikaze-unfading-courage",
@@ -7328,7 +8290,10 @@
     "maxLevel": 100,
     "cardNo": 761,
     "range": "long",
-    "globalDate": "2019-02-19"
+    "globalDate": "2019-02-19",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "minato-namikaze-yellow-flash-of-the-leaf",
@@ -7341,7 +8306,10 @@
     "maxLevel": 70,
     "cardNo": 250,
     "range": "long",
-    "globalDate": "2016-12-28"
+    "globalDate": "2016-12-28",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "mist-anbu-male-mask-without-mercy",
@@ -7354,7 +8322,10 @@
     "maxLevel": 30,
     "cardNo": 126,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode"
+    ]
   },
   {
     "id": "mist-chunin-male-harsh-exam-graduate",
@@ -7367,7 +8338,10 @@
     "maxLevel": 30,
     "cardNo": 125,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode"
+    ]
   },
   {
     "id": "misumi-tsurugi-360-degree-movement",
@@ -7380,7 +8354,11 @@
     "maxLevel": 30,
     "cardNo": 32,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 6: Preliminaries!"
+    ]
   },
   {
     "id": "mizuki-hidden-treachery",
@@ -7403,7 +8381,10 @@
     "maxLevel": 50,
     "cardNo": 99,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Rare Summon"
+    ]
   },
   {
     "id": "mu-ingenuity-reborn",
@@ -7416,7 +8397,12 @@
     "maxLevel": 100,
     "cardNo": 391,
     "range": "mid",
-    "globalDate": "2017-07-18"
+    "globalDate": "2017-07-18",
+    "sources": [
+      "Phantom Castle 10",
+      "Phantom Castle 25",
+      "Phantom Castle 43"
+    ]
   },
   {
     "id": "mubi-phantom-of-the-trinity",
@@ -7429,7 +8415,11 @@
     "maxLevel": 30,
     "cardNo": 37,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 5: Exam Round 2"
+    ]
   },
   {
     "id": "nagato-as-the-older-student",
@@ -7466,7 +8456,10 @@
     "maxLevel": 100,
     "cardNo": 2075,
     "range": "vast",
-    "globalDate": "2020-04-14"
+    "globalDate": "2020-04-14",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "nagato-hope-for-peace",
@@ -7493,7 +8486,10 @@
     "maxLevel": 100,
     "cardNo": 824,
     "range": "mid",
-    "globalDate": "2019-06-04"
+    "globalDate": "2019-06-04",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "nagato-proclaimed-ideals",
@@ -7520,7 +8516,10 @@
     "maxLevel": 100,
     "cardNo": 361,
     "range": "mid",
-    "globalDate": "2017-05-04"
+    "globalDate": "2017-05-04",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "nagato-reunion-with-hope",
@@ -7548,7 +8547,10 @@
     "maxLevel": 150,
     "cardNo": 535,
     "range": "short",
-    "globalDate": "2018-01-23"
+    "globalDate": "2018-01-23",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "naruto-uzumaki-as-a-friend",
@@ -7572,7 +8574,10 @@
     "maxLevel": 150,
     "cardNo": 660,
     "range": "vast",
-    "globalDate": "2018-08-21"
+    "globalDate": "2018-08-21",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "naruto-uzumaki-bewitching-transformation",
@@ -7585,7 +8590,13 @@
     "maxLevel": 100,
     "cardNo": 293,
     "range": "long",
-    "globalDate": "2017-03-15"
+    "globalDate": "2017-03-15",
+    "sources": [
+      "Phantom Castle 6",
+      "Phantom Castle 23",
+      "Phantom Castle 26",
+      "Phantom Castle 36"
+    ]
   },
   {
     "id": "naruto-uzumaki-beyond-rasen",
@@ -7612,7 +8623,10 @@
     "maxLevel": 100,
     "cardNo": 2001,
     "range": "long",
-    "globalDate": "2019-10-23"
+    "globalDate": "2019-10-23",
+    "sources": [
+      "Blade of the Roaring Storm"
+    ]
   },
   {
     "id": "naruto-uzumaki-blind-rage",
@@ -7636,7 +8650,10 @@
     "maxLevel": 150,
     "cardNo": 819,
     "range": "mid",
-    "globalDate": "2019-05-28"
+    "globalDate": "2019-05-28",
+    "sources": [
+      "Super Impact! Destruction of Self"
+    ]
   },
   {
     "id": "naruto-uzumaki-blowing-gale",
@@ -7649,7 +8666,10 @@
     "maxLevel": 70,
     "cardNo": 241,
     "range": "mid",
-    "globalDate": "2016-12-15"
+    "globalDate": "2016-12-15",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "naruto-uzumaki-boy-who-aims-to-be-hokage",
@@ -7672,7 +8692,10 @@
     "maxLevel": 50,
     "cardNo": 136,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "naruto-uzumaki-brave-unyielding-heart",
@@ -7685,7 +8708,11 @@
     "maxLevel": 100,
     "cardNo": 2119,
     "range": "long",
-    "globalDate": "2020-08-04"
+    "globalDate": "2020-08-04",
+    "sources": [
+      "Panel Mission",
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "naruto-uzumaki-child-of-the-prophecy",
@@ -7713,7 +8740,10 @@
     "maxLevel": 150,
     "cardNo": 349,
     "range": "mid",
-    "globalDate": "2017-04-25"
+    "globalDate": "2017-04-25",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "naruto-uzumaki-day-of-vows",
@@ -7740,7 +8770,10 @@
     "maxLevel": 100,
     "cardNo": 328,
     "range": "short",
-    "globalDate": "2017-03-24"
+    "globalDate": "2017-03-24",
+    "sources": [
+      "Wedding Special Summon"
+    ]
   },
   {
     "id": "naruto-uzumaki-endowed-power",
@@ -7767,7 +8800,10 @@
     "maxLevel": 100,
     "cardNo": 2090,
     "range": "mid",
-    "globalDate": "2020-05-22"
+    "globalDate": "2020-05-22",
+    "sources": [
+      "Legendary Summon Banner"
+    ]
   },
   {
     "id": "naruto-uzumaki-full-out-battle",
@@ -7794,7 +8830,10 @@
     "maxLevel": 100,
     "cardNo": 2115,
     "range": "short",
-    "globalDate": "2020-08-04"
+    "globalDate": "2020-08-04",
+    "sources": [
+      "Legendary Summon Banner"
+    ]
   },
   {
     "id": "naruto-uzumaki-gale-of-vigor",
@@ -7821,7 +8860,10 @@
     "maxLevel": 100,
     "cardNo": 892,
     "range": "short",
-    "globalDate": "2019-10-09"
+    "globalDate": "2019-10-09",
+    "sources": [
+      "Champion of the Hidden Leaf Summon; Naruto Birthday Special Legendary Ninja Festival"
+    ]
   },
   {
     "id": "naruto-uzumaki-happy-new-year",
@@ -7834,7 +8876,10 @@
     "maxLevel": 100,
     "cardNo": 744,
     "range": "vast",
-    "globalDate": "2018-12-31"
+    "globalDate": "2018-12-31",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "naruto-uzumaki-indomitable-ninja-way",
@@ -7861,7 +8906,10 @@
     "maxLevel": 100,
     "cardNo": 422,
     "range": "mid",
-    "globalDate": "2017-08-07"
+    "globalDate": "2017-08-07",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "naruto-uzumaki-name-and-soul",
@@ -7874,7 +8922,11 @@
     "maxLevel": 100,
     "cardNo": 777,
     "range": "mid",
-    "globalDate": "2019-03-12"
+    "globalDate": "2019-03-12",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "naruto-uzumaki-nine-tails-power-up",
@@ -7901,7 +8953,10 @@
     "maxLevel": 70,
     "cardNo": 180,
     "range": "short",
-    "globalDate": "2016-10-14"
+    "globalDate": "2016-10-14",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "naruto-uzumaki-nine-tails-shroud",
@@ -7929,7 +8984,10 @@
     "maxLevel": 150,
     "cardNo": 260,
     "range": "short",
-    "globalDate": "2017-01-04"
+    "globalDate": "2017-01-04",
+    "sources": [
+      "Various Blazing Festival Summon"
+    ]
   },
   {
     "id": "naruto-uzumaki-no-1-maverick",
@@ -7957,7 +9015,10 @@
     "maxLevel": 150,
     "cardNo": 45,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "naruto-uzumaki-pervading-feelings",
@@ -7980,7 +9041,10 @@
     "maxLevel": 100,
     "cardNo": 801,
     "range": "long",
-    "globalDate": "2019-04-23"
+    "globalDate": "2019-04-23",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "naruto-uzumaki-power-of-determination",
@@ -8018,7 +9082,10 @@
     "maxLevel": 150,
     "cardNo": 454,
     "range": "short",
-    "globalDate": "2017-10-03"
+    "globalDate": "2017-10-03",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "naruto-uzumaki-power-of-the-fourth-tail",
@@ -8046,7 +9113,10 @@
     "maxLevel": 150,
     "cardNo": 282,
     "range": "long",
-    "globalDate": "2017-01-27"
+    "globalDate": "2017-01-27",
+    "sources": [
+      "Impact! Raging Fury"
+    ]
   },
   {
     "id": "naruto-uzumaki-prankster",
@@ -8059,7 +9129,11 @@
     "maxLevel": 100,
     "cardNo": 2084,
     "range": "vast",
-    "globalDate": "2020-04-28"
+    "globalDate": "2020-04-28",
+    "sources": [
+      "Panel Mission",
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "naruto-uzumaki-precious-feelings",
@@ -8096,7 +9170,10 @@
     "maxLevel": 100,
     "cardNo": 2135,
     "range": "vast",
-    "globalDate": "2020-10-20"
+    "globalDate": "2020-10-20",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "naruto-uzumaki-proof-of-bonds",
@@ -8124,7 +9201,10 @@
     "maxLevel": 150,
     "cardNo": 401,
     "range": "short",
-    "globalDate": "2017-07-06"
+    "globalDate": "2017-07-06",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "naruto-uzumaki-proof-of-ties-that-bind",
@@ -8152,7 +9232,10 @@
     "maxLevel": 150,
     "cardNo": 552,
     "range": "short",
-    "globalDate": "2018-02-20"
+    "globalDate": "2018-02-20",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "naruto-uzumaki-rasengan-mastered",
@@ -8180,7 +9263,10 @@
     "maxLevel": 150,
     "cardNo": 162,
     "range": "mid",
-    "globalDate": "2016-09-28"
+    "globalDate": "2016-09-28",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "naruto-uzumaki-roaring-tears",
@@ -8203,7 +9289,10 @@
     "maxLevel": 100,
     "cardNo": 2138,
     "range": "mid",
-    "globalDate": "2020-11-04"
+    "globalDate": "2020-11-04",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "naruto-uzumaki-sea-spray-blast",
@@ -8230,7 +9319,10 @@
     "maxLevel": 100,
     "cardNo": 483,
     "range": "mid",
-    "globalDate": "2017-11-14"
+    "globalDate": "2017-11-14",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "naruto-uzumaki-seal-of-light",
@@ -8254,7 +9346,10 @@
     "maxLevel": 150,
     "cardNo": 428,
     "range": "mid",
-    "globalDate": "2017-08-22"
+    "globalDate": "2017-08-22",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "naruto-uzumaki-shining-warrior-of-bonds",
@@ -8281,7 +9376,10 @@
     "maxLevel": 100,
     "cardNo": 584,
     "range": "short",
-    "globalDate": "2018-04-03"
+    "globalDate": "2018-04-03",
+    "sources": [
+      "\"Path of Heroes\" Login Bonus"
+    ]
   },
   {
     "id": "naruto-uzumaki-taboo-breaking-frustration",
@@ -8318,7 +9416,10 @@
     "maxLevel": 100,
     "cardNo": 781,
     "range": "mid",
-    "globalDate": "2019-03-19"
+    "globalDate": "2019-03-19",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "naruto-uzumaki-the-back-of-a-figure",
@@ -8331,7 +9432,11 @@
     "maxLevel": 100,
     "cardNo": 2133,
     "range": "mid",
-    "globalDate": "2020-10-06"
+    "globalDate": "2020-10-06",
+    "sources": [
+      "Panel Mission",
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "naruto-uzumaki-the-future-we-want",
@@ -8368,7 +9473,10 @@
     "maxLevel": 100,
     "cardNo": 863,
     "range": "long",
-    "globalDate": "2019-08-20"
+    "globalDate": "2019-08-20",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "naruto-uzumaki-the-inheritor",
@@ -8392,7 +9500,10 @@
     "maxLevel": 150,
     "cardNo": 665,
     "range": "mid",
-    "globalDate": "2018-08-28"
+    "globalDate": "2018-08-28",
+    "sources": [
+      "Super Impact! Catching up to You"
+    ]
   },
   {
     "id": "naruto-uzumaki-the-worst-loser",
@@ -8428,7 +9539,10 @@
     "maxLevel": 70,
     "cardNo": 3,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Stage 7: Exam Round 3"
+    ]
   },
   {
     "id": "naruto-uzumaki-true-peace",
@@ -8465,7 +9579,10 @@
     "maxLevel": 100,
     "cardNo": 2037,
     "range": "short",
-    "globalDate": "2020-01-21"
+    "globalDate": "2020-01-21",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "naruto-uzumaki-two-suns",
@@ -8493,7 +9610,10 @@
     "maxLevel": 150,
     "cardNo": 384,
     "range": "long",
-    "globalDate": "2017-06-13"
+    "globalDate": "2017-06-13",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "naruto-uzumaki-unshakeable-will",
@@ -8521,7 +9641,10 @@
     "maxLevel": 150,
     "cardNo": 238,
     "range": "short",
-    "globalDate": "2016-12-15"
+    "globalDate": "2016-12-15",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "neji-hyuga-a-caged-bird",
@@ -8549,7 +9672,10 @@
     "maxLevel": 150,
     "cardNo": 151,
     "range": "short",
-    "globalDate": "2016-09-21"
+    "globalDate": "2016-09-21",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "neji-hyuga-a-quiet-acumen",
@@ -8562,7 +9688,13 @@
     "maxLevel": 100,
     "cardNo": 406,
     "range": "short",
-    "globalDate": "2017-08-22"
+    "globalDate": "2017-08-22",
+    "sources": [
+      "Phantom Castle 11",
+      "Phantom Castle 25",
+      "Phantom Castle 28",
+      "Phantom Castle 44"
+    ]
   },
   {
     "id": "neji-hyuga-an-unchangeable-destiny",
@@ -8590,7 +9722,10 @@
     "maxLevel": 100,
     "cardNo": 67,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "neji-hyuga-burden-of-fate",
@@ -8628,7 +9763,10 @@
     "maxLevel": 150,
     "cardNo": 494,
     "range": "mid",
-    "globalDate": "2017-12-05"
+    "globalDate": "2017-12-05",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "neji-hyuga-freedom-of-choice",
@@ -8652,7 +9790,11 @@
     "maxLevel": 150,
     "cardNo": 2004,
     "range": "mid",
-    "globalDate": "2019-11-05"
+    "globalDate": "2019-11-05",
+    "sources": [
+      "Super Impact! Wings of Freedom",
+      "Super Impact! Boss Rush"
+    ]
   },
   {
     "id": "obito-uchiha-despair-of-loneliness",
@@ -8680,7 +9822,10 @@
     "maxLevel": 150,
     "cardNo": 395,
     "range": "vast",
-    "globalDate": "2017-06-29"
+    "globalDate": "2017-06-29",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "obito-uchiha-drawn-to-life",
@@ -8708,7 +9853,10 @@
     "maxLevel": 150,
     "cardNo": 469,
     "range": "mid",
-    "globalDate": "2017-10-24"
+    "globalDate": "2017-10-24",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "obito-uchiha-faraway-dream",
@@ -8736,7 +9884,12 @@
     "maxLevel": 150,
     "cardNo": 412,
     "range": "long",
-    "globalDate": "2017-07-25"
+    "globalDate": "2017-07-25",
+    "sources": [
+      "Impact! Origin of Destruction",
+      "Battleground! Giant Boss Rush",
+      "Super Impact! Giant Boss Rush"
+    ]
   },
   {
     "id": "obito-uchiha-hollow-heart",
@@ -8760,7 +9913,10 @@
     "maxLevel": 150,
     "cardNo": 736,
     "range": "long",
-    "globalDate": "2018-12-11"
+    "globalDate": "2018-12-11",
+    "sources": [
+      "Super Impact! Empty Spectacle"
+    ]
   },
   {
     "id": "obito-uchiha-inching-towards-perfection",
@@ -8784,7 +9940,10 @@
     "maxLevel": 150,
     "cardNo": 2071,
     "range": "vast",
-    "globalDate": "2020-04-07"
+    "globalDate": "2020-04-07",
+    "sources": [
+      "Super Impact! Inhabited Demise"
+    ]
   },
   {
     "id": "obito-uchiha-into-total-darkness",
@@ -8821,7 +9980,10 @@
     "maxLevel": 100,
     "cardNo": 670,
     "range": "mid",
-    "globalDate": "2018-09-04"
+    "globalDate": "2018-09-04",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "obito-uchiha-remnants-of-despair",
@@ -8848,7 +10010,10 @@
     "maxLevel": 100,
     "cardNo": 711,
     "range": "vast",
-    "globalDate": "2018-11-13"
+    "globalDate": "2018-11-13",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "obito-uchiha-state-of-carnage",
@@ -8885,7 +10050,10 @@
     "maxLevel": 100,
     "cardNo": 768,
     "range": "vast",
-    "globalDate": "2019-02-22"
+    "globalDate": "2019-02-22",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "obito-uchiha-the-final-destination",
@@ -8908,7 +10076,10 @@
     "maxLevel": 100,
     "cardNo": 857,
     "range": "mid",
-    "globalDate": "2019-08-06"
+    "globalDate": "2019-08-06",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "obito-uchiha-the-illusory-world",
@@ -8931,7 +10102,10 @@
     "maxLevel": 100,
     "cardNo": 2081,
     "range": "long",
-    "globalDate": "2020-04-28"
+    "globalDate": "2020-04-28",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "obito-uchiha-the-world-we-seek",
@@ -8944,7 +10118,13 @@
     "maxLevel": 100,
     "cardNo": 448,
     "range": "mid",
-    "globalDate": "2017-10-31"
+    "globalDate": "2017-10-31",
+    "sources": [
+      "Phantom Castle 13",
+      "Phantom Castle 26",
+      "Phantom Castle 28",
+      "Phantom Castle 46"
+    ]
   },
   {
     "id": "obito-uchiha-to-protect-his-allies",
@@ -8972,7 +10152,10 @@
     "maxLevel": 150,
     "cardNo": 254,
     "range": "mid",
-    "globalDate": "2016-12-28"
+    "globalDate": "2016-12-28",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "obito-uchiha-true-self",
@@ -8985,7 +10168,11 @@
     "maxLevel": 100,
     "cardNo": 2123,
     "range": "mid",
-    "globalDate": "2020-08-18"
+    "globalDate": "2020-08-18",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "obito-uchiha-wrapped-in-mysteries",
@@ -9009,7 +10196,10 @@
     "maxLevel": 150,
     "cardNo": 804,
     "range": "short",
-    "globalDate": "2019-04-23"
+    "globalDate": "2019-04-23",
+    "sources": [
+      "Super Impact! The End of Salvation"
+    ]
   },
   {
     "id": "oboro-warrior-of-the-trinity",
@@ -9022,7 +10212,11 @@
     "maxLevel": 30,
     "cardNo": 38,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 5: Exam Round 2"
+    ]
   },
   {
     "id": "ohnoki-between-a-rock-and-a-hard-place",
@@ -9050,7 +10244,10 @@
     "maxLevel": 150,
     "cardNo": 369,
     "range": "mid",
-    "globalDate": "2017-05-23"
+    "globalDate": "2017-05-23",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "omoi-intense-conviction",
@@ -9077,7 +10274,10 @@
     "maxLevel": 100,
     "cardNo": 822,
     "range": "mid",
-    "globalDate": "2019-05-28"
+    "globalDate": "2019-05-28",
+    "sources": [
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "orochimaru-aspirations-of-indulgence",
@@ -9104,7 +10304,10 @@
     "maxLevel": 100,
     "cardNo": 832,
     "range": "short",
-    "globalDate": "2019-06-18"
+    "globalDate": "2019-06-18",
+    "sources": [
+      "The All-Knowing Serpent"
+    ]
   },
   {
     "id": "orochimaru-corrupt-rebirth",
@@ -9132,7 +10335,11 @@
     "maxLevel": 150,
     "cardNo": 270,
     "range": "mid",
-    "globalDate": "2017-01-18"
+    "globalDate": "2017-01-18",
+    "sources": [
+      "Impact! The Ruler of the Serpents!",
+      "Battleground! Giant Boss Rush"
+    ]
   },
   {
     "id": "orochimaru-endless-rebirth",
@@ -9156,7 +10363,11 @@
     "maxLevel": 150,
     "cardNo": 888,
     "range": "mid",
-    "globalDate": "2019-10-02"
+    "globalDate": "2019-10-02",
+    "sources": [
+      "Super Impact! Eternal Life",
+      "Super Impact! Boss Rush"
+    ]
   },
   {
     "id": "orochimaru-hidden-ambitions",
@@ -9184,7 +10395,10 @@
     "maxLevel": 150,
     "cardNo": 447,
     "range": "short",
-    "globalDate": "2017-09-19"
+    "globalDate": "2017-09-19",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "orochimaru-searching-for-great-wisdom",
@@ -9197,7 +10411,11 @@
     "maxLevel": 100,
     "cardNo": 2108,
     "range": "vast",
-    "globalDate": "2020-07-24"
+    "globalDate": "2020-07-24",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "orochimaru-the-horror-returns",
@@ -9225,7 +10443,10 @@
     "maxLevel": 100,
     "cardNo": 75,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "orochimaru-the-snake-ninja",
@@ -9252,7 +10473,10 @@
     "maxLevel": 70,
     "cardNo": 172,
     "range": "short",
-    "globalDate": "2016-10-05"
+    "globalDate": "2016-10-05",
+    "sources": [
+      "Shadow of the Vile Serpent"
+    ]
   },
   {
     "id": "orochimaru-winds-of-chaos",
@@ -9289,7 +10513,10 @@
     "maxLevel": 100,
     "cardNo": 599,
     "range": "short",
-    "globalDate": "2018-05-08"
+    "globalDate": "2018-05-08",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "pain-chikushodo-eyes-of-judgement",
@@ -9302,7 +10529,11 @@
     "maxLevel": 100,
     "cardNo": 572,
     "range": "short",
-    "globalDate": "2018-03-27"
+    "globalDate": "2018-03-27",
+    "sources": [
+      "Phantom Castle 19",
+      "Phantom Castle 28"
+    ]
   },
   {
     "id": "pain-chikushodo-glimpse-of-the-divine",
@@ -9330,7 +10561,10 @@
     "maxLevel": 150,
     "cardNo": 613,
     "range": "short",
-    "globalDate": "2018-05-22"
+    "globalDate": "2018-05-22",
+    "sources": [
+      "Impact! Divine Intervention"
+    ]
   },
   {
     "id": "pain-gakido-limitless-maelstrom",
@@ -9357,7 +10591,10 @@
     "maxLevel": 100,
     "cardNo": 641,
     "range": "short",
-    "globalDate": "2018-07-03"
+    "globalDate": "2018-07-03",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "pain-jigokudo-the-judge-of-truth",
@@ -9384,7 +10621,10 @@
     "maxLevel": 100,
     "cardNo": 677,
     "range": "mid",
-    "globalDate": "2018-09-11"
+    "globalDate": "2018-09-11",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "pain-ningendo-palm-that-touches-the-soul",
@@ -9411,7 +10651,10 @@
     "maxLevel": 100,
     "cardNo": 728,
     "range": "long",
-    "globalDate": "2018-12-04"
+    "globalDate": "2018-12-04",
+    "sources": [
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "pain-shurado-vessel-of-madness",
@@ -9438,7 +10681,10 @@
     "maxLevel": 100,
     "cardNo": 605,
     "range": "long",
-    "globalDate": "2018-05-08"
+    "globalDate": "2018-05-08",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "pain-tendo-dawn-of-peace",
@@ -9451,7 +10697,11 @@
     "maxLevel": 100,
     "cardNo": 850,
     "range": "short",
-    "globalDate": "2019-07-31"
+    "globalDate": "2019-07-31",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "pain-tendo-endless-cycle-of-battle",
@@ -9488,7 +10738,10 @@
     "maxLevel": 100,
     "cardNo": 686,
     "range": "short",
-    "globalDate": "2018-10-02"
+    "globalDate": "2018-10-02",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "pain-tendo-godlike-power",
@@ -9525,7 +10778,10 @@
     "maxLevel": 100,
     "cardNo": 2086,
     "range": "mid",
-    "globalDate": "2020-05-12"
+    "globalDate": "2020-05-12",
+    "sources": [
+      "Various \"Ultimate Blazing Bash\" Summons"
+    ]
   },
   {
     "id": "pain-tendo-hammer-of-pain",
@@ -9553,7 +10809,10 @@
     "maxLevel": 150,
     "cardNo": 353,
     "range": "long",
-    "globalDate": "2017-05-02"
+    "globalDate": "2017-05-02",
+    "sources": [
+      "Impact! Force of Justice"
+    ]
   },
   {
     "id": "pain-tendo-signal-flare-of-revolution",
@@ -9581,7 +10840,10 @@
     "maxLevel": 150,
     "cardNo": 452,
     "range": "short",
-    "globalDate": "2017-09-26"
+    "globalDate": "2017-09-26",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "pain-tendo-visage-of-justice",
@@ -9604,7 +10866,10 @@
     "maxLevel": 100,
     "cardNo": 818,
     "range": "long",
-    "globalDate": "2019-05-28"
+    "globalDate": "2019-05-28",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "pakura-scorching-red",
@@ -9631,7 +10896,10 @@
     "maxLevel": 100,
     "cardNo": 816,
     "range": "short",
-    "globalDate": "2019-05-21"
+    "globalDate": "2019-05-21",
+    "sources": [
+      "Scorching Heroine"
+    ]
   },
   {
     "id": "raido-namiashi-an-indomitable-spirit",
@@ -9644,7 +10912,11 @@
     "maxLevel": 30,
     "cardNo": 28,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 4: Exam Round 1"
+    ]
   },
   {
     "id": "rasa-family-values",
@@ -9671,7 +10943,10 @@
     "maxLevel": 100,
     "cardNo": 443,
     "range": "long",
-    "globalDate": "2017-09-12"
+    "globalDate": "2017-09-12",
+    "sources": [
+      "Reunion and Clash on the Golden Sands"
+    ]
   },
   {
     "id": "rin-nohara-all-loving-gaze",
@@ -9684,7 +10959,10 @@
     "maxLevel": 100,
     "cardNo": 858,
     "range": "long",
-    "globalDate": "2019-08-06"
+    "globalDate": "2019-08-06",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "rin-nohara-harboring-calamity",
@@ -9697,7 +10975,12 @@
     "maxLevel": 100,
     "cardNo": 786,
     "range": "mid",
-    "globalDate": "2019-03-26"
+    "globalDate": "2019-03-26",
+    "sources": [
+      "Phantom Castle 31",
+      "Phantom Castle 36",
+      "Phantom Castle 46"
+    ]
   },
   {
     "id": "rin-nohara-loving-gift",
@@ -9724,7 +11007,10 @@
     "maxLevel": 100,
     "cardNo": 295,
     "range": "long",
-    "globalDate": "2017-02-21"
+    "globalDate": "2017-02-21",
+    "sources": [
+      "Sweet Gift Summon"
+    ]
   },
   {
     "id": "rin-nohara-overflowing-kindness",
@@ -9752,7 +11038,10 @@
     "maxLevel": 150,
     "cardNo": 252,
     "range": "short",
-    "globalDate": "2016-12-28"
+    "globalDate": "2016-12-28",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "rock-lee-a-genius-of-hard-work",
@@ -9790,7 +11079,10 @@
     "maxLevel": 150,
     "cardNo": 474,
     "range": "short",
-    "globalDate": "2017-11-07"
+    "globalDate": "2017-11-07",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "rock-lee-fighting-spirit-overflowing",
@@ -9817,7 +11109,10 @@
     "maxLevel": 100,
     "cardNo": 507,
     "range": "long",
-    "globalDate": "2017-12-12"
+    "globalDate": "2017-12-12",
+    "sources": [
+      "Shinobi Life on the Battlefield"
+    ]
   },
   {
     "id": "rock-lee-never-gives-up",
@@ -9845,7 +11140,10 @@
     "maxLevel": 100,
     "cardNo": 159,
     "range": "short",
-    "globalDate": "2016-09-21"
+    "globalDate": "2016-09-21",
+    "sources": [
+      "The Leaf's Handsome Devil"
+    ]
   },
   {
     "id": "rock-lee-the-eight-gates",
@@ -9869,7 +11167,10 @@
     "maxLevel": 150,
     "cardNo": 149,
     "range": "short",
-    "globalDate": "2016-09-21"
+    "globalDate": "2016-09-21",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "rock-lee-the-path-of-trust",
@@ -9896,7 +11197,10 @@
     "maxLevel": 100,
     "cardNo": 810,
     "range": "mid",
-    "globalDate": "2019-05-08"
+    "globalDate": "2019-05-08",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "roshi-magma-veteran",
@@ -9924,7 +11228,11 @@
     "maxLevel": 150,
     "cardNo": 554,
     "range": "mid",
-    "globalDate": "2018-02-20"
+    "globalDate": "2018-02-20",
+    "sources": [
+      "Impact! Molten Torrent",
+      "Super Impact! Giant Boss Rush"
+    ]
   },
   {
     "id": "roshi-scorching-shroud",
@@ -9951,7 +11259,10 @@
     "maxLevel": 100,
     "cardNo": 897,
     "range": "short",
-    "globalDate": "2019-10-15"
+    "globalDate": "2019-10-15",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "rou-melting-presence",
@@ -9978,7 +11289,10 @@
     "maxLevel": 100,
     "cardNo": 286,
     "range": "mid",
-    "globalDate": "2017-02-07"
+    "globalDate": "2017-02-07",
+    "sources": [
+      "A Shadow Hiding in the Night"
+    ]
   },
   {
     "id": "sai-drawings-unleashed",
@@ -10005,7 +11319,10 @@
     "maxLevel": 100,
     "cardNo": 874,
     "range": "long",
-    "globalDate": "2019-09-02"
+    "globalDate": "2019-09-02",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "sai-ink-drawn-from-the-heart",
@@ -10032,7 +11349,11 @@
     "maxLevel": 100,
     "cardNo": 501,
     "range": "mid",
-    "globalDate": "2017-12-05"
+    "globalDate": "2017-12-05",
+    "sources": [
+      "Clash Coin Exchange Shop",
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "sai-mask-like-smile",
@@ -10059,7 +11380,10 @@
     "maxLevel": 100,
     "cardNo": 240,
     "range": "long",
-    "globalDate": "2016-12-15"
+    "globalDate": "2016-12-15",
+    "sources": [
+      "Life-giving Brushstrokes"
+    ]
   },
   {
     "id": "sakon-grotesque-ninja",
@@ -10087,7 +11411,10 @@
     "maxLevel": 100,
     "cardNo": 197,
     "range": "long",
-    "globalDate": "2016-10-26"
+    "globalDate": "2016-10-26",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "sakon-sakon-of-the-west-gate",
@@ -10115,7 +11442,10 @@
     "maxLevel": 100,
     "cardNo": 83,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "sakumo-hatake-between-duty-and-comrades",
@@ -10142,7 +11472,10 @@
     "maxLevel": 100,
     "cardNo": 2011,
     "range": "mid",
-    "globalDate": "2019-11-26"
+    "globalDate": "2019-11-26",
+    "sources": [
+      "Limited Period Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "sakura-haruno-back-to-back",
@@ -10165,7 +11498,10 @@
     "maxLevel": 100,
     "cardNo": 2070,
     "range": "long",
-    "globalDate": "2020-04-07"
+    "globalDate": "2020-04-07",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "sakura-haruno-beautiful-attire",
@@ -10192,7 +11528,10 @@
     "maxLevel": 100,
     "cardNo": 278,
     "range": "short",
-    "globalDate": "2017-01-24"
+    "globalDate": "2017-01-24",
+    "sources": [
+      "Beauties Summon"
+    ]
   },
   {
     "id": "sakura-haruno-cherry-blossoms-on-the-front-line",
@@ -10219,7 +11558,10 @@
     "maxLevel": 100,
     "cardNo": 869,
     "range": "short",
-    "globalDate": "2019-08-20"
+    "globalDate": "2019-08-20",
+    "sources": [
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "sakura-haruno-critical-fist",
@@ -10232,7 +11574,11 @@
     "maxLevel": 100,
     "cardNo": 2097,
     "range": "short",
-    "globalDate": "2020-06-26"
+    "globalDate": "2020-06-26",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "sakura-haruno-dancing-cherry-blossoms",
@@ -10259,7 +11605,10 @@
     "maxLevel": 70,
     "cardNo": 380,
     "range": "mid",
-    "globalDate": "2017-06-06"
+    "globalDate": "2017-06-06",
+    "sources": [
+      "Rookie Mission"
+    ]
   },
   {
     "id": "sakura-haruno-hardened-resolve",
@@ -10287,7 +11636,10 @@
     "maxLevel": 150,
     "cardNo": 153,
     "range": "long",
-    "globalDate": "2016-09-21"
+    "globalDate": "2016-09-21",
+    "sources": [
+      "Ninja Pearl Bundle purchase"
+    ]
   },
   {
     "id": "sakura-haruno-heroine-of-the-battlefield",
@@ -10314,7 +11666,10 @@
     "maxLevel": 100,
     "cardNo": 365,
     "range": "short",
-    "globalDate": "2017-05-17"
+    "globalDate": "2017-05-17",
+    "sources": [
+      "A Woman's Battle Summon"
+    ]
   },
   {
     "id": "sakura-haruno-maiden-in-love",
@@ -10342,7 +11697,10 @@
     "maxLevel": 100,
     "cardNo": 53,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "sakura-haruno-rich-aroma",
@@ -10369,7 +11727,10 @@
     "maxLevel": 100,
     "cardNo": 755,
     "range": "mid",
-    "globalDate": "2019-02-05"
+    "globalDate": "2019-02-05",
+    "sources": [
+      "Love-Filled Sweets Summon"
+    ]
   },
   {
     "id": "sakura-haruno-sandy-beach-dreams",
@@ -10396,7 +11757,10 @@
     "maxLevel": 100,
     "cardNo": 481,
     "range": "short",
-    "globalDate": "2017-11-14"
+    "globalDate": "2017-11-14",
+    "sources": [
+      "\"Swimsuit Shinobi\" Summon Round 1"
+    ]
   },
   {
     "id": "sakura-haruno-sheer-diligence",
@@ -10420,7 +11784,10 @@
     "maxLevel": 150,
     "cardNo": 511,
     "range": "long",
-    "globalDate": "2017-12-14"
+    "globalDate": "2017-12-14",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "sakura-haruno-spring-in-full-bloom",
@@ -10434,7 +11801,13 @@
     "maxLevel": 100,
     "cardNo": 191,
     "range": "short",
-    "globalDate": "2016-11-16"
+    "globalDate": "2016-11-16",
+    "sources": [
+      "Phantom Castle 3",
+      "Phantom Castle 5",
+      "Phantom Castle 23",
+      "Phantom Castle 38"
+    ]
   },
   {
     "id": "sakura-haruno-standing-equal",
@@ -10462,7 +11835,10 @@
     "maxLevel": 150,
     "cardNo": 399,
     "range": "mid",
-    "globalDate": "2017-07-06"
+    "globalDate": "2017-07-06",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "sakura-haruno-stunning-spring-breeze",
@@ -10499,7 +11875,10 @@
     "maxLevel": 100,
     "cardNo": 793,
     "range": "mid",
-    "globalDate": "2019-04-09"
+    "globalDate": "2019-04-09",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "sakura-haruno-the-indomitable-maiden",
@@ -10522,7 +11901,11 @@
     "maxLevel": 50,
     "cardNo": 7,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 4: Exam Round 1"
+    ]
   },
   {
     "id": "sakura-haruno-unrelenting-commitment",
@@ -10550,7 +11933,10 @@
     "maxLevel": 150,
     "cardNo": 236,
     "range": "mid",
-    "globalDate": "2016-12-15"
+    "globalDate": "2016-12-15",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "sakura-haruno-unwavering-feelings",
@@ -10588,7 +11974,10 @@
     "maxLevel": 150,
     "cardNo": 557,
     "range": "vast",
-    "globalDate": "2018-03-06"
+    "globalDate": "2018-03-06",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "sand-chunin-male-assassin-from-the-sand",
@@ -10601,7 +11990,10 @@
     "maxLevel": 30,
     "cardNo": 127,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode"
+    ]
   },
   {
     "id": "sasori-eternal-art",
@@ -10629,7 +12021,10 @@
     "maxLevel": 150,
     "cardNo": 222,
     "range": "short",
-    "globalDate": "2016-11-25"
+    "globalDate": "2016-11-25",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "sasori-eternal-creation",
@@ -10652,7 +12047,10 @@
     "maxLevel": 100,
     "cardNo": 883,
     "range": "long",
-    "globalDate": "2019-10-02"
+    "globalDate": "2019-10-02",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "sasori-everlasting-being",
@@ -10679,7 +12077,10 @@
     "maxLevel": 100,
     "cardNo": 645,
     "range": "mid",
-    "globalDate": "2018-07-17"
+    "globalDate": "2018-07-17",
+    "sources": [
+      "Living Puppet Show of Doom"
+    ]
   },
   {
     "id": "sasori-puppet-mastery",
@@ -10706,7 +12107,10 @@
     "maxLevel": 100,
     "cardNo": 785,
     "range": "short",
-    "globalDate": "2019-03-26"
+    "globalDate": "2019-03-26",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "sasori-the-ultimate-puppet",
@@ -10743,7 +12147,10 @@
     "maxLevel": 100,
     "cardNo": 652,
     "range": "long",
-    "globalDate": "2018-08-07"
+    "globalDate": "2018-08-07",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "sasori-unchanging-embodiment",
@@ -10756,7 +12163,12 @@
     "maxLevel": 100,
     "cardNo": 372,
     "range": "long",
-    "globalDate": "2017-05-19"
+    "globalDate": "2017-05-19",
+    "sources": [
+      "Phantom Castle 9",
+      "Phantom Castle 24",
+      "Phantom Castle 26"
+    ]
   },
   {
     "id": "sasuke-uchiha-a-break-from-the-waves",
@@ -10783,7 +12195,10 @@
     "maxLevel": 100,
     "cardNo": 491,
     "range": "long",
-    "globalDate": "2017-11-28"
+    "globalDate": "2017-11-28",
+    "sources": [
+      "\"Swimsuit Shinobi\" Summon Round 2"
+    ]
   },
   {
     "id": "sasuke-uchiha-a-lone-heart",
@@ -10806,7 +12221,11 @@
     "maxLevel": 50,
     "cardNo": 5,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 8: Destruction of the Hidden Leaf"
+    ]
   },
   {
     "id": "sasuke-uchiha-a-new-ideal",
@@ -10819,7 +12238,10 @@
     "maxLevel": 100,
     "cardNo": 743,
     "range": "mid",
-    "globalDate": "2018-12-26"
+    "globalDate": "2018-12-26",
+    "sources": [
+      "Ninja World Clash"
+    ]
   },
   {
     "id": "sasuke-uchiha-all-ending-thunderbolt",
@@ -10843,7 +12265,10 @@
     "maxLevel": 150,
     "cardNo": 702,
     "range": "mid",
-    "globalDate": "2018-10-30"
+    "globalDate": "2018-10-30",
+    "sources": [
+      "Super Impact! End of Retaliation"
+    ]
   },
   {
     "id": "sasuke-uchiha-avenger",
@@ -10871,7 +12296,10 @@
     "maxLevel": 150,
     "cardNo": 303,
     "range": "long",
-    "globalDate": "2017-02-21"
+    "globalDate": "2017-02-21",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "sasuke-uchiha-battling-with-your-eyes",
@@ -10894,7 +12322,10 @@
     "maxLevel": 100,
     "cardNo": 2030,
     "range": "mid",
-    "globalDate": "2019-12-31"
+    "globalDate": "2019-12-31",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "sasuke-uchiha-buried-past",
@@ -10931,7 +12362,10 @@
     "maxLevel": 100,
     "cardNo": 866,
     "range": "long",
-    "globalDate": "2019-08-20"
+    "globalDate": "2019-08-20",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "sasuke-uchiha-catalyst-of-ambition",
@@ -10944,7 +12378,11 @@
     "maxLevel": 100,
     "cardNo": 783,
     "range": "vast",
-    "globalDate": "2019-04-03"
+    "globalDate": "2019-04-03",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "sasuke-uchiha-chidori-a-new-skill",
@@ -10972,7 +12410,10 @@
     "maxLevel": 150,
     "cardNo": 176,
     "range": "mid",
-    "globalDate": "2016-10-14"
+    "globalDate": "2016-10-14",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "sasuke-uchiha-curse-mark-2nd-state",
@@ -11000,7 +12441,10 @@
     "maxLevel": 150,
     "cardNo": 262,
     "range": "short",
-    "globalDate": "2017-01-05"
+    "globalDate": "2017-01-05",
+    "sources": [
+      "Impact! Battle in the Final Valley!"
+    ]
   },
   {
     "id": "sasuke-uchiha-darkness-of-deep-hatred",
@@ -11028,7 +12472,10 @@
     "maxLevel": 150,
     "cardNo": 371,
     "range": "long",
-    "globalDate": "2017-05-23"
+    "globalDate": "2017-05-23",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "sasuke-uchiha-desired-future",
@@ -11065,7 +12512,10 @@
     "maxLevel": 100,
     "cardNo": 2140,
     "range": "mid",
-    "globalDate": "2020-11-17"
+    "globalDate": "2020-11-17",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "sasuke-uchiha-heart-warming-gift",
@@ -11092,7 +12542,10 @@
     "maxLevel": 100,
     "cardNo": 503,
     "range": "short",
-    "globalDate": "2017-12-09"
+    "globalDate": "2017-12-09",
+    "sources": [
+      "A Very Uchiha Christmas Summon"
+    ]
   },
   {
     "id": "sasuke-uchiha-hints-leading-to-the-truth",
@@ -11120,7 +12573,10 @@
     "maxLevel": 150,
     "cardNo": 390,
     "range": "short",
-    "globalDate": "2017-06-20"
+    "globalDate": "2017-06-20",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "sasuke-uchiha-judging-the-conventional",
@@ -11143,7 +12599,10 @@
     "maxLevel": 100,
     "cardNo": 803,
     "range": "vast",
-    "globalDate": "2019-04-23"
+    "globalDate": "2019-04-23",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "sasuke-uchiha-lightning-storm-genius",
@@ -11170,7 +12629,10 @@
     "maxLevel": 100,
     "cardNo": 2013,
     "range": "long",
-    "globalDate": "2019-12-03"
+    "globalDate": "2019-12-03",
+    "sources": [
+      "\"Battle Prodigy\" Summon"
+    ]
   },
   {
     "id": "sasuke-uchiha-lone-survivor",
@@ -11198,7 +12660,10 @@
     "maxLevel": 150,
     "cardNo": 47,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "sasuke-uchiha-long-road-to-atonement",
@@ -11226,7 +12691,10 @@
     "maxLevel": 150,
     "cardNo": 569,
     "range": "mid",
-    "globalDate": "2018-03-20"
+    "globalDate": "2018-03-20",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "sasuke-uchiha-one-step-to-hokage",
@@ -11250,7 +12718,10 @@
     "maxLevel": 150,
     "cardNo": 667,
     "range": "short",
-    "globalDate": "2018-08-28"
+    "globalDate": "2018-08-28",
+    "sources": [
+      "Super Impact! Farewell to the Past"
+    ]
   },
   {
     "id": "sasuke-uchiha-parting-wings",
@@ -11288,7 +12759,10 @@
     "maxLevel": 150,
     "cardNo": 457,
     "range": "mid",
-    "globalDate": "2017-10-03"
+    "globalDate": "2017-10-03",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "sasuke-uchiha-pure-hatred",
@@ -11325,7 +12799,10 @@
     "maxLevel": 100,
     "cardNo": 722,
     "range": "long",
-    "globalDate": "2018-12-04"
+    "globalDate": "2018-12-04",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "sasuke-uchiha-rain-of-extinction",
@@ -11348,7 +12825,10 @@
     "maxLevel": 100,
     "cardNo": 2132,
     "range": "short",
-    "globalDate": "2020-10-06"
+    "globalDate": "2020-10-06",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "sasuke-uchiha-ready-for-the-curse-mark",
@@ -11376,7 +12856,10 @@
     "maxLevel": 150,
     "cardNo": 178,
     "range": "short",
-    "globalDate": "2016-10-14"
+    "globalDate": "2016-10-14",
+    "sources": [
+      "Ninja Pearl Bundle purchase"
+    ]
   },
   {
     "id": "sasuke-uchiha-seal-of-shadow",
@@ -11400,7 +12883,10 @@
     "maxLevel": 150,
     "cardNo": 430,
     "range": "long",
-    "globalDate": "2017-08-22"
+    "globalDate": "2017-08-22",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "sasuke-uchiha-sole-friend",
@@ -11427,7 +12913,10 @@
     "maxLevel": 100,
     "cardNo": 2117,
     "range": "vast",
-    "globalDate": "2020-08-04"
+    "globalDate": "2020-08-04",
+    "sources": [
+      "Legendary Summon Banner"
+    ]
   },
   {
     "id": "sasuke-uchiha-soul-shrouded-in-sorrow",
@@ -11455,7 +12944,10 @@
     "maxLevel": 150,
     "cardNo": 245,
     "range": "mid",
-    "globalDate": "2016-12-22"
+    "globalDate": "2016-12-22",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "sasuke-uchiha-thunder-of-retaliation",
@@ -11482,7 +12974,10 @@
     "maxLevel": 100,
     "cardNo": 420,
     "range": "long",
-    "globalDate": "2017-08-24"
+    "globalDate": "2017-08-24",
+    "sources": [
+      "Ninja Pearl Bundle purchase"
+    ]
   },
   {
     "id": "sasuke-uchiha-to-eternal-loneliness",
@@ -11506,7 +13001,10 @@
     "maxLevel": 150,
     "cardNo": 662,
     "range": "short",
-    "globalDate": "2018-08-21"
+    "globalDate": "2018-08-21",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "sasuke-uchiha-violet-flame-hunter",
@@ -11533,7 +13031,10 @@
     "maxLevel": 100,
     "cardNo": 586,
     "range": "long",
-    "globalDate": "2018-04-03"
+    "globalDate": "2018-04-03",
+    "sources": [
+      "April Fools Summon"
+    ]
   },
   {
     "id": "sasuke-uchiha-wandering-swordsman",
@@ -11546,7 +13047,11 @@
     "maxLevel": 100,
     "cardNo": 2113,
     "range": "mid",
-    "globalDate": "2020-07-21"
+    "globalDate": "2020-07-21",
+    "sources": [
+      "Panel Mission",
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "sasuke-uchiha-world-within-a-kaleidoscope",
@@ -11574,7 +13079,10 @@
     "maxLevel": 150,
     "cardNo": 344,
     "range": "short",
-    "globalDate": "2017-04-18"
+    "globalDate": "2017-04-18",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "shibi-aburame-a-reticent-man",
@@ -11597,7 +13105,10 @@
     "maxLevel": 50,
     "cardNo": 109,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Rare Summon"
+    ]
   },
   {
     "id": "shikaku-nara-covert-operations",
@@ -11610,7 +13121,11 @@
     "maxLevel": 100,
     "cardNo": 2061,
     "range": "mid",
-    "globalDate": "2020-03-10"
+    "globalDate": "2020-03-10",
+    "sources": [
+      "Phantom Castle 40",
+      "Phantom Castle 45"
+    ]
   },
   {
     "id": "shikaku-nara-the-ino-shika-cho-trio",
@@ -11633,7 +13148,10 @@
     "maxLevel": 50,
     "cardNo": 111,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Rare Summon"
+    ]
   },
   {
     "id": "shikamaru-nara-beyond-silence",
@@ -11661,7 +13179,10 @@
     "maxLevel": 150,
     "cardNo": 292,
     "range": "mid",
-    "globalDate": "2017-02-07"
+    "globalDate": "2017-02-07",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "shikamaru-nara-crucial-decision",
@@ -11699,7 +13220,10 @@
     "maxLevel": 150,
     "cardNo": 616,
     "range": "mid",
-    "globalDate": "2018-06-05"
+    "globalDate": "2018-06-05",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "shikamaru-nara-lazy-guy",
@@ -11727,7 +13251,10 @@
     "maxLevel": 100,
     "cardNo": 55,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "shikamaru-nara-lucid-talent",
@@ -11750,7 +13277,11 @@
     "maxLevel": 50,
     "cardNo": 11,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 2: Team 7 United"
+    ]
   },
   {
     "id": "shikamaru-nara-new-resolve",
@@ -11777,7 +13308,10 @@
     "maxLevel": 100,
     "cardNo": 808,
     "range": "long",
-    "globalDate": "2019-05-08"
+    "globalDate": "2019-05-08",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "shikamaru-nara-surpassing-the-master",
@@ -11800,7 +13334,10 @@
     "maxLevel": 100,
     "cardNo": 847,
     "range": "mid",
-    "globalDate": "2019-07-23"
+    "globalDate": "2019-07-23",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "shikamaru-nara-the-decoy",
@@ -11828,7 +13365,10 @@
     "maxLevel": 100,
     "cardNo": 182,
     "range": "short",
-    "globalDate": "2016-10-14"
+    "globalDate": "2016-10-14",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "shikamaru-nara-view-to-victory",
@@ -11865,7 +13405,10 @@
     "maxLevel": 100,
     "cardNo": 2106,
     "range": "mid",
-    "globalDate": "2020-07-14"
+    "globalDate": "2020-07-14",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "shima-fukasaku-the-sacred-mountain-s-two-great-toad-sages",
@@ -11878,7 +13421,11 @@
     "maxLevel": 100,
     "cardNo": 2093,
     "range": "vast",
-    "globalDate": "2020-06-02"
+    "globalDate": "2020-06-02",
+    "sources": [
+      "Phantom Castle 42",
+      "Phantom Castle 47"
+    ]
   },
   {
     "id": "shino-aburame-cold-beetle-user",
@@ -11906,7 +13453,10 @@
     "maxLevel": 100,
     "cardNo": 65,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "shino-aburame-raging-passion",
@@ -11919,7 +13469,10 @@
     "maxLevel": 100,
     "cardNo": 536,
     "range": "mid",
-    "globalDate": "2018-01-30"
+    "globalDate": "2018-01-30",
+    "sources": [
+      "Phantom Castle 17"
+    ]
   },
   {
     "id": "shino-aburame-unflinching-heart",
@@ -11942,7 +13495,11 @@
     "maxLevel": 50,
     "cardNo": 21,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 6: Preliminaries!"
+    ]
   },
   {
     "id": "shisui-uchiha-entrusted-wish",
@@ -11955,7 +13512,13 @@
     "maxLevel": 100,
     "cardNo": 218,
     "range": "mid",
-    "globalDate": "2016-12-28"
+    "globalDate": "2016-12-28",
+    "sources": [
+      "Phantom Castle 4",
+      "Phantom Castle 23",
+      "Phantom Castle 28",
+      "Phantom Castle 39"
+    ]
   },
   {
     "id": "shisui-uchiha-eyes-inviting-illusion",
@@ -11979,7 +13542,10 @@
     "maxLevel": 150,
     "cardNo": 715,
     "range": "long",
-    "globalDate": "2018-11-20"
+    "globalDate": "2018-11-20",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "shisui-uchiha-guiding-light",
@@ -12017,7 +13583,10 @@
     "maxLevel": 150,
     "cardNo": 577,
     "range": "mid",
-    "globalDate": "2018-04-05"
+    "globalDate": "2018-04-05",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "shisui-uchiha-hero-without-glory",
@@ -12044,7 +13613,10 @@
     "maxLevel": 100,
     "cardNo": 397,
     "range": "short",
-    "globalDate": "2017-07-04"
+    "globalDate": "2017-07-04",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "shisui-uchiha-the-elite-who-makes-his-mark-infinite-tsukuyomi",
@@ -12057,7 +13629,10 @@
     "maxLevel": 100,
     "cardNo": 806,
     "range": "vast",
-    "globalDate": "2019-04-26"
+    "globalDate": "2019-04-26",
+    "sources": [
+      "Limited Period Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "shisui-uchiha-the-price-of-pride",
@@ -12094,7 +13669,10 @@
     "maxLevel": 100,
     "cardNo": 2063,
     "range": "long",
-    "globalDate": "2020-03-16"
+    "globalDate": "2020-03-16",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "shizune-benevolent-heart",
@@ -12121,7 +13699,10 @@
     "maxLevel": 100,
     "cardNo": 713,
     "range": "mid",
-    "globalDate": "2018-11-13"
+    "globalDate": "2018-11-13",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "shizune-tsunade-s-attendant",
@@ -12144,7 +13725,10 @@
     "maxLevel": 50,
     "cardNo": 103,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Rare Summon"
+    ]
   },
   {
     "id": "soku-stubborn-will",
@@ -12171,7 +13755,10 @@
     "maxLevel": 100,
     "cardNo": 288,
     "range": "long",
-    "globalDate": "2017-02-07"
+    "globalDate": "2017-02-07",
+    "sources": [
+      "A Shadow Hiding in the Night"
+    ]
   },
   {
     "id": "sound-ninja-orochimaru-s-soldier",
@@ -12184,7 +13771,10 @@
     "maxLevel": 30,
     "cardNo": 134,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode"
+    ]
   },
   {
     "id": "suigetsu-the-demon-lives-on",
@@ -12211,7 +13801,10 @@
     "maxLevel": 100,
     "cardNo": 305,
     "range": "short",
-    "globalDate": "2017-02-21"
+    "globalDate": "2017-02-21",
+    "sources": [
+      "An Unhealthy Sword Obsession"
+    ]
   },
   {
     "id": "suigetsu-hozuki-liquid-cruelty",
@@ -12239,7 +13832,10 @@
     "maxLevel": 150,
     "cardNo": 622,
     "range": "mid",
-    "globalDate": "2018-06-12"
+    "globalDate": "2018-06-12",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "taiseki-masterful-camouflage",
@@ -12252,7 +13848,11 @@
     "maxLevel": 30,
     "cardNo": 24,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 8: Destruction of the Hidden Leaf"
+    ]
   },
   {
     "id": "tayuya-a-bewitching-flute",
@@ -12279,7 +13879,10 @@
     "maxLevel": 100,
     "cardNo": 258,
     "range": "long",
-    "globalDate": "2016-12-28"
+    "globalDate": "2016-12-28",
+    "sources": [
+      "Melody of the Demon Flute"
+    ]
   },
   {
     "id": "tayuya-aggressive-strategist",
@@ -12307,7 +13910,10 @@
     "maxLevel": 100,
     "cardNo": 193,
     "range": "mid",
-    "globalDate": "2016-10-26"
+    "globalDate": "2016-10-26",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "tayuya-elegy",
@@ -12320,7 +13926,11 @@
     "maxLevel": 100,
     "cardNo": 753,
     "range": "mid",
-    "globalDate": "2019-01-22"
+    "globalDate": "2019-01-22",
+    "sources": [
+      "Phantom Castle 29",
+      "Phantom Castle 34"
+    ]
   },
   {
     "id": "tayuya-tayuya-of-the-north-gate",
@@ -12348,7 +13958,10 @@
     "maxLevel": 100,
     "cardNo": 79,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "temari-a-bold-analyzer",
@@ -12375,7 +13988,10 @@
     "maxLevel": 70,
     "cardNo": 188,
     "range": "mid",
-    "globalDate": "2016-10-21"
+    "globalDate": "2016-10-21",
+    "sources": [
+      "A Massive Dancing Fan"
+    ]
   },
   {
     "id": "temari-high-winds",
@@ -12403,7 +14019,10 @@
     "maxLevel": 150,
     "cardNo": 290,
     "range": "short",
-    "globalDate": "2017-02-07"
+    "globalDate": "2017-02-07",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "temari-sand-hurricane",
@@ -12431,7 +14050,10 @@
     "maxLevel": 100,
     "cardNo": 164,
     "range": "long",
-    "globalDate": "2016-09-28"
+    "globalDate": "2016-09-28",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "temari-surging-blustery-wind",
@@ -12444,7 +14066,11 @@
     "maxLevel": 100,
     "cardNo": 875,
     "range": "short",
-    "globalDate": "2019-09-10"
+    "globalDate": "2019-09-10",
+    "sources": [
+      "Phantom Castle 35",
+      "Phantom Castle 40"
+    ]
   },
   {
     "id": "temari-wind-wrapped-talent",
@@ -12457,7 +14083,11 @@
     "maxLevel": 100,
     "cardNo": 633,
     "range": "mid",
-    "globalDate": "2018-06-26"
+    "globalDate": "2018-06-26",
+    "sources": [
+      "Phantom Castle 22",
+      "Phantom Castle 31"
+    ]
   },
   {
     "id": "tenten-battle-blade-dance",
@@ -12484,7 +14114,10 @@
     "maxLevel": 100,
     "cardNo": 796,
     "range": "vast",
-    "globalDate": "2019-04-16"
+    "globalDate": "2019-04-16",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "tenten-ninja-tool-maestro",
@@ -12511,7 +14144,10 @@
     "maxLevel": 100,
     "cardNo": 580,
     "range": "short",
-    "globalDate": "2018-04-05"
+    "globalDate": "2018-04-05",
+    "sources": [
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "tenten-ninja-tool-specialist",
@@ -12539,7 +14175,10 @@
     "maxLevel": 100,
     "cardNo": 69,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Very Rare Summon"
+    ]
   },
   {
     "id": "tenten-valiant-warrior",
@@ -12567,7 +14206,10 @@
     "maxLevel": 150,
     "cardNo": 266,
     "range": "long",
-    "globalDate": "2017-01-10"
+    "globalDate": "2017-01-10",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "tenzo-yamato-beneath-the-sun",
@@ -12594,7 +14236,10 @@
     "maxLevel": 100,
     "cardNo": 2047,
     "range": "short",
-    "globalDate": "2020-02-04"
+    "globalDate": "2020-02-04",
+    "sources": [
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "thief-heartless-burglar",
@@ -12607,7 +14252,10 @@
     "maxLevel": 30,
     "cardNo": 132,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode"
+    ]
   },
   {
     "id": "thief-lackey-enemy-of-the-village",
@@ -12620,7 +14268,10 @@
     "maxLevel": 30,
     "cardNo": 131,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode"
+    ]
   },
   {
     "id": "thief-leader-head-of-the-robbers",
@@ -12633,7 +14284,10 @@
     "maxLevel": 30,
     "cardNo": 133,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode"
+    ]
   },
   {
     "id": "third-raikage-ay-one-man-army",
@@ -12661,7 +14315,10 @@
     "maxLevel": 150,
     "cardNo": 471,
     "range": "short",
-    "globalDate": "2017-10-24"
+    "globalDate": "2017-10-24",
+    "sources": [
+      "Impact! Thundering Veteran"
+    ]
   },
   {
     "id": "tobi-evil-eyes-behind-the-mask",
@@ -12688,7 +14345,10 @@
     "maxLevel": 100,
     "cardNo": 318,
     "range": "long",
-    "globalDate": "2017-03-08"
+    "globalDate": "2017-03-08",
+    "sources": [
+      "The Creeping Joker"
+    ]
   },
   {
     "id": "tobi-writhing-towards-ambition",
@@ -12701,7 +14361,11 @@
     "maxLevel": 100,
     "cardNo": 2054,
     "range": "long",
-    "globalDate": "2020-03-05"
+    "globalDate": "2020-03-05",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "tobirama-senju-enlightened-brilliance",
@@ -12729,7 +14393,10 @@
     "maxLevel": 150,
     "cardNo": 408,
     "range": "mid",
-    "globalDate": "2017-06-18"
+    "globalDate": "2017-06-18",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "tobirama-senju-father-of-reanimation",
@@ -12770,7 +14437,11 @@
     "maxLevel": 150,
     "cardNo": 207,
     "range": "short",
-    "globalDate": "2016-10-29"
+    "globalDate": "2016-10-29",
+    "sources": [
+      "Ninja Gods Summoned",
+      "Impact! A Bold Leader"
+    ]
   },
   {
     "id": "tobirama-senju-inherited-will-of-fire",
@@ -12807,7 +14478,10 @@
     "maxLevel": 100,
     "cardNo": 2007,
     "range": "vast",
-    "globalDate": "2019-11-19"
+    "globalDate": "2019-11-19",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "tobirama-senju-judicious-master",
@@ -12831,7 +14505,10 @@
     "maxLevel": 150,
     "cardNo": 762,
     "range": "mid",
-    "globalDate": "2019-02-19"
+    "globalDate": "2019-02-19",
+    "sources": [
+      "Super Impact! Return of the Prodigy"
+    ]
   },
   {
     "id": "tobirama-senju-quiet-fighting-spirit",
@@ -12844,7 +14521,10 @@
     "maxLevel": 100,
     "cardNo": 514,
     "range": "short",
-    "globalDate": "2018-01-09"
+    "globalDate": "2018-01-09",
+    "sources": [
+      "Phantom Castle 16"
+    ]
   },
   {
     "id": "tobirama-senju-the-founder",
@@ -12857,7 +14537,10 @@
     "maxLevel": 100,
     "cardNo": 675,
     "range": "short",
-    "globalDate": "2018-09-11"
+    "globalDate": "2018-09-11",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "torune-aburame-lurking-poison",
@@ -12884,7 +14567,10 @@
     "maxLevel": 100,
     "cardNo": 626,
     "range": "long",
-    "globalDate": "2018-06-12"
+    "globalDate": "2018-06-12",
+    "sources": [
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "tsume-inuzuka-a-brave-mother",
@@ -12907,7 +14593,10 @@
     "maxLevel": 50,
     "cardNo": 121,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Rare Summon"
+    ]
   },
   {
     "id": "tsunade-brilliant-bravery",
@@ -12934,7 +14623,11 @@
     "maxLevel": 100,
     "cardNo": 461,
     "range": "short",
-    "globalDate": "2017-10-03"
+    "globalDate": "2017-10-03",
+    "sources": [
+      "Clash Coin Exchange Shop",
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "tsunade-daring-courage",
@@ -12972,7 +14665,10 @@
     "maxLevel": 150,
     "cardNo": 638,
     "range": "short",
-    "globalDate": "2018-07-03"
+    "globalDate": "2018-07-03",
+    "sources": [
+      "Various Ultimate Blazing Bash Summons"
+    ]
   },
   {
     "id": "tsunade-gorgeous-attire",
@@ -12999,7 +14695,10 @@
     "maxLevel": 100,
     "cardNo": 280,
     "range": "mid",
-    "globalDate": "2017-01-24"
+    "globalDate": "2017-01-24",
+    "sources": [
+      "Ninja Pearl Bundle purchase"
+    ]
   },
   {
     "id": "tsunade-inherited-dream",
@@ -13012,7 +14711,11 @@
     "maxLevel": 100,
     "cardNo": 2068,
     "range": "short",
-    "globalDate": "2020-03-31"
+    "globalDate": "2020-03-31",
+    "sources": [
+      "Phantom Castle 41",
+      "Phantom Castle 46"
+    ]
   },
   {
     "id": "tsunade-protector-of-the-great-tree",
@@ -13035,7 +14738,10 @@
     "maxLevel": 100,
     "cardNo": 2015,
     "range": "short",
-    "globalDate": "2019-12-06"
+    "globalDate": "2019-12-06",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "tsunade-risking-her-life",
@@ -13048,7 +14754,11 @@
     "maxLevel": 100,
     "cardNo": 898,
     "range": "short",
-    "globalDate": "2019-10-30"
+    "globalDate": "2019-10-30",
+    "sources": [
+      "Ninja World Ultimate Showdown",
+      "Clash Coin Exchange Shop"
+    ]
   },
   {
     "id": "tsunade-the-slug-ninja",
@@ -13076,7 +14786,10 @@
     "maxLevel": 150,
     "cardNo": 168,
     "range": "short",
-    "globalDate": "2016-10-05"
+    "globalDate": "2016-10-05",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "tsunade-the-will-of-blooming-flames",
@@ -13104,7 +14817,10 @@
     "maxLevel": 150,
     "cardNo": 376,
     "range": "long",
-    "globalDate": "2017-05-30"
+    "globalDate": "2017-05-30",
+    "sources": [
+      "Various Blazing Fest Summons"
+    ]
   },
   {
     "id": "tsunade-unbreakable-tree-flower",
@@ -13132,7 +14848,11 @@
     "maxLevel": 150,
     "cardNo": 533,
     "range": "mid",
-    "globalDate": "2018-01-23"
+    "globalDate": "2018-01-23",
+    "sources": [
+      "Impact! Slug Princess Exorcism",
+      "Super Impact! Giant Boss Rush"
+    ]
   },
   {
     "id": "ukon-sakon-brimming-with-brutality",
@@ -13159,7 +14879,10 @@
     "maxLevel": 100,
     "cardNo": 249,
     "range": "short",
-    "globalDate": "2016-12-22"
+    "globalDate": "2016-12-22",
+    "sources": [
+      "Sharing a Common Destiny"
+    ]
   },
   {
     "id": "utakata-fleeting-tranquility",
@@ -13187,7 +14910,10 @@
     "maxLevel": 150,
     "cardNo": 311,
     "range": "long",
-    "globalDate": "2017-03-03"
+    "globalDate": "2017-03-03",
+    "sources": [
+      "Various Blazing Fest Summons"
+    ]
   },
   {
     "id": "utakata-floating-bubble",
@@ -13214,7 +14940,10 @@
     "maxLevel": 100,
     "cardNo": 649,
     "range": "long",
-    "globalDate": "2018-07-31"
+    "globalDate": "2018-07-31",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "waraji-bodyguard-w-eyepatch",
@@ -13227,7 +14956,11 @@
     "maxLevel": 30,
     "cardNo": 41,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 3: Land of Waves"
+    ]
   },
   {
     "id": "yagura-child-of-the-blood-mist",
@@ -13254,7 +14987,10 @@
     "maxLevel": 100,
     "cardNo": 607,
     "range": "mid",
-    "globalDate": "2018-05-15"
+    "globalDate": "2018-05-15",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "yagura-shadow-of-the-mist",
@@ -13281,7 +15017,10 @@
     "maxLevel": 100,
     "cardNo": 465,
     "range": "short",
-    "globalDate": "2017-10-09"
+    "globalDate": "2017-10-09",
+    "sources": [
+      "Granny Cat's Hiding Place"
+    ]
   },
   {
     "id": "yahiko-aspiring-for-peace",
@@ -13294,7 +15033,13 @@
     "maxLevel": 100,
     "cardNo": 312,
     "range": "short",
-    "globalDate": "2017-04-18"
+    "globalDate": "2017-04-18",
+    "sources": [
+      "Phantom Castle 7",
+      "Phantom Castle 23",
+      "Phantom Castle 26",
+      "Phantom Castle 40"
+    ]
   },
   {
     "id": "yamato-figure-of-serenity",
@@ -13307,7 +15052,11 @@
     "maxLevel": 100,
     "cardNo": 492,
     "range": "long",
-    "globalDate": "2017-12-19"
+    "globalDate": "2017-12-19",
+    "sources": [
+      "Phantom Castle 15",
+      "Phantom Castle 27"
+    ]
   },
   {
     "id": "yamato-heartless-thought",
@@ -13335,7 +15084,10 @@
     "maxLevel": 150,
     "cardNo": 272,
     "range": "short",
-    "globalDate": "2017-01-27"
+    "globalDate": "2017-01-27",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "yamato-guruguru-unmalicious-murderous-intent",
@@ -13348,7 +15100,11 @@
     "maxLevel": 100,
     "cardNo": 851,
     "range": "mid",
-    "globalDate": "2019-07-30"
+    "globalDate": "2019-07-30",
+    "sources": [
+      "Phantom Castle 34",
+      "Phantom Castle 39"
+    ]
   },
   {
     "id": "yashamaru-all-for-his-late-sister",
@@ -13361,7 +15117,11 @@
     "maxLevel": 30,
     "cardNo": 39,
     "range": "long",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 6: Preliminaries!"
+    ]
   },
   {
     "id": "yoroi-akado-heretical-abilities",
@@ -13374,7 +15134,11 @@
     "maxLevel": 30,
     "cardNo": 31,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 6: Preliminaries!"
+    ]
   },
   {
     "id": "yugito-ni-i-unbreakable-will",
@@ -13402,7 +15166,11 @@
     "maxLevel": 150,
     "cardNo": 332,
     "range": "short",
-    "globalDate": "2017-03-31"
+    "globalDate": "2017-03-31",
+    "sources": [
+      "Impact! Two Tailed Cat Demon",
+      "Battleground! Giant Boss Rush"
+    ]
   },
   {
     "id": "yugito-ni-i-unclouded-mind",
@@ -13429,7 +15197,10 @@
     "maxLevel": 100,
     "cardNo": 609,
     "range": "short",
-    "globalDate": "2018-05-15"
+    "globalDate": "2018-05-15",
+    "sources": [
+      "Super Rare Summon"
+    ]
   },
   {
     "id": "zabuza-momochi-demonic-presence",
@@ -13467,7 +15238,10 @@
     "maxLevel": 150,
     "cardNo": 541,
     "range": "long",
-    "globalDate": "2018-02-06"
+    "globalDate": "2018-02-06",
+    "sources": [
+      "Various Ultimate Blazing Bash Summon"
+    ]
   },
   {
     "id": "zabuza-momochi-silent-madness",
@@ -13491,7 +15265,10 @@
     "maxLevel": 150,
     "cardNo": 143,
     "range": "mid",
-    "globalDate": "2016-08-30"
+    "globalDate": "2016-08-30",
+    "sources": [
+      "Various Blazing Festival Summons"
+    ]
   },
   {
     "id": "zabuza-momochi-the-demon-returns",
@@ -13519,7 +15296,10 @@
     "maxLevel": 100,
     "cardNo": 145,
     "range": "mid",
-    "globalDate": "2016-08-30"
+    "globalDate": "2016-08-30",
+    "sources": [
+      "The Mist Demon"
+    ]
   },
   {
     "id": "zabuza-momochi-the-measure-of-a-demon",
@@ -13546,7 +15326,10 @@
     "maxLevel": 100,
     "cardNo": 416,
     "range": "mid",
-    "globalDate": "2017-08-07"
+    "globalDate": "2017-08-07",
+    "sources": [
+      "The Demon-Haunted Mist of Battle"
+    ]
   },
   {
     "id": "zabuza-momochi-unbounded-dread",
@@ -13559,7 +15342,11 @@
     "maxLevel": 100,
     "cardNo": 890,
     "range": "mid",
-    "globalDate": "2019-10-08"
+    "globalDate": "2019-10-08",
+    "sources": [
+      "Phantom Castle 36",
+      "Phantom Castle 41"
+    ]
   },
   {
     "id": "zaku-abumi-the-confident-one",
@@ -13572,7 +15359,12 @@
     "maxLevel": 30,
     "cardNo": 34,
     "range": "mid",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 5: Exam Round 2",
+      "Stage 6: Preliminaries!"
+    ]
   },
   {
     "id": "zetsu-black-white-shadow",
@@ -13599,7 +15391,10 @@
     "maxLevel": 100,
     "cardNo": 382,
     "range": "mid",
-    "globalDate": "2017-06-13"
+    "globalDate": "2017-06-13",
+    "sources": [
+      "Underground Maw"
+    ]
   },
   {
     "id": "zori-bodyguard-w-hat",
@@ -13612,6 +15407,10 @@
     "maxLevel": 30,
     "cardNo": 40,
     "range": "short",
-    "globalDate": "2016-08-24"
+    "globalDate": "2016-08-24",
+    "sources": [
+      "Story Mode",
+      "Stage 3: Land of Waves"
+    ]
   }
 ]

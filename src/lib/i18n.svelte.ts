@@ -7,6 +7,26 @@ const fr = {
   'nav.goals': 'Objectifs',
   'nav.inventory': 'Inventaire',
   'nav.data': 'Données',
+  'nav.calendar': 'Calendrier',
+  'release.upcoming': 'Pas encore sorti',
+  'release.expected': 'Sortie estimée le {date}',
+  'collection.planned': 'Prévu',
+  'collection.plannedHint': "Pas encore obtenu : sert à préparer équipes et objectifs",
+  'collection.plannedToggle': 'Pas encore obtenu (prévision)',
+  'calendar.title': 'Calendrier des sorties',
+  'calendar.progress': 'Le revival en est à',
+  'calendar.progressHint': "Date du jeu original atteinte par le revival. Estimée au rythme d'origine depuis la sortie du revival le {date} ; corrige-la si le revival prend de l'avance ou du retard.",
+  'calendar.auto': 'Estimation automatique',
+  'calendar.resetAuto': "Revenir à l'estimation",
+  'calendar.here': 'Le revival en est ici',
+  'calendar.showPast': 'Afficher les sorties passées',
+  'calendar.original': 'Jeu original : {date}',
+  'calendar.expected': 'Revival : ~{date}',
+  'calendar.plan': 'Planifier',
+  'calendar.planned': 'Dans ta collection',
+  'calendar.empty': 'Aucune sortie à afficher.',
+  'calendar.sources': 'Où l’obtenir',
+  'calendar.showMore': 'Afficher les {n} autres',
   'lang.switch': 'English',
   'theme.toggle': 'Changer de thème',
   'save.failed': "La sauvegarde locale a échoué (stockage plein ou bloqué). Exporte une sauvegarde depuis l'onglet Données.",
@@ -170,6 +190,26 @@ const en: Record<MessageKey, string> = {
   'nav.goals': 'Goals',
   'nav.inventory': 'Inventory',
   'nav.data': 'Data',
+  'nav.calendar': 'Calendar',
+  'release.upcoming': 'Not released yet',
+  'release.expected': 'Expected on {date}',
+  'collection.planned': 'Planned',
+  'collection.plannedHint': 'Not obtained yet: used to prepare teams and goals',
+  'collection.plannedToggle': 'Not obtained yet (planning)',
+  'calendar.title': 'Release calendar',
+  'calendar.progress': 'The revival has reached',
+  'calendar.progressHint': 'Original-game date the revival has reached. Estimated at the original pace since the revival launched on {date}; adjust it if the revival runs ahead or behind.',
+  'calendar.auto': 'Automatic estimate',
+  'calendar.resetAuto': 'Back to the estimate',
+  'calendar.here': 'The revival is here',
+  'calendar.showPast': 'Show past releases',
+  'calendar.original': 'Original game: {date}',
+  'calendar.expected': 'Revival: ~{date}',
+  'calendar.plan': 'Plan',
+  'calendar.planned': 'In your collection',
+  'calendar.empty': 'No releases to show.',
+  'calendar.sources': 'Where to get it',
+  'calendar.showMore': 'Show {n} more',
   'lang.switch': 'Français',
   'theme.toggle': 'Toggle theme',
   'save.failed': 'Saving to this browser failed (storage full or blocked). Export a backup from the Data tab.',
@@ -355,6 +395,13 @@ $effect.root(() => {
 export function t(key: MessageKey, vars: Record<string, string | number> = {}): string {
   const template = dictionaries[prefs.lang][key] ?? fr[key] ?? key;
   return template.replace(/\{(\w+)\}/g, (_, name) => String(vars[name] ?? `{${name}}`));
+}
+
+/** Formats an ISO "YYYY-MM-DD" date in the interface language. */
+export function fmtDate(iso: string, style: 'long' | 'month' = 'long'): string {
+  const options: Intl.DateTimeFormatOptions =
+    style === 'month' ? { month: 'long', year: 'numeric', timeZone: 'UTC' } : { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' };
+  return new Intl.DateTimeFormat(prefs.lang === 'fr' ? 'fr-FR' : 'en-GB', options).format(new Date(`${iso}T00:00:00Z`));
 }
 
 export function fmt(n: number): string {
