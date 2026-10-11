@@ -33,7 +33,10 @@ async function fetchRoster() {
 const KEEP_RESOURCE_CATEGORIES = new Set(['currency']);
 
 async function build() {
-  const data = JSON.parse(await readFile(SOURCE_FILE, 'utf8'));
+  const raw = await readFile(SOURCE_FILE, 'utf8').catch(() => {
+    throw new Error('scripts/gachawiki/ninjas.json not found. Run `npm run data:fetch` first.');
+  });
+  const data = JSON.parse(raw);
   const { ninjas, resources, batches, warnings, stats } = buildCatalog(data);
   const current = JSON.parse(await readFile(join(DATA_DIR, 'resources.json'), 'utf8'));
   const kept = current.filter((r) => KEEP_RESOURCE_CATEGORIES.has(r.category));
