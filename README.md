@@ -68,10 +68,6 @@ Le workflow `.github/workflows/deploy.yml` vérifie, teste et publie sur GitHub 
 
 Les données sont dans le `localStorage` du navigateur (clé `nbr-planner:v1`). Vider les données du site les efface : exporte une sauvegarde de temps en temps. Le champ `version` de la sauvegarde permet de migrer les anciennes données si le format évolue (`migrate()` dans `store.svelte.ts`).
 
-## Contributions
-
-Le code est public par transparence ; les pull requests ne sont pas acceptées (voir [CONTRIBUTING.md](CONTRIBUTING.md)). Les issues pour signaler un bug ou une donnée fausse sont les bienvenues.
-
 ## Licence
 
 Code sous licence [MIT](LICENSE). Projet de fan non officiel, sans lien avec Bandai Namco, Shueisha ou Masashi Kishimoto. Aucun visuel du jeu n'est inclus.
