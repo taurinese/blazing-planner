@@ -1,20 +1,37 @@
 {
-  "_comment": "Element cycle and awakening templates from the original game. Quantities are placeholders until checked against the revival.",
+  "_comment": "Element cycle from the original game, to verify on the revival. awakeningTemplates can hold shared awakening costs reused by several ninjas ({element} is replaced).",
   "elements": [
-    { "id": "heart", "color": "#2f9e5b", "beats": "skill" },
-    { "id": "skill", "color": "#d64545", "beats": "body" },
-    { "id": "body", "color": "#d39a12", "beats": "bravery" },
-    { "id": "bravery", "color": "#3b7dd8", "beats": "wisdom" },
-    { "id": "wisdom", "color": "#8a55c9", "beats": "heart" }
+    {
+      "id": "heart",
+      "color": "#2f9e5b",
+      "beats": "skill"
+    },
+    {
+      "id": "skill",
+      "color": "#d64545",
+      "beats": "body"
+    },
+    {
+      "id": "body",
+      "color": "#d39a12",
+      "beats": "bravery"
+    },
+    {
+      "id": "bravery",
+      "color": "#3b7dd8",
+      "beats": "wisdom"
+    },
+    {
+      "id": "wisdom",
+      "color": "#8a55c9",
+      "beats": "heart"
+    }
   ],
-  "limits": { "maxStars": 6, "maxLevel": 100, "maxLimitBreak": 10, "maxSkillLevel": 10 },
-  "awakeningTemplates": {
-    "standard": [
-      { "fromStars": 1, "materials": [{ "resourceId": "scroll-{element}-1", "qty": 3 }, { "resourceId": "ryo", "qty": 5000 }] },
-      { "fromStars": 2, "materials": [{ "resourceId": "scroll-{element}-1", "qty": 5 }, { "resourceId": "ryo", "qty": 10000 }] },
-      { "fromStars": 3, "materials": [{ "resourceId": "scroll-{element}-2", "qty": 5 }, { "resourceId": "ryo", "qty": 30000 }] },
-      { "fromStars": 4, "materials": [{ "resourceId": "scroll-{element}-2", "qty": 10 }, { "resourceId": "ryo", "qty": 60000 }] },
-      { "fromStars": 5, "materials": [{ "resourceId": "scroll-{element}-3", "qty": 10 }, { "resourceId": "ryo", "qty": 100000 }] }
-    ]
-  }
+  "limits": {
+    "maxStars": 6,
+    "maxLevel": 150,
+    "maxLimitBreak": 10,
+    "maxSkillLevel": 10
+  },
+  "awakeningTemplates": {}
 }

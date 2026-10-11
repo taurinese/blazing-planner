@@ -1,21 +1,18 @@
 [
-  { "id": "ryo", "name": { "fr": "Ryo", "en": "Ryo" }, "category": "currency" },
-  { "id": "ninja-pearl", "name": { "fr": "Perles ninja", "en": "Ninja Pearls" }, "category": "currency" },
-  { "id": "ramen", "name": { "fr": "Ramen", "en": "Ramen" }, "category": "enhance" },
-
-  { "id": "scroll-heart-1", "name": { "fr": "Rouleau Cœur I", "en": "Heart Scroll I" }, "category": "awakening", "element": "heart" },
-  { "id": "scroll-heart-2", "name": { "fr": "Rouleau Cœur II", "en": "Heart Scroll II" }, "category": "awakening", "element": "heart" },
-  { "id": "scroll-heart-3", "name": { "fr": "Rouleau Cœur III", "en": "Heart Scroll III" }, "category": "awakening", "element": "heart" },
-  { "id": "scroll-skill-1", "name": { "fr": "Rouleau Technique I", "en": "Skill Scroll I" }, "category": "awakening", "element": "skill" },
-  { "id": "scroll-skill-2", "name": { "fr": "Rouleau Technique II", "en": "Skill Scroll II" }, "category": "awakening", "element": "skill" },
-  { "id": "scroll-skill-3", "name": { "fr": "Rouleau Technique III", "en": "Skill Scroll III" }, "category": "awakening", "element": "skill" },
-  { "id": "scroll-body-1", "name": { "fr": "Rouleau Corps I", "en": "Body Scroll I" }, "category": "awakening", "element": "body" },
-  { "id": "scroll-body-2", "name": { "fr": "Rouleau Corps II", "en": "Body Scroll II" }, "category": "awakening", "element": "body" },
-  { "id": "scroll-body-3", "name": { "fr": "Rouleau Corps III", "en": "Body Scroll III" }, "category": "awakening", "element": "body" },
-  { "id": "scroll-bravery-1", "name": { "fr": "Rouleau Bravoure I", "en": "Bravery Scroll I" }, "category": "awakening", "element": "bravery" },
-  { "id": "scroll-bravery-2", "name": { "fr": "Rouleau Bravoure II", "en": "Bravery Scroll II" }, "category": "awakening", "element": "bravery" },
-  { "id": "scroll-bravery-3", "name": { "fr": "Rouleau Bravoure III", "en": "Bravery Scroll III" }, "category": "awakening", "element": "bravery" },
-  { "id": "scroll-wisdom-1", "name": { "fr": "Rouleau Sagesse I", "en": "Wisdom Scroll I" }, "category": "awakening", "element": "wisdom" },
-  { "id": "scroll-wisdom-2", "name": { "fr": "Rouleau Sagesse II", "en": "Wisdom Scroll II" }, "category": "awakening", "element": "wisdom" },
-  { "id": "scroll-wisdom-3", "name": { "fr": "Rouleau Sagesse III", "en": "Wisdom Scroll III" }, "category": "awakening", "element": "wisdom" }
+  {
+    "id": "ryo",
+    "name": {
+      "fr": "Ryo",
+      "en": "Ryo"
+    },
+    "category": "currency"
+  },
+  {
+    "id": "ninja-pearl",
+    "name": {
+      "fr": "Perles ninja",
+      "en": "Ninja Pearls"
+    },
+    "category": "currency"
+  }
 ]

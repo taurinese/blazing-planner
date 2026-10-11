@@ -3,7 +3,7 @@
   import NinjaPicker from '../components/NinjaPicker.svelte';
   import Stars from '../components/Stars.svelte';
   import { fmt, prefs, t } from '../lib/i18n.svelte';
-  import { goalCost, goalProgress, missingSteps, resourceName, shoppingList } from '../lib/planning';
+  import { effectiveTargetStars, goalCost, goalProgress, missingSteps, resourceName, shoppingList } from '../lib/planning';
   import { addGoal, catalog, completeGoal, limits, player, removeGoal, templates } from '../lib/store.svelte';
   import type { Goal } from '../lib/types';
 
@@ -25,7 +25,7 @@
     const owned = catalog.ownedByUid.get(goal.uid);
     const ninja = owned ? catalog.ninjaById.get(owned.ninjaId) : undefined;
     const costs = goalCost(goal, owned, ninja, templates);
-    const gaps = owned && ninja ? missingSteps(ninja, owned.stars, goal.targetStars, templates) : [];
+    const gaps = owned && ninja ? missingSteps(ninja, owned.stars, effectiveTargetStars(goal, ninja), templates) : [];
     return { owned, ninja, costs, gaps, progress: goalProgress(costs, player.inventory) };
   }
 
@@ -86,17 +86,21 @@
               <div class="stars-line">
                 <Stars value={g.owned.stars} max={g.ninja.maxStars} />
                 <span class="arrow" aria-hidden="true">→</span>
-                {#if goal.done}
-                  <Stars value={goal.targetStars} max={g.ninja.maxStars} />
+                {#if goal.done || goal.targetBlazing}
+                  <Stars value={effectiveTargetStars(goal, g.ninja)} max={g.ninja.maxStars} />
                 {:else}
                   <Stars bind:value={goal.targetStars} editable min={g.owned.stars} max={g.ninja.maxStars} />
                 {/if}
+                {#if goal.targetBlazing}<span class="ba">BA</span>{/if}
               </div>
+              {#if g.ninja.blazingAwakening && !goal.done && !g.owned.blazingAwakened}
+                <label class="check"><input type="checkbox" bind:checked={goal.targetBlazing} /> {t('goals.targetBlazing')}</label>
+              {/if}
               {#if !goal.done}
                 <div class="targets">
                   <label class="field"><span>{t('goals.targetLevel')}</span>
-                    <input type="number" min="1" max={limits.maxLevel} placeholder="—" value={goal.targetLevel ?? ''}
-                      onchange={(e) => (goal.targetLevel = e.currentTarget.value ? Math.min(limits.maxLevel, Math.max(1, e.currentTarget.valueAsNumber)) : null)} /></label>
+                    <input type="number" min="1" max={g.ninja.maxLevel ?? limits.maxLevel} placeholder="—" value={goal.targetLevel ?? ''}
+                      onchange={(e) => (goal.targetLevel = e.currentTarget.value ? Math.min(g.ninja?.maxLevel ?? limits.maxLevel, Math.max(1, e.currentTarget.valueAsNumber)) : null)} /></label>
                   <label class="field"><span>{t('goals.targetLB')}</span>
                     <input type="number" min="0" max={limits.maxLimitBreak} placeholder="—" value={goal.targetLimitBreak ?? ''}
                       onchange={(e) => (goal.targetLimitBreak = e.currentTarget.value ? Math.min(limits.maxLimitBreak, Math.max(0, e.currentTarget.valueAsNumber)) : null)} /></label>
@@ -150,7 +154,7 @@
             <footer>
               <button class="btn ghost small danger" type="button" onclick={() => remove(goal, label)}>{t('common.delete')}</button>
               {#if !goal.done && g.owned}
-                <button class="btn small" class:primary={g.progress >= 1} type="button" onclick={() => complete(goal, g.costs)}>{t('goals.complete')}</button>
+                <button class="btn small" class:primary={g.progress >= 1 && g.gaps.length === 0 && g.costs.length > 0} type="button" onclick={() => complete(goal, g.costs)}>{t('goals.complete')}</button>
               {:else if goal.done}
                 <span class="done-label">{t('goals.completed')}</span>
               {/if}
@@ -199,6 +203,7 @@
   .prio { min-width: 8rem; }
   .stars-line { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
   .arrow { color: var(--muted); }
+  .ba { font-size: 0.75rem; font-weight: 700; padding: 0 0.35rem; border-radius: 3px; background: var(--ink); color: var(--paper); }
   .targets { display: grid; grid-template-columns: repeat(2, minmax(0, 10rem)); gap: 0.6rem; }
   .warn { color: var(--warn); font-size: 0.9rem; font-weight: 500; }
   .costs { width: 100%; border-collapse: collapse; font-size: 0.92rem; }

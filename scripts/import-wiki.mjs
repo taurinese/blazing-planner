@@ -5,20 +5,25 @@
 //       Lists categories that look like ninja lists and dumps one sample page
 //       (templates + wikitext) to scripts/wiki-out/discover.json.
 //
-//   node scripts/import-wiki.mjs fetch "Category:Ninja" [--limit 50]
-//       Fetches every page of the category and saves the parsed templates of each page
-//       to scripts/wiki-out/raw.json. Mapping raw.json to src/data/ninjas.json comes next,
-//       once the infobox field names are known.
+//   node scripts/import-wiki.mjs fetch [--limit 50]
+//       Fetches every character page (pages using the "<Element> Characters" infoboxes)
+//       and the material categories, and saves them to scripts/wiki-out/raw.json.
+//
+//   node scripts/import-wiki.mjs build
+//       Converts raw.json into src/data/ninjas.json and src/data/resources.json.
 //
 // Be gentle with the wiki: requests are sequential, throttled and use maxlag.
 
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { extractTemplates } from './wikitext.mjs';
+import { buildCatalog, ELEMENT_TEMPLATES, MATERIAL_CATEGORIES } from './wiki-map.mjs';
 
 const API = 'https://naruto-blazing.fandom.com/api.php';
-const OUT_DIR = join(dirname(fileURLToPath(import.meta.url)), 'wiki-out');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
+const OUT_DIR = join(ROOT, 'scripts', 'wiki-out');
+const DATA_DIR = join(ROOT, 'src', 'data');
 const USER_AGENT = 'blazing-planner-import/0.1 (open-source fan tool; one-off import)';
 const DELAY_MS = 600;
 
@@ -111,26 +116,63 @@ async function discover() {
   console.log(`\nSaved ${file}\nSend this file back so the mapping can be written.`);
 }
 
-async function fetchCategory(category, limit) {
-  if (!category) throw new Error('Usage: fetch "Category:Name" [--limit N]');
-  const name = category.startsWith('Category:') ? category : `Category:${category}`;
-  console.log(`Listing ${name}…`);
-  const titles = await categoryMembers(name, limit);
-  console.log(`${titles.length} pages found. Fetching wikitext…`);
-  const pages = await pagesWikitext(titles);
-  const raw = pages.map((p) => ({ title: p.title, templates: extractTemplates(p.wikitext) }));
-  const file = await save('raw.json', { source: API, category: name, fetchedAt: new Date().toISOString(), pages: raw });
-  console.log(`Saved ${file}`);
+async function embeddedIn(template, limit = Infinity) {
+  const titles = [];
+  let cont = {};
+  do {
+    const data = await api({ action: 'query', list: 'embeddedin', eititle: `Template:${template}`, einamespace: 0, eilimit: 500, ...cont });
+    titles.push(...data.query.embeddedin.map((m) => m.title));
+    cont = data.continue ?? null;
+  } while (cont && titles.length < limit);
+  return titles.slice(0, limit);
 }
 
-const [cmd, arg, ...rest] = process.argv.slice(2);
+async function fetchAll(limit) {
+  const titles = new Set();
+  for (const template of Object.keys(ELEMENT_TEMPLATES)) {
+    const found = await embeddedIn(template, limit);
+    console.log(`${template}: ${found.length} pages`);
+    found.forEach((t) => titles.add(t));
+  }
+  console.log(`Fetching wikitext of ${titles.size} pages…`);
+  const pages = await pagesWikitext([...titles]);
+  const raw = pages.map((p) => ({ title: p.title, templates: extractTemplates(p.wikitext) }));
+
+  const materialCategories = {};
+  for (const [wikiCat] of MATERIAL_CATEGORIES) {
+    materialCategories[wikiCat] = await categoryMembers(`Category:${wikiCat}`);
+    console.log(`Category:${wikiCat}: ${materialCategories[wikiCat].length} pages`);
+  }
+  const file = await save('raw.json', { source: API, fetchedAt: new Date().toISOString(), pages: raw, materialCategories });
+  console.log(`Saved ${file}\nNext: node scripts/import-wiki.mjs build`);
+}
+
+/** Currencies are not cards on the wiki; keep them from the current resources file. */
+const KEEP_RESOURCE_CATEGORIES = new Set(['currency']);
+
+async function build() {
+  const raw = JSON.parse(await readFile(join(OUT_DIR, 'raw.json'), 'utf8'));
+  const { ninjas, resources, warnings, stats } = buildCatalog(raw.pages, raw.materialCategories);
+  const current = JSON.parse(await readFile(join(DATA_DIR, 'resources.json'), 'utf8'));
+  const kept = current.filter((r) => KEEP_RESOURCE_CATEGORIES.has(r.category));
+  const keptIds = new Set(kept.map((r) => r.id));
+  await writeFile(join(DATA_DIR, 'ninjas.json'), JSON.stringify(ninjas, null, 2) + '\n');
+  await writeFile(join(DATA_DIR, 'resources.json'), JSON.stringify([...kept, ...resources.filter((r) => !keptIds.has(r.id))], null, 2) + '\n');
+  await save('warnings.txt', warnings.join('\n'));
+  console.log(stats);
+  console.log(`${warnings.length} warning(s), see scripts/wiki-out/warnings.txt`);
+  console.log('Wrote src/data/ninjas.json and src/data/resources.json');
+}
+
+const [cmd, ...rest] = process.argv.slice(2);
 const limitIdx = rest.indexOf('--limit');
 const limit = limitIdx >= 0 ? Number(rest[limitIdx + 1]) : Infinity;
 
 try {
   if (cmd === 'discover') await discover();
-  else if (cmd === 'fetch') await fetchCategory(arg, limit);
-  else console.log('Usage:\n  node scripts/import-wiki.mjs discover\n  node scripts/import-wiki.mjs fetch "Category:Name" [--limit N]');
+  else if (cmd === 'fetch') await fetchAll(limit);
+  else if (cmd === 'build') await build();
+  else console.log('Usage:\n  node scripts/import-wiki.mjs discover\n  node scripts/import-wiki.mjs fetch [--limit N]\n  node scripts/import-wiki.mjs build');
 } catch (err) {
   console.error(`\nImport failed: ${err.message}`);
   process.exit(1);

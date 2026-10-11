@@ -68,9 +68,17 @@ export function missingSteps(ninja: NinjaDef, fromStars: number, toStars: number
   return missing;
 }
 
+/** A Blazing Awakening goal implies reaching the ninja's max stars first. */
+export function effectiveTargetStars(goal: Goal, ninja: NinjaDef | undefined): number {
+  return goal.targetBlazing && ninja ? ninja.maxStars : goal.targetStars;
+}
+
 export function goalCost(goal: Goal, owned: OwnedNinja | undefined, ninja: NinjaDef | undefined, templates: Templates): MaterialCost[] {
   const total = new Map<string, number>();
-  if (owned && ninja) addCosts(total, awakeningCost(ninja, owned.stars, goal.targetStars, templates));
+  if (owned && ninja) {
+    addCosts(total, awakeningCost(ninja, owned.stars, effectiveTargetStars(goal, ninja), templates));
+    if (goal.targetBlazing && !owned.blazingAwakened && ninja.blazingAwakening) addCosts(total, ninja.blazingAwakening);
+  }
   addCosts(total, goal.extra);
   return toCostList(total);
 }

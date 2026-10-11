@@ -7,7 +7,7 @@ import { parseBackup } from './importers';
 import type { ElementDef, Goal, NinjaDef, OwnedNinja, PlayerState, ResourceDef, Team } from './types';
 
 export const STORAGE_KEY = 'nbr-planner:v1';
-export const SCHEMA_VERSION = 1;
+export const SCHEMA_VERSION = 2;
 
 export const elements = game.elements as ElementDef[];
 export const limits = game.limits;
@@ -30,7 +30,11 @@ function emptyState(): PlayerState {
 
 /** Upgrades older saves. Add a case here whenever PlayerState changes shape. */
 function migrate(state: PlayerState): PlayerState {
-  return { ...emptyState(), ...state, version: SCHEMA_VERSION };
+  const next = { ...emptyState(), ...state };
+  // v2: Blazing Awakening on owned ninjas and goals.
+  next.owned = next.owned.map((o) => ({ ...o, blazingAwakened: o.blazingAwakened ?? false }));
+  next.goals = next.goals.map((g) => ({ ...g, targetBlazing: g.targetBlazing ?? false }));
+  return { ...next, version: SCHEMA_VERSION };
 }
 
 function load(): PlayerState {
@@ -93,6 +97,7 @@ export function addOwned(ninjaId: string): OwnedNinja {
     uid: newId('own'),
     ninjaId,
     stars: ninja?.minStars ?? 1,
+    blazingAwakened: false,
     level: 1,
     limitBreak: 0,
     ninjutsuLevel: 1,
@@ -145,6 +150,7 @@ export function addGoal(uid: string): Goal {
     id: newId('goal'),
     uid,
     targetStars: ninja?.maxStars ?? owned?.stars ?? 1,
+    targetBlazing: false,
     targetLevel: null,
     targetLimitBreak: null,
     extra: [],
@@ -165,7 +171,9 @@ export function completeGoal(id: string, costs: { resourceId: string; qty: numbe
   if (!goal) return;
   const owned = player.owned.find((o) => o.uid === goal.uid);
   if (owned) {
-    owned.stars = Math.max(owned.stars, goal.targetStars);
+    const ninja = catalog.ninjaById.get(owned.ninjaId);
+    owned.stars = Math.max(owned.stars, goal.targetBlazing && ninja ? ninja.maxStars : goal.targetStars);
+    if (goal.targetBlazing) owned.blazingAwakened = true;
     if (goal.targetLevel) owned.level = Math.max(owned.level, goal.targetLevel);
     if (goal.targetLimitBreak) owned.limitBreak = Math.max(owned.limitBreak, goal.targetLimitBreak);
   }

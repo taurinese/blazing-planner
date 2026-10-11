@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
   awakeningCost,
+  goalCost,
   duplicateUids,
   goalProgress,
   mergeById,
@@ -26,7 +27,7 @@ const ninja: NinjaDef = {
 };
 
 const owned = (uid: string, stars = 4): OwnedNinja => ({
-  uid, ninjaId: 'n1', stars, level: 1, limitBreak: 0, ninjutsuLevel: 1, secretLevel: 1, favorite: false, notes: '',
+  uid, ninjaId: 'n1', stars, blazingAwakened: false, level: 1, limitBreak: 0, ninjutsuLevel: 1, secretLevel: 1, favorite: false, notes: '',
 });
 
 describe('awakening', () => {
@@ -47,6 +48,15 @@ describe('awakening', () => {
     ]);
   });
 
+  it('adds Blazing Awakening on top of the remaining stars', () => {
+    const withBa = { ...ninja, blazingAwakening: [{ resourceId: 'beads', qty: 3 }] };
+    const goal: Goal = { id: 'g', uid: 'a', targetStars: 5, targetBlazing: true, targetLevel: null, targetLimitBreak: null, extra: [], priority: 2, done: false };
+    const cost = goalCost(goal, owned('a', 5), withBa, templates);
+    expect(cost).toContainEqual({ resourceId: 'beads', qty: 3 });
+    expect(cost).toContainEqual({ resourceId: 'scroll-bravery-3', qty: 10 }); // 5★ → 6★ still needed
+    expect(goalCost(goal, { ...owned('a', 6), blazingAwakened: true }, withBa, templates)).toEqual([]);
+  });
+
   it('reports steps without data', () => {
     expect(missingSteps({ ...ninja, minStars: 3 }, 3, 6, templates)).toEqual([3]);
   });
@@ -55,9 +65,9 @@ describe('awakening', () => {
 describe('shopping list', () => {
   it('aggregates open goals and subtracts the inventory', () => {
     const goals: Goal[] = [
-      { id: 'g1', uid: 'a', targetStars: 6, targetLevel: null, targetLimitBreak: null, extra: [], priority: 2, done: false },
-      { id: 'g2', uid: 'b', targetStars: 5, targetLevel: null, targetLimitBreak: null, extra: [{ resourceId: 'ramen', qty: 5 }], priority: 2, done: false },
-      { id: 'g3', uid: 'b', targetStars: 6, targetLevel: null, targetLimitBreak: null, extra: [], priority: 2, done: true },
+      { id: 'g1', uid: 'a', targetStars: 6, targetBlazing: false, targetLevel: null, targetLimitBreak: null, extra: [], priority: 2, done: false },
+      { id: 'g2', uid: 'b', targetStars: 5, targetBlazing: false, targetLevel: null, targetLimitBreak: null, extra: [{ resourceId: 'ramen', qty: 5 }], priority: 2, done: false },
+      { id: 'g3', uid: 'b', targetStars: 6, targetBlazing: false, targetLevel: null, targetLimitBreak: null, extra: [], priority: 2, done: true },
     ];
     const list = shoppingList(
       goals,
@@ -106,7 +116,7 @@ describe('importers', () => {
 
   it('normalizes ninja rows and reports errors', () => {
     const ok = normalizeNinja({ name: 'Gaara', title: 'Kazekage', element: 'Corps', minStars: '4', maxStars: '6' }, 1);
-    expect(ok).toMatchObject({ id: 'gaara-kazekage', element: 'body', minStars: 4, maxStars: 6, awakeningTemplate: 'standard' });
+    expect(ok).toMatchObject({ id: 'gaara-kazekage', element: 'body', minStars: 4, maxStars: 6, awakeningTemplate: undefined });
     expect(normalizeNinja({ name: 'X', element: 'fire' }, 2)).toContain('unknown element');
   });
 

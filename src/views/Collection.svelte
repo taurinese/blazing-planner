@@ -59,6 +59,7 @@
   }
 
   const editingNinja = $derived(editing ? catalog.ninjaById.get(editing.ninjaId) : undefined);
+  const maxLevel = $derived(editingNinja?.maxLevel ?? limits.maxLevel);
   const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, Number.isFinite(v) ? Math.round(v) : lo));
 </script>
 
@@ -112,7 +113,10 @@
               {#if n}<ElementTag element={n.element} compact />{/if}
             </span>
             <span class="meta">
-              <Stars value={o.stars} max={n?.maxStars ?? 6} />
+              <span class="stars-ba">
+                <Stars value={o.stars} max={n?.maxStars ?? 6} />
+                {#if o.blazingAwakened && n?.blazingAwakening}<span class="ba" title={t('collection.blazing')}>BA</span>{/if}
+              </span>
               <span class="num">Lv {o.level}{#if o.limitBreak > 0} · LB {o.limitBreak}{/if}</span>
             </span>
             {#if goalUids.has(o.uid)}<span class="goal">{t('collection.goalExists')}</span>{/if}
@@ -140,11 +144,20 @@
         <span>{t('common.stars')}</span>
         <Stars bind:value={editing.stars} editable min={editingNinja?.minStars ?? 1} max={editingNinja?.maxStars ?? limits.maxStars} />
       </div>
+      {#if editingNinja?.blazingAwakening}
+        {@const atMax = editing.stars >= editingNinja.maxStars}
+        <label class="check">
+          <input type="checkbox" disabled={!atMax} checked={atMax && editing.blazingAwakened}
+            onchange={(e) => editing && (editing.blazingAwakened = e.currentTarget.checked)} />
+          {t('collection.blazing')}
+          {#if !atMax}<span class="muted small">{t('collection.blazingHint', { stars: editingNinja.maxStars })}</span>{/if}
+        </label>
+      {/if}
       <div class="cols">
         <label class="field"><span>{t('common.level')}</span>
-          <input type="number" min="1" max={limits.maxLevel} value={editing.level}
-            onchange={(e) => editing && (editing.level = clamp(e.currentTarget.valueAsNumber, 1, limits.maxLevel))} /></label>
-        <label class="field"><span>{t('collection.limitBreak')}</span>
+          <input type="number" min="1" max={maxLevel} value={editing.level}
+            onchange={(e) => editing && (editing.level = clamp(e.currentTarget.valueAsNumber, 1, maxLevel))} /></label>
+        <label class="field" class:off={editingNinja?.limitBreak === false}><span>{t('collection.limitBreak')}</span>
           <input type="number" min="0" max={limits.maxLimitBreak} value={editing.limitBreak}
             onchange={(e) => editing && (editing.limitBreak = clamp(e.currentTarget.valueAsNumber, 0, limits.maxLimitBreak))} /></label>
         <label class="field"><span>{t('collection.ninjutsu')}</span>
@@ -204,6 +217,9 @@
   .who .muted { font-size: 0.85rem; }
   .fav { color: var(--skill); }
   .meta { display: flex; justify-content: space-between; align-items: center; font-size: 0.9rem; }
+  .stars-ba { display: inline-flex; align-items: center; gap: 0.4rem; }
+  .ba { font-size: 0.7rem; font-weight: 700; padding: 0 0.3rem; border-radius: 3px; background: var(--ink); color: var(--paper); }
+  .off { opacity: 0.5; }
   .goal { font-size: 0.8rem; color: var(--chakra); font-weight: 600; }
   .form { display: grid; gap: 0.9rem; }
   .cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.6rem; }

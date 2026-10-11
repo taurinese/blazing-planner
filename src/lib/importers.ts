@@ -1,9 +1,9 @@
 // Parsing and validation for everything that comes from outside: CSV/JSON catalogs and backup files.
-import type { ElementId, NinjaDef, PlayerState, ResourceCategory, ResourceDef } from './types';
+import { RESOURCE_CATEGORIES, type ElementId, type MaterialCost, type NinjaDef, type PlayerState, type ResourceCategory, type ResourceDef } from './types';
 import { slugify } from './planning';
 
 export const ELEMENT_IDS: ElementId[] = ['heart', 'skill', 'body', 'bravery', 'wisdom'];
-const CATEGORIES: ResourceCategory[] = ['currency', 'awakening', 'enhance', 'event', 'other'];
+const CATEGORIES = RESOURCE_CATEGORIES;
 
 /** Minimal RFC 4180 CSV parser: quoted fields, escaped quotes, `,` or `;` separator. */
 export function parseCsv(text: string): Record<string, string>[] {
@@ -70,7 +70,9 @@ export function normalizeNinja(raw: Record<string, unknown>, line: number): Ninj
     : String(tagsRaw ?? '').split('|').map((t) => t.trim()).filter(Boolean);
   const awakening = Array.isArray(raw.awakening) ? (raw.awakening as NinjaDef['awakening']) : [];
   const template = String(raw.awakeningTemplate ?? raw.awakeningtemplate ?? '').trim();
-  return {
+  const maxLevel = toInt(raw.maxLevel ?? raw.maxlevel, 0);
+  const cardNo = toInt(raw.cardNo ?? raw.cardno, 0);
+  const ninja: NinjaDef = {
     id: String(raw.id ?? '').trim() || slugify(`${name} ${title}`),
     name,
     title,
@@ -78,11 +80,17 @@ export function normalizeNinja(raw: Record<string, unknown>, line: number): Ninj
     minStars,
     maxStars,
     awakening,
-    awakeningTemplate: template || (awakening.length ? undefined : 'standard'),
+    awakeningTemplate: template || undefined,
     tags,
     notes: raw.notes ? String(raw.notes) : undefined,
     verified: raw.verified === true || String(raw.verified).toLowerCase() === 'true',
   };
+  if (Array.isArray(raw.blazingAwakening)) ninja.blazingAwakening = raw.blazingAwakening as MaterialCost[];
+  if (raw.limitBreak === true || String(raw.limitBreak ?? raw.limitbreak).toLowerCase() === 'true') ninja.limitBreak = true;
+  if (maxLevel > 0) ninja.maxLevel = maxLevel;
+  if (cardNo > 0) ninja.cardNo = cardNo;
+  if (raw.range) ninja.range = String(raw.range);
+  return ninja;
 }
 
 export function normalizeResource(raw: Record<string, unknown>, line: number): ResourceDef | string {

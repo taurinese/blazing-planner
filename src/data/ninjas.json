@@ -1,10 +1,108 @@
 [
-  { "id": "naruto-sage", "name": "Naruto Uzumaki", "title": "Sage Mode", "element": "bravery", "minStars": 5, "maxStars": 6, "awakening": [], "awakeningTemplate": "standard", "tags": ["example"], "verified": false },
-  { "id": "sasuke-eternal", "name": "Sasuke Uchiha", "title": "Eternal Mangekyo", "element": "skill", "minStars": 5, "maxStars": 6, "awakening": [], "awakeningTemplate": "standard", "tags": ["example"], "verified": false },
-  { "id": "kakashi-copy", "name": "Kakashi Hatake", "title": "Copy Ninja", "element": "wisdom", "minStars": 4, "maxStars": 6, "awakening": [], "awakeningTemplate": "standard", "tags": ["example"], "verified": false },
-  { "id": "gaara-kazekage", "name": "Gaara", "title": "Fifth Kazekage", "element": "body", "minStars": 4, "maxStars": 6, "awakening": [], "awakeningTemplate": "standard", "tags": ["example"], "verified": false },
-  { "id": "sakura-medic", "name": "Sakura Haruno", "title": "Medical Ninja", "element": "heart", "minStars": 3, "maxStars": 5, "awakening": [], "awakeningTemplate": "standard", "tags": ["example", "healer"], "verified": false },
-  { "id": "kabuto-healer", "name": "Kabuto Yakushi", "title": "Medical Ninja", "element": "heart", "minStars": 4, "maxStars": 6, "awakening": [], "awakeningTemplate": "standard", "tags": ["example", "healer"], "verified": false },
-  { "id": "itachi-akatsuki", "name": "Itachi Uchiha", "title": "Akatsuki", "element": "wisdom", "minStars": 5, "maxStars": 6, "awakening": [], "awakeningTemplate": "standard", "tags": ["example"], "verified": false },
-  { "id": "rock-lee-gates", "name": "Rock Lee", "title": "Eight Gates", "element": "body", "minStars": 3, "maxStars": 5, "awakening": [], "awakeningTemplate": "standard", "tags": ["example"], "verified": false }
+  {
+    "id": "naruto-sage",
+    "name": "Naruto Uzumaki",
+    "title": "Sage Mode",
+    "element": "bravery",
+    "minStars": 5,
+    "maxStars": 6,
+    "awakening": [],
+    "tags": [
+      "example"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sasuke-eternal",
+    "name": "Sasuke Uchiha",
+    "title": "Eternal Mangekyo",
+    "element": "skill",
+    "minStars": 5,
+    "maxStars": 6,
+    "awakening": [],
+    "tags": [
+      "example"
+    ],
+    "verified": false
+  },
+  {
+    "id": "kakashi-copy",
+    "name": "Kakashi Hatake",
+    "title": "Copy Ninja",
+    "element": "wisdom",
+    "minStars": 4,
+    "maxStars": 6,
+    "awakening": [],
+    "tags": [
+      "example"
+    ],
+    "verified": false
+  },
+  {
+    "id": "gaara-kazekage",
+    "name": "Gaara",
+    "title": "Fifth Kazekage",
+    "element": "body",
+    "minStars": 4,
+    "maxStars": 6,
+    "awakening": [],
+    "tags": [
+      "example"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sakura-medic",
+    "name": "Sakura Haruno",
+    "title": "Medical Ninja",
+    "element": "heart",
+    "minStars": 3,
+    "maxStars": 5,
+    "awakening": [],
+    "tags": [
+      "example",
+      "healer"
+    ],
+    "verified": false
+  },
+  {
+    "id": "kabuto-healer",
+    "name": "Kabuto Yakushi",
+    "title": "Medical Ninja",
+    "element": "heart",
+    "minStars": 4,
+    "maxStars": 6,
+    "awakening": [],
+    "tags": [
+      "example",
+      "healer"
+    ],
+    "verified": false
+  },
+  {
+    "id": "itachi-akatsuki",
+    "name": "Itachi Uchiha",
+    "title": "Akatsuki",
+    "element": "wisdom",
+    "minStars": 5,
+    "maxStars": 6,
+    "awakening": [],
+    "tags": [
+      "example"
+    ],
+    "verified": false
+  },
+  {
+    "id": "rock-lee-gates",
+    "name": "Rock Lee",
+    "title": "Eight Gates",
+    "element": "body",
+    "minStars": 3,
+    "maxStars": 5,
+    "awakening": [],
+    "tags": [
+      "example"
+    ],
+    "verified": false
+  }
 ]

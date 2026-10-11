@@ -2,9 +2,9 @@
   import { fmt, prefs, t } from '../lib/i18n.svelte';
   import { resourceName, shoppingList } from '../lib/planning';
   import { catalog, player, setQty, templates } from '../lib/store.svelte';
-  import type { ResourceCategory } from '../lib/types';
+  import { RESOURCE_CATEGORIES } from '../lib/types';
 
-  const CATEGORIES: ResourceCategory[] = ['currency', 'awakening', 'enhance', 'event', 'other'];
+  const CATEGORIES = RESOURCE_CATEGORIES;
 
   let onlyNeeded = $state(false);
   let query = $state('');

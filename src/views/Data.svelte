@@ -10,9 +10,9 @@
     catalog, deleteNinja, deleteResource, exportBackup, importBackup, player,
     resetAll, restoreHiddenNinjas, upsertNinja, upsertResource,
   } from '../lib/store.svelte';
-  import type { NinjaDef, ResourceCategory, ResourceDef } from '../lib/types';
+  import { RESOURCE_CATEGORIES, type NinjaDef, type ResourceDef } from '../lib/types';
 
-  const CATEGORIES: ResourceCategory[] = ['currency', 'awakening', 'enhance', 'event', 'other'];
+  const CATEGORIES = RESOURCE_CATEGORIES;
 
   let message = $state<{ kind: 'ok' | 'error'; text: string; details?: string[] } | null>(null);
   let query = $state('');
@@ -82,7 +82,7 @@
   }
 
   function newNinja() {
-    editingNinja = { id: '', name: '', title: '', element: 'heart', minStars: 1, maxStars: 6, awakening: [], awakeningTemplate: 'standard', tags: [], verified: false };
+    editingNinja = { id: '', name: '', title: '', element: 'heart', minStars: 1, maxStars: 6, awakening: [], tags: [], verified: false };
     ninjaFormOpen = true;
   }
 
@@ -184,6 +184,8 @@ Naruto Uzumaki,Sage Mode,bravery,5,6,attacker|aoe,standard,false</pre>
               <td class="num">{n.minStars}–{n.maxStars}</td>
               <td class="flags">
                 {#if n.verified}<span class="flag ok">{t('data.verified')}</span>{/if}
+                {#if n.blazingAwakening}<span class="flag">BA</span>{/if}
+                {#if n.limitBreak}<span class="flag">LB</span>{/if}
                 {#if customIds.has(n.id)}<span class="flag">{t('data.custom')}</span>{/if}
               </td>
               <td class="row-actions">

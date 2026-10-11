@@ -33,13 +33,21 @@ export interface NinjaDef {
   awakening: AwakeningStep[];
   /** Name of a shared template in game.json; `{element}` in resource ids is replaced. */
   awakeningTemplate?: string;
+  /** Materials for the Blazing Awakening done after reaching `maxStars`. */
+  blazingAwakening?: MaterialCost[];
+  limitBreak?: boolean;
+  /** Max level, including limit break when the ninja has one. */
+  maxLevel?: number;
+  cardNo?: number;
+  range?: string;
   tags?: string[];
   notes?: string;
   /** false until someone has checked the entry against the revival. */
   verified: boolean;
 }
 
-export type ResourceCategory = 'currency' | 'awakening' | 'enhance' | 'event' | 'other';
+export type ResourceCategory = 'currency' | 'awakening' | 'blazing' | 'limitbreak' | 'enhance' | 'event' | 'other';
+export const RESOURCE_CATEGORIES: ResourceCategory[] = ['currency', 'awakening', 'blazing', 'limitbreak', 'enhance', 'event', 'other'];
 
 export interface ResourceDef {
   id: string;
@@ -52,6 +60,7 @@ export interface OwnedNinja {
   uid: string;
   ninjaId: string;
   stars: number;
+  blazingAwakened: boolean;
   level: number;
   limitBreak: number;
   ninjutsuLevel: number;
@@ -76,6 +85,7 @@ export interface Goal {
   id: string;
   uid: string; // OwnedNinja.uid
   targetStars: number;
+  targetBlazing: boolean;
   targetLevel: number | null;
   targetLimitBreak: number | null;
   extra: MaterialCost[];

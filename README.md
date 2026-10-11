@@ -14,26 +14,26 @@ Planificateur non officiel pour **Naruto Blazing Revival** : collection, composi
 
 ## Données de jeu
 
-La base livrée dans `src/data/` est volontairement petite : 8 ninjas d'exemple et des ressources génériques marqués *non vérifiés*, en attendant des données fiables pour le revival.
+Les données viennent du [wiki Fandom de l'ancien jeu](https://naruto-blazing.fandom.com) et peuvent différer sur le revival : chaque fiche reste marquée *non vérifiée* tant que personne ne l'a confirmée.
 
 | Fichier | Contenu |
 | --- | --- |
-| `src/data/ninjas.json` | Les ninjas (`name`, `title`, `element`, `minStars`, `maxStars`, `awakening` ou `awakeningTemplate`) |
-| `src/data/resources.json` | Les ressources (monnaies, rouleaux d'éveil…) |
-| `src/data/game.json` | Cycle des éléments, limites, modèles d'éveil partagés |
+| `src/data/ninjas.json` | Les ninjas : élément, étoiles min/max, matériaux par étape d'éveil, éveil Blazing, limit break, niveau max |
+| `src/data/resources.json` | Les ressources : monnaies et cartes matériaux (éveil, éveil Blazing, limit break, amélioration) |
+| `src/data/game.json` | Cycle des éléments, limites, modèles d'éveil partagés (optionnels) |
 
 Chaque joueur peut compléter ou corriger la base depuis l'onglet **Données** ; ses modifications sont stockées avec sa sauvegarde. Pour intégrer des corrections à la base commune : **Exporter la base (JSON)** puis remplacer `src/data/ninjas.json`.
 
 ### Import depuis le wiki
 
-Le wiki Fandom de l'ancien jeu expose l'API MediaWiki publique. Le script `scripts/import-wiki.mjs` l'interroge (requêtes séquentielles et espacées) :
+Le wiki expose l'API MediaWiki publique. Sur le wiki, chaque niveau d'étoiles d'un ninja est une fiche à part (★5, ★6, ★6 Blazing Awakened) dont l'infobox porte le nom de l'élément (`Heart Characters`…) et liste les cartes matériaux de l'étape suivante. Le script regroupe ces fiches par ninja :
 
 ```bash
-node scripts/import-wiki.mjs discover                    # repère les catégories et la structure d'une fiche
-node scripts/import-wiki.mjs fetch "Category:Ninja"      # récupère toutes les fiches → scripts/wiki-out/raw.json
+node scripts/import-wiki.mjs fetch    # toutes les fiches des 5 éléments + catégories de matériaux → scripts/wiki-out/raw.json
+node scripts/import-wiki.mjs build    # raw.json → src/data/ninjas.json et src/data/resources.json
 ```
 
-La conversion de `raw.json` vers `ninjas.json` dépend des champs d'infobox du wiki et sera ajoutée une fois ceux-ci connus.
+Les requêtes sont séquentielles et espacées pour ménager le wiki. `discover` affiche les catégories et la structure d'une fiche, utile si le wiki change de format. Les avertissements de conversion sont écrits dans `scripts/wiki-out/warnings.txt`.
 
 ## Développement
 
