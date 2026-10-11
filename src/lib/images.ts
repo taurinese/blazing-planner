@@ -1,14 +1,19 @@
 // Card art is served by the wiki, never stored in this repository.
 import game from '../data/game.json';
+import directUrls from '../data/image-urls.json';
 import type { NinjaDef } from './types';
 
 const BASE = (game as { imageBase?: string }).imageBase ?? '';
+/** File name → direct CDN thumbnail, resolved by `node scripts/import-wiki.mjs images`. */
+const DIRECT = directUrls as Record<string, string>;
 
 /** Thumbnail widths requested from the wiki, so the browser cache is shared between sizes. */
 const WIDTHS = [64, 128, 256];
 
 export function wikiImageUrl(file: string | undefined, displaySize: number): string | undefined {
-  if (!file || !BASE) return undefined;
+  if (!file) return undefined;
+  if (DIRECT[file]) return DIRECT[file];
+  if (!BASE) return undefined;
   const wanted = displaySize * 2; // sharp on high-density screens
   const width = WIDTHS.find((w) => w >= wanted) ?? WIDTHS[WIDTHS.length - 1];
   return `${BASE}${encodeURIComponent(file.replace(/ /g, '_'))}?width=${width}`;

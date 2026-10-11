@@ -12,6 +12,10 @@
 //   node scripts/import-wiki.mjs build
 //       Converts raw.json into src/data/ninjas.json and src/data/resources.json.
 //
+//   node scripts/import-wiki.mjs images
+//       Resolves every card file used in src/data to its direct CDN thumbnail URL
+//       and writes src/data/image-urls.json (the app hotlinks these URLs).
+//
 // Be gentle with the wiki: requests are sequential, throttled and use maxlag.
 
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
@@ -164,6 +168,52 @@ async function build() {
   console.log('Wrote src/data/ninjas.json and src/data/resources.json');
 }
 
+const THUMB_WIDTH = 160;
+
+/** Direct thumbnail URLs on Fandom's CDN, via the imageinfo API (50 files per request). */
+async function resolveImages() {
+  const ninjas = JSON.parse(await readFile(join(DATA_DIR, 'ninjas.json'), 'utf8'));
+  const resources = JSON.parse(await readFile(join(DATA_DIR, 'resources.json'), 'utf8'));
+  const files = new Set();
+  for (const n of ninjas) for (const f of Object.values(n.images ?? {})) files.add(f);
+  for (const r of resources) if (r.image) files.add(r.image);
+  const list = [...files].sort();
+  console.log(`Resolving ${list.length} files…`);
+
+  const urls = {};
+  for (let i = 0; i < list.length; i += 50) {
+    const batch = list.slice(i, i + 50);
+    const data = await api({
+      action: 'query',
+      prop: 'imageinfo',
+      iiprop: 'url',
+      iiurlwidth: THUMB_WIDTH,
+      titles: batch.map((f) => `File:${f}`).join('|'),
+    });
+    // The API normalizes titles (underscores → spaces); map them back to our file names.
+    const back = new Map(batch.map((f) => [`File:${f}`, f]));
+    for (const n of data.query.normalized ?? []) back.set(n.to, back.get(n.from));
+    for (const page of data.query.pages) {
+      const file = back.get(page.title);
+      const info = page.imageinfo?.[0];
+      if (file && info) urls[file] = info.thumburl ?? info.url;
+    }
+    process.stdout.write(`\r  ${Math.min(i + 50, list.length)}/${list.length}`);
+  }
+  process.stdout.write('\n');
+  const missing = list.filter((f) => !urls[f]);
+  await writeFile(join(DATA_DIR, 'image-urls.json'), JSON.stringify(urls, null, 2) + '\n');
+  console.log(`${Object.keys(urls).length} URLs written to src/data/image-urls.json, ${missing.length} missing`);
+  if (missing.length) console.log('Missing:', missing.slice(0, 10).join(', '));
+
+  // Quick hotlink check on one image, without a Referer, like the app does.
+  const sample = Object.values(urls)[0];
+  if (sample) {
+    const res = await fetch(sample, { headers: { 'User-Agent': USER_AGENT } });
+    console.log(`Sample image: HTTP ${res.status} ${res.headers.get('content-type')} — ${sample}`);
+  }
+}
+
 const [cmd, ...rest] = process.argv.slice(2);
 const limitIdx = rest.indexOf('--limit');
 const limit = limitIdx >= 0 ? Number(rest[limitIdx + 1]) : Infinity;
@@ -172,7 +222,8 @@ try {
   if (cmd === 'discover') await discover();
   else if (cmd === 'fetch') await fetchAll(limit);
   else if (cmd === 'build') await build();
-  else console.log('Usage:\n  node scripts/import-wiki.mjs discover\n  node scripts/import-wiki.mjs fetch [--limit N]\n  node scripts/import-wiki.mjs build');
+  else if (cmd === 'images') await resolveImages();
+  else console.log('Usage:\n  node scripts/import-wiki.mjs discover\n  node scripts/import-wiki.mjs fetch [--limit N]\n  node scripts/import-wiki.mjs build\n  node scripts/import-wiki.mjs images');
 } catch (err) {
   console.error(`\nImport failed: ${err.message}`);
   process.exit(1);
